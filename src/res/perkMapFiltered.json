@@ -1,0 +1,4008 @@
+{
+    "perkid_ability_hatchet_feralrush": {
+        "name": "Crippling Feral Rush",
+        "description": "When you successfully hit with Feral Rush cause a ${10 * perkMultiplier}% slow for ${3}s.",
+        "label": [
+            "Skill",
+            "Hatchet"
+        ],
+        "gsScaling": 0.0019,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Hatchet",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/WoodworkerMastery1.png",
+        "charm": {
+            "name": "Steel Hatchet Charm",
+            "icon": "icons/items/Resource/HatchetCharmT1.png"
+        }
+    },
+    "perkid_ability_hatchet_berserk": {
+        "name": "Keen Berserk",
+        "description": "Increase Crit Chance by ${1 * perkMultiplier}% while under ${50}% HP while Berserking.",
+        "label": [
+            "Skill",
+            "Hatchet"
+        ],
+        "gsScaling": 0.02545,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Hatchet",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/WoodworkerMastery1.png",
+        "charm": {
+            "name": "Starmetal Hatchet Charm",
+            "icon": "icons/items/Resource/HatchetCharmT2.png"
+        }
+    },
+    "perkid_ability_hatchet_ragingtorrent": {
+        "name": "Refreshing Torrent",
+        "description": "Every hit of Raging Torrent reduces all Hatchet cooldowns by ${1 * perkMultiplier}%.",
+        "label": [
+            "Skill",
+            "Hatchet"
+        ],
+        "gsScaling": 0.00727,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Hatchet",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/WoodworkerMastery1.png",
+        "charm": {
+            "name": "Orichalcum Hatchet Charm",
+            "icon": "icons/items/Resource/HatchetCharmT3.png"
+        }
+    },
+    "perkid_ability_hatchet_rending_throw": {
+        "name": "Empowering Rending Throw",
+        "description": "Ranged Hatchet attacks deal ${10 * perkMultiplier}% more damage vs Rending Throw targets.",
+        "label": [
+            "Skill",
+            "Hatchet"
+        ],
+        "gsScaling": 0.002,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Hatchet",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/LumberjackMastery1.png",
+        "charm": {
+            "name": "Reinforced Steel Hatchet Charm",
+            "icon": "icons/items/Resource/HatchetCharmT1.png"
+        }
+    },
+    "perkid_ability_hatchet_distancingthrow": {
+        "name": "Refreshing Distancing Throw",
+        "description": "Social Distancing attacks within ${6}m reduce the cooldown by ${10 * perkMultiplier}%.",
+        "label": [
+            "Skill",
+            "Hatchet"
+        ],
+        "gsScaling": 0.00382,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Hatchet",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/LumberjackMastery1.png",
+        "charm": {
+            "name": "Reinforced Starmetal Hatchet Charm",
+            "icon": "icons/items/Resource/HatchetCharmT2.png"
+        }
+    },
+    "perkid_ability_hatchet_infectedthrow": {
+        "name": "Exhausting Infected Throw",
+        "description": "Direct hits with Infected throw causes Exhaustion reducing targets stamina regeneration by ${-10 * perkMultiplier}% for ${10} seconds.",
+        "label": [
+            "Skill",
+            "Hatchet"
+        ],
+        "gsScaling": 0.002,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Hatchet",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/LumberjackMastery1.png",
+        "charm": {
+            "name": "Reinforced Orichalcum Hatchet Charm",
+            "icon": "icons/items/Resource/HatchetCharmT3.png"
+        }
+    },
+    "perkid_ability_hammer_armorbreaker": {
+        "name": "Empowering Armor Breaker",
+        "description": "If Armor Breaker breaks a block, the next attack within ${5} seconds deals ${3 * perkMultiplier}% additional damage.",
+        "label": [
+            "Skill",
+            "2HHammer"
+        ],
+        "gsScaling": 0.01636,
+        "itemClassBonuses": [
+            {
+                "itemClass": "War Hammer",
+                "gsBonus": 433
+            }
+        ],
+        "icon": "Icons/Perks/DebilitatingBlockBreaker1.png",
+        "charm": {
+            "name": "Steel War Hammer Charm",
+            "icon": "icons/items/Resource/2HHammerCharmT1.png"
+        }
+    },
+    "perkid_ability_hammer_mightygavel": {
+        "name": "Refreshing Mighty Gavel",
+        "description": "Mighty Gavel hits reduce the ability's cooldown by ${5 * perkMultiplier}%. (Max ${2} activations per impact.)",
+        "label": [
+            "Skill",
+            "2HHammer"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [
+            {
+                "itemClass": "War Hammer",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/EnfeeblingShockwave1.png",
+        "charm": {
+            "name": "Starmetal War Hammer Charm",
+            "icon": "icons/items/Resource/2HHammerCharmT2.png"
+        }
+    },
+    "perkid_ability_hammer_wreckingball": {
+        "name": "Penetrating Wrecking Ball",
+        "description": "Wrecking Ball penetrates ${5 * perkMultiplier}% of the target's armor.",
+        "label": [
+            "Skill",
+            "2HHammer"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [
+            {
+                "itemClass": "War Hammer",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/StonecutterMastery1.png",
+        "charm": {
+            "name": "Orichalcum War Hammer Charm",
+            "icon": "icons/items/Resource/2HHammerCharmT3.png"
+        }
+    },
+    "perkid_ability_hammer_shockwave": {
+        "name": "Sundering Shockwave",
+        "description": "Shockwave inflicts Rend, reducing target's damage absorption by ${5 * perkMultiplier}% for ${10} seconds.",
+        "label": [
+            "Skill",
+            "2HHammer"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [
+            {
+                "itemClass": "War Hammer",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/EnfeeblingShockwave1.png",
+        "charm": {
+            "name": "Reinforced Steel War Hammer Charm",
+            "icon": "icons/items/Resource/2HHammerCharmT1.png"
+        }
+    },
+    "perkid_ability_hammer_clearout": {
+        "name": "Repulsing Clear Out",
+        "description": "Clear Out now knocks targets back an additional ${50 * perkMultiplier}%.",
+        "label": [
+            "Skill",
+            "2HHammer"
+        ],
+        "gsScaling": 0.00367,
+        "itemClassBonuses": [
+            {
+                "itemClass": "War Hammer",
+                "gsBonus": 340
+            }
+        ],
+        "icon": "Icons/Perks/EnfeeblingShockwave1.png",
+        "charm": {
+            "name": "Reinforced Starmetal War Hammer Charm",
+            "icon": "icons/items/Resource/2HHammerCharmT2.png"
+        }
+    },
+    "perkid_ability_hammer_pathofdestiny": {
+        "name": "Leeching Path Of Destiny",
+        "description": "Heal for ${10 * perkMultiplier}% of the damage dealt from Path Of Destiny.",
+        "label": [
+            "Skill",
+            "2HHammer"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [
+            {
+                "itemClass": "War Hammer",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/EnfeeblingShockwave1.png",
+        "charm": {
+            "name": "Reinforced Orichalcum War Hammer Charm",
+            "icon": "icons/items/Resource/2HHammerCharmT3.png"
+        }
+    },
+    "perkid_ability_musket_powderburn": {
+        "name": "Crippling Powder Burn",
+        "description": "Targets hit with Powder Burn are slowed by ${5 * perkMultiplier}% for ${5} seconds.",
+        "label": [
+            "Skill",
+            "Musket"
+        ],
+        "gsScaling": 0.00727,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Musket",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/GalvanizedTraps1.png",
+        "charm": {
+            "name": "Steel Musket Charm",
+            "icon": "icons/items/Resource/MusketCharmT1.png"
+        }
+    },
+    "perkid_ability_musket_powershot": {
+        "name": "Refreshing Power Shot",
+        "description": "Power Shot kills reduce this ability's cooldown by ${8.5 * perkMultiplier}%.",
+        "label": [
+            "Skill",
+            "Musket"
+        ],
+        "gsScaling": 0.0103,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Musket",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/GalvanizedTraps1.png",
+        "charm": {
+            "name": "Starmetal Musket Charm",
+            "icon": "icons/items/Resource/MusketCharmT2.png"
+        }
+    },
+    "perkid_ability_musket_shootersstance": {
+        "name": "Empowering Shooter's Stance",
+        "description": "Hitting a target while in Shooter's Stance grants Empower, increasing damage by ${4 * perkMultiplier}% for ${3} seconds.",
+        "label": [
+            "Skill",
+            "Musket"
+        ],
+        "gsScaling": 0.00909,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Musket",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/GalvanizedTraps1.png",
+        "charm": {
+            "name": "Orichalcum Musket Charm",
+            "icon": "icons/items/Resource/MusketCharmT3.png"
+        }
+    },
+    "perkid_ability_musket_stoppingpower": {
+        "name": "Repulsing Stopping Power",
+        "description": "Stopping Power knockback distance is increased by ${25 * perkMultiplier}%.",
+        "label": [
+            "Skill",
+            "Musket"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Musket",
+                "gsBonus": 400
+            }
+        ],
+        "icon": "Icons/Perks/GalvanizedTraps1.png",
+        "charm": {
+            "name": "Reinforced Steel Musket Charm",
+            "icon": "icons/items/Resource/MusketCharmT1.png"
+        }
+    },
+    "perkid_ability_musket_traps": {
+        "name": "Accelerating Traps",
+        "description": "Increase movement speed by ${5 * perkMultiplier}% for ${5} seconds after deploying a trap. (Does not stack.)",
+        "label": [
+            "Skill",
+            "Musket"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Musket",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/GalvanizedTraps1.png",
+        "charm": {
+            "name": "Reinforced Starmetal Musket Charm",
+            "icon": "icons/items/Resource/MusketCharmT2.png"
+        }
+    },
+    "perkid_ability_musket_stickybomb": {
+        "name": "Mending Sticky Bombs",
+        "description": "Every hit of Sticky Bomb heals you for ${10 * perkMultiplier}% of damage done.",
+        "label": [
+            "Skill",
+            "Musket"
+        ],
+        "gsScaling": 0.002,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Musket",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/GalvanizedTraps1.png",
+        "charm": {
+            "name": "Reinforced Orichalcum Musket Charm",
+            "icon": "icons/items/Resource/MusketCharmT3.png"
+        }
+    },
+    "perkid_ability_spear_sweep": {
+        "name": "Bleeding Sweep",
+        "description": "Sweep's Coup De Grace now applies Bleed for ${2 * perkMultiplier}% of weapon damage for ${8} seconds.",
+        "label": [
+            "Skill",
+            "Spear"
+        ],
+        "gsScaling": 0.00727,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Spear",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Retaliate1.png",
+        "charm": {
+            "name": "Steel Spear Charm",
+            "icon": "icons/items/Resource/LifeStaffCharmT1.png"
+        }
+    },
+    "perkid_ability_spear_javelin": {
+        "name": "Sundering Javelin",
+        "description": "Javelin inflicts Rend, reducing target's damage absorption by ${5 * perkMultiplier}% for ${10} seconds.",
+        "label": [
+            "Skill",
+            "Spear"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Spear",
+                "gsBonus": 200
+            }
+        ],
+        "icon": "Icons/Perks/Retaliate1.png",
+        "charm": {
+            "name": "Starmetal Spear Charm",
+            "icon": "icons/items/Resource/LifeStaffCharmT2.png"
+        }
+    },
+    "perkid_ability_spear_cyclone": {
+        "name": "Leeching Cyclone",
+        "description": "Every hit of Cyclone heals you for ${10 * perkMultiplier}% of weapon damage.",
+        "label": [
+            "Skill",
+            "Spear"
+        ],
+        "gsScaling": 0.00424,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Spear",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Retaliate1.png",
+        "charm": {
+            "name": "Orichalcum Spear Charm",
+            "icon": "icons/items/Resource/LifeStaffCharmT3.png"
+        }
+    },
+    "perkid_ability_spear_perforate": {
+        "name": "Fortifying Perforate",
+        "description": "Gain a stack of Fortify, increasing damage absorption by ${2 * perkMultiplier}% for ${6} seconds per successful Perforate hit.",
+        "label": [
+            "Skill",
+            "Spear"
+        ],
+        "gsScaling": 0.00727,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Spear",
+                "gsBonus": 484
+            }
+        ],
+        "icon": "Icons/Perks/Retaliate1.png",
+        "charm": {
+            "name": "Reinforced Steel Spear Charm",
+            "icon": "icons/items/Resource/LifeStaffCharmT1.png"
+        }
+    },
+    "perkid_ability_spear_skewer": {
+        "name": "Enfeebling Skewer",
+        "description": "Skewer hits apply Weaken, reducing target's damage by ${3 * perkMultiplier}% for ${8} seconds.",
+        "label": [
+            "Skill",
+            "Spear"
+        ],
+        "gsScaling": 0.01333,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Spear",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Retaliate1.png",
+        "charm": {
+            "name": "Reinforced Starmetal Spear Charm",
+            "icon": "icons/items/Resource/LifeStaffCharmT2.png"
+        }
+    },
+    "perkid_ability_spear_vaultkick": {
+        "name": "Keen Vault Kick",
+        "description": "Vault Kick increases random Crit Chance by ${2 * perkMultiplier}% for ${5} seconds.",
+        "label": [
+            "Skill",
+            "Spear"
+        ],
+        "gsScaling": 0.01636,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Spear",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Retaliate1.png",
+        "charm": {
+            "name": "Reinforced Orichalcum Spear Charm",
+            "icon": "icons/items/Resource/LifeStaffCharmT3.png"
+        }
+    },
+    "perkid_ability_bow_poisonshot": {
+        "name": "Enfeebling Poison Shot",
+        "description": "Poison Shot's arrow also applies Weaken, reducing target's damage by ${3 * perkMultiplier}% for ${6} seconds.",
+        "label": [
+            "Skill",
+            "Bow"
+        ],
+        "gsScaling": 0.00727,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Bow",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/EngineerMastery1.png",
+        "charm": {
+            "name": "Steel Bow Charm",
+            "icon": "icons/items/Resource/BowCharmT1.png"
+        }
+    },
+    "perkid_ability_bow_evadeshot": {
+        "name": "Energizing Evade Shot",
+        "description": "Gain ${4 * perkMultiplier} Stamina and reduced cooldown by ${3 * 1}% after hitting a target with Evade Shot.",
+        "label": [
+            "Skill",
+            "Bow"
+        ],
+        "gsScaling": 0.00727,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Bow",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/EngineerMastery1.png",
+        "charm": {
+            "name": "Starmetal Bow Charm",
+            "icon": "icons/items/Resource/BowCharmT2.png"
+        }
+    },
+    "perkid_ability_bow_rainofarrows": {
+        "name": "Lasting Rain of Arrows",
+        "description": "Slow and bleed last ${10 * perkMultiplier}% longer.",
+        "label": [
+            "Skill",
+            "Bow"
+        ],
+        "gsScaling": 0.00191,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Bow",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/EngineerMastery1.png",
+        "charm": {
+            "name": "Orichalcum Bow Charm",
+            "icon": "icons/items/Resource/BowCharmT3.png"
+        }
+    },
+    "perkid_ability_bow_rapidshot": {
+        "name": "Penetrating Rapid Shot",
+        "description": "Increase armor penetration all Rapid Shot attacks by ${5 * perkMultiplier}%.",
+        "label": [
+            "Skill",
+            "Bow"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Bow",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/EngineerMastery1.png",
+        "charm": {
+            "name": "Reinforced Steel Bow Charm",
+            "icon": "icons/items/Resource/BowCharmT1.png"
+        }
+    },
+    "perkid_ability_bow_penetratingshot": {
+        "name": "Refreshing Penetrating Shot",
+        "description": "Penetrating Shot kills reduce this ability's cooldown by ${3 * perkMultiplier}%.",
+        "label": [
+            "Skill",
+            "Bow"
+        ],
+        "gsScaling": 0.00727,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Bow",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/EngineerMastery1.png",
+        "charm": {
+            "name": "Reinforced Starmetal Bow Charm",
+            "icon": "icons/items/Resource/BowCharmT2.png"
+        }
+    },
+    "perkid_ability_bow_splintershot": {
+        "name": "Empowering Explosive Arrow",
+        "description": "Explosive Arrow hits grant Empower, increase damage by ${4 * perkMultiplier}% for ${10} seconds or until the next attack.",
+        "label": [
+            "Skill",
+            "Bow"
+        ],
+        "gsScaling": 0.00727,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Bow",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/EngineerMastery1.png",
+        "charm": {
+            "name": "Reinforced Orichalcum Bow Charm",
+            "icon": "icons/items/Resource/BowCharmT3.png"
+        }
+    },
+    "perkid_ability_rapier_tondo": {
+        "name": "Keen Tondo",
+        "description": "Increase Crit Chance by ${2 * perkMultiplier}% against targets affected by Tondo's Bleed.",
+        "label": [
+            "Skill",
+            "Rapier"
+        ],
+        "gsScaling": 0.00909,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Rapier",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Keen1.png",
+        "charm": {
+            "name": "Steel Rapier Charm",
+            "icon": "icons/items/Resource/SwordCharmT1.png"
+        }
+    },
+    "perkid_ability_rapier_flourishandfinish": {
+        "name": "Deadly Flourish",
+        "description": "Flourish deals ${10 * perkMultiplier}% more damage vs targets below 50%.",
+        "label": [
+            "Skill",
+            "Rapier"
+        ],
+        "gsScaling": 0.00286,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Rapier",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Keen1.png",
+        "charm": {
+            "name": "Starmetal Rapier Charm",
+            "icon": "icons/items/Resource/SwordCharmT2.png"
+        }
+    },
+    "perkid_ability_rapier_flurry": {
+        "name": "Leeching Flurry",
+        "description": "Each hit of Flurry restores returns ${10 * perkMultiplier}% of the damage as health.",
+        "label": [
+            "Skill",
+            "Rapier"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Rapier",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Keen1.png",
+        "charm": {
+            "name": "Orichalcum Rapier Charm",
+            "icon": "icons/items/Resource/SwordCharmT3.png"
+        }
+    },
+    "perkid_ability_rapier_riposte": {
+        "name": "Sundering Riposte",
+        "description": "Riposte inflicts Rend, reducing damage absorption of target by ${5 * perkMultiplier}% for ${10} seconds.",
+        "label": [
+            "Skill",
+            "Rapier"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Rapier",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Keen1.png",
+        "charm": {
+            "name": "Reinforced Steel Rapier Charm",
+            "icon": "icons/items/Resource/SwordCharmT1.png"
+        }
+    },
+    "perkid_ability_rapier_evade": {
+        "name": "Omnidirectional Evade",
+        "description": "Gain ${1 * perkMultiplier}% damage for ${2}s after using Evade. Adagio upgrade is applied when evading in any direction.",
+        "label": [
+            "Skill",
+            "Rapier"
+        ],
+        "gsScaling": 0.01718,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Rapier",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Keen1.png",
+        "charm": {
+            "name": "Reinforced Starmetal Rapier Charm",
+            "icon": "icons/items/Resource/SwordCharmT2.png"
+        }
+    },
+    "perkid_ability_rapier_fleche": {
+        "name": "Refreshing Fleche",
+        "description": "Hitting a target via a Crit Backstab with Fleche reduces this ability's cooldown by ${5 * perkMultiplier}%.",
+        "label": [
+            "Skill",
+            "Rapier"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Rapier",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Keen1.png",
+        "charm": {
+            "name": "Reinforced Orichalcum Rapier Charm",
+            "icon": "icons/items/Resource/SwordCharmT3.png"
+        }
+    },
+    "perkid_ability_lifestaff_divineembrance": {
+        "name": "Refreshing Divine Embrace",
+        "description": "Using Divine Embrace on a target below 50% health reduces the cooldown by ${11.828 * perkMultiplier}% and gain ${1 * 1}% of your max mana.",
+        "label": [
+            "Skill",
+            "LifeStaff"
+        ],
+        "gsScaling": 0.00472,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Life Staff",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Magician1.png",
+        "charm": {
+            "name": "Steel Life Staff Charm",
+            "icon": "icons/items/Resource/LifeStaffCharmT1.png"
+        }
+    },
+    "perkid_ability_lifestaff_sacredground": {
+        "name": "Fortifying Sacred Ground",
+        "description": "Allies healed by Sacred Ground gain Fortify, increasing damage absorption by ${3 * perkMultiplier}% for ${5} seconds.",
+        "label": [
+            "Skill",
+            "LifeStaff"
+        ],
+        "gsScaling": 0.00424,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Life Staff",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Magician1.png",
+        "charm": {
+            "name": "Starmetal Life Staff Charm",
+            "icon": "icons/items/Resource/LifeStaffCharmT2.png"
+        }
+    },
+    "perkid_ability_lifestaff_splashoflight": {
+        "name": "Purity Of Light",
+        "description": "Allies with a debuff removed with Splash of Light are healed for ${10 * perkMultiplier}% your weapon damage.",
+        "label": [
+            "Skill",
+            "LifeStaff"
+        ],
+        "gsScaling": 0.00727,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Life Staff",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Magician1.png",
+        "charm": {
+            "name": "Orichalcum Life Staff Charm",
+            "icon": "icons/items/Resource/LifeStaffCharmT3.png"
+        }
+    },
+    "perkid_ability_lifestaff_orbofprotection": {
+        "name": "Mending Protection",
+        "description": "Increase healing power by ${5 * perkMultiplier}% for ${3} seconds if Orb of Protection heals an ally with less than ${50}% health.",
+        "label": [
+            "Skill",
+            "LifeStaff"
+        ],
+        "gsScaling": 0.00727,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Life Staff",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Magician1.png",
+        "charm": {
+            "name": "Reinforced Steel Life Staff Charm",
+            "icon": "icons/items/Resource/LifeStaffCharmT1.png"
+        }
+    },
+    "perkid_ability_lifestaff_lightsembrace": {
+        "name": "Accelerating Light's Embrace",
+        "description": "Allies below full health gain Haste when hit with Light's Embrace, increasing movement speed by ${5 * perkMultiplier}% for ${5} seconds.",
+        "label": [
+            "Skill",
+            "LifeStaff"
+        ],
+        "gsScaling": 0.00488,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Life Staff",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Magician1.png",
+        "charm": {
+            "name": "Reinforced Starmetal Life Staff Charm",
+            "icon": "icons/items/Resource/LifeStaffCharmT2.png"
+        }
+    },
+    "perkid_ability_lifestaff_beacon": {
+        "name": "Vicious Beacon",
+        "description": "When Beacon heals a player they gain +${2 * perkMultiplier}% critical chance for ${6} seconds.",
+        "label": [
+            "Skill",
+            "LifeStaff"
+        ],
+        "gsScaling": 0.00391,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Life Staff",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Magician1.png",
+        "charm": {
+            "name": "Reinforced Orichalcum Life Staff Charm",
+            "icon": "icons/items/Resource/LifeStaffCharmT3.png"
+        }
+    },
+    "perkid_ability_firestaff_pillaroffire": {
+        "name": "Refreshing Pillar of Fire",
+        "description": "Reduce this ability's cooldown by ${3 * perkMultiplier}% per enemy hit with Pillar of Fire. (${3} hits max.)",
+        "label": [
+            "Skill",
+            "FireStaff"
+        ],
+        "gsScaling": 0.00716,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Fire Staff",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/FireDMG1.png",
+        "charm": {
+            "name": "Steel Fire Staff Charm",
+            "icon": "icons/items/Resource/FireStaffCharmT1.png"
+        }
+    },
+    "perkid_ability_firestaff_meteorshower": {
+        "name": "Empowering Meteor Shower",
+        "description": "When Meteor Shower hits gain ${1 * perkMultiplier}% Empower for ${10}s. (Max ${10} stacks)",
+        "label": [
+            "Skill",
+            "FireStaff"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Fire Staff",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/FireDMG1.png",
+        "charm": {
+            "name": "Starmetal Fire Staff Charm",
+            "icon": "icons/items/Resource/FireStaffCharmT2.png"
+        }
+    },
+    "perkid_ability_firestaff_fireball": {
+        "name": "Empowering Fireball",
+        "description": "Fireball impact deals ${5 * perkMultiplier}% additional damage.",
+        "label": [
+            "Skill",
+            "FireStaff"
+        ],
+        "gsScaling": 0.0103,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Fire Staff",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/FireDMG1.png",
+        "charm": {
+            "name": "Orichalcum Fire Staff Charm",
+            "icon": "icons/items/Resource/FireStaffCharmT3.png"
+        }
+    },
+    "perkid_ability_firestaff_incinerate": {
+        "name": "Stable Incinerate",
+        "description": "Incinerate gains grit, and deals ${3 * perkMultiplier}% additional damage.",
+        "label": [
+            "Skill",
+            "FireStaff"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Fire Staff",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/FireDMG1.png",
+        "charm": {
+            "name": "Reinforced Steel Fire Staff Charm",
+            "icon": "icons/items/Resource/FireStaffCharmT1.png"
+        }
+    },
+    "perkid_ability_firestaff_flamethrower": {
+        "name": "Accelerating Flamethrower",
+        "description": "Applying ${3} stacks of burn damage on a target with Flamethrower grants Haste, increasing movement speed by 20% for ${2} seconds. Burn from flamethrower lasts ${10 * perkMultiplier}% longer.",
+        "label": [
+            "Skill",
+            "FireStaff"
+        ],
+        "gsScaling": 0.00091,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Fire Staff",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/FireDMG1.png",
+        "charm": {
+            "name": "Reinforced Starmetal Fire Staff Charm",
+            "icon": "icons/items/Resource/FireStaffCharmT2.png"
+        }
+    },
+    "perkid_ability_firestaff_burnout": {
+        "name": "Efficient Burnout",
+        "description": "Until your next hit you deal ${5 * perkMultiplier}% increase fire damage and your mana regen rate increased by ${20 * 1}% for ${8} seconds after using Burnout.",
+        "label": [
+            "Skill",
+            "FireStaff"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Fire Staff",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/FireDMG1.png",
+        "charm": {
+            "name": "Reinforced Orichalcum Fire Staff Charm",
+            "icon": "icons/items/Resource/FireStaffCharmT3.png"
+        }
+    },
+    "perkid_ability_sword_reversestab": {
+        "name": "Contagious Reverse Stab",
+        "description": "Reverse Stab transfers an active debuff from self to target hit. Reverse Stab deals ${5 * perkMultiplier}% more damage.",
+        "label": [
+            "Skill",
+            "Sword"
+        ],
+        "gsScaling": 0.00196,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Sword",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Brigand1.png",
+        "charm": {
+            "name": "Steel Sword Charm",
+            "icon": "icons/items/Resource/SwordCharmT1.png"
+        }
+    },
+    "perkid_ability_sword_whirlingblade": {
+        "name": "Empowering Whirling Blade",
+        "description": "Base damage is increased by ${10 * perkMultiplier}% while performing a Whirling Blade attack if 3 or more enemies are within the radius of the attack.",
+        "label": [
+            "Skill",
+            "Sword"
+        ],
+        "gsScaling": 0.00385,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Sword",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Brigand1.png",
+        "charm": {
+            "name": "Starmetal Sword Charm",
+            "icon": "icons/items/Resource/SwordCharmT2.png"
+        }
+    },
+    "perkid_ability_sword_leapingstrike": {
+        "name": "Empowering Leaping Strike",
+        "description": "Sword attacks deal ${3 * perkMultiplier}% additional damage to targets slowed by Leaping Strike's Cowardly Punishment upgrade.",
+        "label": [
+            "Skill",
+            "Sword"
+        ],
+        "gsScaling": 0.00909,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Sword",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Brigand1.png",
+        "charm": {
+            "name": "Orichalcum Sword Charm",
+            "icon": "icons/items/Resource/SwordCharmT3.png"
+        }
+    },
+    "perkid_ability_shield_shieldbash": {
+        "name": "Diminishing Shield Bash",
+        "description": "Foes hit by Shield Bash have their non-consumable buff durations reduced by ${15 * perkMultiplier}%.",
+        "label": [
+            "Skill",
+            "Shield"
+        ],
+        "gsScaling": 0.00195,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Kite Shield",
+                "gsBonus": 500
+            },
+            {
+                "itemClass": "Tower Shield",
+                "gsBonus": 500
+            },
+            {
+                "itemClass": "Round Shield",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Brigand1.png",
+        "charm": {
+            "name": "Steel Shield Charm",
+            "icon": "icons/items/Resource/ShieldCharmT1.png"
+        }
+    },
+    "perkid_ability_shield_shieldrush": {
+        "name": "Fortifying Shield Rush",
+        "description": "After hitting a target with Shield Rush, gain Fortify, increasing damage absorption on self by ${5 * perkMultiplier}% for ${6} seconds.",
+        "label": [
+            "Skill",
+            "Shield"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Kite Shield",
+                "gsBonus": 500
+            },
+            {
+                "itemClass": "Tower Shield",
+                "gsBonus": 500
+            },
+            {
+                "itemClass": "Round Shield",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Brigand1.png",
+        "charm": {
+            "name": "Starmetal Shield Charm",
+            "icon": "icons/items/Resource/ShieldCharmT2.png"
+        }
+    },
+    "perkid_ability_shield_finalstand": {
+        "name": "Accelerated Defiant Stance",
+        "description": "Movement Speed Increased by ${5 * perkMultiplier}% and incoming healing by ${2 * 1}%  for ${6} seconds after triggering Defiant Stance.",
+        "label": [
+            "Skill",
+            "Shield"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Kite Shield",
+                "gsBonus": 500
+            },
+            {
+                "itemClass": "Tower Shield",
+                "gsBonus": 500
+            },
+            {
+                "itemClass": "Round Shield",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Brigand1.png",
+        "charm": {
+            "name": "Orichalcum Shield Charm",
+            "icon": "icons/items/Resource/ShieldCharmT3.png"
+        }
+    },
+    "perkid_ability_greataxe_charge": {
+        "name": "Refreshing Charge",
+        "description": "Hitting a target with Unpredictable Strike reduces the cooldown by ${5 * perkMultiplier}%.  (${1} hits max.)",
+        "label": [
+            "Skill",
+            "2hAxe"
+        ],
+        "gsScaling": 0.00952,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Great Axe",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/WeaponSmithMastery1.png",
+        "charm": {
+            "name": "Steel Great Axe Charm",
+            "icon": "icons/items/Resource/2HAxeCharmT1.png"
+        }
+    },
+    "perkid_ability_greataxe_reap": {
+        "name": "Crippling Reap",
+        "description": "If target hit with Reap is below 50% health, they are Slowed, reducing movement speed by ${10 * perkMultiplier}% for ${4} seconds.",
+        "label": [
+            "Skill",
+            "2hAxe"
+        ],
+        "gsScaling": 0.00391,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Great Axe",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/WeaponSmithMastery1.png",
+        "charm": {
+            "name": "Starmetal Great Axe Charm",
+            "icon": "icons/items/Resource/2HAxeCharmT2.png"
+        }
+    },
+    "perkid_ability_greataxe_execute": {
+        "name": "Mending Execute",
+        "description": "Gain ${10 * perkMultiplier}% of the damage dealt back as health with Execute. (Limit 1 trigger per abilitty)",
+        "label": [
+            "Skill",
+            "2hAxe"
+        ],
+        "gsScaling": 0.00385,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Great Axe",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/WeaponSmithMastery1.png",
+        "charm": {
+            "name": "Orichalcum Great Axe Charm",
+            "icon": "icons/items/Resource/2HAxeCharmT3.png"
+        }
+    },
+    "perkid_ability_greataxe_whirlwind": {
+        "name": "Fortifying Whirlwind",
+        "description": "Whirlwind hits grant Fortify on self, increasing damage absorption by ${3 * perkMultiplier}% and slashing damamge by ${3 * 1}% for ${2} seconds. (5 stacks max.)",
+        "label": [
+            "Skill",
+            "2hAxe"
+        ],
+        "gsScaling": 0.00229,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Great Axe",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/WeaponSmithMastery1.png",
+        "charm": {
+            "name": "Reinforced Steel Great Axe Charm",
+            "icon": "icons/items/Resource/2HAxeCharmT1.png"
+        }
+    },
+    "perkid_ability_greataxe_maelstrom": {
+        "name": "Enfeebling Maelstrom",
+        "description": "Targets hit by Maelstrom's No Reprieve are Weakened, reducing their attack damage by ${3 * perkMultiplier}% for ${8} seconds.",
+        "label": [
+            "Skill",
+            "2hAxe"
+        ],
+        "gsScaling": 0.00727,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Great Axe",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/WeaponSmithMastery1.png",
+        "charm": {
+            "name": "Reinforced Starmetal Great Axe Charm",
+            "icon": "icons/items/Resource/2HAxeCharmT2.png"
+        }
+    },
+    "perkid_ability_greataxe_gravitywell": {
+        "name": "Insatiable Gravity Well",
+        "description": "Gain ${15 * perkMultiplier}% of your damage with Gravity Well back as health, and cast another ${4}m radius burst around you on successful hit that deals ${100}% weapon damage.",
+        "label": [
+            "Skill",
+            "2hAxe"
+        ],
+        "gsScaling": 0.00242,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Great Axe",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/WeaponSmithMastery1.png",
+        "charm": {
+            "name": "Reinforced Orichalcum Great Axe Charm",
+            "icon": "icons/items/Resource/2HAxeCharmT3.png"
+        }
+    },
+    "perkid_ability_icegauntlet_unbrokenwinds": {
+        "name": "Unbroken Winds",
+        "description": "Wind Chill has grit and deals ${10 * perkMultiplier}% more damage. Gain 10% Mana after a full Wind Chill burst.",
+        "label": [
+            "Skill",
+            "IceGauntlet"
+        ],
+        "gsScaling": 0.00291,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Ice Gauntlet",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/iceMagic_Perk1.png",
+        "charm": {
+            "name": "Steel Ice Gauntlet Charm",
+            "icon": "icons/items/Resource/IceGauntletCharmT1.png"
+        }
+    },
+    "perkid_ability_icegauntlet_unendingthaw": {
+        "name": "Unending Thaw",
+        "description": "Ice Storm deals ${1 * perkMultiplier}% more damage. Frost effects remains on enemies for 2 seconds after exiting Ice Storm.",
+        "label": [
+            "Skill",
+            "IceGauntlet"
+        ],
+        "gsScaling": 0.00909,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Ice Gauntlet",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/iceMagic_Perk2.png",
+        "charm": {
+            "name": "Starmetal Ice Gauntlet Charm",
+            "icon": "icons/items/Resource/IceGauntletCharmT2.png"
+        }
+    },
+    "perkid_ability_icegauntlet_icedrefresh": {
+        "name": "Iced Refresh",
+        "description": "A killing blow with Ice Spike's Mighty Spike or Spiky Reach will reduce all Ice cooldowns by ${10 * perkMultiplier}%.",
+        "label": [
+            "Skill",
+            "IceGauntlet"
+        ],
+        "gsScaling": 0.00636,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Ice Gauntlet",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/iceMagic_Perk3.png",
+        "charm": {
+            "name": "Orichalcum Ice Gauntlet Charm",
+            "icon": "icons/items/Resource/IceGauntletCharmT3.png"
+        }
+    },
+    "perkid_ability_icegauntlet_deadlyfrost": {
+        "name": "Deadly Frost",
+        "description": "When the Frigid Showers upgrade is active, Ice Shower's frostbite debuff will deal ${8}% weapon damage per second to affected enemies. Ice Shower cooldown reduced by ${5 * perkMultiplier}%",
+        "label": [
+            "Skill",
+            "IceGauntlet"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Ice Gauntlet",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/iceMagic_Perk4.png",
+        "charm": {
+            "name": "Reinforced Starmetal Ice Gauntlet Charm",
+            "icon": "icons/items/Resource/IceGauntletCharmT3.png"
+        }
+    },
+    "perkid_ability_icegauntlet_pylonburst": {
+        "name": "Pylon Burst",
+        "description": "Ice Pylon deals ${1.5 * perkMultiplier}% more damage and a burst of damage to foes within a ${3}m radius whenever it fires its projectile.",
+        "label": [
+            "Skill",
+            "IceGauntlet"
+        ],
+        "gsScaling": 0.00554,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Ice Gauntlet",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/iceMagic_Perk5.png",
+        "charm": {
+            "name": "Reinforced Orichalcum Ice Gauntlet Charm",
+            "icon": "icons/items/Resource/IceGauntletCharmT4.png"
+        }
+    },
+    "perkid_ability_icegauntlet_healingtomb": {
+        "name": "Healing Tomb",
+        "description": "Heal for ${5 * perkMultiplier}% of your base Health after Entomb ends.",
+        "label": [
+            "Skill",
+            "IceGauntlet"
+        ],
+        "gsScaling": 0.00488,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Ice Gauntlet",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/iceMagic_Perk6.png",
+        "charm": {
+            "name": "Reinforced Steel Ice Gauntlet Charm",
+            "icon": "icons/items/Resource/IceGauntletCharmT4.png"
+        }
+    },
+    "perkid_ability_voidgauntlet_voidblade_lifesteal": {
+        "name": "Voracious Blade",
+        "description": "While below ${50}% health, successful Void Blade hits heal self for ${10 * perkMultiplier}% of the damage done.",
+        "label": [
+            "Skill",
+            "VoidGauntlet"
+        ],
+        "gsScaling": 0.004,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Void Gauntlet",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/iceMagic_Perk6.png",
+        "charm": {
+            "name": "Steel Void Gauntlet Charm",
+            "icon": "icons/items/Resource/VoidGauntletCharmT1.png"
+        }
+    },
+    "perkid_ability_voidgauntlet_nullchamber_nullify": {
+        "name": "Nullifying Oblivion",
+        "description": "On activation, Oblivion removes limited duration buffs from enemies within its radius. Obilivion recharges ${5 * perkMultiplier}% faster.",
+        "label": [
+            "Skill",
+            "VoidGauntlet"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Void Gauntlet",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/iceMagic_Perk6.png",
+        "charm": {
+            "name": "Starmetal Void Gauntlet Charm",
+            "icon": "icons/items/Resource/VoidGauntletCharmT2.png"
+        }
+    },
+    "perkid_ability_voidgauntlet_scream_disease": {
+        "name": "Putrefying Scream",
+        "description": "On successful hit, Petrifying Scream inflicts Disease, reducing the target's healing by ${10 * perkMultiplier}% for ${8}s.",
+        "label": [
+            "Skill",
+            "VoidGauntlet"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Void Gauntlet",
+                "gsBonus": 300
+            }
+        ],
+        "icon": "Icons/Perks/iceMagic_Perk6.png",
+        "charm": {
+            "name": "Orichalcum Void Gauntlet Charm",
+            "icon": "icons/items/Resource/VoidGauntletCharmT3.png"
+        }
+    },
+    "perkid_ability_voidgauntlet_decayingorb_reducebuffs": {
+        "name": "Diminishing Orb",
+        "description": "On hit, Orb of Decay reduces the duration of the target's non-consumable buffs by ${20 * perkMultiplier}%.",
+        "label": [
+            "Skill",
+            "VoidGauntlet"
+        ],
+        "gsScaling": 0.003,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Void Gauntlet",
+                "gsBonus": 300
+            }
+        ],
+        "icon": "Icons/Perks/iceMagic_Perk6.png",
+        "charm": {
+            "name": "Reinforced Steel Void Gauntlet Charm",
+            "icon": "icons/items/Resource/VoidGauntletCharmT1.png"
+        }
+    },
+    "perkid_ability_voidgauntlet_drainingtether_slow": {
+        "name": "Slowing Tether",
+        "description": "On successful hit, Baleful Tether inflicts Slow, reducing the target's move speed by ${20 * perkMultiplier}% for ${3}s.",
+        "label": [
+            "Skill",
+            "VoidGauntlet"
+        ],
+        "gsScaling": 0.001,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Void Gauntlet",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/iceMagic_Perk6.png",
+        "charm": {
+            "name": "Reinforced Starmetal Void Gauntlet Charm",
+            "icon": "icons/items/Resource/VoidGauntletCharmT2.png"
+        }
+    },
+    "perkid_ability_voidgauntlet_essencerupture_empower": {
+        "name": "Refreshing Rupture",
+        "description": "When you hit a target with Essence Rupture, Essence Rupture recharges ${10 * perkMultiplier}% faster.",
+        "label": [
+            "Skill",
+            "VoidGauntlet"
+        ],
+        "gsScaling": 0.004,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Void Gauntlet",
+                "gsBonus": 450
+            }
+        ],
+        "icon": "Icons/Perks/iceMagic_Perk6.png",
+        "charm": {
+            "name": "Reinforced Orichalcum Void Gauntlet Charm",
+            "icon": "icons/items/Resource/VoidGauntletCharmT3.png"
+        }
+    },
+    "perkid_ability_blunderbuss_netshot": {
+        "name": "Exhaustive Net Shot",
+        "description": "Net Shot inflicts exhaust, reducing target's stamina regeneration by ${10 * perkMultiplier}% for ${8}s.",
+        "label": [
+            "Skill",
+            "Blunderbuss"
+        ],
+        "gsScaling": 0.00455,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Blunderbuss",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Duelist1.png",
+        "charm": {
+            "name": "Steel Blunderbuss Charm",
+            "icon": "icons/items/Resource/BlunderbussCharmT1.png"
+        }
+    },
+    "perkid_ability_blunderbuss_azothshrapnelblast": {
+        "name": "Leeching Shrapnel Blast",
+        "description": "Heal for ${5 * perkMultiplier}% of the damage dealt from Azoth Shrapnel Blast.",
+        "label": [
+            "Skill",
+            "Blunderbuss"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Blunderbuss",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Duelist1.png",
+        "charm": {
+            "name": "Starmetal Blunderbuss Charm",
+            "icon": "icons/items/Resource/BlunderbussCharmT2.png"
+        }
+    },
+    "perkid_ability_blunderbuss_clawshot": {
+        "name": "Venturing Claw Shot",
+        "description": "When Claw Shot connects to a target at least ${10}m away, gain a ${5 * perkMultiplier}% Empower for ${3}s or until next hit.",
+        "label": [
+            "Skill",
+            "Blunderbuss"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Blunderbuss",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Duelist1.png",
+        "charm": {
+            "name": "Orichalcum Blunderbuss Charm",
+            "icon": "icons/items/Resource/BlunderbussCharmT3.png"
+        }
+    },
+    "perkid_ability_blunderbuss_scattergrenade": {
+        "name": "Plagued Splitting Grenade",
+        "description": "Splitting Grenade hits inflict disease, reducing healing efficiency on target by ${5 * perkMultiplier}% for ${8}s.",
+        "label": [
+            "Skill",
+            "Blunderbuss"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Blunderbuss",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Duelist1.png",
+        "charm": {
+            "name": "Reinforced Steel Blunderbuss Charm",
+            "icon": "icons/items/Resource/BlunderbussCharmT1.png"
+        }
+    },
+    "perkid_ability_blunderbuss_mortarcharge": {
+        "name": "Resupplying Mortar Charge",
+        "description": "Mortar Charge kills reload 1 additional canister and grant ${3 * perkMultiplier}% Empower for ${5} seconds. (Limited to 1 reload per shot. Will not trigger past 3 canisters or after final shot.)",
+        "label": [
+            "Skill",
+            "Blunderbuss"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Blunderbuss",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Duelist1.png",
+        "charm": {
+            "name": "Reinforced Starmetal Blunderbuss Charm",
+            "icon": "icons/items/Resource/BlunderbussCharmT2.png"
+        }
+    },
+    "perkid_ability_blunderbuss_vortexshot": {
+        "name": "Crippling Blast Shot",
+        "description": "Targets hit by Blast Shot are slowed, reducing movement speed by ${5 * perkMultiplier}% for ${5}s.",
+        "label": [
+            "Skill",
+            "Blunderbuss"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [
+            {
+                "itemClass": "Blunderbuss",
+                "gsBonus": 500
+            }
+        ],
+        "icon": "Icons/Perks/Duelist1.png",
+        "charm": {
+            "name": "Reinforced Orichalcum Blunderbuss Charm",
+            "icon": "icons/items/Resource/BlunderbussCharmT3.png"
+        }
+    },
+    "perkid_common_cdr": {
+        "name": "Refreshing",
+        "description": "Reduces max cooldowns by ${1 * perkMultiplier}%.",
+        "label": [
+            "CDR"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Resurge1.png",
+        "charm": {
+            "name": "Brilliant Animus",
+            "icon": "icons/items/Resource/AnimusT3.png"
+        }
+    },
+    "perkid_common_cdronhit": {
+        "name": "Refreshing Ward",
+        "description": "Reduces active cooldowns by ${0.5 * perkMultiplier}% after being hit 4 times. Does not trigger off persistent damage, DoT effects or blocked attacks.",
+        "label": [
+            "CDR"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Rally1.png",
+        "charm": {
+            "name": "Shimmering Animus",
+            "icon": "icons/items/Resource/AnimusT1.png"
+        }
+    },
+    "perkid_common_cdrondodge": {
+        "name": "Refreshing Evasion",
+        "description": "Reduces active cooldowns by ${0.5 * perkMultiplier}% after exiting the dodge animation.",
+        "label": [
+            "CDR"
+        ],
+        "gsScaling": 0.00095,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Rally1.png",
+        "charm": {
+            "name": "Shining Animus",
+            "icon": "icons/items/Resource/AnimusT2.png"
+        }
+    },
+    "perkid_common_luck": {
+        "name": "Luck",
+        "description": "+${0.5 * perkMultiplier}% chance at rare items from chests and monsters.",
+        "label": [
+            "Luck"
+        ],
+        "gsScaling": 0.00909,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Lucky1.png",
+        "charm": {
+            "name": "Chunk of Adderstone",
+            "icon": "icons/items/Resource/AdderStoneT3.png"
+        }
+    },
+    "perkid_tools_durability": {
+        "name": "Durable",
+        "description": "This item no longer loses durability.",
+        "label": [
+            "Durability"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Durable1.png",
+        "charm": {
+            "name": "Sliver of Adamant",
+            "icon": "icons/items/Resource/AdamantT1.png"
+        }
+    },
+    "perkid_tools_azothgain": {
+        "name": "Azoth Extraction",
+        "description": "${30 * perkMultiplier}% chance when finish gathering a node to gain 1 Azoth.",
+        "label": [
+            "AzothGain"
+        ],
+        "gsScaling": 0.00121,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Drop of Azoth Oil",
+            "icon": "icons/items/Resource/AzothOilT1.png"
+        }
+    },
+    "perkid_tools_hasteongather": {
+        "name": "Gathering Alacrity",
+        "description": "When you finish gathering a node gain ${3}s of ${50}% Haste.",
+        "label": [
+            "GatherProc"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Rally1.png",
+        "charm": {
+            "name": "Small Elk Hoof",
+            "icon": "icons/items/Resource/ElkHoofT1.png"
+        }
+    },
+    "perkid_armor_defancient": {
+        "name": "Ancient Ward",
+        "description": "+${2.5 * perkMultiplier}% Damage Absorption against Ancient Guardians.",
+        "label": [
+            "DmgAbsorb"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/AncientWard1.png",
+        "charm": {
+            "name": "Clump of Writhing Briar",
+            "icon": "icons/items/Resource/WrithingBriarT3.png"
+        }
+    },
+    "perkid_armor_defangryearth": {
+        "name": "Angry Earth Ward",
+        "description": "+${2.5 * perkMultiplier}% Damage Absorption against Angry Earth.",
+        "label": [
+            "DmgAbsorb"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/AngryEarthWard1.png",
+        "charm": {
+            "name": "Brilliant Corrupted Insignia",
+            "icon": "icons/items/Resource/BountyT10.png"
+        }
+    },
+    "perkid_armor_defbeast": {
+        "name": "Beast Ward",
+        "description": "+${2.5 * perkMultiplier}% Damage Absorption against Beasts.",
+        "label": [
+            "DmgAbsorb"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/BestialWard1.png",
+        "charm": {
+            "name": "Vial of Wolf Essence",
+            "icon": "icons/items/Resource/WolfEssenceT2.png"
+        }
+    },
+    "perkid_armor_defcorrupted": {
+        "name": "Corrupted Ward",
+        "description": "+${2.5 * perkMultiplier}% Damage Absorption against Corrupted.",
+        "label": [
+            "DmgAbsorb"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/CorruptedWard1.png",
+        "charm": {
+            "name": "Chunk of Baetylus",
+            "icon": "icons/items/Resource/BaetylusT3.png"
+        }
+    },
+    "perkid_armor_deflost": {
+        "name": "Lost Ward",
+        "description": "+${2.5 * perkMultiplier}% Damage Absorption against Lost.",
+        "label": [
+            "DmgAbsorb"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/LostWard1.png",
+        "charm": {
+            "name": "Draught of Ancient Essence",
+            "icon": "icons/items/Resource/AncientEssenceT3.png"
+        }
+    },
+    "perkid_armor_loggingluck": {
+        "name": "Reinforced Logging Luck",
+        "description": "While Logging gain ${2 * perkMultiplier}% chance at finding rare items.",
+        "label": [
+            "Gathering"
+        ],
+        "gsScaling": 0.003,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/LoggingMastery1.png",
+        "charm": {
+            "name": "Vial of Sap",
+            "icon": "icons/items/Resource/SapT2.png"
+        }
+    },
+    "perkid_armor_harvestingluck": {
+        "name": "Reinforced Harvesting Luck",
+        "description": "While Harvesting gain ${2 * perkMultiplier}% chance at finding rare items.",
+        "label": [
+            "Gathering"
+        ],
+        "gsScaling": 0.003,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/BotanistMastery1.png",
+        "charm": {
+            "name": "Verbena Leaf",
+            "icon": "icons/items/Resource/VerbenaT2.png"
+        }
+    },
+    "perkid_armor_miningluck": {
+        "name": "Reinforced Mining Luck",
+        "description": "While Mining gain ${2 * perkMultiplier}% chance at finding rare items.",
+        "label": [
+            "Gathering"
+        ],
+        "gsScaling": 0.003,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/MiningMastery1.png",
+        "charm": {
+            "name": "Shard of Adderstone",
+            "icon": "icons/items/Resource/AdderStoneT2.png"
+        }
+    },
+    "perkid_armor_skinningluck": {
+        "name": "Reinforced Skinning Luck",
+        "description": "While Skinning gain ${2 * perkMultiplier}% chance at finding rare items.",
+        "label": [
+            "Gathering"
+        ],
+        "gsScaling": 0.003,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/SkinningMastery1.png",
+        "charm": {
+            "name": "Jagged Animal Fang",
+            "icon": "icons/items/Resource/FangT2.png"
+        }
+    },
+    "perkid_armor_resistcorrupt": {
+        "name": "Corruption Resistance",
+        "description": "+${5 * perkMultiplier} Corruption Resistance. Also slows corruption damage.",
+        "label": [
+            "Afflicted"
+        ],
+        "gsScaling": 0.00382,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/CorruptionResistance1.png",
+        "charm": {
+            "name": "Sliver of Baetylus",
+            "icon": "icons/items/Resource/BaetylusT1.png"
+        }
+    },
+    "perkid_armor_resistblight": {
+        "name": "Blight Resistance",
+        "description": "+${5 * perkMultiplier} Blight Resistance. Also slows blight damage.",
+        "label": [
+            "Afflicted"
+        ],
+        "gsScaling": 0.00382,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/BlightResistance1.png",
+        "charm": {
+            "name": "Shard of Corrupted Matter",
+            "icon": "icons/items/Resource/CorruptedMatterT2.png"
+        }
+    },
+    "perkid_armor_defcritdmg": {
+        "name": "Resilient",
+        "description": "Critical hits deal ${3 * perkMultiplier}% less damage to you.",
+        "label": [
+            "CritDef"
+        ],
+        "gsScaling": 0.00121,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Chunk of Consecrated Iron",
+            "icon": "icons/items/Resource/ConsecratedIronT3.png"
+        }
+    },
+    "perkid_armor_durability": {
+        "name": "Indestructible",
+        "description": "This item no longer loses durability.",
+        "label": [
+            "Durability"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Durable1.png",
+        "charm": {
+            "name": "Shard of Adamant",
+            "icon": "icons/items/Resource/AdamantT2.png"
+        }
+    },
+    "perkid_armor_durcc": {
+        "name": "Freedom",
+        "description": "Slow, Stun, and Root expires ${3 * perkMultiplier}% faster.",
+        "label": [
+            "DebuffDur"
+        ],
+        "gsScaling": 0.00485,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/VoidDMG1.png",
+        "charm": {
+            "name": "Shard of Consecrated Iron",
+            "icon": "icons/items/Resource/ConsecratedIronT2.png"
+        }
+    },
+    "perkid_armor_durdot": {
+        "name": "Vigor",
+        "description": "Burn, Bleed, and Poison expires ${3 * perkMultiplier}% faster.",
+        "label": [
+            "DebuffDur"
+        ],
+        "gsScaling": 0.00485,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/FireDMG1.png",
+        "charm": {
+            "name": "Shard of Batrachite",
+            "icon": "icons/items/Resource/BatrachiteT2.png"
+        }
+    },
+    "perkid_armor_durdebuff": {
+        "name": "Invigorated",
+        "description": "Weaken, Disease, Exhaust, and Rend expires ${3 * perkMultiplier}% faster.",
+        "label": [
+            "DebuffDur"
+        ],
+        "gsScaling": 0.00485,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Soldier1.png",
+        "charm": {
+            "name": "Sliver of Batrachite",
+            "icon": "icons/items/Resource/BatrachiteT1.png"
+        }
+    },
+    "perkid_amulet_deffire": {
+        "name": "Flame Protection",
+        "description": "You take ${2 * perkMultiplier}% less Fire damage.",
+        "label": [
+            "Defense"
+        ],
+        "gsScaling": 0.00773,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/FireWard1.png",
+        "charm": {
+            "name": "Shard of Niter",
+            "icon": "icons/items/Resource/NiterT2.png"
+        }
+    },
+    "perkid_amulet_defice": {
+        "name": "Frozen Protection",
+        "description": "You take ${2 * perkMultiplier}% less Ice damage.",
+        "label": [
+            "Defense"
+        ],
+        "gsScaling": 0.00773,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Frigid Fang",
+            "icon": "icons/items/Resource/FrozenFangT2.png"
+        }
+    },
+    "perkid_amulet_defnature": {
+        "name": "Nature Protection",
+        "description": "You take ${2 * perkMultiplier}% less Nature damage.",
+        "label": [
+            "Defense"
+        ],
+        "gsScaling": 0.00773,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Shard of Enchanted Earth",
+            "icon": "icons/items/Resource/EnchantedEarthT2.png"
+        }
+    },
+    "perkid_amulet_defvoid": {
+        "name": "Void Protection",
+        "description": "You take ${2 * perkMultiplier}% less Void damage.",
+        "label": [
+            "Defense"
+        ],
+        "gsScaling": 0.00773,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/VoidDMG1.png",
+        "charm": {
+            "name": "Vacant Corrupted Insignia",
+            "icon": "icons/items/Resource/BountyT6.png"
+        }
+    },
+    "perkid_amulet_defthurst": {
+        "name": "Thrust Protection",
+        "description": "You take ${2 * perkMultiplier}% less Thrust damage.",
+        "label": [
+            "Defense"
+        ],
+        "gsScaling": 0.00773,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/ThrustWard1.png",
+        "charm": {
+            "name": "Perfect Corrupted Sigil",
+            "icon": "icons/items/Resource/BountyT9.png"
+        }
+    },
+    "perkid_amulet_defslash": {
+        "name": "Slash Protection",
+        "description": "You take ${2 * perkMultiplier}% less Slash damage.",
+        "label": [
+            "Defense"
+        ],
+        "gsScaling": 0.00773,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Slashward1.png",
+        "charm": {
+            "name": "Corrupted Sigil",
+            "icon": "icons/items/Resource/BountyT5.png"
+        }
+    },
+    "perkid_amulet_defarcane": {
+        "name": "Arcane Protection",
+        "description": "You take ${2 * perkMultiplier}% less Arcane damage.",
+        "label": [
+            "Defense"
+        ],
+        "gsScaling": 0.00773,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/MagicWard1.png",
+        "charm": {
+            "name": "Drop of Ancient Essence",
+            "icon": "icons/items/Resource/AncientEssenceT1.png"
+        }
+    },
+    "perkid_amulet_deflightning": {
+        "name": "Lightning Protection",
+        "description": "You take ${2 * perkMultiplier}% less Lightning damage.",
+        "label": [
+            "Defense"
+        ],
+        "gsScaling": 0.00773,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/LightningWard1.png",
+        "charm": {
+            "name": "Shard of Sparkmetal",
+            "icon": "icons/items/Resource/SparkmetalT2.png"
+        }
+    },
+    "perkid_amulet_defstrike": {
+        "name": "Strike Protection",
+        "description": "You take ${2 * perkMultiplier}% less Strike damage.",
+        "label": [
+            "Defense"
+        ],
+        "gsScaling": 0.00773,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/StrikeWard1.png",
+        "charm": {
+            "name": "Fine Corrupted Sigil",
+            "icon": "icons/items/Resource/BountyT7.png"
+        }
+    },
+    "perkid_amulet_hp": {
+        "name": "Health",
+        "description": "You have ${3 * perkMultiplier}% more maximum health.",
+        "label": [
+            "Health"
+        ],
+        "gsScaling": 0.00424,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Health1.png",
+        "charm": {
+            "name": "Draught of Ironwood Sap",
+            "icon": "icons/items/Resource/IronwoodSapT3.png"
+        }
+    },
+    "perkid_amulet_stamonlow": {
+        "name": "Stamina Recovery",
+        "description": "When you are hit while below 50% gain ${50 * perkMultiplier} stamina (${30}s cooldown.) Does not trigger off persistent damage, DoT effects or blocked attacks.",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Unstoppable1.png",
+        "charm": {
+            "name": "Pristine Horn",
+            "icon": "icons/items/Resource/HornT3.png"
+        }
+    },
+    "perkid_amulet_manaonlow": {
+        "name": "Mana Recovery",
+        "description": "When you are hit while below 50% gain ${50 * perkMultiplier} mana (${30}s cooldown.) Does not trigger off persistent damage, DoT effects or blocked attacks.",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Draught of Quicksilver",
+            "icon": "icons/items/Resource/QuicksilverT3.png"
+        }
+    },
+    "perkid_amulet_removeonlow": {
+        "name": "Purify",
+        "description": "When you are hit while below 50% health you lose all debuffs. (${90}s cooldown.) Does not trigger off persistent damage, DoT effects or blocked attacks.",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/VoidDMG1.png",
+        "charm": {
+            "name": "Chunk of Batrachite",
+            "icon": "icons/items/Resource/BatrachiteT3.png"
+        }
+    },
+    "perkid_amulet_fortifyonlow": {
+        "name": "Fortified Recovery",
+        "description": "When you are hit while below 50% gain ${10 * perkMultiplier}% Fortify for ${5}s. (${90}s cooldown.) Does not trigger off persistent damage, DoT effects or blocked attacks.",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Soldier1.png",
+        "charm": {
+            "name": "Chunk of Adamant",
+            "icon": "icons/items/Resource/AdamantT3.png"
+        }
+    },
+    "perkid_amulet_loggingluck": {
+        "name": "Adored Logging Luck",
+        "description": "While Logging gain ${5 * perkMultiplier}% chance at finding rare items.",
+        "label": [
+            "GatheringLuck"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/LoggingMastery1.png",
+        "charm": {
+            "name": "Draught of Sap",
+            "icon": "icons/items/Resource/SapT3.png"
+        }
+    },
+    "perkid_amulet_harvestingluck": {
+        "name": "Adored Harvesting Luck",
+        "description": "While Harvesting gain ${5 * perkMultiplier}% chance at finding rare items.",
+        "label": [
+            "GatheringLuck"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/BotanistMastery1.png",
+        "charm": {
+            "name": "Verbena Flower",
+            "icon": "icons/items/Resource/VerbenaT3.png"
+        }
+    },
+    "perkid_amulet_miningluck": {
+        "name": "Adored Mining Luck",
+        "description": "While Mining gain ${5 * perkMultiplier}% chance at finding rare items.",
+        "label": [
+            "GatheringLuck"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/MiningMastery1.png",
+        "charm": {
+            "name": "Chunk of Cobalt",
+            "icon": "icons/items/Resource/CobaltT3.png"
+        }
+    },
+    "perkid_amulet_skinningluck": {
+        "name": "Adored Skinning Luck",
+        "description": "While Skinning gain ${5 * perkMultiplier}% chance at finding rare items.",
+        "label": [
+            "GatheringLuck"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/SkinningMastery1.png",
+        "charm": {
+            "name": "Pristine Animal Fang",
+            "icon": "icons/items/Resource/FangT3.png"
+        }
+    },
+    "perkid_amulet_durempower": {
+        "name": "Empowered",
+        "description": "Empower you apply lasts ${5 * perkMultiplier}% longer.",
+        "label": [
+            "BuffDur"
+        ],
+        "gsScaling": 0.00964,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Monk1.png",
+        "charm": {
+            "name": "Large Bear Paw",
+            "icon": "icons/items/Resource/BearPawT1.png"
+        }
+    },
+    "perkid_amulet_durhaste": {
+        "name": "Alacrity",
+        "description": "Haste you apply lasts ${5 * perkMultiplier}% longer.",
+        "label": [
+            "BuffDur"
+        ],
+        "gsScaling": 0.00964,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Unstoppable1.png",
+        "charm": {
+            "name": "Large Elk Hoof",
+            "icon": "icons/items/Resource/ElkHoofT2.png"
+        }
+    },
+    "perkid_amulet_durfortify": {
+        "name": "Fortified",
+        "description": "Fortify you apply lasts ${5 * perkMultiplier}% longer.",
+        "label": [
+            "BuffDur"
+        ],
+        "gsScaling": 0.00964,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Soldier1.png",
+        "charm": {
+            "name": "Tattered Mangy Hide",
+            "icon": "icons/items/Resource/MangyHideT1.png"
+        }
+    },
+    "perkid_amulet_healing": {
+        "name": "Divine",
+        "description": "You gain ${5 * perkMultiplier}% more health from all incoming healing effects.",
+        "label": [
+            "Healing"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Health1.png",
+        "charm": {
+            "name": "Shard of Crystalized Azoth",
+            "icon": "icons/items/Resource/CrystalizedAzothT2.png"
+        }
+    },
+    "perkid_ring_healperdmg": {
+        "name": "Leeching",
+        "description": "You gain ${1 * perkMultiplier}% of your damage as health. Does not trigger off persistent damage or DoT effects.",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0.008,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/LifeLeech1.png",
+        "charm": {
+            "name": "Vial of Viscous Azoth",
+            "icon": "icons/items/Resource/ViscousAzothT2.png"
+        }
+    },
+    "perkid_ring_manaonhit": {
+        "name": "Siphoning",
+        "description": "You gain ${1 * perkMultiplier}% mana per hit (cooldown ${2}s). Does not trigger off persistent damage, DoT effects or blocked attacks.",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Drop of Ectoplasm",
+            "icon": "icons/items/Resource/EctoplasmT1.png"
+        }
+    },
+    "perkid_ring_dmgfire": {
+        "name": "Fire Damage",
+        "description": "You deal ${3 * perkMultiplier}% more Fire damage.",
+        "label": [
+            "DmgType"
+        ],
+        "gsScaling": 0.00121,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/FireDMG1.png",
+        "charm": {
+            "name": "Thread of Corrupted Cloth",
+            "icon": "icons/items/Resource/CorruptedClothT1.png"
+        }
+    },
+    "perkid_ring_dmgice": {
+        "name": "Ice damage",
+        "description": "You deal ${3 * perkMultiplier}% more Ice damage.",
+        "label": [
+            "DmgType"
+        ],
+        "gsScaling": 0.00121,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Patch of Corrupted Cloth",
+            "icon": "icons/items/Resource/CorruptedClothT2.png"
+        }
+    },
+    "perkid_ring_dmgnature": {
+        "name": "Nature damage",
+        "description": "You deal ${3 * perkMultiplier}% more Nature damage.",
+        "label": [
+            "DmgType"
+        ],
+        "gsScaling": 0.00121,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Sliver of Wyrdwood Resin",
+            "icon": "icons/items/Resource/WyrdwoodResinT1.png"
+        }
+    },
+    "perkid_ring_dmglightning": {
+        "name": "Lightning Damage",
+        "description": "You deal ${3 * perkMultiplier}% more Lightning damage.",
+        "label": [
+            "DmgType"
+        ],
+        "gsScaling": 0.00121,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/LightningDmg1.png",
+        "charm": {
+            "name": "Bolt of Corrupted Cloth",
+            "icon": "icons/items/Resource/CorruptedClothT3.png"
+        }
+    },
+    "perkid_ring_dmgvoid": {
+        "name": "Void Damage",
+        "description": "You deal ${3 * perkMultiplier}% more Void damage.",
+        "label": [
+            "DmgType"
+        ],
+        "gsScaling": 0.00121,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/VoidDMG1.png",
+        "charm": {
+            "name": "Drop of Corrupted Essence",
+            "icon": "icons/items/Resource/CorruptedEssenceT1.png"
+        }
+    },
+    "perkid_ring_dmgarcane": {
+        "name": "Arcane Damage",
+        "description": "You deal ${3 * perkMultiplier}% more Arcane damage.",
+        "label": [
+            "DmgType"
+        ],
+        "gsScaling": 0.00121,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/MagicDMG1.png",
+        "charm": {
+            "name": "Vial of Corrupted Essence",
+            "icon": "icons/items/Resource/CorruptedEssenceT2.png"
+        }
+    },
+    "perkid_ring_dmgthurst": {
+        "name": "Thrust Damage",
+        "description": "You deal ${3 * perkMultiplier}% more Thrust damage.",
+        "label": [
+            "DmgType"
+        ],
+        "gsScaling": 0.00121,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Keen1.png",
+        "charm": {
+            "name": "Draught of Corrupted Essence",
+            "icon": "icons/items/Resource/CorruptedEssenceT3.png"
+        }
+    },
+    "perkid_ring_dmgslash": {
+        "name": "Slash Damage",
+        "description": "You deal ${3 * perkMultiplier}% more Slash damage.",
+        "label": [
+            "DmgType"
+        ],
+        "gsScaling": 0.00121,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Keen1.png",
+        "charm": {
+            "name": "Drop of Corrupted Ichor",
+            "icon": "icons/items/Resource/CorruptedIchorT1.png"
+        }
+    },
+    "perkid_ring_dmgstrike": {
+        "name": "Strike Damage",
+        "description": "You deal ${3 * perkMultiplier}% more Strike damage.",
+        "label": [
+            "DmgType"
+        ],
+        "gsScaling": 0.00121,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Keen1.png",
+        "charm": {
+            "name": "Vial of Corrupted Ichor",
+            "icon": "icons/items/Resource/CorruptedIchorT2.png"
+        }
+    },
+    "perkid_ring_crit": {
+        "name": "Keen Awareness",
+        "description": "+${3 * perkMultiplier}% critical chance.",
+        "label": [
+            "DmgType"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Critical1.png",
+        "charm": {
+            "name": "Draught of Corrupted Ichor",
+            "icon": "icons/items/Resource/CorruptedIchorT3.png"
+        }
+    },
+    "perkid_ring_durposion": {
+        "name": "Poisoning",
+        "description": "Poison you apply lasts ${10 * perkMultiplier}% longer.",
+        "label": [
+            "DebuffDur"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Opportunist1.png",
+        "charm": {
+            "name": "Shard of Ironwood Resin",
+            "icon": "icons/items/Resource/IronwoodResinT2.png"
+        }
+    },
+    "perkid_ring_durbleed": {
+        "name": "Blood Letting",
+        "description": "Bleed you apply lasts ${10 * perkMultiplier}% longer.",
+        "label": [
+            "DebuffDur"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Keen1.png",
+        "charm": {
+            "name": "Animal Claw",
+            "icon": "icons/items/Resource/ClawT1.png"
+        }
+    },
+    "perkid_ring_durburning": {
+        "name": "Burning",
+        "description": "Burning you apply lasts ${10 * perkMultiplier}% longer.",
+        "label": [
+            "DebuffDur"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/FireDMG1.png",
+        "charm": {
+            "name": "Sliver of Niter",
+            "icon": "icons/items/Resource/NiterT1.png"
+        }
+    },
+    "perkid_ring_durslow": {
+        "name": "Crippling",
+        "description": "Slow you apply lasts ${10 * perkMultiplier}% longer.",
+        "label": [
+            "DebuffDur"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Rally1.png",
+        "charm": {
+            "name": "Chunk of Crystalized Ectoplasm",
+            "icon": "icons/items/Resource/CrystalizedEctoplasmT3.png"
+        }
+    },
+    "perkid_ring_durweaken": {
+        "name": "Enfeebling",
+        "description": "Weaken you apply lasts ${10 * perkMultiplier}% longer.",
+        "label": [
+            "DebuffDur"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/VoidDMG1.png",
+        "charm": {
+            "name": "Shard of Crystalized Ectoplasm",
+            "icon": "icons/items/Resource/CrystalizedEctoplasmT2.png"
+        }
+    },
+    "perkid_ring_durdisease": {
+        "name": "Infected",
+        "description": "Disease you apply lasts ${10 * perkMultiplier}% longer.",
+        "label": [
+            "DebuffDur"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Precise1.png",
+        "charm": {
+            "name": "Sliver of Crystalized Ectoplasm",
+            "icon": "icons/items/Resource/CrystalizedEctoplasmT1.png"
+        }
+    },
+    "perkid_ring_maxstamina": {
+        "name": "Hearty",
+        "description": "You have ${5 * perkMultiplier}% more max stamina.",
+        "label": [
+            "Stam"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Unstoppable1.png",
+        "charm": {
+            "name": "Horn",
+            "icon": "icons/items/Resource/HornT1.png"
+        }
+    },
+    "perkid_ring_maxmana": {
+        "name": "Brillant",
+        "description": "You have +${10 * perkMultiplier}% max mana.",
+        "label": [
+            "Mana"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Drop of Quicksilver",
+            "icon": "icons/items/Resource/QuicksilverT1.png"
+        }
+    },
+    "perkid_ring_healing": {
+        "name": "Sacred",
+        "description": "+${3 * perkMultiplier}% Outgoing Healing.",
+        "label": [
+            "Healing"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Health1.png",
+        "charm": {
+            "name": "Sliver of Consecrated Iron",
+            "icon": "icons/items/Resource/ConsecratedIronT1.png"
+        }
+    },
+    "perkid_earring_healthregen": {
+        "name": "Regenerating",
+        "description": "You gain ${0.25 * perkMultiplier}% health every second.",
+        "label": [
+            "Regen"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Health1.png",
+        "charm": {
+            "name": "Draught of Azalea Nectar",
+            "icon": "icons/items/Resource/AzaleaNectarT3.png"
+        }
+    },
+    "perkid_earring_manaregen": {
+        "name": "Focused",
+        "description": "+${25 * perkMultiplier}% mana regen.",
+        "label": [
+            "Regen"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Vial of Azalea Nectar",
+            "icon": "icons/items/Resource/AzaleaNectarT2.png"
+        }
+    },
+    "perkid_earring_staminaregen": {
+        "name": "Nimble",
+        "description": "+${5 * perkMultiplier}% stamina regen.",
+        "label": [
+            "Regen"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Unstoppable1.png",
+        "charm": {
+            "name": "Drop of Azalea Nectar",
+            "icon": "icons/items/Resource/AzaleaNectarT1.png"
+        }
+    },
+    "perkid_earring_threatadd": {
+        "name": "Despised",
+        "description": "You generate ${50 * perkMultiplier}% more threat.",
+        "label": [
+            "Threat"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/LightningDMG1.png",
+        "charm": {
+            "name": "Shard of Thunderstone",
+            "icon": "icons/items/Resource/ThunderstoneT2.png"
+        }
+    },
+    "perkid_earring_threatsub": {
+        "name": "Beloved",
+        "description": "You generate ${15 * perkMultiplier}% less threat. (max 99% from all sources.)",
+        "label": [
+            "Threat"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Gambit1.png",
+        "charm": {
+            "name": "Vial of Withered Essence",
+            "icon": "icons/items/Resource/WitheredEssenceT2.png"
+        }
+    },
+    "perkid_earring_threatsubondodge": {
+        "name": "Evasive",
+        "description": "Reduce the generation of threat by ${50 * perkMultiplier}% for ${5} seconds after performing a dodge.",
+        "label": [
+            "Threat"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Keen1.png",
+        "charm": {
+            "name": "Drop of Withered Essence",
+            "icon": "icons/items/Resource/WitheredEssenceT1.png"
+        }
+    },
+    "perkid_earring_healthonpotion": {
+        "name": "Healthy Toast",
+        "description": "When you drink a mana potion gain ${3 * perkMultiplier}% of your max health.",
+        "label": [
+            "Consume"
+        ],
+        "gsScaling": 0.00424,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Health1.png",
+        "charm": {
+            "name": "Shard of Crystal",
+            "icon": "icons/items/Resource/CrystalT2.png"
+        }
+    },
+    "perkid_earring_manaonpotion": {
+        "name": "Mana Toast",
+        "description": "When you drink a health potion gain ${10 * perkMultiplier} mana.",
+        "label": [
+            "Consume"
+        ],
+        "gsScaling": 0.00424,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Sliver of Crystal",
+            "icon": "icons/items/Resource/CrystalT1.png"
+        }
+    },
+    "perkid_earring_removeonpotion": {
+        "name": "Purifying Toast",
+        "description": "When you drink a regeneration potion lose ${1} debuff.",
+        "label": [
+            "Consume"
+        ],
+        "gsScaling": 0.01636,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/VoidDMG1.png",
+        "charm": {
+            "name": "Chunk of Crystal",
+            "icon": "icons/items/Resource/CrystalT3.png"
+        }
+    },
+    "perkid_earring_gainonpotion": {
+        "name": "Duplicating Toast",
+        "description": "When you drink a potion ${5 * perkMultiplier}% chance it doesn't consume.",
+        "label": [
+            "ConsumeAdd"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/WeaverMastery1.png",
+        "charm": {
+            "name": "Draught of Azoth Oil",
+            "icon": "icons/items/Resource/AzothOilT3.png"
+        }
+    },
+    "perkid_earring_potioncdr": {
+        "name": "Refreshing Toast",
+        "description": "Potions cooldown ${10 * perkMultiplier}% faster.",
+        "label": [
+            "ConsumeCDR"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Sage1.png",
+        "charm": {
+            "name": "High Quality Tallow",
+            "icon": "icons/items/Resource/TallowT3.png"
+        }
+    },
+    "perkid_earring_arcanist": {
+        "name": "Arcanist Mastery",
+        "description": "+${5 * perkMultiplier} Minimum Arcanist Crafted Item Quality.",
+        "label": [
+            "Trade Skill"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/ArcanistMastery1.png",
+        "charm": {
+            "name": "Orichalcum Arcanist's Charm",
+            "icon": "icons/items/Resource/ArcanistCharmT3.png"
+        }
+    },
+    "perkid_earring_armorer": {
+        "name": "Armorer Mastery",
+        "description": "+${5 * perkMultiplier} Minimum Armorer Crafted Item Quality.",
+        "label": [
+            "Trade Skill"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/ArmorerMastery1.png",
+        "charm": {
+            "name": "Orichalcum Armorer's Charm",
+            "icon": "icons/items/Resource/ArmorerCharmT3.png"
+        }
+    },
+    "perkid_earring_cook": {
+        "name": "Cooking Mastery",
+        "description": "+${4 * perkMultiplier}% chance to craft additional items when Cooking.",
+        "label": [
+            "Trade Skill"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/ChefMastery1.png",
+        "charm": {
+            "name": "Orichalcum Chef's Charm",
+            "icon": "icons/items/Resource/ChefCharmT3.png"
+        }
+    },
+    "perkid_earring_engineer": {
+        "name": "Engineer Mastery",
+        "description": "+${5 * perkMultiplier} Minimum Engineer Crafted Item Quality.",
+        "label": [
+            "Trade Skill"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/EngineerMastery1.png",
+        "charm": {
+            "name": "Orichalcum Engineer's Charm",
+            "icon": "icons/items/Resource/EngineerCharmT3.png"
+        }
+    },
+    "perkid_earring_jeweler": {
+        "name": "Jewelcrafter Mastery",
+        "description": "+${5 * perkMultiplier} Minimum Jewelcrafter Crafted Item Quality.",
+        "label": [
+            "Trade Skill"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/JewelcrafterMastery1.png",
+        "charm": {
+            "name": "Orichalcum Jewelcrafters Charm",
+            "icon": "icons/items/Resource/JewelcrafterCharmT3.png"
+        }
+    },
+    "perkid_earring_weaponsmith": {
+        "name": "Weaponsmith Mastery",
+        "description": "+${5 * perkMultiplier} Minimum Weaponsmith Crafted Item Quality.",
+        "label": [
+            "Trade Skill"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Weaponsmithmastery1.png",
+        "charm": {
+            "name": "Orichalcum Weaponsmith's Charm",
+            "icon": "icons/items/Resource/WeaponsmithCharmT3.png"
+        }
+    },
+    "perkid_weapon_threatadd": {
+        "name": "Hated",
+        "description": "You generate ${50 * perkMultiplier}% more threat.",
+        "label": [
+            "Threat"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Gambit1.png",
+        "charm": {
+            "name": "Chunk of Thunderstone",
+            "icon": "icons/items/Resource/ThunderstoneT3.png"
+        }
+    },
+    "perkid_weapon_threatsub": {
+        "name": "Kind",
+        "description": "You generate ${-15 * perkMultiplier}% less threat. (max 99% from all sources.)",
+        "label": [
+            "Threat"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Keen1.png",
+        "charm": {
+            "name": "Draught of Withered Essence",
+            "icon": "icons/items/Resource/WitheredEssenceT3.png"
+        }
+    },
+    "perkid_weapon_dmgcrit": {
+        "name": "Vicious",
+        "description": "+${3 * perkMultiplier}% critical damage.",
+        "label": [
+            "DmgCon",
+            "CritHeadshot"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Critical1.png",
+        "charm": {
+            "name": "Pristine Whetstone",
+            "icon": "icons/items/Resource/WhetstoneT3.png"
+        }
+    },
+    "perkid_weapon_dmgbasic": {
+        "name": "Enchanted",
+        "description": "Light and Heavy attacks deal ${5 * perkMultiplier}% more damage.",
+        "label": [
+            "DmgCon"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Keen1.png",
+        "charm": {
+            "name": "Worn Whetstone",
+            "icon": "icons/items/Resource/WhetstoneT1.png"
+        }
+    },
+    "perkid_weaponmelee_dmgback": {
+        "name": "Rogue",
+        "description": "+${5 * perkMultiplier}% more backstab damage.",
+        "label": [
+            "DmgCon"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Cruel1.png",
+        "charm": {
+            "name": "Whetstone",
+            "icon": "icons/items/Resource/WhetstoneT2.png"
+        }
+    },
+    "perkid_weapon_siege": {
+        "name": "Ruinous",
+        "description": "+${20 * perkMultiplier}% Siege Damage.",
+        "label": [
+            "DmgCon"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Ruinous1.png",
+        "charm": {
+            "name": "Sliver of Thunderstone",
+            "icon": "icons/items/Resource/ThunderstoneT1.png"
+        }
+    },
+    "perkid_weaponlife_healoutgoing": {
+        "name": "Blessed",
+        "description": "+${5 * perkMultiplier}% Healing Bonus.",
+        "label": [
+            "DmgCon"
+        ],
+        "gsScaling": 0.006,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Cleric1.png",
+        "charm": {
+            "name": "Sliver of Crystalized Azoth",
+            "icon": "icons/items/Resource/CrystalizedAzothT1.png"
+        }
+    },
+    "perkid_weapon_cdrbasic": {
+        "name": "Refreshing Move",
+        "description": "Light and Heavy attacks reduce your active weapon cooldowns by ${1 * perkMultiplier}%.",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/VoidDMG1.png",
+        "charm": {
+            "name": "Starmetal Weaponsmith's Charm",
+            "icon": "icons/items/Resource/WeaponsmithCharmT2.png"
+        }
+    },
+    "perkid_weapon_healondmg": {
+        "name": "Lifestealing",
+        "description": "You gain ${1 * perkMultiplier}% of your damage as health. Does not trigger off persistent damage or DoT effects.",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0.008,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/LifeLeech1.png",
+        "charm": {
+            "name": "Draught of Viscous Azoth",
+            "icon": "icons/items/Resource/ViscousAzothT3.png"
+        }
+    },
+    "perkid_weapon_bleedoncrit": {
+        "name": "Keenly Jagged",
+        "description": "On Crit: cause bleed that deals 7% weapon damage per second for ${6}s. (${7}s cooldown.)",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Keen1.png",
+        "charm": {
+            "name": "Pristine Animal Claw",
+            "icon": "icons/items/Resource/ClawT3.png"
+        }
+    },
+    "perkid_weapon_fortifyoncrit": {
+        "name": "Keenly Fortified",
+        "description": "On Critical: gain ${10 * perkMultiplier}% Fortify for ${3}s. (Cooldown ${10}s.)",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Soldier1.png",
+        "charm": {
+            "name": "Callus Mangy Hide",
+            "icon": "icons/items/Resource/MangyHideT3.png"
+        }
+    },
+    "perkid_weapon_empoweroncrit": {
+        "name": "Keenly Empowered",
+        "description": "On Critical: gain ${15 * perkMultiplier}% Empower for ${5}s. (Cooldown ${10}s.)",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Barbarian1.png",
+        "charm": {
+            "name": "Ancient Bear Paw",
+            "icon": "icons/items/Resource/BearPawT3.png"
+        }
+    },
+    "perkid_weapon_hasteoncrit": {
+        "name": "Keen Speed",
+        "description": "On Critical: gain ${20 * perkMultiplier}% Haste ${10}s. (Cooldown ${10}s.)",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Unstoppable1.png",
+        "charm": {
+            "name": "Huge Elk Hoof",
+            "icon": "icons/items/Resource/ElkHoofT3.png"
+        }
+    },
+    "perkid_weapon_manaonhit": {
+        "name": "Siphoning Blow",
+        "description": "You gain ${1 * perkMultiplier}% mana per hit. (cooldown ${2}s). Does not trigger off persistent damage, DoT effects or blocked attacks.",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Vial of Ectoplasm",
+            "icon": "icons/items/Resource/EctoplasmT2.png"
+        }
+    },
+    "perkid_weapon_chainlightning_new": {
+        "name": "Chain Lightning",
+        "description": "Basic attack hits trigger a Lightning chain that bounces between close targets and deals ${15}% weapon damage. (${2}s Cooldown)",
+        "label": [
+            "Elemental",
+            "Lightning"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/LightningDMG1.png",
+        "charm": {
+            "name": "Chunk of Sparkmetal",
+            "icon": "icons/items/Resource/SparkmetalT3.png"
+        }
+    },
+    "perkid_weapon_chainfire": {
+        "name": "Chain Fire",
+        "description": "Basic attack hits trigger a Fire chain that bounces between close targets and deals ${15}% weapon damage. (${2}s Cooldown)",
+        "label": [
+            "Elemental",
+            "Fire"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/FireDMG1.png",
+        "charm": {
+            "name": "Chunk of Niter",
+            "icon": "icons/items/Resource/NiterT3.png"
+        }
+    },
+    "perkid_weapon_chainarcane": {
+        "name": "Chain Arcane",
+        "description": "Basic attack hits trigger an Arcane chain that bounces between close targets and deals ${15}% weapon damage. (${2}s Cooldown)",
+        "label": [
+            "Elemental",
+            "Arcane"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/MagicDMG1.png",
+        "charm": {
+            "name": "Vial of Blessed Water",
+            "icon": "icons/items/Resource/HolyWaterT2.png"
+        }
+    },
+    "perkid_weapon_chainvoid": {
+        "name": "Chain Void",
+        "description": "Basic attack hits trigger a Void chain that bounces between close targets and deals ${15}% weapon damage. (${2}s Cooldown)",
+        "label": [
+            "Elemental",
+            "Void"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/VoidDMG1.png",
+        "charm": {
+            "name": "Draught of Ectoplasm",
+            "icon": "icons/items/Resource/EctoplasmT3.png"
+        }
+    },
+    "perkid_weapon_chainice": {
+        "name": "Chain Ice",
+        "description": "Basic attack hits trigger an Ice chain that bounces between close targets and deals ${15}% weapon damage. (${2}s Cooldown)",
+        "label": [
+            "Elemental",
+            "Ice"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Frozen Fang",
+            "icon": "icons/items/Resource/FrozenFangT3.png"
+        }
+    },
+    "perkid_weapon_chainnature": {
+        "name": "Chain Nature",
+        "description": "Basic attack hits trigger a Nature chain that bounces between close targets and deals ${15}% weapon damage. (${2}s Cooldown)",
+        "label": [
+            "Elemental",
+            "Nature"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Chunk of Enchanted Earth",
+            "icon": "icons/items/Resource/EnchantedEarthT3.png"
+        }
+    },
+    "perkid_weapon_onkillheal": {
+        "name": "Mortal Lifesteal",
+        "description": "When you kill something gain ${3 * perkMultiplier}% health. (${1}s cooldown.)",
+        "label": [
+            "OnKill"
+        ],
+        "gsScaling": 0.00255,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Brash1.png",
+        "charm": {
+            "name": "Chunk of Crystalized Azoth",
+            "icon": "icons/items/Resource/CrystalizedAzothT3.png"
+        }
+    },
+    "perkid_weapon_onkillmana": {
+        "name": "Mortal Siphoning",
+        "description": "When you kill something gain ${3 * perkMultiplier}% Mana. (${1}s cooldown.)",
+        "label": [
+            "OnKill"
+        ],
+        "gsScaling": 0.00483,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Vial of Quicksilver",
+            "icon": "icons/items/Resource/QuicksilverT2.png"
+        }
+    },
+    "perkid_weapon_onkillstamina": {
+        "name": "Mortal Energy",
+        "description": "When you kill something gain ${5 * perkMultiplier} Stamina. (${1}s cooldown.)",
+        "label": [
+            "OnKill"
+        ],
+        "gsScaling": 0.01145,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Unstoppable1.png",
+        "charm": {
+            "name": "Jagged Horn",
+            "icon": "icons/items/Resource/HornT2.png"
+        }
+    },
+    "perkid_weapon_onkillfortify": {
+        "name": "Mortal Fortification",
+        "description": "When you kill something gain ${15}% Fortify for ${10}s. (${1}s cooldown.)",
+        "label": [
+            "OnKill"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Soldier1.png",
+        "charm": {
+            "name": "Worn Mangy Hide",
+            "icon": "icons/items/Resource/MangyHideT2.png"
+        }
+    },
+    "perkid_weapon_onkillempower": {
+        "name": "Mortal Power",
+        "description": "When you kill something gain ${15}% Empowered for ${20}s. (${1}s cooldown.)",
+        "label": [
+            "OnKill"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Barbarian1.png",
+        "charm": {
+            "name": "Massive Bear Paw",
+            "icon": "icons/items/Resource/BearPawT2.png"
+        }
+    },
+    "perkid_weapon_onkillcdr": {
+        "name": "Mortal Refreshment",
+        "description": "When you kill something reduce all cooldowns by ${-10 * perkMultiplier}%. (${1}s cooldown.)",
+        "label": [
+            "OnKill"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Tallow",
+            "icon": "icons/items/Resource/TallowT2.png"
+        }
+    },
+    "perkid_weapon_critchance": {
+        "name": "Keen",
+        "description": "+${3 * perkMultiplier}% critical chance.",
+        "label": [
+            "Critical"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Critical1.png",
+        "charm": {
+            "name": "Jagged Animal Claw",
+            "icon": "icons/items/Resource/ClawT2.png"
+        }
+    },
+    "perkid_weapon_dmgancient": {
+        "name": "Ancient Bane",
+        "description": "+${5 * perkMultiplier}% Damage to Ancients.",
+        "label": [
+            "DmgCategory"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/AncientBane1.png",
+        "charm": {
+            "name": "Tangle of Writhing Briar",
+            "icon": "icons/items/Resource/WrithingBriarT2.png"
+        }
+    },
+    "perkid_weapon_dmgangryearth": {
+        "name": "Angry Earth Bane",
+        "description": "+${5 * perkMultiplier}% Damage to Angry Earth.",
+        "label": [
+            "DmgCategory"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/AngryEarthBane1.png",
+        "charm": {
+            "name": "Chunk of Corrupted Matter",
+            "icon": "icons/items/Resource/CorruptedMatterT3.png"
+        }
+    },
+    "perkid_weapon_dmgbeast": {
+        "name": "Beast Bane",
+        "description": "+${5 * perkMultiplier}% Damage to Beasts.",
+        "label": [
+            "DmgCategory"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/BestialBane1.png",
+        "charm": {
+            "name": "Draught of Wolf Essence",
+            "icon": "icons/items/Resource/WolfEssenceT3.png"
+        }
+    },
+    "perkid_weapon_dmgcorrupted": {
+        "name": "Corrupted Bane",
+        "description": "+${5 * perkMultiplier}% Damage to Corrupted.",
+        "label": [
+            "DmgCategory"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/CorruptedBane1.png",
+        "charm": {
+            "name": "Shard of Baetylus",
+            "icon": "icons/items/Resource/BaetylusT2.png"
+        }
+    },
+    "perkid_weapon_dmglost": {
+        "name": "Lost Bane",
+        "description": "+${5 * perkMultiplier}% Damage to Lost.",
+        "label": [
+            "DmgCategory"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/LostBane1.png",
+        "charm": {
+            "name": "Riveted Orichalcum Mail",
+            "icon": "icons/items/Resource/RivetedMailT3.png"
+        }
+    },
+    "perkid_weaponrng_accuracy": {
+        "name": "Accuracy",
+        "description": "You have +${25 * perkMultiplier}% more accuracy.",
+        "label": [
+            "Accuracy"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Relentless1.png",
+        "charm": {
+            "name": "Low Quality Tallow",
+            "icon": "icons/items/Resource/TallowT1.png"
+        }
+    },
+    "perkid_weaponrng_dmgheatshot": {
+        "name": "Vorpal",
+        "description": "Increase +${5 * perkMultiplier}% headshot damage.",
+        "label": [
+            "Accuracy",
+            "CritHeadshot"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Precise1.png",
+        "charm": {
+            "name": "Chilled Fang",
+            "icon": "icons/items/Resource/FrozenFangT1.png"
+        }
+    },
+    "perkid_weaponmelee_blockingstam": {
+        "name": "Sturdy",
+        "description": "You take ${5 * perkMultiplier}% less stamina damage while blocking.",
+        "label": [
+            "Blocking"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/LightningWard1.png",
+        "charm": {
+            "name": "Shard of Cobalt",
+            "icon": "icons/items/Resource/CobaltT2.png"
+        }
+    },
+    "perkid_weaponmelee_blockingmove": {
+        "name": "Sure Footing",
+        "description": "You move ${20 * perkMultiplier}% faster while blocking.",
+        "label": [
+            "Blocking"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Unstoppable1.png",
+        "charm": {
+            "name": "Starmetal Traveler's Charm",
+            "icon": "icons/items/Resource/TravelersCharmT2.png"
+        }
+    },
+    "perkid_shield_deffire": {
+        "name": "Flame Shield Ward",
+        "description": "You take ${2 * perkMultiplier}% less Fire damage.",
+        "label": [
+            "Defense"
+        ],
+        "gsScaling": 0.00762,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/FireWard1.png",
+        "charm": {
+            "name": "Riveted Steel Mail",
+            "icon": "icons/items/Resource/RivetedMailT1.png"
+        }
+    },
+    "perkid_shield_defice": {
+        "name": "Frozen Shield Ward",
+        "description": "You take ${2 * perkMultiplier}% less Ice damage.",
+        "label": [
+            "Defense"
+        ],
+        "gsScaling": 0.00762,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Riveted Starmetal Mail",
+            "icon": "icons/items/Resource/RivetedMailT2.png"
+        }
+    },
+    "perkid_shield_defnature": {
+        "name": "Nature Shield Ward",
+        "description": "You take ${2 * perkMultiplier}% less Nature damage.",
+        "label": [
+            "Defense"
+        ],
+        "gsScaling": 0.00762,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Drop of Wyrdwood Sap",
+            "icon": "icons/items/Resource/WyrdwoodSapT1.png"
+        }
+    },
+    "perkid_shield_defvoid": {
+        "name": "Void Shield Ward",
+        "description": "You take ${2 * perkMultiplier}% less Void damage.",
+        "label": [
+            "Defense"
+        ],
+        "gsScaling": 0.00762,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/VoidDMG1.png",
+        "charm": {
+            "name": "Faint Corrupted Insignia",
+            "icon": "icons/items/Resource/BountyT8.png"
+        }
+    },
+    "perkid_shield_defthurst": {
+        "name": "Thrust Shield Ward",
+        "description": "You take ${2 * perkMultiplier}% less Thrust damage.",
+        "label": [
+            "Defense"
+        ],
+        "gsScaling": 0.00762,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/ThrustWard1.png",
+        "charm": {
+            "name": "Resin Shavings",
+            "icon": "icons/items/Resource/ResinT1.png"
+        }
+    },
+    "perkid_shield_defslash": {
+        "name": "Slash Shield Ward",
+        "description": "You take ${2 * perkMultiplier}% less Slash damage.",
+        "label": [
+            "Defense"
+        ],
+        "gsScaling": 0.00762,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Slashward1.png",
+        "charm": {
+            "name": "Resin Lump",
+            "icon": "icons/items/Resource/ResinT2.png"
+        }
+    },
+    "perkid_shield_defarcane": {
+        "name": "Arcane Shield Ward",
+        "description": "You take ${2 * perkMultiplier}% less Arcane damage.",
+        "label": [
+            "Defense"
+        ],
+        "gsScaling": 0.00762,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/MagicWard1.png",
+        "charm": {
+            "name": "Vial of Ancient Essence",
+            "icon": "icons/items/Resource/AncientEssenceT2.png"
+        }
+    },
+    "perkid_shield_deflightning": {
+        "name": "Lightning Shield Ward",
+        "description": "You take ${2 * perkMultiplier}% less Lightning damage.",
+        "label": [
+            "Defense"
+        ],
+        "gsScaling": 0.00762,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/LightningWard1.png",
+        "charm": {
+            "name": "Sliver of Sparkmetal",
+            "icon": "icons/items/Resource/SparkmetalT1.png"
+        }
+    },
+    "perkid_shield_defstrike": {
+        "name": "Strike Shield Ward",
+        "description": "You take ${2 * perkMultiplier}% less Strike damage.",
+        "label": [
+            "Defense"
+        ],
+        "gsScaling": 0.00762,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/StrikeWard1.png",
+        "charm": {
+            "name": "Resin Chunk",
+            "icon": "icons/items/Resource/ResinT3.png"
+        }
+    },
+    "perkid_weapon_disease_onlowhp_crit": {
+        "name": "Plagued Crits",
+        "description": "Critical strikes against targets below ${50}% health inflict disease for ${6}s, reducing healing effectiveness on the target by ${10 * perkMultiplier}%.",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0.00273,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/LifeLeech1.png",
+        "charm": {
+            "name": "Drop of Blessed Water",
+            "icon": "icons/items/Resource/HolyWaterT1.png"
+        }
+    },
+    "perkid_weapon_disease_onlowhp_heavy": {
+        "name": "Plagued Strikes",
+        "description": "Heavy attacks against targets inflict disease for ${8}s, reducing healing effectiveness on the target by ${10 * perkMultiplier}%.",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0.00273,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/LifeLeech1.png",
+        "charm": {
+            "name": "Draught of Blessed Water",
+            "icon": "icons/items/Resource/HolyWaterT3.png"
+        }
+    },
+    "perkid_weapon_dmgagainstgrit": {
+        "name": "Thwarting Counter",
+        "description": "Deal ${5 * perkMultiplier}% additional damage against targets with active grit.",
+        "label": [
+            "DmgCon"
+        ],
+        "gsScaling": 0.00582,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Ruinous1.png",
+        "charm": {
+            "name": "Sliver of Ironwood Resin",
+            "icon": "icons/items/Resource/IronwoodResinT1.png"
+        }
+    },
+    "perkid_weapon_dmgwithgrit": {
+        "name": "Thwarting Strikes",
+        "description": "Deal ${3 * perkMultiplier}% additional damage while you have active grit.",
+        "label": [
+            "DmgCon"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Ruinous1.png",
+        "charm": {
+            "name": "Drop of Ironwood Sap",
+            "icon": "icons/items/Resource/IronwoodSapT1.png"
+        }
+    },
+    "perkid_weapon_melee_chargedheavy_dmg": {
+        "name": "Trenchant Strikes",
+        "description": "Fully charged heavy attacks deal ${3 * perkMultiplier}% additional damage.",
+        "label": [
+            "DmgCon"
+        ],
+        "gsScaling": 0.01091,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Barbarian1.png",
+        "charm": {
+            "name": "Small Boar Hoof",
+            "icon": "icons/items/Resource/BoarHoofT1.png"
+        }
+    },
+    "perkid_weapon_melee_chargedheavy_crit": {
+        "name": "Trenchant Crits",
+        "description": "Fully charged heavy attacks deal ${5 * perkMultiplier}% additional Crit damage.",
+        "label": [
+            "DmgCon"
+        ],
+        "gsScaling": 0.00964,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Barbarian1.png",
+        "charm": {
+            "name": "Huge Traveler's Stone",
+            "icon": "icons/items/Resource/TravelersStoneT3.png"
+        }
+    },
+    "perkid_weapon_melee_chargedheavy_rend": {
+        "name": "Trenchant Rend",
+        "description": "Fully charged heavy attacks inflict rend for ${7}s, reducing target's damage absorption by ${4 * perkMultiplier}%. (${12}s cooldown)",
+        "label": [
+            "DmgCon"
+        ],
+        "gsScaling": 0.005,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Barbarian1.png",
+        "charm": {
+            "name": "Boar Tusk",
+            "icon": "icons/items/Resource/BoarTuskT1.png"
+        }
+    },
+    "perkid_weapon_melee_chargedheavy_heal": {
+        "name": "Trenchant Recovery",
+        "description": "Fully charged heavy attacks heal the player for ${10 * perkMultiplier}% of the damage dealt.",
+        "label": [
+            "DmgCon"
+        ],
+        "gsScaling": 0.00582,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Barbarian1.png",
+        "charm": {
+            "name": "Drop of Wolf Essence",
+            "icon": "icons/items/Resource/WolfEssenceT1.png"
+        }
+    },
+    "perkid_armor_rangedefense_physical": {
+        "name": "Physical Aversion",
+        "description": "You take ${2 * perkMultiplier}% less damage from ranged physical attacks.",
+        "label": [
+            "DmgAbsorb"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/PhysicalWard1.png",
+        "charm": {
+            "name": "Armor Scraps",
+            "icon": "icons/items/Resource/ArmorScrapsT2.png"
+        }
+    },
+    "perkid_armor_rangedefense_elemental": {
+        "name": "Elemental Aversion",
+        "description": "You take ${2 * perkMultiplier}% less damage from ranged elemental attacks.",
+        "label": [
+            "DmgAbsorb"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/ElementalWard1.png",
+        "charm": {
+            "name": "Armor Fragments",
+            "icon": "icons/items/Resource/ArmorScrapsT3.png"
+        }
+    },
+    "perkid_weapon_dodgesuccess_firedmg": {
+        "name": "Shirking Flames",
+        "description": "Dodging through an enemy attack causes your next hit within ${6}s to deal an additional ${5 * perkMultiplier}% base weapon damage as Fire.",
+        "label": [
+            "Elemental",
+            "Fire"
+        ],
+        "gsScaling": 0.01349,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/FireDMG1.png",
+        "charm": {
+            "name": "Ash Resin",
+            "icon": "icons/items/Resource/AshResinT1.png"
+        }
+    },
+    "perkid_weapon_dodgesuccess_naturedmg": {
+        "name": "Shirking Nature",
+        "description": "Dodging through an enemy attack causes your next hit within ${6}s to deal an additional ${5 * perkMultiplier}% base weapon damage as Nature.",
+        "label": [
+            "Elemental",
+            "Nature"
+        ],
+        "gsScaling": 0.01349,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/NatureBane1.png",
+        "charm": {
+            "name": "Evergreen Resin",
+            "icon": "icons/items/Resource/EvergreenResinT1.png"
+        }
+    },
+    "perkid_weapon_dodgesuccess_icedmg": {
+        "name": "Shirking Frost",
+        "description": "Dodging through an enemy attack causes your next hit within ${6}s to deal an additional ${5 * perkMultiplier}% base weapon damage as Ice.",
+        "label": [
+            "Elemental",
+            "Ice"
+        ],
+        "gsScaling": 0.01349,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/iceMagic_Perk4.png",
+        "charm": {
+            "name": "Glacier Resin",
+            "icon": "icons/items/Resource/GlacierResinT1.png"
+        }
+    },
+    "perkid_weapon_dodgesuccess_lightningdmg": {
+        "name": "Shirking Lightning",
+        "description": "Dodging through an enemy attack causes your next hit within ${6}s to deal an additional ${5 * perkMultiplier}% base weapon damage as Lightning.",
+        "label": [
+            "Elemental",
+            "Lightning"
+        ],
+        "gsScaling": 0.01349,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/LightningDMG1.png",
+        "charm": {
+            "name": "Fulgurite Resin",
+            "icon": "icons/items/Resource/FulguriteResinT1.png"
+        }
+    },
+    "perkid_weapon_dodgesuccess_voiddmg": {
+        "name": "Shirking Abyss",
+        "description": "Dodging through an enemy attack causes your next hit within ${6}s to deal an additional ${5 * perkMultiplier}% base weapon damage as Void.",
+        "label": [
+            "Elemental",
+            "Void"
+        ],
+        "gsScaling": 0.01349,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/VoidDMG1.png",
+        "charm": {
+            "name": "Reaper Resin",
+            "icon": "icons/items/Resource/ReaperResinT1.png"
+        }
+    },
+    "perkid_weapon_dodgesuccess_arcanedmg": {
+        "name": "Shirking Arcane",
+        "description": "Dodging through an enemy attack causes your next hit within ${6}s to deal an additional ${5 * perkMultiplier}% base weapon damage as Arcane.",
+        "label": [
+            "Elemental",
+            "Arcane"
+        ],
+        "gsScaling": 0.01349,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/MagicDMG1.png",
+        "charm": {
+            "name": "Crystalline Resin",
+            "icon": "icons/items/Resource/CrystallineResinT1.png"
+        }
+    },
+    "perkid_amulet_dodgesuccess_cleansedot": {
+        "name": "Shirking DoT Cleanse",
+        "description": "Dodging through an enemy attack while in a light equip load causes you to lose 1 DoT (Bleed, Burn, Poison) debuff. (Can only trigger once every ${5} seconds.)",
+        "label": [
+            "DebuffDur"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Sage1.png",
+        "charm": {
+            "name": "Thrashing Vines",
+            "icon": "icons/items/Resource/WrithingVinesT3.png"
+        }
+    },
+    "perkid_amulet_dodgesuccess_cleansedebilitate": {
+        "name": "Shirking Debilitate Cleanse",
+        "description": "Dodging through an enemy attack while in a medium equip load causes you to lose 1 Debilitate (Rend, Weaken, Exhaust, Disease) debuff. (Can only trigger once every ${5} seconds.)",
+        "label": [
+            "DebuffDur"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Sage1.png",
+        "charm": {
+            "name": "Writhing Vines",
+            "icon": "icons/items/Resource/WrithingVinesT2.png"
+        }
+    },
+    "perkid_armor_dodgesuccess_fortify": {
+        "name": "Shirking Fortification",
+        "description": "Dodging through an enemy attack grants fortify, increasing damage absorption by ${2 * perkMultiplier}% for ${6}s. Each armor piece with this perk increases the potency of the effect.",
+        "label": [
+            "DmgAbsorb"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Soldier1.png",
+        "charm": {
+            "name": "Squirming Vines",
+            "icon": "icons/items/Resource/WrithingVinesT1.png"
+        }
+    },
+    "perkid_head_oncrittaken_critchance": {
+        "name": "Critical Retribution",
+        "description": "On Crit taken, gain ${3 * perkMultiplier}% increased crit chance for ${7}s (${20}s Cooldown)",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0.00424,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Critical1.png",
+        "charm": {
+            "name": "Draught of Wyrdwood Sap",
+            "icon": "icons/items/Resource/WyrdwoodSapT3.png"
+        }
+    },
+    "perkid_chest_onblockedhittaken_staminaregen": {
+        "name": "Sturdy Energy",
+        "description": "When blocking a hit while below ${30}% stamina, gain ${20 * perkMultiplier}% increased stamina regen for ${6}s. (Effect is removed if player becomes exhausted)",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/DebilitatingBlockBreaker1.png",
+        "charm": {
+            "name": "Starmetal Armorer's Charm",
+            "icon": "icons/items/Resource/ArmorerCharmT2.png"
+        }
+    },
+    "perkid_hands_onblockedhit_empowerstack": {
+        "name": "Empowering Breaker",
+        "description": "When your attacks are blocked, gain a stack of empower, increasing damage by ${2 * perkMultiplier}% for ${5}s (${5} stacks Max)",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0.00182,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/ElementalWard1.png",
+        "charm": {
+            "name": "Huge Wolf Paw",
+            "icon": "icons/items/Resource/WolfPawT3.png"
+        }
+    },
+    "perkid_legs_dodgesuccess_stamina": {
+        "name": "Shirking Energy",
+        "description": "If a hit is avoided by dodging while in a light equip load, gain ${10 * perkMultiplier} stamina (${6}s cooldown)",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0.00364,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Unstoppable1.png",
+        "charm": {
+            "name": "Large Traveler's Stone",
+            "icon": "icons/items/Resource/TravelersStoneT2.png"
+        }
+    },
+    "perkid_tools_gatherproc_regen": {
+        "name": "Gathering Recovery",
+        "description": "While not in combat, After gathering from a node, heal for ${50 * perkMultiplier} HP per second for ${5}. (Removed if any damage is taken)",
+        "label": [
+            "GatherProc"
+        ],
+        "gsScaling": 0.00545,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Mana1.png",
+        "charm": {
+            "name": "Vial of Wyrdwood Sap",
+            "icon": "icons/items/Resource/WyrdwoodSapT2.png"
+        }
+    },
+    "perkid_weapon_attunement_fire": {
+        "name": "Flame Attunement",
+        "description": "Attacks deal an additional ${18}% weapon damage as Fire. Does not trigger off persistent damage or DoT effects. (cooldown ${1}s)",
+        "label": [
+            "Elemental"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/FireDMG1.png",
+        "charm": {
+            "name": "Smoldering Weapon Shard",
+            "icon": "icons/items/Resource/SmolderingWeaponShardT5.png"
+        }
+    },
+    "perkid_weapon_attunement_ice": {
+        "name": "Frost Attunement",
+        "description": "Attacks deal an additional ${18}% weapon damage as Ice. Does not trigger off persistent damage or DoT effects. (cooldown ${1}s)",
+        "label": [
+            "Elemental"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/iceMagic_Perk4.png",
+        "charm": {
+            "name": "Frozen Weapon Shard",
+            "icon": "icons/items/Resource/FrozenWeaponShardT5.png"
+        }
+    },
+    "perkid_weapon_attunement_nature": {
+        "name": "Arboreal Attunement",
+        "description": "Attacks deal an additional ${18}% weapon damage as Nature. Does not trigger off persistent damage or DoT effects. (cooldown ${1}s)",
+        "label": [
+            "Elemental"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/NatureBane1.png",
+        "charm": {
+            "name": "Evergreen Weapon Shard",
+            "icon": "icons/items/Resource/EvergreenWeaponShardT5.png"
+        }
+    },
+    "perkid_weapon_attunement_void": {
+        "name": "Abyssal Attunement",
+        "description": "Attacks deal an additional ${18}% weapon damage as Void. Does not trigger off persistent damage or DoT effects. (cooldown ${1}s)",
+        "label": [
+            "Elemental"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/VoidDmg1.png",
+        "charm": {
+            "name": "Hollow Weapon Shard",
+            "icon": "icons/items/Resource/HollowWeaponShardT5.png"
+        }
+    },
+    "perkid_armor_conditioning_fire": {
+        "name": "Flame Conditioning",
+        "description": "After being hit with Fire DMG, gain ${4}% Fire absorption ${5}s. Each armor piece with this perk increases the potency of the effect.",
+        "label": [
+            "Elemental"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/FireDMG1.png",
+        "charm": {
+            "name": "Smoldering Armor Shard",
+            "icon": "icons/items/Resource/SmolderingArmorShardT5.png"
+        }
+    },
+    "perkid_armor_conditioning_ice": {
+        "name": "Frost Conditioning",
+        "description": "After being hit with Ice DMG, gain ${4}% Ice absorption for ${5}s. Each armor piece with this perk increases the potency of the effect.",
+        "label": [
+            "Elemental"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/iceMagic_Perk4.png",
+        "charm": {
+            "name": "Frozen Armor Shard",
+            "icon": "icons/items/Resource/FrozenArmorShardT5.png"
+        }
+    },
+    "perkid_armor_conditioning_nature": {
+        "name": "Arboreal Conditioning",
+        "description": "After being hit with Nature DMG, gain ${4}% Nature absorption for ${5}s. Each armor piece with this perk increases the potency of the effect.",
+        "label": [
+            "Elemental"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/NatureBane1.png",
+        "charm": {
+            "name": "Evergreen Armor Shard",
+            "icon": "icons/items/Resource/EvergreenArmorShardT5.png"
+        }
+    },
+    "perkid_armor_conditioning_void": {
+        "name": "Abyssal Conditioning",
+        "description": "After being hit with Void DMG, gain ${4}% Void absorption for ${5}s. Each armor piece with this perk increases the potency of the effect.",
+        "label": [
+            "Elemental"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/VoidDmg1.png",
+        "charm": {
+            "name": "Hollow Armor Shard",
+            "icon": "icons/items/Resource/HollowArmorShardT5.png"
+        }
+    },
+    "perkid_pvp_weapon_armorpenetration_onbackstab": {
+        "name": "Penetrating Backstab",
+        "description": "PvP Only: Backstabs penetrate ${27}% of a player's armor.",
+        "label": [
+            "DmgCon"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/SkinnerMastery1.png",
+        "charm": {
+            "name": "Tonic of Judah",
+            "icon": "icons/items/Resource/MedicineT2.png"
+        }
+    },
+    "perkid_pvp_weapon_armorpenetration_onheadshot": {
+        "name": "Penetrating Headshot",
+        "description": "PvP Only: Headshots penetrate ${22}% of a player's armor.",
+        "label": [
+            "DmgCon"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Sundering1.png",
+        "charm": {
+            "name": "Tonic of Nehemiah",
+            "icon": "icons/items/Resource/MedicineT3.png"
+        }
+    },
+    "perkid_pvp_weapon_blockbreak_rend": {
+        "name": "Fractured Rend",
+        "description": "PvP Only: When block breaking a player, inflict rend, reducing damage absorption by ${12}% for ${4}s.",
+        "label": [
+            "Blocking"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/StrikeWard1.png",
+        "charm": {
+            "name": "Ruby Tonic",
+            "icon": "icons/items/Resource/CatalystT1.png"
+        }
+    },
+    "perkid_pvp_weapon_cleansebuff_crits": {
+        "name": "Purifying Crits",
+        "description": "PvP Only: Critical hits against players remove ${1} buff from the target. (Cooldown ${10}s)",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Precise1.png",
+        "charm": {
+            "name": "Tonic of Levi",
+            "icon": "icons/items/Resource/Drink2T4.png"
+        }
+    },
+    "perkid_pvp_weapon_exhaustedtarget_slow": {
+        "name": "Exhausted Exploitation",
+        "description": "PvP Only: Hits against Exhausted players inflict Slow, reducing movement speed by ${15}% for ${4} seconds.",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Rally1.png",
+        "charm": {
+            "name": "Astra Tonic",
+            "icon": "icons/items/Resource/DrinkCarafeT1.png"
+        }
+    },
+    "perkid_pvp_weaponmagic_dmgtohaste": {
+        "name": "Alacritous Punishment",
+        "description": "PvP Only: Deal ${8}% additional damage to players with Haste.",
+        "label": [
+            "DmgCon"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Unstoppable1.png",
+        "charm": {
+            "name": "Tonic of Minerva",
+            "icon": "icons/items/Resource/GlassVialT2.png"
+        }
+    },
+    "perkid_pvp_shield_fortifystackonblock": {
+        "name": "Sturdy Fortification",
+        "description": "PvP Only: Blocking player attacks adds a stack of ${4}% fortify for ${5}s on self for each blocked hit (Max ${5} stacks)",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Soldier1.png",
+        "charm": {
+            "name": "Brown Tonic",
+            "icon": "icons/items/Resource/GlassVialT3.png"
+        }
+    },
+    "perkid_pvp_armor_dodgesuccess_heal": {
+        "name": "Shirking Heals",
+        "description": "PvP Only: Successfully dodging an attack heals ${100} health + ${1}% of your max HP. (Each armor piece with this perk adds a stack. Can only trigger once every 5s)",
+        "label": [
+            "ArmorHealth"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Health1.png",
+        "charm": {
+            "name": "Tonic of Tyrannis",
+            "icon": "icons/items/Resource/GlassVialT4.png"
+        }
+    },
+    "perkid_pvp_armor_siegedamagereduction": {
+        "name": "Siege Ward",
+        "description": "PvP Only: Receive ${6}% less damage from Siege weapons.",
+        "label": [
+            "DmgAbsorb"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Ruinous1.png",
+        "charm": {
+            "name": "Tonic of Issachar",
+            "icon": "icons/items/Resource/GlassVialT5.png"
+        }
+    },
+    "perkid_pvp_ring_onkill_empowerstack": {
+        "name": "Mortal Empowerment",
+        "description": "PvP Only: Player kills grant a persistent ${2}% damage bonus that lasts until downed, death, or game mode transitions. Duration refreshes on re-application. (Stacks up to ${15} times. This effect can not be cleansed)",
+        "label": [
+            "DmgCon"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/Monk1.png",
+        "charm": {
+            "name": "Carthago Tonic",
+            "icon": "icons/items/Resource/SnailSlimeT1.png"
+        }
+    },
+    "perkid_pvp_ring_dmgpertargetbuff": {
+        "name": "Invigorated Punishment",
+        "description": "PvP Only: Abilities deal ${2}% bonus damage per buff on a player. (Max ${8} buffs)",
+        "label": [
+            "DmgCon"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/SpiritBane1.png",
+        "charm": {
+            "name": "Zebulun's Charm",
+            "icon": "icons/items/Resource/FurnisherCharmT1.png"
+        }
+    },
+    "perkid_pvp_amulet_dodgesuccess_dmg": {
+        "name": "Shirking Empower",
+        "description": "PvP Only: After successfully dodging an attack obtain Empower, increasing damage dealt by ${4}% for ${10}s. Duration refreshes when new stack is applied. (stacks ${4} times)",
+        "label": [
+            "Proc"
+        ],
+        "gsScaling": 0,
+        "itemClassBonuses": [],
+        "icon": "Icons/Perks/SurefootedEvasiveShot1.png",
+        "charm": {
+            "name": "Superos Charm",
+            "icon": "icons/items/Resource/FurnisherCharmT3.png"
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "Helmet": {
+        "icon": "icons/items/helm.png"
+    },
+    "Chest": {
+        "icon": "icons/items/chestplate.png"
+    },
+    "Gloves": {
+        "icon": "icons/items/gauntlets.png"
+    },
+    "Pants": {
+        "icon": "icons/items/greaves.png"
+    },
+    "Shoes": {
+        "icon": "icons/items/boots.png"
+    },
+    "Hatchet": {
+        "icon": "icons/items/hatchet.png"
+    },
+    "War Hammer": {
+        "icon": "icons/items/warhammer.png"
+    },
+    "Musket": {
+        "icon": "icons/items/musket.png"
+    },
+    "Spear": {
+        "icon": "icons/items/spear.png"
+    },
+    "Bow": {
+        "icon": "icons/items/bow.png"
+    },
+    "Rapier": {
+        "icon": "icons/items/rapier.png"
+    },
+    "Life Staff": {
+        "icon": "icons/items/lifestaff.png"
+    },
+    "Fire Staff": {
+        "icon": "icons/items/firestaff.png"
+    },
+    "Sword": {
+        "icon": "icons/items/sword.png"
+    },
+    "Great Axe": {
+        "icon": "icons/items/greataxe.png"
+    },
+    "Ice Gauntlet": {
+        "icon": "icons/items/icegauntlet.png"
+    },
+    "Void Gauntlet": {
+        "icon": "icons/items/voidgauntlet.png"
+    },
+    "Blunderbuss": {
+        "icon": "icons/items/blunderbuss.png"
+    },
+    "Ring": {
+        "icon": "icons/items/ring.png"
+    },
+    "Amulet": {
+        "icon": "icons/items/amulet.png"
+    },
+    "Earring": {
+        "icon": "icons/items/earring.png"
+    },
+    "Kite Shield": {
+        "icon": "icons/items/kiteshield.png"
+    },
+    "Tower Shield": {
+        "icon": "icons/items/towershield.png"
+    },
+    "Round Shield": {
+        "icon": "icons/items/roundshield.png"
+    }
+}
