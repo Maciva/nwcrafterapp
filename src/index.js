@@ -9,19 +9,24 @@ const theme = createTheme({
     palette: {
         mode: 'dark',
         primary: {
-            main: '#1f1f1f',
+            main: '#182f61',
             lighter: '#121212'
         },
+        secondary: {
+            main: '#EEEEEE'
+        },
+        rarity: {
+            epic: '#ff16f7',
+            legendary: '#f7a22d'
+        }
     }
 })
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-    <React.StrictMode>
-        <ThemeProvider theme={theme} >
-            <CssBaseline enableColorScheme />
-            <App />
-        </ThemeProvider>
-    </React.StrictMode>
+    <ThemeProvider theme={theme} >
+        <CssBaseline enableColorScheme />
+        <App />
+    </ThemeProvider>
 );

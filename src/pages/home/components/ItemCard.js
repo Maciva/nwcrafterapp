@@ -1,4 +1,4 @@
-import { Button, Card, CardActionArea, CardHeader, CardMedia } from "@mui/material";
+import { Card, CardActionArea, CardHeader, CardMedia } from "@mui/material";
 import React from "react";
 
 function ItemCard(props) {
