@@ -12,7 +12,7 @@ import Calculator from './pages/calculator/Calculator';
 import ScrollToTop from './utils/components/ScrollToTop';
 import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
-import logoNoText from './res/logoNoText.png'
+import logoToolbar from './res/logoToolbar.png'
 
 function App() {
     return (
@@ -24,8 +24,7 @@ function App() {
                             <Toolbar>
                                 <Link to="/" style={{ color: 'inherit', textDecoration: 'inherit' }} >
                                     <div style={{ display: "flex" }} >
-                                        <img style={{ height: '2em', marginRight: '1em' }} src={logoNoText} alt='Aeternum Craft' />
-                                        <Typography variant="h4"> Aeternum Craft </Typography>
+                                        <img style={{ height: '2em', marginRight: '1em' }} src={logoToolbar} alt='Aeternum Craft' />
                                     </div>
                                 </Link>
                             </Toolbar>
