@@ -4241,7 +4241,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/perks/VoidDmg1.png",
+        "icon": "icons/perks/VoidDMG1.png",
         "charm": {
             "name": "Hollow Weapon Shard",
             "icon": "icons/items/Resource/HollowWeaponShardT5.png"
@@ -4305,7 +4305,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/perks/VoidDmg1.png",
+        "icon": "icons/perks/VoidDMG1.png",
         "charm": {
             "name": "Hollow Armor Shard",
             "icon": "icons/items/Resource/HollowArmorShardT5.png"
