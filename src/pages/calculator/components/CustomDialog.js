@@ -19,7 +19,7 @@ export default function CustomDialog(props) {
         }} fullWidth maxWidth={'lg'} onClose={handleClose} open={open}  >
             <Paper elevation={4} style={{ padding: '1em' }} >
                 <DialogTitle> Select a Perk </DialogTitle>
-                <PerkSelector onSelect={handleSelect} itemClass={itemClass} selectedPerks={[[], [], []]} />
+                <PerkSelector charmPerks onSelect={handleSelect} itemClass={itemClass} selectedPerks={[[], [], []]} />
             </Paper>
         </Dialog>
     )
