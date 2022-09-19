@@ -1,4 +1,4 @@
-import { Grid, IconButton, Tooltip, Typography } from "@mui/material";
+import { Grid, IconButton, Typography } from "@mui/material";
 import React from "react";
 import { useDrag } from "react-dnd";
 import { ItemTypes } from "../../../utils/ItemTypes";

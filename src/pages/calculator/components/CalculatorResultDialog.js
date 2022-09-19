@@ -1,4 +1,4 @@
-import { Dialog, DialogTitle, InputAdornment, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TextField } from "@mui/material";
+import { Dialog, DialogTitle, InputAdornment, Paper, Table, TableBody, TableCell, TableContainer, TableRow, TextField } from "@mui/material";
 import React from "react";
 
 export default function CalculatorResultDialog(props) {

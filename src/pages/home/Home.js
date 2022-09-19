@@ -17,7 +17,7 @@ function Home() {
                         justifyContent: 'center',
                     }}
                 >
-                    <img src={logo} style={{ height: '10em' }} />
+                    <img src={logo} alt='Logo' style={{ height: '10em' }} />
 
                 </div>
                 <Grid style={{ padding: '2em' }} container spacing={4} >
