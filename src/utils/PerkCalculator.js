@@ -13,14 +13,16 @@ export default class PerkCalculator {
     }
 
     calculateMostEfficientCharm = (selectedPerks) => {
-        const perkCopy = JSON.parse(JSON.stringify(selectedPerks));
-        const flatenedPerks = perkCopy.flat()
         const result = [];
-        flatenedPerks.forEach(perk => {
-            perk.charm = true;
-            const prob = this.calculate(perkCopy);
-            result.push({probability: prob, perk: perk})
-            perk.charm = false;
+        selectedPerks.forEach((perkBucket, i) => {
+            perkBucket.forEach((perk, j) => {
+                const perksCopy = JSON.parse(JSON.stringify(selectedPerks));
+                const perkCopy = perksCopy[i][j]
+                perkCopy.charm = true;
+                perksCopy[i] = [perkCopy];
+                const prob = this.calculate(perksCopy);
+                result.push({probability: prob, perk: perk})
+            } )
         })
         return result;
     }
@@ -33,6 +35,7 @@ export default class PerkCalculator {
         const allPermutations = utils.permutator(labelValues);
         const withCharm = labelValues.flat().some(label => label.charm)
         allPermutations.forEach(permutation => {
+            // only allow permutations, where the charm is in first perk slot
             if (withCharm && permutation[0].some(label => !label.charm)) {
                 return;
             }

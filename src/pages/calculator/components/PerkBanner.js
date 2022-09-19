@@ -8,7 +8,7 @@ function PerkBanner(props) {
 
     const [tooltipOpen, setTooltipOpen] = React.useState(false);
 
-    const { perk, draggable, onSelect } = props;
+    const { perk, draggable, onSelect, disabled } = props;
 
     const getItemClassBonusGs = () => {
         for (let element in perk.itemClassBonuses) {
@@ -42,11 +42,11 @@ function PerkBanner(props) {
         const charmSrc = `${process.env.PUBLIC_URL}/res/${perk.charm.icon}`;
         return (
             <div
-                ref={draggable ? drag : undefined}
+                ref={draggable && !disabled ? drag : undefined}
                 style={{
                     backgroundColor: '#151714',
-                    opacity: isDragging ? 0.5 : 1,
-                    cursor: draggable ? 'grab' : 'auto'
+                    opacity: isDragging || disabled ? 0.5 : 1,
+                    cursor: draggable && !disabled ? 'grab' : 'auto'
                 }}
             >
                 <Grid
@@ -140,7 +140,15 @@ function PerkBanner(props) {
 
     }
 
-    return renderContent();
+    return (<>
+        {
+            !disabled ? renderContent() : (
+                <Tooltip title={<h3>This perk can not be rolled and therefor not be selected. If you want to craft an item with this perk chose "Add Perk With Charm" instead.</h3>} >
+                    {renderContent()}
+                </Tooltip>
+            )
+        }
+    </>)
 
 }
 
