@@ -19,9 +19,6 @@ function PerkSelector(props) {
     const generatePerks = () => {
         let perksToFilter = perkBuckets[itemClass].inPool;
         perksToFilter = perksToFilter.concat(perkBuckets[itemClass].onlyWithCharm);
-        if (charmPerks) {
-            
-        }
         return perksToFilter.map(perkId => {
             const result = perkMap[perkId]
             return result;
@@ -166,7 +163,7 @@ function PerkSelector(props) {
                     {filteredPerks.map((perk, index) => {
                         return (
                             <Grid key={perk.perkId} xs={4} item >
-                                <PerkBanner disabled={!perk.weight} onSelect={onSelect} draggable={draggable} perk={perk} gs={625} />
+                                <PerkBanner disabled={!charmPerks && !perk.weight} onSelect={onSelect} draggable={draggable} perk={perk} gs={625} />
                             </Grid>
                         )
                     }
