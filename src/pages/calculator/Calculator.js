@@ -1,7 +1,8 @@
-import { Button, Grid, MenuItem, Paper, TextField } from "@mui/material";
+import { ArrowBack } from "@mui/icons-material";
+import { Button, Grid, IconButton, MenuItem, Paper, TextField } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import PerkCalculator from "../../utils/PerkCalculator";
 import CalculatorResultDialog from "./components/CalculatorResultDialog";
 import CharmDialog from "./components/CharmDialog";
@@ -25,6 +26,7 @@ function Calculator() {
     const [openCharmResult, setOpenCharmResult] = React.useState(false);
     const [charmResult, setCharmResult] = React.useState([]);
 
+    const navigate = useNavigate();
 
     React.useEffect(() => {
         if (rarity === "legendary" && selectedPerks.length !== 3) {
@@ -95,6 +97,9 @@ function Calculator() {
                 <CalculatorResultDialog handleClose={() => setOpenResult(false)} open={openResult} result={calculatorResult} />
                 <CustomDialog handleClose={() => setOpen(false)} open={open} handleSelect={handleSelect} itemClass={params.itemClass} />
                 <Container maxWidth="lg">
+                    <IconButton onClick={() => navigate(-1) } style={{margin: '0.2em'}} >
+                        <ArrowBack fontSize="large" />
+                    </IconButton>
                     <Paper style={{ padding: '2em' }} elevation={4} >
                         <Grid spacing={6} direction="column" container >
                             <Grid item xs={12} >

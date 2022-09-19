@@ -33,7 +33,7 @@ function App() {
                     </AppBar>
                     <Box sx={{
                         bgcolor: 'background.paper',
-                        pt: 8,
+                        pt: 2,
                         pb: 6,
                     }}>
                         <Container maxWidth="lg">
