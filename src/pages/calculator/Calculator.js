@@ -3,6 +3,8 @@ import { Container } from "@mui/system";
 import React from "react";
 import { useParams } from "react-router-dom";
 import PerkCalculator from "../../utils/PerkCalculator";
+import CalculatorResultDialog from "./components/CalculatorResultDialog";
+import CharmDialog from "./components/CharmDialog";
 import CustomDialog from "./components/CustomDialog";
 import ItemBanner from "./components/ItemBanner";
 import PerkContainerAll from "./components/PerkContainer/PerkContainerAll";
@@ -12,10 +14,16 @@ function Calculator() {
 
     let params = useParams();
     let perkCalculator = React.useRef(new PerkCalculator(params.itemClass), []);
-    
+
     const [rarity, setRarity] = React.useState("legendary")
     const [selectedPerks, setSelectedPerks] = React.useState([[], [], []])
     const [open, setOpen] = React.useState(false);
+
+    const [openResult, setOpenResult] = React.useState(false);
+    const [calculatorResult, setCalculatorResult] = React.useState(0);
+
+    const [openCharmResult, setOpenCharmResult] = React.useState(false);
+    const [charmResult, setCharmResult] = React.useState([]);
 
 
     React.useEffect(() => {
@@ -33,8 +41,6 @@ function Calculator() {
             })
         }
     }, [rarity])
-
-
 
     const handleDrop = (index, item) => {
         if (item.fromContainerId === index) {
@@ -72,9 +78,21 @@ function Calculator() {
         setOpen(true);
     }
 
+    const openCalculateResult = (result) => {
+        setOpenResult(true);
+        setCalculatorResult(result);
+    }
+
+    const openCalculateMostEfficientCharm = (result) => {
+        setOpenCharmResult(true);
+        setCharmResult(result);
+    }
+
     const renderContent = () => {
         return (
             <>
+                <CharmDialog handleClose={() => setOpenCharmResult(false)} open={openCharmResult} result={charmResult} />
+                <CalculatorResultDialog handleClose={() => setOpenResult(false)} open={openResult} result={calculatorResult} />
                 <CustomDialog handleClose={() => setOpen(false)} open={open} handleSelect={handleSelect} itemClass={params.itemClass} />
                 <Container maxWidth="lg">
                     <Paper style={{ padding: '2em' }} elevation={4} >
@@ -94,7 +112,7 @@ function Calculator() {
                                         <Grid item xs={4} container justifyContent="space-between" direction="column"  >
                                             <Grid item >
                                                 <Button
-                                                    onClick={() => perkCalculator.current.calculate(selectedPerks)}
+                                                    onClick={() => openCalculateResult(perkCalculator.current.calculate(selectedPerks))}
                                                     disabled={!selectedPerks.flat().length}
                                                     color="secondary"
                                                     style={{ minHeight: '4em' }}
@@ -109,7 +127,10 @@ function Calculator() {
                                                     disabled={!selectedPerks.flat().length ||
                                                         selectedPerks.flat().some(perk => perk.charm)}
                                                     color="secondary"
-                                                    style={{ minHeight: '4em' }} fullWidth variant="outlined" >
+                                                    style={{ minHeight: '4em' }} fullWidth variant="outlined"
+                                                    onClick={() => openCalculateMostEfficientCharm(perkCalculator.current.calculateMostEfficientCharm(selectedPerks))}
+                                                        
+                                                >
                                                     Calculate most efficient charm
                                                 </Button>
 

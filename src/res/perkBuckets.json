@@ -88,6 +88,7 @@
             "perkid_armor_defbeast",
             "perkid_armor_defcorrupted",
             "perkid_armor_deflost",
+            "perkid_chest_onblockedhittaken_staminaregen",
             "perkid_armor_loggingluck",
             "perkid_armor_harvestingluck",
             "perkid_armor_miningluck",
@@ -101,14 +102,13 @@
             "perkid_armor_durdebuff",
             "perkid_armor_rangedefense_physical",
             "perkid_armor_rangedefense_elemental",
-            "perkid_armor_dodgesuccess_fortify",
-            "perkid_chest_onblockedhittaken_staminaregen",
+            "perkid_armor_dodgesuccess_fortify"
+        ],
+        "onlyWithCharm": [
             "perkid_armor_conditioning_fire",
             "perkid_armor_conditioning_ice",
             "perkid_armor_conditioning_nature",
-            "perkid_armor_conditioning_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_armor_conditioning_void",
             "perkid_pvp_armor_dodgesuccess_heal",
             "perkid_pvp_armor_siegedamagereduction"
         ]
@@ -216,13 +216,13 @@
             "perkid_armor_rangedefense_physical",
             "perkid_armor_rangedefense_elemental",
             "perkid_armor_dodgesuccess_fortify",
-            "perkid_head_oncrittaken_critchance",
+            "perkid_head_oncrittaken_critchance"
+        ],
+        "onlyWithCharm": [
             "perkid_armor_conditioning_fire",
             "perkid_armor_conditioning_ice",
             "perkid_armor_conditioning_nature",
-            "perkid_armor_conditioning_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_armor_conditioning_void",
             "perkid_pvp_armor_dodgesuccess_heal",
             "perkid_pvp_armor_siegedamagereduction"
         ]
@@ -330,13 +330,13 @@
             "perkid_armor_rangedefense_physical",
             "perkid_armor_rangedefense_elemental",
             "perkid_armor_dodgesuccess_fortify",
-            "perkid_hands_onblockedhit_empowerstack",
+            "perkid_hands_onblockedhit_empowerstack"
+        ],
+        "onlyWithCharm": [
             "perkid_armor_conditioning_fire",
             "perkid_armor_conditioning_ice",
             "perkid_armor_conditioning_nature",
-            "perkid_armor_conditioning_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_armor_conditioning_void",
             "perkid_pvp_armor_dodgesuccess_heal",
             "perkid_pvp_armor_siegedamagereduction"
         ]
@@ -443,14 +443,14 @@
             "perkid_armor_durdebuff",
             "perkid_armor_rangedefense_physical",
             "perkid_armor_rangedefense_elemental",
-            "perkid_armor_dodgesuccess_fortify",
+            "perkid_armor_dodgesuccess_fortify"
+        ],
+        "onlyWithCharm": [
             "perkid_legs_dodgesuccess_stamina",
             "perkid_armor_conditioning_fire",
             "perkid_armor_conditioning_ice",
             "perkid_armor_conditioning_nature",
-            "perkid_armor_conditioning_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_armor_conditioning_void",
             "perkid_pvp_armor_dodgesuccess_heal",
             "perkid_pvp_armor_siegedamagereduction"
         ]
@@ -557,15 +557,24 @@
             "perkid_armor_durdebuff",
             "perkid_armor_rangedefense_physical",
             "perkid_armor_rangedefense_elemental",
-            "perkid_armor_dodgesuccess_fortify",
+            "perkid_armor_dodgesuccess_fortify"
+        ],
+        "onlyWithCharm": [
             "perkid_armor_conditioning_fire",
             "perkid_armor_conditioning_ice",
             "perkid_armor_conditioning_nature",
-            "perkid_armor_conditioning_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_armor_conditioning_void",
             "perkid_pvp_armor_dodgesuccess_heal",
             "perkid_pvp_armor_siegedamagereduction"
+        ]
+    },
+    "Fishing Pole": {
+        "inPool": [],
+        "onlyWithCharm": [
+            "perkid_tools_durability",
+            "perkid_tools_azothgain",
+            "perkid_tools_hasteongather",
+            "perkid_tools_gatherproc_regen"
         ]
     },
     "Hatchet": {
@@ -622,13 +631,13 @@
             "perkid_weapon_dodgesuccess_icedmg",
             "perkid_weapon_dodgesuccess_lightningdmg",
             "perkid_weapon_dodgesuccess_voiddmg",
-            "perkid_weapon_dodgesuccess_arcanedmg",
+            "perkid_weapon_dodgesuccess_arcanedmg"
+        ],
+        "onlyWithCharm": [
             "perkid_weapon_attunement_fire",
             "perkid_weapon_attunement_ice",
             "perkid_weapon_attunement_nature",
-            "perkid_weapon_attunement_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_weapon_attunement_void",
             "perkid_pvp_weapon_armorpenetration_onbackstab",
             "perkid_pvp_weapon_blockbreak_rend",
             "perkid_pvp_weapon_cleansebuff_crits",
@@ -689,13 +698,13 @@
             "perkid_weapon_dodgesuccess_icedmg",
             "perkid_weapon_dodgesuccess_lightningdmg",
             "perkid_weapon_dodgesuccess_voiddmg",
-            "perkid_weapon_dodgesuccess_arcanedmg",
+            "perkid_weapon_dodgesuccess_arcanedmg"
+        ],
+        "onlyWithCharm": [
             "perkid_weapon_attunement_fire",
             "perkid_weapon_attunement_ice",
             "perkid_weapon_attunement_nature",
-            "perkid_weapon_attunement_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_weapon_attunement_void",
             "perkid_pvp_weapon_blockbreak_rend",
             "perkid_pvp_weapon_cleansebuff_crits",
             "perkid_pvp_weapon_exhaustedtarget_slow"
@@ -747,13 +756,13 @@
             "perkid_weapon_dodgesuccess_icedmg",
             "perkid_weapon_dodgesuccess_lightningdmg",
             "perkid_weapon_dodgesuccess_voiddmg",
-            "perkid_weapon_dodgesuccess_arcanedmg",
+            "perkid_weapon_dodgesuccess_arcanedmg"
+        ],
+        "onlyWithCharm": [
             "perkid_weapon_attunement_fire",
             "perkid_weapon_attunement_ice",
             "perkid_weapon_attunement_nature",
-            "perkid_weapon_attunement_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_weapon_attunement_void",
             "perkid_pvp_weapon_armorpenetration_onheadshot",
             "perkid_pvp_weapon_exhaustedtarget_slow"
         ]
@@ -812,13 +821,13 @@
             "perkid_weapon_dodgesuccess_icedmg",
             "perkid_weapon_dodgesuccess_lightningdmg",
             "perkid_weapon_dodgesuccess_voiddmg",
-            "perkid_weapon_dodgesuccess_arcanedmg",
+            "perkid_weapon_dodgesuccess_arcanedmg"
+        ],
+        "onlyWithCharm": [
             "perkid_weapon_attunement_fire",
             "perkid_weapon_attunement_ice",
             "perkid_weapon_attunement_nature",
-            "perkid_weapon_attunement_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_weapon_attunement_void",
             "perkid_pvp_weapon_armorpenetration_onbackstab",
             "perkid_pvp_weapon_blockbreak_rend",
             "perkid_pvp_weapon_cleansebuff_crits",
@@ -871,13 +880,13 @@
             "perkid_weapon_dodgesuccess_icedmg",
             "perkid_weapon_dodgesuccess_lightningdmg",
             "perkid_weapon_dodgesuccess_voiddmg",
-            "perkid_weapon_dodgesuccess_arcanedmg",
+            "perkid_weapon_dodgesuccess_arcanedmg"
+        ],
+        "onlyWithCharm": [
             "perkid_weapon_attunement_fire",
             "perkid_weapon_attunement_ice",
             "perkid_weapon_attunement_nature",
-            "perkid_weapon_attunement_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_weapon_attunement_void",
             "perkid_pvp_weapon_armorpenetration_onheadshot",
             "perkid_pvp_weapon_exhaustedtarget_slow"
         ]
@@ -936,13 +945,13 @@
             "perkid_weapon_dodgesuccess_icedmg",
             "perkid_weapon_dodgesuccess_lightningdmg",
             "perkid_weapon_dodgesuccess_voiddmg",
-            "perkid_weapon_dodgesuccess_arcanedmg",
+            "perkid_weapon_dodgesuccess_arcanedmg"
+        ],
+        "onlyWithCharm": [
             "perkid_weapon_attunement_fire",
             "perkid_weapon_attunement_ice",
             "perkid_weapon_attunement_nature",
-            "perkid_weapon_attunement_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_weapon_attunement_void",
             "perkid_pvp_weapon_armorpenetration_onbackstab",
             "perkid_pvp_weapon_blockbreak_rend",
             "perkid_pvp_weapon_cleansebuff_crits",
@@ -988,13 +997,13 @@
             "perkid_weapon_dodgesuccess_icedmg",
             "perkid_weapon_dodgesuccess_lightningdmg",
             "perkid_weapon_dodgesuccess_voiddmg",
-            "perkid_weapon_dodgesuccess_arcanedmg",
+            "perkid_weapon_dodgesuccess_arcanedmg"
+        ],
+        "onlyWithCharm": [
             "perkid_weapon_attunement_fire",
             "perkid_weapon_attunement_ice",
             "perkid_weapon_attunement_nature",
-            "perkid_weapon_attunement_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_weapon_attunement_void",
             "perkid_pvp_weapon_exhaustedtarget_slow",
             "perkid_pvp_weaponmagic_dmgtohaste"
         ]
@@ -1039,13 +1048,13 @@
             "perkid_weapon_dodgesuccess_icedmg",
             "perkid_weapon_dodgesuccess_lightningdmg",
             "perkid_weapon_dodgesuccess_voiddmg",
-            "perkid_weapon_dodgesuccess_arcanedmg",
+            "perkid_weapon_dodgesuccess_arcanedmg"
+        ],
+        "onlyWithCharm": [
             "perkid_weapon_attunement_fire",
             "perkid_weapon_attunement_ice",
             "perkid_weapon_attunement_nature",
-            "perkid_weapon_attunement_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_weapon_attunement_void",
             "perkid_pvp_weapon_exhaustedtarget_slow",
             "perkid_pvp_weaponmagic_dmgtohaste"
         ]
@@ -1100,13 +1109,13 @@
             "perkid_weapon_dodgesuccess_icedmg",
             "perkid_weapon_dodgesuccess_lightningdmg",
             "perkid_weapon_dodgesuccess_voiddmg",
-            "perkid_weapon_dodgesuccess_arcanedmg",
+            "perkid_weapon_dodgesuccess_arcanedmg"
+        ],
+        "onlyWithCharm": [
             "perkid_weapon_attunement_fire",
             "perkid_weapon_attunement_ice",
             "perkid_weapon_attunement_nature",
-            "perkid_weapon_attunement_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_weapon_attunement_void",
             "perkid_pvp_weapon_armorpenetration_onbackstab",
             "perkid_pvp_weapon_blockbreak_rend",
             "perkid_pvp_weapon_cleansebuff_crits",
@@ -1142,13 +1151,13 @@
             "perkid_weaponmelee_blockingstam",
             "perkid_weaponmelee_blockingmove",
             "perkid_chest_onblockedhittaken_staminaregen",
-            "perkid_hands_onblockedhit_empowerstack",
+            "perkid_hands_onblockedhit_empowerstack"
+        ],
+        "onlyWithCharm": [
             "perkid_armor_conditioning_fire",
             "perkid_armor_conditioning_ice",
             "perkid_armor_conditioning_nature",
-            "perkid_armor_conditioning_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_armor_conditioning_void",
             "perkid_pvp_shield_fortifystackonblock"
         ]
     },
@@ -1178,13 +1187,13 @@
             "perkid_shield_defarcane",
             "perkid_shield_deflightning",
             "perkid_shield_defstrike",
-            "perkid_chest_onblockedhittaken_staminaregen",
+            "perkid_chest_onblockedhittaken_staminaregen"
+        ],
+        "onlyWithCharm": [
             "perkid_armor_conditioning_fire",
             "perkid_armor_conditioning_ice",
             "perkid_armor_conditioning_nature",
-            "perkid_armor_conditioning_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_armor_conditioning_void",
             "perkid_pvp_shield_fortifystackonblock"
         ]
     },
@@ -1212,13 +1221,13 @@
             "perkid_weaponmelee_blockingstam",
             "perkid_weaponmelee_blockingmove",
             "perkid_chest_onblockedhittaken_staminaregen",
-            "perkid_hands_onblockedhit_empowerstack",
+            "perkid_hands_onblockedhit_empowerstack"
+        ],
+        "onlyWithCharm": [
             "perkid_armor_conditioning_fire",
             "perkid_armor_conditioning_ice",
             "perkid_armor_conditioning_nature",
-            "perkid_armor_conditioning_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_armor_conditioning_void",
             "perkid_pvp_shield_fortifystackonblock"
         ]
     },
@@ -1276,13 +1285,13 @@
             "perkid_weapon_dodgesuccess_icedmg",
             "perkid_weapon_dodgesuccess_lightningdmg",
             "perkid_weapon_dodgesuccess_voiddmg",
-            "perkid_weapon_dodgesuccess_arcanedmg",
+            "perkid_weapon_dodgesuccess_arcanedmg"
+        ],
+        "onlyWithCharm": [
             "perkid_weapon_attunement_fire",
             "perkid_weapon_attunement_ice",
             "perkid_weapon_attunement_nature",
-            "perkid_weapon_attunement_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_weapon_attunement_void",
             "perkid_pvp_weapon_blockbreak_rend",
             "perkid_pvp_weapon_cleansebuff_crits",
             "perkid_pvp_weapon_exhaustedtarget_slow"
@@ -1327,13 +1336,13 @@
             "perkid_weapon_dodgesuccess_icedmg",
             "perkid_weapon_dodgesuccess_lightningdmg",
             "perkid_weapon_dodgesuccess_voiddmg",
-            "perkid_weapon_dodgesuccess_arcanedmg",
+            "perkid_weapon_dodgesuccess_arcanedmg"
+        ],
+        "onlyWithCharm": [
             "perkid_weapon_attunement_fire",
             "perkid_weapon_attunement_ice",
             "perkid_weapon_attunement_nature",
-            "perkid_weapon_attunement_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_weapon_attunement_void",
             "perkid_pvp_weapon_exhaustedtarget_slow",
             "perkid_pvp_weaponmagic_dmgtohaste"
         ]
@@ -1378,13 +1387,13 @@
             "perkid_weapon_dodgesuccess_icedmg",
             "perkid_weapon_dodgesuccess_lightningdmg",
             "perkid_weapon_dodgesuccess_voiddmg",
-            "perkid_weapon_dodgesuccess_arcanedmg",
+            "perkid_weapon_dodgesuccess_arcanedmg"
+        ],
+        "onlyWithCharm": [
             "perkid_weapon_attunement_fire",
             "perkid_weapon_attunement_ice",
             "perkid_weapon_attunement_nature",
-            "perkid_weapon_attunement_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_weapon_attunement_void",
             "perkid_pvp_weapon_exhaustedtarget_slow",
             "perkid_pvp_weaponmagic_dmgtohaste"
         ]
@@ -1433,13 +1442,13 @@
             "perkid_weapon_dodgesuccess_icedmg",
             "perkid_weapon_dodgesuccess_lightningdmg",
             "perkid_weapon_dodgesuccess_voiddmg",
-            "perkid_weapon_dodgesuccess_arcanedmg",
+            "perkid_weapon_dodgesuccess_arcanedmg"
+        ],
+        "onlyWithCharm": [
             "perkid_weapon_attunement_fire",
             "perkid_weapon_attunement_ice",
             "perkid_weapon_attunement_nature",
-            "perkid_weapon_attunement_void"
-        ],
-        "onlyWithCharm": [
+            "perkid_weapon_attunement_void",
             "perkid_pvp_weapon_armorpenetration_onheadshot",
             "perkid_pvp_weapon_exhaustedtarget_slow"
         ]

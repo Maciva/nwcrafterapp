@@ -1,7 +1,7 @@
 {
     "perkid_ability_hatchet_feralrush": {
         "name": "Crippling Feral Rush",
-        "description": "When you successfully hit with Feral Rush cause a  ${Math.round(10 * perkMultiplier)}% slow for  ${Math.round(3)}s.",
+        "description": "When you successfully hit with Feral Rush cause a ${ Math.round(10 * perkMultiplier)}% slow for ${ Math.round(3)}s.",
         "label": [
             "Skill",
             "Hatchet"
@@ -17,11 +17,13 @@
         "charm": {
             "name": "Steel Hatchet Charm",
             "icon": "icons/items/Resource/HatchetCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_hatchet_feralrush"
     },
     "perkid_ability_hatchet_berserk": {
         "name": "Keen Berserk",
-        "description": "Increase Crit Chance by  ${Math.round(1 * perkMultiplier)}% while under  ${Math.round(50)}% HP while Berserking.",
+        "description": "Increase Crit Chance by ${ Math.round(1 * perkMultiplier)}% while under ${ Math.round(50)}% HP while Berserking.",
         "label": [
             "Skill",
             "Hatchet"
@@ -37,11 +39,13 @@
         "charm": {
             "name": "Starmetal Hatchet Charm",
             "icon": "icons/items/Resource/HatchetCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_hatchet_berserk"
     },
     "perkid_ability_hatchet_ragingtorrent": {
         "name": "Refreshing Torrent",
-        "description": "Every hit of Raging Torrent reduces all Hatchet cooldowns by  ${Math.round(1 * perkMultiplier)}%.",
+        "description": "Every hit of Raging Torrent reduces all Hatchet cooldowns by ${ Math.round(1 * perkMultiplier)}%.",
         "label": [
             "Skill",
             "Hatchet"
@@ -57,11 +61,13 @@
         "charm": {
             "name": "Orichalcum Hatchet Charm",
             "icon": "icons/items/Resource/HatchetCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_hatchet_ragingtorrent"
     },
     "perkid_ability_hatchet_rending_throw": {
         "name": "Empowering Rending Throw",
-        "description": "Ranged Hatchet attacks deal  ${Math.round(10 * perkMultiplier)}% more damage vs Rending Throw targets.",
+        "description": "Ranged Hatchet attacks deal ${ Math.round(10 * perkMultiplier)}% more damage vs Rending Throw targets.",
         "label": [
             "Skill",
             "Hatchet"
@@ -77,11 +83,13 @@
         "charm": {
             "name": "Reinforced Steel Hatchet Charm",
             "icon": "icons/items/Resource/HatchetCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_hatchet_rending_throw"
     },
     "perkid_ability_hatchet_distancingthrow": {
         "name": "Refreshing Distancing Throw",
-        "description": "Social Distancing attacks within  ${Math.round(6)}m reduce the cooldown by  ${Math.round(10 * perkMultiplier)}%.",
+        "description": "Social Distancing attacks within ${ Math.round(6)}m reduce the cooldown by ${ Math.round(10 * perkMultiplier)}%.",
         "label": [
             "Skill",
             "Hatchet"
@@ -97,11 +105,13 @@
         "charm": {
             "name": "Reinforced Starmetal Hatchet Charm",
             "icon": "icons/items/Resource/HatchetCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_hatchet_distancingthrow"
     },
     "perkid_ability_hatchet_infectedthrow": {
         "name": "Exhausting Infected Throw",
-        "description": "Direct hits with Infected throw causes Exhaustion reducing targets stamina regeneration by  ${Math.round(-10 * perkMultiplier)}% for  ${Math.round(10)} seconds.",
+        "description": "Direct hits with Infected throw causes Exhaustion reducing targets stamina regeneration by ${ Math.round(-10 * perkMultiplier)}% for ${ Math.round(10)} seconds.",
         "label": [
             "Skill",
             "Hatchet"
@@ -117,11 +127,13 @@
         "charm": {
             "name": "Reinforced Orichalcum Hatchet Charm",
             "icon": "icons/items/Resource/HatchetCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_hatchet_infectedthrow"
     },
     "perkid_ability_hammer_armorbreaker": {
         "name": "Empowering Armor Breaker",
-        "description": "If Armor Breaker breaks a block, the next attack within  ${Math.round(5)} seconds deals  ${Math.round(3 * perkMultiplier)}% additional damage.",
+        "description": "If Armor Breaker breaks a block, the next attack within ${ Math.round(5)} seconds deals ${ Math.round(3 * perkMultiplier)}% additional damage.",
         "label": [
             "Skill",
             "2HHammer"
@@ -137,11 +149,13 @@
         "charm": {
             "name": "Steel War Hammer Charm",
             "icon": "icons/items/Resource/2HHammerCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_hammer_armorbreaker"
     },
     "perkid_ability_hammer_mightygavel": {
         "name": "Refreshing Mighty Gavel",
-        "description": "Mighty Gavel hits reduce the ability's cooldown by  ${Math.round(5 * perkMultiplier)}%. (Max  ${Math.round(2)} activations per impact.)",
+        "description": "Mighty Gavel hits reduce the ability's cooldown by ${ Math.round(5 * perkMultiplier)}%. (Max ${ Math.round(2)} activations per impact.)",
         "label": [
             "Skill",
             "2HHammer"
@@ -157,11 +171,13 @@
         "charm": {
             "name": "Starmetal War Hammer Charm",
             "icon": "icons/items/Resource/2HHammerCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_hammer_mightygavel"
     },
     "perkid_ability_hammer_wreckingball": {
         "name": "Penetrating Wrecking Ball",
-        "description": "Wrecking Ball penetrates  ${Math.round(5 * perkMultiplier)}% of the target's armor.",
+        "description": "Wrecking Ball penetrates ${ Math.round(5 * perkMultiplier)}% of the target's armor.",
         "label": [
             "Skill",
             "2HHammer"
@@ -177,11 +193,13 @@
         "charm": {
             "name": "Orichalcum War Hammer Charm",
             "icon": "icons/items/Resource/2HHammerCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_hammer_wreckingball"
     },
     "perkid_ability_hammer_shockwave": {
         "name": "Sundering Shockwave",
-        "description": "Shockwave inflicts Rend, reducing target's damage absorption by  ${Math.round(5 * perkMultiplier)}% for  ${Math.round(10)} seconds.",
+        "description": "Shockwave inflicts Rend, reducing target's damage absorption by ${ Math.round(5 * perkMultiplier)}% for ${ Math.round(10)} seconds.",
         "label": [
             "Skill",
             "2HHammer"
@@ -197,11 +215,13 @@
         "charm": {
             "name": "Reinforced Steel War Hammer Charm",
             "icon": "icons/items/Resource/2HHammerCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_hammer_shockwave"
     },
     "perkid_ability_hammer_clearout": {
         "name": "Repulsing Clear Out",
-        "description": "Clear Out now knocks targets back an additional  ${Math.round(50 * perkMultiplier)}%.",
+        "description": "Clear Out now knocks targets back an additional ${ Math.round(50 * perkMultiplier)}%.",
         "label": [
             "Skill",
             "2HHammer"
@@ -217,11 +237,13 @@
         "charm": {
             "name": "Reinforced Starmetal War Hammer Charm",
             "icon": "icons/items/Resource/2HHammerCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_hammer_clearout"
     },
     "perkid_ability_hammer_pathofdestiny": {
         "name": "Leeching Path Of Destiny",
-        "description": "Heal for  ${Math.round(10 * perkMultiplier)}% of the damage dealt from Path Of Destiny.",
+        "description": "Heal for ${ Math.round(10 * perkMultiplier)}% of the damage dealt from Path Of Destiny.",
         "label": [
             "Skill",
             "2HHammer"
@@ -237,11 +259,13 @@
         "charm": {
             "name": "Reinforced Orichalcum War Hammer Charm",
             "icon": "icons/items/Resource/2HHammerCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_hammer_pathofdestiny"
     },
     "perkid_ability_musket_powderburn": {
         "name": "Crippling Powder Burn",
-        "description": "Targets hit with Powder Burn are slowed by  ${Math.round(5 * perkMultiplier)}% for  ${Math.round(5)} seconds.",
+        "description": "Targets hit with Powder Burn are slowed by ${ Math.round(5 * perkMultiplier)}% for ${ Math.round(5)} seconds.",
         "label": [
             "Skill",
             "Musket"
@@ -257,11 +281,13 @@
         "charm": {
             "name": "Steel Musket Charm",
             "icon": "icons/items/Resource/MusketCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_musket_powderburn"
     },
     "perkid_ability_musket_powershot": {
         "name": "Refreshing Power Shot",
-        "description": "Power Shot kills reduce this ability's cooldown by  ${Math.round(8.5 * perkMultiplier)}%.",
+        "description": "Power Shot kills reduce this ability's cooldown by ${ Math.round(8.5 * perkMultiplier)}%.",
         "label": [
             "Skill",
             "Musket"
@@ -277,11 +303,13 @@
         "charm": {
             "name": "Starmetal Musket Charm",
             "icon": "icons/items/Resource/MusketCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_musket_powershot"
     },
     "perkid_ability_musket_shootersstance": {
         "name": "Empowering Shooter's Stance",
-        "description": "Hitting a target while in Shooter's Stance grants Empower, increasing damage by  ${Math.round(4 * perkMultiplier)}% for  ${Math.round(3)} seconds.",
+        "description": "Hitting a target while in Shooter's Stance grants Empower, increasing damage by ${ Math.round(4 * perkMultiplier)}% for ${ Math.round(3)} seconds.",
         "label": [
             "Skill",
             "Musket"
@@ -297,11 +325,13 @@
         "charm": {
             "name": "Orichalcum Musket Charm",
             "icon": "icons/items/Resource/MusketCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_musket_shootersstance"
     },
     "perkid_ability_musket_stoppingpower": {
         "name": "Repulsing Stopping Power",
-        "description": "Stopping Power knockback distance is increased by  ${Math.round(25 * perkMultiplier)}%.",
+        "description": "Stopping Power knockback distance is increased by ${ Math.round(25 * perkMultiplier)}%.",
         "label": [
             "Skill",
             "Musket"
@@ -317,11 +347,13 @@
         "charm": {
             "name": "Reinforced Steel Musket Charm",
             "icon": "icons/items/Resource/MusketCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_musket_stoppingpower"
     },
     "perkid_ability_musket_traps": {
         "name": "Accelerating Traps",
-        "description": "Increase movement speed by  ${Math.round(5 * perkMultiplier)}% for  ${Math.round(5)} seconds after deploying a trap. (Does not stack.)",
+        "description": "Increase movement speed by ${ Math.round(5 * perkMultiplier)}% for ${ Math.round(5)} seconds after deploying a trap. (Does not stack.)",
         "label": [
             "Skill",
             "Musket"
@@ -337,11 +369,13 @@
         "charm": {
             "name": "Reinforced Starmetal Musket Charm",
             "icon": "icons/items/Resource/MusketCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_musket_traps"
     },
     "perkid_ability_musket_stickybomb": {
         "name": "Mending Sticky Bombs",
-        "description": "Every hit of Sticky Bomb heals you for  ${Math.round(10 * perkMultiplier)}% of damage done.",
+        "description": "Every hit of Sticky Bomb heals you for ${ Math.round(10 * perkMultiplier)}% of damage done.",
         "label": [
             "Skill",
             "Musket"
@@ -357,11 +391,13 @@
         "charm": {
             "name": "Reinforced Orichalcum Musket Charm",
             "icon": "icons/items/Resource/MusketCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_musket_stickybomb"
     },
     "perkid_ability_spear_sweep": {
         "name": "Bleeding Sweep",
-        "description": "Sweep's Coup De Grace now applies Bleed for  ${Math.round(2 * perkMultiplier)}% of weapon damage for  ${Math.round(8)} seconds.",
+        "description": "Sweep's Coup De Grace now applies Bleed for ${ Math.round(2 * perkMultiplier)}% of weapon damage for ${ Math.round(8)} seconds.",
         "label": [
             "Skill",
             "Spear"
@@ -377,11 +413,13 @@
         "charm": {
             "name": "Steel Spear Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_spear_sweep"
     },
     "perkid_ability_spear_javelin": {
         "name": "Sundering Javelin",
-        "description": "Javelin inflicts Rend, reducing target's damage absorption by  ${Math.round(5 * perkMultiplier)}% for  ${Math.round(10)} seconds.",
+        "description": "Javelin inflicts Rend, reducing target's damage absorption by ${ Math.round(5 * perkMultiplier)}% for ${ Math.round(10)} seconds.",
         "label": [
             "Skill",
             "Spear"
@@ -397,11 +435,13 @@
         "charm": {
             "name": "Starmetal Spear Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_spear_javelin"
     },
     "perkid_ability_spear_cyclone": {
         "name": "Leeching Cyclone",
-        "description": "Every hit of Cyclone heals you for  ${Math.round(10 * perkMultiplier)}% of weapon damage.",
+        "description": "Every hit of Cyclone heals you for ${ Math.round(10 * perkMultiplier)}% of weapon damage.",
         "label": [
             "Skill",
             "Spear"
@@ -417,11 +457,13 @@
         "charm": {
             "name": "Orichalcum Spear Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_spear_cyclone"
     },
     "perkid_ability_spear_perforate": {
         "name": "Fortifying Perforate",
-        "description": "Gain a stack of Fortify, increasing damage absorption by  ${Math.round(2 * perkMultiplier)}% for  ${Math.round(6)} seconds per successful Perforate hit.",
+        "description": "Gain a stack of Fortify, increasing damage absorption by ${ Math.round(2 * perkMultiplier)}% for ${ Math.round(6)} seconds per successful Perforate hit.",
         "label": [
             "Skill",
             "Spear"
@@ -437,11 +479,13 @@
         "charm": {
             "name": "Reinforced Steel Spear Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_spear_perforate"
     },
     "perkid_ability_spear_skewer": {
         "name": "Enfeebling Skewer",
-        "description": "Skewer hits apply Weaken, reducing target's damage by  ${Math.round(3 * perkMultiplier)}% for  ${Math.round(8)} seconds.",
+        "description": "Skewer hits apply Weaken, reducing target's damage by ${ Math.round(3 * perkMultiplier)}% for ${ Math.round(8)} seconds.",
         "label": [
             "Skill",
             "Spear"
@@ -457,11 +501,13 @@
         "charm": {
             "name": "Reinforced Starmetal Spear Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_spear_skewer"
     },
     "perkid_ability_spear_vaultkick": {
         "name": "Keen Vault Kick",
-        "description": "Vault Kick increases random Crit Chance by  ${Math.round(2 * perkMultiplier)}% for  ${Math.round(5)} seconds.",
+        "description": "Vault Kick increases random Crit Chance by ${ Math.round(2 * perkMultiplier)}% for ${ Math.round(5)} seconds.",
         "label": [
             "Skill",
             "Spear"
@@ -477,11 +523,13 @@
         "charm": {
             "name": "Reinforced Orichalcum Spear Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_spear_vaultkick"
     },
     "perkid_ability_bow_poisonshot": {
         "name": "Enfeebling Poison Shot",
-        "description": "Poison Shot's arrow also applies Weaken, reducing target's damage by  ${Math.round(3 * perkMultiplier)}% for  ${Math.round(6)} seconds.",
+        "description": "Poison Shot's arrow also applies Weaken, reducing target's damage by ${ Math.round(3 * perkMultiplier)}% for ${ Math.round(6)} seconds.",
         "label": [
             "Skill",
             "Bow"
@@ -497,11 +545,13 @@
         "charm": {
             "name": "Steel Bow Charm",
             "icon": "icons/items/Resource/BowCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_bow_poisonshot"
     },
     "perkid_ability_bow_evadeshot": {
         "name": "Energizing Evade Shot",
-        "description": "Gain  ${Math.round(4 * perkMultiplier)} Stamina and reduced cooldown by  ${Math.round(3 * 1)}% after hitting a target with Evade Shot.",
+        "description": "Gain ${ Math.round(4 * perkMultiplier)} Stamina and reduced cooldown by ${ Math.round(3 * 1)}% after hitting a target with Evade Shot.",
         "label": [
             "Skill",
             "Bow"
@@ -517,11 +567,13 @@
         "charm": {
             "name": "Starmetal Bow Charm",
             "icon": "icons/items/Resource/BowCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_bow_evadeshot"
     },
     "perkid_ability_bow_rainofarrows": {
         "name": "Lasting Rain of Arrows",
-        "description": "Slow and bleed last  ${Math.round(10 * perkMultiplier)}% longer.",
+        "description": "Slow and bleed last ${ Math.round(10 * perkMultiplier)}% longer.",
         "label": [
             "Skill",
             "Bow"
@@ -537,11 +589,13 @@
         "charm": {
             "name": "Orichalcum Bow Charm",
             "icon": "icons/items/Resource/BowCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_bow_rainofarrows"
     },
     "perkid_ability_bow_rapidshot": {
         "name": "Penetrating Rapid Shot",
-        "description": "Increase armor penetration all Rapid Shot attacks by  ${Math.round(5 * perkMultiplier)}%.",
+        "description": "Increase armor penetration all Rapid Shot attacks by ${ Math.round(5 * perkMultiplier)}%.",
         "label": [
             "Skill",
             "Bow"
@@ -557,11 +611,13 @@
         "charm": {
             "name": "Reinforced Steel Bow Charm",
             "icon": "icons/items/Resource/BowCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_bow_rapidshot"
     },
     "perkid_ability_bow_penetratingshot": {
         "name": "Refreshing Penetrating Shot",
-        "description": "Penetrating Shot kills reduce this ability's cooldown by  ${Math.round(3 * perkMultiplier)}%.",
+        "description": "Penetrating Shot kills reduce this ability's cooldown by ${ Math.round(3 * perkMultiplier)}%.",
         "label": [
             "Skill",
             "Bow"
@@ -577,11 +633,13 @@
         "charm": {
             "name": "Reinforced Starmetal Bow Charm",
             "icon": "icons/items/Resource/BowCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_bow_penetratingshot"
     },
     "perkid_ability_bow_splintershot": {
         "name": "Empowering Explosive Arrow",
-        "description": "Explosive Arrow hits grant Empower, increase damage by  ${Math.round(4 * perkMultiplier)}% for  ${Math.round(10)} seconds or until the next attack.",
+        "description": "Explosive Arrow hits grant Empower, increase damage by ${ Math.round(4 * perkMultiplier)}% for ${ Math.round(10)} seconds or until the next attack.",
         "label": [
             "Skill",
             "Bow"
@@ -597,11 +655,13 @@
         "charm": {
             "name": "Reinforced Orichalcum Bow Charm",
             "icon": "icons/items/Resource/BowCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_bow_splintershot"
     },
     "perkid_ability_rapier_tondo": {
         "name": "Keen Tondo",
-        "description": "Increase Crit Chance by  ${Math.round(2 * perkMultiplier)}% against targets affected by Tondo's Bleed.",
+        "description": "Increase Crit Chance by ${ Math.round(2 * perkMultiplier)}% against targets affected by Tondo's Bleed.",
         "label": [
             "Skill",
             "Rapier"
@@ -617,11 +677,13 @@
         "charm": {
             "name": "Steel Rapier Charm",
             "icon": "icons/items/Resource/SwordCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_rapier_tondo"
     },
     "perkid_ability_rapier_flourishandfinish": {
         "name": "Deadly Flourish",
-        "description": "Flourish deals  ${Math.round(10 * perkMultiplier)}% more damage vs targets below 50%.",
+        "description": "Flourish deals ${ Math.round(10 * perkMultiplier)}% more damage vs targets below 50%.",
         "label": [
             "Skill",
             "Rapier"
@@ -637,11 +699,13 @@
         "charm": {
             "name": "Starmetal Rapier Charm",
             "icon": "icons/items/Resource/SwordCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_rapier_flourishandfinish"
     },
     "perkid_ability_rapier_flurry": {
         "name": "Leeching Flurry",
-        "description": "Each hit of Flurry restores returns  ${Math.round(10 * perkMultiplier)}% of the damage as health.",
+        "description": "Each hit of Flurry restores returns ${ Math.round(10 * perkMultiplier)}% of the damage as health.",
         "label": [
             "Skill",
             "Rapier"
@@ -657,11 +721,13 @@
         "charm": {
             "name": "Orichalcum Rapier Charm",
             "icon": "icons/items/Resource/SwordCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_rapier_flurry"
     },
     "perkid_ability_rapier_riposte": {
         "name": "Sundering Riposte",
-        "description": "Riposte inflicts Rend, reducing damage absorption of target by  ${Math.round(5 * perkMultiplier)}% for  ${Math.round(10)} seconds.",
+        "description": "Riposte inflicts Rend, reducing damage absorption of target by ${ Math.round(5 * perkMultiplier)}% for ${ Math.round(10)} seconds.",
         "label": [
             "Skill",
             "Rapier"
@@ -677,11 +743,13 @@
         "charm": {
             "name": "Reinforced Steel Rapier Charm",
             "icon": "icons/items/Resource/SwordCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_rapier_riposte"
     },
     "perkid_ability_rapier_evade": {
         "name": "Omnidirectional Evade",
-        "description": "Gain  ${Math.round(1 * perkMultiplier)}% damage for  ${Math.round(2)}s after using Evade. Adagio upgrade is applied when evading in any direction.",
+        "description": "Gain ${ Math.round(1 * perkMultiplier)}% damage for ${ Math.round(2)}s after using Evade. Adagio upgrade is applied when evading in any direction.",
         "label": [
             "Skill",
             "Rapier"
@@ -697,11 +765,13 @@
         "charm": {
             "name": "Reinforced Starmetal Rapier Charm",
             "icon": "icons/items/Resource/SwordCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_rapier_evade"
     },
     "perkid_ability_rapier_fleche": {
         "name": "Refreshing Fleche",
-        "description": "Hitting a target via a Crit Backstab with Fleche reduces this ability's cooldown by  ${Math.round(5 * perkMultiplier)}%.",
+        "description": "Hitting a target via a Crit Backstab with Fleche reduces this ability's cooldown by ${ Math.round(5 * perkMultiplier)}%.",
         "label": [
             "Skill",
             "Rapier"
@@ -717,11 +787,13 @@
         "charm": {
             "name": "Reinforced Orichalcum Rapier Charm",
             "icon": "icons/items/Resource/SwordCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_rapier_fleche"
     },
     "perkid_ability_lifestaff_divineembrance": {
         "name": "Refreshing Divine Embrace",
-        "description": "Using Divine Embrace on a target below 50% health reduces the cooldown by  ${Math.round(11.828 * perkMultiplier)}% and gain  ${Math.round(1 * 1)}% of your max mana.",
+        "description": "Using Divine Embrace on a target below 50% health reduces the cooldown by ${ Math.round(11.828 * perkMultiplier)}% and gain ${ Math.round(1 * 1)}% of your max mana.",
         "label": [
             "Skill",
             "LifeStaff"
@@ -737,11 +809,13 @@
         "charm": {
             "name": "Steel Life Staff Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_lifestaff_divineembrance"
     },
     "perkid_ability_lifestaff_sacredground": {
         "name": "Fortifying Sacred Ground",
-        "description": "Allies healed by Sacred Ground gain Fortify, increasing damage absorption by  ${Math.round(3 * perkMultiplier)}% for  ${Math.round(5)} seconds.",
+        "description": "Allies healed by Sacred Ground gain Fortify, increasing damage absorption by ${ Math.round(3 * perkMultiplier)}% for ${ Math.round(5)} seconds.",
         "label": [
             "Skill",
             "LifeStaff"
@@ -757,11 +831,13 @@
         "charm": {
             "name": "Starmetal Life Staff Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_lifestaff_sacredground"
     },
     "perkid_ability_lifestaff_splashoflight": {
         "name": "Purity Of Light",
-        "description": "Allies with a debuff removed with Splash of Light are healed for  ${Math.round(10 * perkMultiplier)}% your weapon damage.",
+        "description": "Allies with a debuff removed with Splash of Light are healed for ${ Math.round(10 * perkMultiplier)}% your weapon damage.",
         "label": [
             "Skill",
             "LifeStaff"
@@ -777,11 +853,13 @@
         "charm": {
             "name": "Orichalcum Life Staff Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_lifestaff_splashoflight"
     },
     "perkid_ability_lifestaff_orbofprotection": {
         "name": "Mending Protection",
-        "description": "Increase healing power by  ${Math.round(5 * perkMultiplier)}% for  ${Math.round(3)} seconds if Orb of Protection heals an ally with less than  ${Math.round(50)}% health.",
+        "description": "Increase healing power by ${ Math.round(5 * perkMultiplier)}% for ${ Math.round(3)} seconds if Orb of Protection heals an ally with less than ${ Math.round(50)}% health.",
         "label": [
             "Skill",
             "LifeStaff"
@@ -797,11 +875,13 @@
         "charm": {
             "name": "Reinforced Steel Life Staff Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_lifestaff_orbofprotection"
     },
     "perkid_ability_lifestaff_lightsembrace": {
         "name": "Accelerating Light's Embrace",
-        "description": "Allies below full health gain Haste when hit with Light's Embrace, increasing movement speed by  ${Math.round(5 * perkMultiplier)}% for  ${Math.round(5)} seconds.",
+        "description": "Allies below full health gain Haste when hit with Light's Embrace, increasing movement speed by ${ Math.round(5 * perkMultiplier)}% for ${ Math.round(5)} seconds.",
         "label": [
             "Skill",
             "LifeStaff"
@@ -817,11 +897,13 @@
         "charm": {
             "name": "Reinforced Starmetal Life Staff Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_lifestaff_lightsembrace"
     },
     "perkid_ability_lifestaff_beacon": {
         "name": "Vicious Beacon",
-        "description": "When Beacon heals a player they gain + ${Math.round(2 * perkMultiplier)}% critical chance for  ${Math.round(6)} seconds.",
+        "description": "When Beacon heals a player they gain +${ Math.round(2 * perkMultiplier)}% critical chance for ${ Math.round(6)} seconds.",
         "label": [
             "Skill",
             "LifeStaff"
@@ -837,11 +919,13 @@
         "charm": {
             "name": "Reinforced Orichalcum Life Staff Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_lifestaff_beacon"
     },
     "perkid_ability_firestaff_pillaroffire": {
         "name": "Refreshing Pillar of Fire",
-        "description": "Reduce this ability's cooldown by  ${Math.round(3 * perkMultiplier)}% per enemy hit with Pillar of Fire. ( ${Math.round(3)} hits max.)",
+        "description": "Reduce this ability's cooldown by ${ Math.round(3 * perkMultiplier)}% per enemy hit with Pillar of Fire. (${ Math.round(3)} hits max.)",
         "label": [
             "Skill",
             "FireStaff"
@@ -857,11 +941,13 @@
         "charm": {
             "name": "Steel Fire Staff Charm",
             "icon": "icons/items/Resource/FireStaffCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_firestaff_pillaroffire"
     },
     "perkid_ability_firestaff_meteorshower": {
         "name": "Empowering Meteor Shower",
-        "description": "When Meteor Shower hits gain  ${Math.round(1 * perkMultiplier)}% Empower for  ${Math.round(10)}s. (Max  ${Math.round(10)} stacks)",
+        "description": "When Meteor Shower hits gain ${ Math.round(1 * perkMultiplier)}% Empower for ${ Math.round(10)}s. (Max ${ Math.round(10)} stacks)",
         "label": [
             "Skill",
             "FireStaff"
@@ -877,11 +963,13 @@
         "charm": {
             "name": "Starmetal Fire Staff Charm",
             "icon": "icons/items/Resource/FireStaffCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_firestaff_meteorshower"
     },
     "perkid_ability_firestaff_fireball": {
         "name": "Empowering Fireball",
-        "description": "Fireball impact deals  ${Math.round(5 * perkMultiplier)}% additional damage.",
+        "description": "Fireball impact deals ${ Math.round(5 * perkMultiplier)}% additional damage.",
         "label": [
             "Skill",
             "FireStaff"
@@ -897,11 +985,13 @@
         "charm": {
             "name": "Orichalcum Fire Staff Charm",
             "icon": "icons/items/Resource/FireStaffCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_firestaff_fireball"
     },
     "perkid_ability_firestaff_incinerate": {
         "name": "Stable Incinerate",
-        "description": "Incinerate gains grit, and deals  ${Math.round(3 * perkMultiplier)}% additional damage.",
+        "description": "Incinerate gains grit, and deals ${ Math.round(3 * perkMultiplier)}% additional damage.",
         "label": [
             "Skill",
             "FireStaff"
@@ -917,11 +1007,13 @@
         "charm": {
             "name": "Reinforced Steel Fire Staff Charm",
             "icon": "icons/items/Resource/FireStaffCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_firestaff_incinerate"
     },
     "perkid_ability_firestaff_flamethrower": {
         "name": "Accelerating Flamethrower",
-        "description": "Applying  ${Math.round(3)} stacks of burn damage on a target with Flamethrower grants Haste, increasing movement speed by 20% for  ${Math.round(2)} seconds. Burn from flamethrower lasts  ${Math.round(10 * perkMultiplier)}% longer.",
+        "description": "Applying ${ Math.round(3)} stacks of burn damage on a target with Flamethrower grants Haste, increasing movement speed by 20% for ${ Math.round(2)} seconds. Burn from flamethrower lasts ${ Math.round(10 * perkMultiplier)}% longer.",
         "label": [
             "Skill",
             "FireStaff"
@@ -937,11 +1029,13 @@
         "charm": {
             "name": "Reinforced Starmetal Fire Staff Charm",
             "icon": "icons/items/Resource/FireStaffCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_firestaff_flamethrower"
     },
     "perkid_ability_firestaff_burnout": {
         "name": "Efficient Burnout",
-        "description": "Until your next hit you deal  ${Math.round(5 * perkMultiplier)}% increase fire damage and your mana regen rate increased by  ${Math.round(20 * 1)}% for  ${Math.round(8)} seconds after using Burnout.",
+        "description": "Until your next hit you deal ${ Math.round(5 * perkMultiplier)}% increase fire damage and your mana regen rate increased by ${ Math.round(20 * 1)}% for ${ Math.round(8)} seconds after using Burnout.",
         "label": [
             "Skill",
             "FireStaff"
@@ -957,11 +1051,13 @@
         "charm": {
             "name": "Reinforced Orichalcum Fire Staff Charm",
             "icon": "icons/items/Resource/FireStaffCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_firestaff_burnout"
     },
     "perkid_ability_sword_reversestab": {
         "name": "Contagious Reverse Stab",
-        "description": "Reverse Stab transfers an active debuff from self to target hit. Reverse Stab deals  ${Math.round(5 * perkMultiplier)}% more damage.",
+        "description": "Reverse Stab transfers an active debuff from self to target hit. Reverse Stab deals ${ Math.round(5 * perkMultiplier)}% more damage.",
         "label": [
             "Skill",
             "Sword"
@@ -977,11 +1073,13 @@
         "charm": {
             "name": "Steel Sword Charm",
             "icon": "icons/items/Resource/SwordCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_sword_reversestab"
     },
     "perkid_ability_sword_whirlingblade": {
         "name": "Empowering Whirling Blade",
-        "description": "Base damage is increased by  ${Math.round(10 * perkMultiplier)}% while performing a Whirling Blade attack if 3 or more enemies are within the radius of the attack.",
+        "description": "Base damage is increased by ${ Math.round(10 * perkMultiplier)}% while performing a Whirling Blade attack if 3 or more enemies are within the radius of the attack.",
         "label": [
             "Skill",
             "Sword"
@@ -997,11 +1095,13 @@
         "charm": {
             "name": "Starmetal Sword Charm",
             "icon": "icons/items/Resource/SwordCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_sword_whirlingblade"
     },
     "perkid_ability_sword_leapingstrike": {
         "name": "Empowering Leaping Strike",
-        "description": "Sword attacks deal  ${Math.round(3 * perkMultiplier)}% additional damage to targets slowed by Leaping Strike's Cowardly Punishment upgrade.",
+        "description": "Sword attacks deal ${ Math.round(3 * perkMultiplier)}% additional damage to targets slowed by Leaping Strike's Cowardly Punishment upgrade.",
         "label": [
             "Skill",
             "Sword"
@@ -1017,11 +1117,13 @@
         "charm": {
             "name": "Orichalcum Sword Charm",
             "icon": "icons/items/Resource/SwordCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_sword_leapingstrike"
     },
     "perkid_ability_shield_shieldbash": {
         "name": "Diminishing Shield Bash",
-        "description": "Foes hit by Shield Bash have their non-consumable buff durations reduced by  ${Math.round(15 * perkMultiplier)}%.",
+        "description": "Foes hit by Shield Bash have their non-consumable buff durations reduced by ${ Math.round(15 * perkMultiplier)}%.",
         "label": [
             "Skill",
             "Shield"
@@ -1045,11 +1147,13 @@
         "charm": {
             "name": "Steel Shield Charm",
             "icon": "icons/items/Resource/ShieldCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_shield_shieldbash"
     },
     "perkid_ability_shield_shieldrush": {
         "name": "Fortifying Shield Rush",
-        "description": "After hitting a target with Shield Rush, gain Fortify, increasing damage absorption on self by  ${Math.round(5 * perkMultiplier)}% for  ${Math.round(6)} seconds.",
+        "description": "After hitting a target with Shield Rush, gain Fortify, increasing damage absorption on self by ${ Math.round(5 * perkMultiplier)}% for ${ Math.round(6)} seconds.",
         "label": [
             "Skill",
             "Shield"
@@ -1073,11 +1177,13 @@
         "charm": {
             "name": "Starmetal Shield Charm",
             "icon": "icons/items/Resource/ShieldCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_shield_shieldrush"
     },
     "perkid_ability_shield_finalstand": {
         "name": "Accelerated Defiant Stance",
-        "description": "Movement Speed Increased by  ${Math.round(5 * perkMultiplier)}% and incoming healing by  ${Math.round(2 * 1)}%  for  ${Math.round(6)} seconds after triggering Defiant Stance.",
+        "description": "Movement Speed Increased by ${ Math.round(5 * perkMultiplier)}% and incoming healing by ${ Math.round(2 * 1)}%  for ${ Math.round(6)} seconds after triggering Defiant Stance.",
         "label": [
             "Skill",
             "Shield"
@@ -1101,11 +1207,13 @@
         "charm": {
             "name": "Orichalcum Shield Charm",
             "icon": "icons/items/Resource/ShieldCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_shield_finalstand"
     },
     "perkid_ability_greataxe_charge": {
         "name": "Refreshing Charge",
-        "description": "Hitting a target with Unpredictable Strike reduces the cooldown by  ${Math.round(5 * perkMultiplier)}%.  ( ${Math.round(1)} hits max.)",
+        "description": "Hitting a target with Unpredictable Strike reduces the cooldown by ${ Math.round(5 * perkMultiplier)}%.  (${ Math.round(1)} hits max.)",
         "label": [
             "Skill",
             "2hAxe"
@@ -1121,11 +1229,13 @@
         "charm": {
             "name": "Steel Great Axe Charm",
             "icon": "icons/items/Resource/2HAxeCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_greataxe_charge"
     },
     "perkid_ability_greataxe_reap": {
         "name": "Crippling Reap",
-        "description": "If target hit with Reap is below 50% health, they are Slowed, reducing movement speed by  ${Math.round(10 * perkMultiplier)}% for  ${Math.round(4)} seconds.",
+        "description": "If target hit with Reap is below 50% health, they are Slowed, reducing movement speed by ${ Math.round(10 * perkMultiplier)}% for ${ Math.round(4)} seconds.",
         "label": [
             "Skill",
             "2hAxe"
@@ -1141,11 +1251,13 @@
         "charm": {
             "name": "Starmetal Great Axe Charm",
             "icon": "icons/items/Resource/2HAxeCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_greataxe_reap"
     },
     "perkid_ability_greataxe_execute": {
         "name": "Mending Execute",
-        "description": "Gain  ${Math.round(10 * perkMultiplier)}% of the damage dealt back as health with Execute. (Limit 1 trigger per abilitty)",
+        "description": "Gain ${ Math.round(10 * perkMultiplier)}% of the damage dealt back as health with Execute. (Limit 1 trigger per abilitty)",
         "label": [
             "Skill",
             "2hAxe"
@@ -1161,11 +1273,13 @@
         "charm": {
             "name": "Orichalcum Great Axe Charm",
             "icon": "icons/items/Resource/2HAxeCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_greataxe_execute"
     },
     "perkid_ability_greataxe_whirlwind": {
         "name": "Fortifying Whirlwind",
-        "description": "Whirlwind hits grant Fortify on self, increasing damage absorption by  ${Math.round(3 * perkMultiplier)}% and slashing damamge by  ${Math.round(3 * 1)}% for  ${Math.round(2)} seconds. (5 stacks max.)",
+        "description": "Whirlwind hits grant Fortify on self, increasing damage absorption by ${ Math.round(3 * perkMultiplier)}% and slashing damamge by ${ Math.round(3 * 1)}% for ${ Math.round(2)} seconds. (5 stacks max.)",
         "label": [
             "Skill",
             "2hAxe"
@@ -1181,11 +1295,13 @@
         "charm": {
             "name": "Reinforced Steel Great Axe Charm",
             "icon": "icons/items/Resource/2HAxeCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_greataxe_whirlwind"
     },
     "perkid_ability_greataxe_maelstrom": {
         "name": "Enfeebling Maelstrom",
-        "description": "Targets hit by Maelstrom's No Reprieve are Weakened, reducing their attack damage by  ${Math.round(3 * perkMultiplier)}% for  ${Math.round(8)} seconds.",
+        "description": "Targets hit by Maelstrom's No Reprieve are Weakened, reducing their attack damage by ${ Math.round(3 * perkMultiplier)}% for ${ Math.round(8)} seconds.",
         "label": [
             "Skill",
             "2hAxe"
@@ -1201,11 +1317,13 @@
         "charm": {
             "name": "Reinforced Starmetal Great Axe Charm",
             "icon": "icons/items/Resource/2HAxeCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_greataxe_maelstrom"
     },
     "perkid_ability_greataxe_gravitywell": {
         "name": "Insatiable Gravity Well",
-        "description": "Gain  ${Math.round(15 * perkMultiplier)}% of your damage with Gravity Well back as health, and cast another  ${Math.round(4)}m radius burst around you on successful hit that deals  ${Math.round(100)}% weapon damage.",
+        "description": "Gain ${ Math.round(15 * perkMultiplier)}% of your damage with Gravity Well back as health, and cast another ${ Math.round(4)}m radius burst around you on successful hit that deals ${ Math.round(100)}% weapon damage.",
         "label": [
             "Skill",
             "2hAxe"
@@ -1221,11 +1339,13 @@
         "charm": {
             "name": "Reinforced Orichalcum Great Axe Charm",
             "icon": "icons/items/Resource/2HAxeCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_greataxe_gravitywell"
     },
     "perkid_ability_icegauntlet_unbrokenwinds": {
         "name": "Unbroken Winds",
-        "description": "Wind Chill has grit and deals  ${Math.round(10 * perkMultiplier)}% more damage. Gain 10% Mana after a full Wind Chill burst.",
+        "description": "Wind Chill has grit and deals ${ Math.round(10 * perkMultiplier)}% more damage. Gain 10% Mana after a full Wind Chill burst.",
         "label": [
             "Skill",
             "IceGauntlet"
@@ -1241,11 +1361,13 @@
         "charm": {
             "name": "Steel Ice Gauntlet Charm",
             "icon": "icons/items/Resource/IceGauntletCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_icegauntlet_unbrokenwinds"
     },
     "perkid_ability_icegauntlet_unendingthaw": {
         "name": "Unending Thaw",
-        "description": "Ice Storm deals  ${Math.round(1 * perkMultiplier)}% more damage. Frost effects remains on enemies for 2 seconds after exiting Ice Storm.",
+        "description": "Ice Storm deals ${ Math.round(1 * perkMultiplier)}% more damage. Frost effects remains on enemies for 2 seconds after exiting Ice Storm.",
         "label": [
             "Skill",
             "IceGauntlet"
@@ -1261,11 +1383,13 @@
         "charm": {
             "name": "Starmetal Ice Gauntlet Charm",
             "icon": "icons/items/Resource/IceGauntletCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_icegauntlet_unendingthaw"
     },
     "perkid_ability_icegauntlet_icedrefresh": {
         "name": "Iced Refresh",
-        "description": "A killing blow with Ice Spike's Mighty Spike or Spiky Reach will reduce all Ice cooldowns by  ${Math.round(10 * perkMultiplier)}%.",
+        "description": "A killing blow with Ice Spike's Mighty Spike or Spiky Reach will reduce all Ice cooldowns by ${ Math.round(10 * perkMultiplier)}%.",
         "label": [
             "Skill",
             "IceGauntlet"
@@ -1281,11 +1405,13 @@
         "charm": {
             "name": "Orichalcum Ice Gauntlet Charm",
             "icon": "icons/items/Resource/IceGauntletCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_icegauntlet_icedrefresh"
     },
     "perkid_ability_icegauntlet_deadlyfrost": {
         "name": "Deadly Frost",
-        "description": "When the Frigid Showers upgrade is active, Ice Shower's frostbite debuff will deal  ${Math.round(8)}% weapon damage per second to affected enemies. Ice Shower cooldown reduced by  ${Math.round(5 * perkMultiplier)}%",
+        "description": "When the Frigid Showers upgrade is active, Ice Shower's frostbite debuff will deal ${ Math.round(8)}% weapon damage per second to affected enemies. Ice Shower cooldown reduced by ${ Math.round(5 * perkMultiplier)}%",
         "label": [
             "Skill",
             "IceGauntlet"
@@ -1301,11 +1427,13 @@
         "charm": {
             "name": "Reinforced Starmetal Ice Gauntlet Charm",
             "icon": "icons/items/Resource/IceGauntletCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_icegauntlet_deadlyfrost"
     },
     "perkid_ability_icegauntlet_pylonburst": {
         "name": "Pylon Burst",
-        "description": "Ice Pylon deals  ${Math.round(1.5 * perkMultiplier)}% more damage and a burst of damage to foes within a  ${Math.round(3)}m radius whenever it fires its projectile.",
+        "description": "Ice Pylon deals ${ Math.round(1.5 * perkMultiplier)}% more damage and a burst of damage to foes within a ${ Math.round(3)}m radius whenever it fires its projectile.",
         "label": [
             "Skill",
             "IceGauntlet"
@@ -1321,11 +1449,13 @@
         "charm": {
             "name": "Reinforced Orichalcum Ice Gauntlet Charm",
             "icon": "icons/items/Resource/IceGauntletCharmT4.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_icegauntlet_pylonburst"
     },
     "perkid_ability_icegauntlet_healingtomb": {
         "name": "Healing Tomb",
-        "description": "Heal for  ${Math.round(5 * perkMultiplier)}% of your base Health after Entomb ends.",
+        "description": "Heal for ${ Math.round(5 * perkMultiplier)}% of your base Health after Entomb ends.",
         "label": [
             "Skill",
             "IceGauntlet"
@@ -1341,11 +1471,13 @@
         "charm": {
             "name": "Reinforced Steel Ice Gauntlet Charm",
             "icon": "icons/items/Resource/IceGauntletCharmT4.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_icegauntlet_healingtomb"
     },
     "perkid_ability_voidgauntlet_voidblade_lifesteal": {
         "name": "Voracious Blade",
-        "description": "While below  ${Math.round(50)}% health, successful Void Blade hits heal self for  ${Math.round(10 * perkMultiplier)}% of the damage done.",
+        "description": "While below ${ Math.round(50)}% health, successful Void Blade hits heal self for ${ Math.round(10 * perkMultiplier)}% of the damage done.",
         "label": [
             "Skill",
             "VoidGauntlet"
@@ -1361,11 +1493,13 @@
         "charm": {
             "name": "Steel Void Gauntlet Charm",
             "icon": "icons/items/Resource/VoidGauntletCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_voidgauntlet_voidblade_lifesteal"
     },
     "perkid_ability_voidgauntlet_nullchamber_nullify": {
         "name": "Nullifying Oblivion",
-        "description": "On activation, Oblivion removes limited duration buffs from enemies within its radius. Obilivion recharges  ${Math.round(5 * perkMultiplier)}% faster.",
+        "description": "On activation, Oblivion removes limited duration buffs from enemies within its radius. Obilivion recharges ${ Math.round(5 * perkMultiplier)}% faster.",
         "label": [
             "Skill",
             "VoidGauntlet"
@@ -1381,11 +1515,13 @@
         "charm": {
             "name": "Starmetal Void Gauntlet Charm",
             "icon": "icons/items/Resource/VoidGauntletCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_voidgauntlet_nullchamber_nullify"
     },
     "perkid_ability_voidgauntlet_scream_disease": {
         "name": "Putrefying Scream",
-        "description": "On successful hit, Petrifying Scream inflicts Disease, reducing the target's healing by  ${Math.round(10 * perkMultiplier)}% for  ${Math.round(8)}s.",
+        "description": "On successful hit, Petrifying Scream inflicts Disease, reducing the target's healing by ${ Math.round(10 * perkMultiplier)}% for ${ Math.round(8)}s.",
         "label": [
             "Skill",
             "VoidGauntlet"
@@ -1401,11 +1537,13 @@
         "charm": {
             "name": "Orichalcum Void Gauntlet Charm",
             "icon": "icons/items/Resource/VoidGauntletCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_voidgauntlet_scream_disease"
     },
     "perkid_ability_voidgauntlet_decayingorb_reducebuffs": {
         "name": "Diminishing Orb",
-        "description": "On hit, Orb of Decay reduces the duration of the target's non-consumable buffs by  ${Math.round(20 * perkMultiplier)}%.",
+        "description": "On hit, Orb of Decay reduces the duration of the target's non-consumable buffs by ${ Math.round(20 * perkMultiplier)}%.",
         "label": [
             "Skill",
             "VoidGauntlet"
@@ -1421,11 +1559,13 @@
         "charm": {
             "name": "Reinforced Steel Void Gauntlet Charm",
             "icon": "icons/items/Resource/VoidGauntletCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_voidgauntlet_decayingorb_reducebuffs"
     },
     "perkid_ability_voidgauntlet_drainingtether_slow": {
         "name": "Slowing Tether",
-        "description": "On successful hit, Baleful Tether inflicts Slow, reducing the target's move speed by  ${Math.round(20 * perkMultiplier)}% for  ${Math.round(3)}s.",
+        "description": "On successful hit, Baleful Tether inflicts Slow, reducing the target's move speed by ${ Math.round(20 * perkMultiplier)}% for ${ Math.round(3)}s.",
         "label": [
             "Skill",
             "VoidGauntlet"
@@ -1441,11 +1581,13 @@
         "charm": {
             "name": "Reinforced Starmetal Void Gauntlet Charm",
             "icon": "icons/items/Resource/VoidGauntletCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_voidgauntlet_drainingtether_slow"
     },
     "perkid_ability_voidgauntlet_essencerupture_empower": {
         "name": "Refreshing Rupture",
-        "description": "When you hit a target with Essence Rupture, Essence Rupture recharges  ${Math.round(10 * perkMultiplier)}% faster.",
+        "description": "When you hit a target with Essence Rupture, Essence Rupture recharges ${ Math.round(10 * perkMultiplier)}% faster.",
         "label": [
             "Skill",
             "VoidGauntlet"
@@ -1461,11 +1603,13 @@
         "charm": {
             "name": "Reinforced Orichalcum Void Gauntlet Charm",
             "icon": "icons/items/Resource/VoidGauntletCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_voidgauntlet_essencerupture_empower"
     },
     "perkid_ability_blunderbuss_netshot": {
         "name": "Exhaustive Net Shot",
-        "description": "Net Shot inflicts exhaust, reducing target's stamina regeneration by  ${Math.round(10 * perkMultiplier)}% for  ${Math.round(8)}s.",
+        "description": "Net Shot inflicts exhaust, reducing target's stamina regeneration by ${ Math.round(10 * perkMultiplier)}% for ${ Math.round(8)}s.",
         "label": [
             "Skill",
             "Blunderbuss"
@@ -1481,11 +1625,13 @@
         "charm": {
             "name": "Steel Blunderbuss Charm",
             "icon": "icons/items/Resource/BlunderbussCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_blunderbuss_netshot"
     },
     "perkid_ability_blunderbuss_azothshrapnelblast": {
         "name": "Leeching Shrapnel Blast",
-        "description": "Heal for  ${Math.round(5 * perkMultiplier)}% of the damage dealt from Azoth Shrapnel Blast.",
+        "description": "Heal for ${ Math.round(5 * perkMultiplier)}% of the damage dealt from Azoth Shrapnel Blast.",
         "label": [
             "Skill",
             "Blunderbuss"
@@ -1501,11 +1647,13 @@
         "charm": {
             "name": "Starmetal Blunderbuss Charm",
             "icon": "icons/items/Resource/BlunderbussCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_blunderbuss_azothshrapnelblast"
     },
     "perkid_ability_blunderbuss_clawshot": {
         "name": "Venturing Claw Shot",
-        "description": "When Claw Shot connects to a target at least  ${Math.round(10)}m away, gain a  ${Math.round(5 * perkMultiplier)}% Empower for  ${Math.round(3)}s or until next hit.",
+        "description": "When Claw Shot connects to a target at least ${ Math.round(10)}m away, gain a ${ Math.round(5 * perkMultiplier)}% Empower for ${ Math.round(3)}s or until next hit.",
         "label": [
             "Skill",
             "Blunderbuss"
@@ -1521,11 +1669,13 @@
         "charm": {
             "name": "Orichalcum Blunderbuss Charm",
             "icon": "icons/items/Resource/BlunderbussCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_blunderbuss_clawshot"
     },
     "perkid_ability_blunderbuss_scattergrenade": {
         "name": "Plagued Splitting Grenade",
-        "description": "Splitting Grenade hits inflict disease, reducing healing efficiency on target by  ${Math.round(5 * perkMultiplier)}% for  ${Math.round(8)}s.",
+        "description": "Splitting Grenade hits inflict disease, reducing healing efficiency on target by ${ Math.round(5 * perkMultiplier)}% for ${ Math.round(8)}s.",
         "label": [
             "Skill",
             "Blunderbuss"
@@ -1541,11 +1691,13 @@
         "charm": {
             "name": "Reinforced Steel Blunderbuss Charm",
             "icon": "icons/items/Resource/BlunderbussCharmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_blunderbuss_scattergrenade"
     },
     "perkid_ability_blunderbuss_mortarcharge": {
         "name": "Resupplying Mortar Charge",
-        "description": "Mortar Charge kills reload 1 additional canister and grant  ${Math.round(3 * perkMultiplier)}% Empower for  ${Math.round(5)} seconds. (Limited to 1 reload per shot. Will not trigger past 3 canisters or after final shot.)",
+        "description": "Mortar Charge kills reload 1 additional canister and grant ${ Math.round(3 * perkMultiplier)}% Empower for ${ Math.round(5)} seconds. (Limited to 1 reload per shot. Will not trigger past 3 canisters or after final shot.)",
         "label": [
             "Skill",
             "Blunderbuss"
@@ -1561,11 +1713,13 @@
         "charm": {
             "name": "Reinforced Starmetal Blunderbuss Charm",
             "icon": "icons/items/Resource/BlunderbussCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_blunderbuss_mortarcharge"
     },
     "perkid_ability_blunderbuss_vortexshot": {
         "name": "Crippling Blast Shot",
-        "description": "Targets hit by Blast Shot are slowed, reducing movement speed by  ${Math.round(5 * perkMultiplier)}% for  ${Math.round(5)}s.",
+        "description": "Targets hit by Blast Shot are slowed, reducing movement speed by ${ Math.round(5 * perkMultiplier)}% for ${ Math.round(5)}s.",
         "label": [
             "Skill",
             "Blunderbuss"
@@ -1581,11 +1735,13 @@
         "charm": {
             "name": "Reinforced Orichalcum Blunderbuss Charm",
             "icon": "icons/items/Resource/BlunderbussCharmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ability_blunderbuss_vortexshot"
     },
     "perkid_common_cdr": {
         "name": "Refreshing",
-        "description": "Reduces max cooldowns by  ${Math.round(1 * perkMultiplier)}%.",
+        "description": "Reduces max cooldowns by ${ Math.round(1 * perkMultiplier)}%.",
         "label": [
             "CDR"
         ],
@@ -1595,11 +1751,13 @@
         "charm": {
             "name": "Brilliant Animus",
             "icon": "icons/items/Resource/AnimusT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_common_cdr"
     },
     "perkid_common_cdronhit": {
         "name": "Refreshing Ward",
-        "description": "Reduces active cooldowns by  ${Math.round(0.5 * perkMultiplier)}% after being hit 4 times. Does not trigger off persistent damage, DoT effects or blocked attacks.",
+        "description": "Reduces active cooldowns by ${ Math.round(0.5 * perkMultiplier)}% after being hit 4 times. Does not trigger off persistent damage, DoT effects or blocked attacks.",
         "label": [
             "CDR"
         ],
@@ -1609,11 +1767,13 @@
         "charm": {
             "name": "Shimmering Animus",
             "icon": "icons/items/Resource/AnimusT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_common_cdronhit"
     },
     "perkid_common_cdrondodge": {
         "name": "Refreshing Evasion",
-        "description": "Reduces active cooldowns by  ${Math.round(0.5 * perkMultiplier)}% after exiting the dodge animation.",
+        "description": "Reduces active cooldowns by ${ Math.round(0.5 * perkMultiplier)}% after exiting the dodge animation.",
         "label": [
             "CDR"
         ],
@@ -1623,11 +1783,13 @@
         "charm": {
             "name": "Shining Animus",
             "icon": "icons/items/Resource/AnimusT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_common_cdrondodge"
     },
     "perkid_common_luck": {
         "name": "Luck",
-        "description": "+ ${Math.round(0.5 * perkMultiplier)}% chance at rare items from chests and monsters.",
+        "description": "+${ Math.round(0.5 * perkMultiplier)}% chance at rare items from chests and monsters.",
         "label": [
             "Luck"
         ],
@@ -1637,7 +1799,9 @@
         "charm": {
             "name": "Chunk of Adderstone",
             "icon": "icons/items/Resource/AdderStoneT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_common_luck"
     },
     "perkid_tools_durability": {
         "name": "Durable",
@@ -1651,11 +1815,13 @@
         "charm": {
             "name": "Sliver of Adamant",
             "icon": "icons/items/Resource/AdamantT1.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_tools_durability"
     },
     "perkid_tools_azothgain": {
         "name": "Azoth Extraction",
-        "description": " ${Math.round(30 * perkMultiplier)}% chance when finish gathering a node to gain 1 Azoth.",
+        "description": "${ Math.round(30 * perkMultiplier)}% chance when finish gathering a node to gain 1 Azoth.",
         "label": [
             "AzothGain"
         ],
@@ -1665,11 +1831,13 @@
         "charm": {
             "name": "Drop of Azoth Oil",
             "icon": "icons/items/Resource/AzothOilT1.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_tools_azothgain"
     },
     "perkid_tools_hasteongather": {
         "name": "Gathering Alacrity",
-        "description": "When you finish gathering a node gain  ${Math.round(3)}s of  ${Math.round(50)}% Haste.",
+        "description": "When you finish gathering a node gain ${ Math.round(3)}s of ${ Math.round(50)}% Haste.",
         "label": [
             "GatherProc"
         ],
@@ -1679,11 +1847,13 @@
         "charm": {
             "name": "Small Elk Hoof",
             "icon": "icons/items/Resource/ElkHoofT1.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_tools_hasteongather"
     },
     "perkid_armor_defancient": {
         "name": "Ancient Ward",
-        "description": "+ ${Math.round(2.5 * perkMultiplier)}% Damage Absorption against Ancient Guardians.",
+        "description": "+${ Math.round(2.5 * perkMultiplier)}% Damage Absorption against Ancient Guardians.",
         "label": [
             "DmgAbsorb"
         ],
@@ -1693,11 +1863,13 @@
         "charm": {
             "name": "Clump of Writhing Briar",
             "icon": "icons/items/Resource/WrithingBriarT3.png"
-        }
+        },
+        "weight": 80,
+        "perkId": "perkid_armor_defancient"
     },
     "perkid_armor_defangryearth": {
         "name": "Angry Earth Ward",
-        "description": "+ ${Math.round(2.5 * perkMultiplier)}% Damage Absorption against Angry Earth.",
+        "description": "+${ Math.round(2.5 * perkMultiplier)}% Damage Absorption against Angry Earth.",
         "label": [
             "DmgAbsorb"
         ],
@@ -1707,11 +1879,13 @@
         "charm": {
             "name": "Brilliant Corrupted Insignia",
             "icon": "icons/items/Resource/BountyT10.png"
-        }
+        },
+        "weight": 80,
+        "perkId": "perkid_armor_defangryearth"
     },
     "perkid_armor_defbeast": {
         "name": "Beast Ward",
-        "description": "+ ${Math.round(2.5 * perkMultiplier)}% Damage Absorption against Beasts.",
+        "description": "+${ Math.round(2.5 * perkMultiplier)}% Damage Absorption against Beasts.",
         "label": [
             "DmgAbsorb"
         ],
@@ -1721,11 +1895,13 @@
         "charm": {
             "name": "Vial of Wolf Essence",
             "icon": "icons/items/Resource/WolfEssenceT2.png"
-        }
+        },
+        "weight": 10,
+        "perkId": "perkid_armor_defbeast"
     },
     "perkid_armor_defcorrupted": {
         "name": "Corrupted Ward",
-        "description": "+ ${Math.round(2.5 * perkMultiplier)}% Damage Absorption against Corrupted.",
+        "description": "+${ Math.round(2.5 * perkMultiplier)}% Damage Absorption against Corrupted.",
         "label": [
             "DmgAbsorb"
         ],
@@ -1735,11 +1911,13 @@
         "charm": {
             "name": "Chunk of Baetylus",
             "icon": "icons/items/Resource/BaetylusT3.png"
-        }
+        },
+        "weight": 80,
+        "perkId": "perkid_armor_defcorrupted"
     },
     "perkid_armor_deflost": {
         "name": "Lost Ward",
-        "description": "+ ${Math.round(2.5 * perkMultiplier)}% Damage Absorption against Lost.",
+        "description": "+${ Math.round(2.5 * perkMultiplier)}% Damage Absorption against Lost.",
         "label": [
             "DmgAbsorb"
         ],
@@ -1749,11 +1927,13 @@
         "charm": {
             "name": "Draught of Ancient Essence",
             "icon": "icons/items/Resource/AncientEssenceT3.png"
-        }
+        },
+        "weight": 80,
+        "perkId": "perkid_armor_deflost"
     },
     "perkid_armor_loggingluck": {
         "name": "Reinforced Logging Luck",
-        "description": "While Logging gain  ${Math.round(2 * perkMultiplier)}% chance at finding rare items.",
+        "description": "While Logging gain ${ Math.round(2 * perkMultiplier)}% chance at finding rare items.",
         "label": [
             "Gathering"
         ],
@@ -1763,11 +1943,13 @@
         "charm": {
             "name": "Vial of Sap",
             "icon": "icons/items/Resource/SapT2.png"
-        }
+        },
+        "weight": 1,
+        "perkId": "perkid_armor_loggingluck"
     },
     "perkid_armor_harvestingluck": {
         "name": "Reinforced Harvesting Luck",
-        "description": "While Harvesting gain  ${Math.round(2 * perkMultiplier)}% chance at finding rare items.",
+        "description": "While Harvesting gain ${ Math.round(2 * perkMultiplier)}% chance at finding rare items.",
         "label": [
             "Gathering"
         ],
@@ -1777,11 +1959,13 @@
         "charm": {
             "name": "Verbena Leaf",
             "icon": "icons/items/Resource/VerbenaT2.png"
-        }
+        },
+        "weight": 1,
+        "perkId": "perkid_armor_harvestingluck"
     },
     "perkid_armor_miningluck": {
         "name": "Reinforced Mining Luck",
-        "description": "While Mining gain  ${Math.round(2 * perkMultiplier)}% chance at finding rare items.",
+        "description": "While Mining gain ${ Math.round(2 * perkMultiplier)}% chance at finding rare items.",
         "label": [
             "Gathering"
         ],
@@ -1791,11 +1975,13 @@
         "charm": {
             "name": "Shard of Adderstone",
             "icon": "icons/items/Resource/AdderStoneT2.png"
-        }
+        },
+        "weight": 1,
+        "perkId": "perkid_armor_miningluck"
     },
     "perkid_armor_skinningluck": {
         "name": "Reinforced Skinning Luck",
-        "description": "While Skinning gain  ${Math.round(2 * perkMultiplier)}% chance at finding rare items.",
+        "description": "While Skinning gain ${ Math.round(2 * perkMultiplier)}% chance at finding rare items.",
         "label": [
             "Gathering"
         ],
@@ -1805,11 +1991,13 @@
         "charm": {
             "name": "Jagged Animal Fang",
             "icon": "icons/items/Resource/FangT2.png"
-        }
+        },
+        "weight": 1,
+        "perkId": "perkid_armor_skinningluck"
     },
     "perkid_armor_resistcorrupt": {
         "name": "Corruption Resistance",
-        "description": "+ ${Math.round(5 * perkMultiplier)} Corruption Resistance. Also slows corruption damage.",
+        "description": "+${ Math.round(5 * perkMultiplier)} Corruption Resistance. Also slows corruption damage.",
         "label": [
             "Afflicted"
         ],
@@ -1819,11 +2007,13 @@
         "charm": {
             "name": "Sliver of Baetylus",
             "icon": "icons/items/Resource/BaetylusT1.png"
-        }
+        },
+        "weight": 20,
+        "perkId": "perkid_armor_resistcorrupt"
     },
     "perkid_armor_resistblight": {
         "name": "Blight Resistance",
-        "description": "+ ${Math.round(5 * perkMultiplier)} Blight Resistance. Also slows blight damage.",
+        "description": "+${ Math.round(5 * perkMultiplier)} Blight Resistance. Also slows blight damage.",
         "label": [
             "Afflicted"
         ],
@@ -1833,11 +2023,13 @@
         "charm": {
             "name": "Shard of Corrupted Matter",
             "icon": "icons/items/Resource/CorruptedMatterT2.png"
-        }
+        },
+        "weight": 20,
+        "perkId": "perkid_armor_resistblight"
     },
     "perkid_armor_defcritdmg": {
         "name": "Resilient",
-        "description": "Critical hits deal  ${Math.round(3 * perkMultiplier)}% less damage to you.",
+        "description": "Critical hits deal ${ Math.round(3 * perkMultiplier)}% less damage to you.",
         "label": [
             "CritDef"
         ],
@@ -1847,7 +2039,9 @@
         "charm": {
             "name": "Chunk of Consecrated Iron",
             "icon": "icons/items/Resource/ConsecratedIronT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_armor_defcritdmg"
     },
     "perkid_armor_durability": {
         "name": "Indestructible",
@@ -1861,11 +2055,13 @@
         "charm": {
             "name": "Shard of Adamant",
             "icon": "icons/items/Resource/AdamantT2.png"
-        }
+        },
+        "weight": 50,
+        "perkId": "perkid_armor_durability"
     },
     "perkid_armor_durcc": {
         "name": "Freedom",
-        "description": "Slow, Stun, and Root expires  ${Math.round(3 * perkMultiplier)}% faster.",
+        "description": "Slow, Stun, and Root expires ${ Math.round(3 * perkMultiplier)}% faster.",
         "label": [
             "DebuffDur"
         ],
@@ -1875,11 +2071,13 @@
         "charm": {
             "name": "Shard of Consecrated Iron",
             "icon": "icons/items/Resource/ConsecratedIronT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_armor_durcc"
     },
     "perkid_armor_durdot": {
         "name": "Vigor",
-        "description": "Burn, Bleed, and Poison expires  ${Math.round(3 * perkMultiplier)}% faster.",
+        "description": "Burn, Bleed, and Poison expires ${ Math.round(3 * perkMultiplier)}% faster.",
         "label": [
             "DebuffDur"
         ],
@@ -1889,11 +2087,13 @@
         "charm": {
             "name": "Shard of Batrachite",
             "icon": "icons/items/Resource/BatrachiteT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_armor_durdot"
     },
     "perkid_armor_durdebuff": {
         "name": "Invigorated",
-        "description": "Weaken, Disease, Exhaust, and Rend expires  ${Math.round(3 * perkMultiplier)}% faster.",
+        "description": "Weaken, Disease, Exhaust, and Rend expires ${ Math.round(3 * perkMultiplier)}% faster.",
         "label": [
             "DebuffDur"
         ],
@@ -1903,11 +2103,13 @@
         "charm": {
             "name": "Sliver of Batrachite",
             "icon": "icons/items/Resource/BatrachiteT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_armor_durdebuff"
     },
     "perkid_amulet_deffire": {
         "name": "Flame Protection",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less Fire damage.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less Fire damage.",
         "label": [
             "Defense"
         ],
@@ -1917,11 +2119,13 @@
         "charm": {
             "name": "Shard of Niter",
             "icon": "icons/items/Resource/NiterT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_deffire"
     },
     "perkid_amulet_defice": {
         "name": "Frozen Protection",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less Ice damage.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less Ice damage.",
         "label": [
             "Defense"
         ],
@@ -1931,11 +2135,13 @@
         "charm": {
             "name": "Frigid Fang",
             "icon": "icons/items/Resource/FrozenFangT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_defice"
     },
     "perkid_amulet_defnature": {
         "name": "Nature Protection",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less Nature damage.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less Nature damage.",
         "label": [
             "Defense"
         ],
@@ -1945,11 +2151,13 @@
         "charm": {
             "name": "Shard of Enchanted Earth",
             "icon": "icons/items/Resource/EnchantedEarthT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_defnature"
     },
     "perkid_amulet_defvoid": {
         "name": "Void Protection",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less Void damage.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less Void damage.",
         "label": [
             "Defense"
         ],
@@ -1959,11 +2167,13 @@
         "charm": {
             "name": "Vacant Corrupted Insignia",
             "icon": "icons/items/Resource/BountyT6.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_defvoid"
     },
     "perkid_amulet_defthurst": {
         "name": "Thrust Protection",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less Thrust damage.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less Thrust damage.",
         "label": [
             "Defense"
         ],
@@ -1973,11 +2183,13 @@
         "charm": {
             "name": "Perfect Corrupted Sigil",
             "icon": "icons/items/Resource/BountyT9.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_defthurst"
     },
     "perkid_amulet_defslash": {
         "name": "Slash Protection",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less Slash damage.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less Slash damage.",
         "label": [
             "Defense"
         ],
@@ -1987,11 +2199,13 @@
         "charm": {
             "name": "Corrupted Sigil",
             "icon": "icons/items/Resource/BountyT5.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_defslash"
     },
     "perkid_amulet_defarcane": {
         "name": "Arcane Protection",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less Arcane damage.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less Arcane damage.",
         "label": [
             "Defense"
         ],
@@ -2001,11 +2215,13 @@
         "charm": {
             "name": "Drop of Ancient Essence",
             "icon": "icons/items/Resource/AncientEssenceT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_defarcane"
     },
     "perkid_amulet_deflightning": {
         "name": "Lightning Protection",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less Lightning damage.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less Lightning damage.",
         "label": [
             "Defense"
         ],
@@ -2015,11 +2231,13 @@
         "charm": {
             "name": "Shard of Sparkmetal",
             "icon": "icons/items/Resource/SparkmetalT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_deflightning"
     },
     "perkid_amulet_defstrike": {
         "name": "Strike Protection",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less Strike damage.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less Strike damage.",
         "label": [
             "Defense"
         ],
@@ -2029,11 +2247,13 @@
         "charm": {
             "name": "Fine Corrupted Sigil",
             "icon": "icons/items/Resource/BountyT7.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_defstrike"
     },
     "perkid_amulet_hp": {
         "name": "Health",
-        "description": "You have  ${Math.round(3 * perkMultiplier)}% more maximum health.",
+        "description": "You have ${ Math.round(3 * perkMultiplier)}% more maximum health.",
         "label": [
             "Health"
         ],
@@ -2043,11 +2263,13 @@
         "charm": {
             "name": "Draught of Ironwood Sap",
             "icon": "icons/items/Resource/IronwoodSapT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_hp"
     },
     "perkid_amulet_stamonlow": {
         "name": "Stamina Recovery",
-        "description": "When you are hit while below 50% gain  ${Math.round(50 * perkMultiplier)} stamina ( ${Math.round(30)}s cooldown.) Does not trigger off persistent damage, DoT effects or blocked attacks.",
+        "description": "When you are hit while below 50% gain ${ Math.round(50 * perkMultiplier)} stamina (${ Math.round(30)}s cooldown.) Does not trigger off persistent damage, DoT effects or blocked attacks.",
         "label": [
             "Proc"
         ],
@@ -2057,11 +2279,13 @@
         "charm": {
             "name": "Pristine Horn",
             "icon": "icons/items/Resource/HornT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_stamonlow"
     },
     "perkid_amulet_manaonlow": {
         "name": "Mana Recovery",
-        "description": "When you are hit while below 50% gain  ${Math.round(50 * perkMultiplier)} mana ( ${Math.round(30)}s cooldown.) Does not trigger off persistent damage, DoT effects or blocked attacks.",
+        "description": "When you are hit while below 50% gain ${ Math.round(50 * perkMultiplier)} mana (${ Math.round(30)}s cooldown.) Does not trigger off persistent damage, DoT effects or blocked attacks.",
         "label": [
             "Proc"
         ],
@@ -2071,11 +2295,13 @@
         "charm": {
             "name": "Draught of Quicksilver",
             "icon": "icons/items/Resource/QuicksilverT3.png"
-        }
+        },
+        "weight": 33,
+        "perkId": "perkid_amulet_manaonlow"
     },
     "perkid_amulet_removeonlow": {
         "name": "Purify",
-        "description": "When you are hit while below 50% health you lose all debuffs. ( ${Math.round(90)}s cooldown.) Does not trigger off persistent damage, DoT effects or blocked attacks.",
+        "description": "When you are hit while below 50% health you lose all debuffs. (${ Math.round(90)}s cooldown.) Does not trigger off persistent damage, DoT effects or blocked attacks.",
         "label": [
             "Proc"
         ],
@@ -2085,11 +2311,13 @@
         "charm": {
             "name": "Chunk of Batrachite",
             "icon": "icons/items/Resource/BatrachiteT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_removeonlow"
     },
     "perkid_amulet_fortifyonlow": {
         "name": "Fortified Recovery",
-        "description": "When you are hit while below 50% gain  ${Math.round(10 * perkMultiplier)}% Fortify for  ${Math.round(5)}s. ( ${Math.round(90)}s cooldown.) Does not trigger off persistent damage, DoT effects or blocked attacks.",
+        "description": "When you are hit while below 50% gain ${ Math.round(10 * perkMultiplier)}% Fortify for ${ Math.round(5)}s. (${ Math.round(90)}s cooldown.) Does not trigger off persistent damage, DoT effects or blocked attacks.",
         "label": [
             "Proc"
         ],
@@ -2099,11 +2327,13 @@
         "charm": {
             "name": "Chunk of Adamant",
             "icon": "icons/items/Resource/AdamantT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_fortifyonlow"
     },
     "perkid_amulet_loggingluck": {
         "name": "Adored Logging Luck",
-        "description": "While Logging gain  ${Math.round(5 * perkMultiplier)}% chance at finding rare items.",
+        "description": "While Logging gain ${ Math.round(5 * perkMultiplier)}% chance at finding rare items.",
         "label": [
             "GatheringLuck"
         ],
@@ -2113,11 +2343,13 @@
         "charm": {
             "name": "Draught of Sap",
             "icon": "icons/items/Resource/SapT3.png"
-        }
+        },
+        "weight": 1,
+        "perkId": "perkid_amulet_loggingluck"
     },
     "perkid_amulet_harvestingluck": {
         "name": "Adored Harvesting Luck",
-        "description": "While Harvesting gain  ${Math.round(5 * perkMultiplier)}% chance at finding rare items.",
+        "description": "While Harvesting gain ${ Math.round(5 * perkMultiplier)}% chance at finding rare items.",
         "label": [
             "GatheringLuck"
         ],
@@ -2127,11 +2359,13 @@
         "charm": {
             "name": "Verbena Flower",
             "icon": "icons/items/Resource/VerbenaT3.png"
-        }
+        },
+        "weight": 1,
+        "perkId": "perkid_amulet_harvestingluck"
     },
     "perkid_amulet_miningluck": {
         "name": "Adored Mining Luck",
-        "description": "While Mining gain  ${Math.round(5 * perkMultiplier)}% chance at finding rare items.",
+        "description": "While Mining gain ${ Math.round(5 * perkMultiplier)}% chance at finding rare items.",
         "label": [
             "GatheringLuck"
         ],
@@ -2141,11 +2375,13 @@
         "charm": {
             "name": "Chunk of Cobalt",
             "icon": "icons/items/Resource/CobaltT3.png"
-        }
+        },
+        "weight": 1,
+        "perkId": "perkid_amulet_miningluck"
     },
     "perkid_amulet_skinningluck": {
         "name": "Adored Skinning Luck",
-        "description": "While Skinning gain  ${Math.round(5 * perkMultiplier)}% chance at finding rare items.",
+        "description": "While Skinning gain ${ Math.round(5 * perkMultiplier)}% chance at finding rare items.",
         "label": [
             "GatheringLuck"
         ],
@@ -2155,11 +2391,13 @@
         "charm": {
             "name": "Pristine Animal Fang",
             "icon": "icons/items/Resource/FangT3.png"
-        }
+        },
+        "weight": 1,
+        "perkId": "perkid_amulet_skinningluck"
     },
     "perkid_amulet_durempower": {
         "name": "Empowered",
-        "description": "Empower you apply lasts  ${Math.round(5 * perkMultiplier)}% longer.",
+        "description": "Empower you apply lasts ${ Math.round(5 * perkMultiplier)}% longer.",
         "label": [
             "BuffDur"
         ],
@@ -2169,11 +2407,13 @@
         "charm": {
             "name": "Large Bear Paw",
             "icon": "icons/items/Resource/BearPawT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_durempower"
     },
     "perkid_amulet_durhaste": {
         "name": "Alacrity",
-        "description": "Haste you apply lasts  ${Math.round(5 * perkMultiplier)}% longer.",
+        "description": "Haste you apply lasts ${ Math.round(5 * perkMultiplier)}% longer.",
         "label": [
             "BuffDur"
         ],
@@ -2183,11 +2423,13 @@
         "charm": {
             "name": "Large Elk Hoof",
             "icon": "icons/items/Resource/ElkHoofT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_durhaste"
     },
     "perkid_amulet_durfortify": {
         "name": "Fortified",
-        "description": "Fortify you apply lasts  ${Math.round(5 * perkMultiplier)}% longer.",
+        "description": "Fortify you apply lasts ${ Math.round(5 * perkMultiplier)}% longer.",
         "label": [
             "BuffDur"
         ],
@@ -2197,11 +2439,13 @@
         "charm": {
             "name": "Tattered Mangy Hide",
             "icon": "icons/items/Resource/MangyHideT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_durfortify"
     },
     "perkid_amulet_healing": {
         "name": "Divine",
-        "description": "You gain  ${Math.round(5 * perkMultiplier)}% more health from all incoming healing effects.",
+        "description": "You gain ${ Math.round(5 * perkMultiplier)}% more health from all incoming healing effects.",
         "label": [
             "Healing"
         ],
@@ -2211,11 +2455,13 @@
         "charm": {
             "name": "Shard of Crystalized Azoth",
             "icon": "icons/items/Resource/CrystalizedAzothT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_healing"
     },
     "perkid_ring_healperdmg": {
         "name": "Leeching",
-        "description": "You gain  ${Math.round(1 * perkMultiplier)}% of your damage as health. Does not trigger off persistent damage or DoT effects.",
+        "description": "You gain ${ Math.round(1 * perkMultiplier)}% of your damage as health. Does not trigger off persistent damage or DoT effects.",
         "label": [
             "Proc"
         ],
@@ -2225,11 +2471,13 @@
         "charm": {
             "name": "Vial of Viscous Azoth",
             "icon": "icons/items/Resource/ViscousAzothT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ring_healperdmg"
     },
     "perkid_ring_manaonhit": {
         "name": "Siphoning",
-        "description": "You gain  ${Math.round(1 * perkMultiplier)}% mana per hit (cooldown  ${Math.round(2)}s). Does not trigger off persistent damage, DoT effects or blocked attacks.",
+        "description": "You gain ${ Math.round(1 * perkMultiplier)}% mana per hit (cooldown ${ Math.round(2)}s). Does not trigger off persistent damage, DoT effects or blocked attacks.",
         "label": [
             "Proc"
         ],
@@ -2239,11 +2487,13 @@
         "charm": {
             "name": "Drop of Ectoplasm",
             "icon": "icons/items/Resource/EctoplasmT1.png"
-        }
+        },
+        "weight": 20,
+        "perkId": "perkid_ring_manaonhit"
     },
     "perkid_ring_dmgfire": {
         "name": "Fire Damage",
-        "description": "You deal  ${Math.round(3 * perkMultiplier)}% more Fire damage.",
+        "description": "You deal ${ Math.round(3 * perkMultiplier)}% more Fire damage.",
         "label": [
             "DmgType"
         ],
@@ -2253,11 +2503,13 @@
         "charm": {
             "name": "Thread of Corrupted Cloth",
             "icon": "icons/items/Resource/CorruptedClothT1.png"
-        }
+        },
+        "weight": 50,
+        "perkId": "perkid_ring_dmgfire"
     },
     "perkid_ring_dmgice": {
         "name": "Ice damage",
-        "description": "You deal  ${Math.round(3 * perkMultiplier)}% more Ice damage.",
+        "description": "You deal ${ Math.round(3 * perkMultiplier)}% more Ice damage.",
         "label": [
             "DmgType"
         ],
@@ -2267,11 +2519,13 @@
         "charm": {
             "name": "Patch of Corrupted Cloth",
             "icon": "icons/items/Resource/CorruptedClothT2.png"
-        }
+        },
+        "weight": 50,
+        "perkId": "perkid_ring_dmgice"
     },
     "perkid_ring_dmgnature": {
         "name": "Nature damage",
-        "description": "You deal  ${Math.round(3 * perkMultiplier)}% more Nature damage.",
+        "description": "You deal ${ Math.round(3 * perkMultiplier)}% more Nature damage.",
         "label": [
             "DmgType"
         ],
@@ -2281,11 +2535,13 @@
         "charm": {
             "name": "Sliver of Wyrdwood Resin",
             "icon": "icons/items/Resource/WyrdwoodResinT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ring_dmgnature"
     },
     "perkid_ring_dmglightning": {
         "name": "Lightning Damage",
-        "description": "You deal  ${Math.round(3 * perkMultiplier)}% more Lightning damage.",
+        "description": "You deal ${ Math.round(3 * perkMultiplier)}% more Lightning damage.",
         "label": [
             "DmgType"
         ],
@@ -2295,11 +2551,13 @@
         "charm": {
             "name": "Bolt of Corrupted Cloth",
             "icon": "icons/items/Resource/CorruptedClothT3.png"
-        }
+        },
+        "weight": 10,
+        "perkId": "perkid_ring_dmglightning"
     },
     "perkid_ring_dmgvoid": {
         "name": "Void Damage",
-        "description": "You deal  ${Math.round(3 * perkMultiplier)}% more Void damage.",
+        "description": "You deal ${ Math.round(3 * perkMultiplier)}% more Void damage.",
         "label": [
             "DmgType"
         ],
@@ -2309,11 +2567,13 @@
         "charm": {
             "name": "Drop of Corrupted Essence",
             "icon": "icons/items/Resource/CorruptedEssenceT1.png"
-        }
+        },
+        "weight": 50,
+        "perkId": "perkid_ring_dmgvoid"
     },
     "perkid_ring_dmgarcane": {
         "name": "Arcane Damage",
-        "description": "You deal  ${Math.round(3 * perkMultiplier)}% more Arcane damage.",
+        "description": "You deal ${ Math.round(3 * perkMultiplier)}% more Arcane damage.",
         "label": [
             "DmgType"
         ],
@@ -2323,11 +2583,13 @@
         "charm": {
             "name": "Vial of Corrupted Essence",
             "icon": "icons/items/Resource/CorruptedEssenceT2.png"
-        }
+        },
+        "weight": 10,
+        "perkId": "perkid_ring_dmgarcane"
     },
     "perkid_ring_dmgthurst": {
         "name": "Thrust Damage",
-        "description": "You deal  ${Math.round(3 * perkMultiplier)}% more Thrust damage.",
+        "description": "You deal ${ Math.round(3 * perkMultiplier)}% more Thrust damage.",
         "label": [
             "DmgType"
         ],
@@ -2337,11 +2599,13 @@
         "charm": {
             "name": "Draught of Corrupted Essence",
             "icon": "icons/items/Resource/CorruptedEssenceT3.png"
-        }
+        },
+        "weight": 50,
+        "perkId": "perkid_ring_dmgthurst"
     },
     "perkid_ring_dmgslash": {
         "name": "Slash Damage",
-        "description": "You deal  ${Math.round(3 * perkMultiplier)}% more Slash damage.",
+        "description": "You deal ${ Math.round(3 * perkMultiplier)}% more Slash damage.",
         "label": [
             "DmgType"
         ],
@@ -2351,11 +2615,13 @@
         "charm": {
             "name": "Drop of Corrupted Ichor",
             "icon": "icons/items/Resource/CorruptedIchorT1.png"
-        }
+        },
+        "weight": 50,
+        "perkId": "perkid_ring_dmgslash"
     },
     "perkid_ring_dmgstrike": {
         "name": "Strike Damage",
-        "description": "You deal  ${Math.round(3 * perkMultiplier)}% more Strike damage.",
+        "description": "You deal ${ Math.round(3 * perkMultiplier)}% more Strike damage.",
         "label": [
             "DmgType"
         ],
@@ -2365,11 +2631,13 @@
         "charm": {
             "name": "Vial of Corrupted Ichor",
             "icon": "icons/items/Resource/CorruptedIchorT2.png"
-        }
+        },
+        "weight": 50,
+        "perkId": "perkid_ring_dmgstrike"
     },
     "perkid_ring_crit": {
         "name": "Keen Awareness",
-        "description": "+ ${Math.round(3 * perkMultiplier)}% critical chance.",
+        "description": "+${ Math.round(3 * perkMultiplier)}% critical chance.",
         "label": [
             "DmgType"
         ],
@@ -2379,11 +2647,13 @@
         "charm": {
             "name": "Draught of Corrupted Ichor",
             "icon": "icons/items/Resource/CorruptedIchorT3.png"
-        }
+        },
+        "weight": 300,
+        "perkId": "perkid_ring_crit"
     },
     "perkid_ring_durposion": {
         "name": "Poisoning",
-        "description": "Poison you apply lasts  ${Math.round(10 * perkMultiplier)}% longer.",
+        "description": "Poison you apply lasts ${ Math.round(10 * perkMultiplier)}% longer.",
         "label": [
             "DebuffDur"
         ],
@@ -2393,11 +2663,13 @@
         "charm": {
             "name": "Shard of Ironwood Resin",
             "icon": "icons/items/Resource/IronwoodResinT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ring_durposion"
     },
     "perkid_ring_durbleed": {
         "name": "Blood Letting",
-        "description": "Bleed you apply lasts  ${Math.round(10 * perkMultiplier)}% longer.",
+        "description": "Bleed you apply lasts ${ Math.round(10 * perkMultiplier)}% longer.",
         "label": [
             "DebuffDur"
         ],
@@ -2407,11 +2679,13 @@
         "charm": {
             "name": "Animal Claw",
             "icon": "icons/items/Resource/ClawT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ring_durbleed"
     },
     "perkid_ring_durburning": {
         "name": "Burning",
-        "description": "Burning you apply lasts  ${Math.round(10 * perkMultiplier)}% longer.",
+        "description": "Burning you apply lasts ${ Math.round(10 * perkMultiplier)}% longer.",
         "label": [
             "DebuffDur"
         ],
@@ -2421,11 +2695,13 @@
         "charm": {
             "name": "Sliver of Niter",
             "icon": "icons/items/Resource/NiterT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ring_durburning"
     },
     "perkid_ring_durslow": {
         "name": "Crippling",
-        "description": "Slow you apply lasts  ${Math.round(10 * perkMultiplier)}% longer.",
+        "description": "Slow you apply lasts ${ Math.round(10 * perkMultiplier)}% longer.",
         "label": [
             "DebuffDur"
         ],
@@ -2435,11 +2711,13 @@
         "charm": {
             "name": "Chunk of Crystalized Ectoplasm",
             "icon": "icons/items/Resource/CrystalizedEctoplasmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ring_durslow"
     },
     "perkid_ring_durweaken": {
         "name": "Enfeebling",
-        "description": "Weaken you apply lasts  ${Math.round(10 * perkMultiplier)}% longer.",
+        "description": "Weaken you apply lasts ${ Math.round(10 * perkMultiplier)}% longer.",
         "label": [
             "DebuffDur"
         ],
@@ -2449,11 +2727,13 @@
         "charm": {
             "name": "Shard of Crystalized Ectoplasm",
             "icon": "icons/items/Resource/CrystalizedEctoplasmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ring_durweaken"
     },
     "perkid_ring_durdisease": {
         "name": "Infected",
-        "description": "Disease you apply lasts  ${Math.round(10 * perkMultiplier)}% longer.",
+        "description": "Disease you apply lasts ${ Math.round(10 * perkMultiplier)}% longer.",
         "label": [
             "DebuffDur"
         ],
@@ -2463,11 +2743,13 @@
         "charm": {
             "name": "Sliver of Crystalized Ectoplasm",
             "icon": "icons/items/Resource/CrystalizedEctoplasmT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ring_durdisease"
     },
     "perkid_ring_maxstamina": {
         "name": "Hearty",
-        "description": "You have  ${Math.round(5 * perkMultiplier)}% more max stamina.",
+        "description": "You have ${ Math.round(5 * perkMultiplier)}% more max stamina.",
         "label": [
             "Stam"
         ],
@@ -2477,11 +2759,13 @@
         "charm": {
             "name": "Horn",
             "icon": "icons/items/Resource/HornT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_ring_maxstamina"
     },
     "perkid_ring_maxmana": {
         "name": "Brillant",
-        "description": "You have + ${Math.round(10 * perkMultiplier)}% max mana.",
+        "description": "You have +${ Math.round(10 * perkMultiplier)}% max mana.",
         "label": [
             "Mana"
         ],
@@ -2491,11 +2775,13 @@
         "charm": {
             "name": "Drop of Quicksilver",
             "icon": "icons/items/Resource/QuicksilverT1.png"
-        }
+        },
+        "weight": 33,
+        "perkId": "perkid_ring_maxmana"
     },
     "perkid_ring_healing": {
         "name": "Sacred",
-        "description": "+ ${Math.round(3 * perkMultiplier)}% Outgoing Healing.",
+        "description": "+${ Math.round(3 * perkMultiplier)}% Outgoing Healing.",
         "label": [
             "Healing"
         ],
@@ -2505,11 +2791,13 @@
         "charm": {
             "name": "Sliver of Consecrated Iron",
             "icon": "icons/items/Resource/ConsecratedIronT1.png"
-        }
+        },
+        "weight": 33,
+        "perkId": "perkid_ring_healing"
     },
     "perkid_earring_healthregen": {
         "name": "Regenerating",
-        "description": "You gain  ${Math.round(0.25 * perkMultiplier)}% health every second.",
+        "description": "You gain ${ Math.round(0.25 * perkMultiplier)}% health every second.",
         "label": [
             "Regen"
         ],
@@ -2519,11 +2807,13 @@
         "charm": {
             "name": "Draught of Azalea Nectar",
             "icon": "icons/items/Resource/AzaleaNectarT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_earring_healthregen"
     },
     "perkid_earring_manaregen": {
         "name": "Focused",
-        "description": "+ ${Math.round(25 * perkMultiplier)}% mana regen.",
+        "description": "+${ Math.round(25 * perkMultiplier)}% mana regen.",
         "label": [
             "Regen"
         ],
@@ -2533,11 +2823,13 @@
         "charm": {
             "name": "Vial of Azalea Nectar",
             "icon": "icons/items/Resource/AzaleaNectarT2.png"
-        }
+        },
+        "weight": 20,
+        "perkId": "perkid_earring_manaregen"
     },
     "perkid_earring_staminaregen": {
         "name": "Nimble",
-        "description": "+ ${Math.round(5 * perkMultiplier)}% stamina regen.",
+        "description": "+${ Math.round(5 * perkMultiplier)}% stamina regen.",
         "label": [
             "Regen"
         ],
@@ -2547,11 +2839,13 @@
         "charm": {
             "name": "Drop of Azalea Nectar",
             "icon": "icons/items/Resource/AzaleaNectarT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_earring_staminaregen"
     },
     "perkid_earring_threatadd": {
         "name": "Despised",
-        "description": "You generate  ${Math.round(50 * perkMultiplier)}% more threat.",
+        "description": "You generate ${ Math.round(50 * perkMultiplier)}% more threat.",
         "label": [
             "Threat"
         ],
@@ -2561,11 +2855,13 @@
         "charm": {
             "name": "Shard of Thunderstone",
             "icon": "icons/items/Resource/ThunderstoneT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_earring_threatadd"
     },
     "perkid_earring_threatsub": {
         "name": "Beloved",
-        "description": "You generate  ${Math.round(15 * perkMultiplier)}% less threat. (max 99% from all sources.)",
+        "description": "You generate ${ Math.round(15 * perkMultiplier)}% less threat. (max 99% from all sources.)",
         "label": [
             "Threat"
         ],
@@ -2575,11 +2871,13 @@
         "charm": {
             "name": "Vial of Withered Essence",
             "icon": "icons/items/Resource/WitheredEssenceT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_earring_threatsub"
     },
     "perkid_earring_threatsubondodge": {
         "name": "Evasive",
-        "description": "Reduce the generation of threat by  ${Math.round(50 * perkMultiplier)}% for  ${Math.round(5)} seconds after performing a dodge.",
+        "description": "Reduce the generation of threat by ${ Math.round(50 * perkMultiplier)}% for ${ Math.round(5)} seconds after performing a dodge.",
         "label": [
             "Threat"
         ],
@@ -2589,11 +2887,13 @@
         "charm": {
             "name": "Drop of Withered Essence",
             "icon": "icons/items/Resource/WitheredEssenceT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_earring_threatsubondodge"
     },
     "perkid_earring_healthonpotion": {
         "name": "Healthy Toast",
-        "description": "When you drink a mana potion gain  ${Math.round(3 * perkMultiplier)}% of your max health.",
+        "description": "When you drink a mana potion gain ${ Math.round(3 * perkMultiplier)}% of your max health.",
         "label": [
             "Consume"
         ],
@@ -2603,11 +2903,13 @@
         "charm": {
             "name": "Shard of Crystal",
             "icon": "icons/items/Resource/CrystalT2.png"
-        }
+        },
+        "weight": 50,
+        "perkId": "perkid_earring_healthonpotion"
     },
     "perkid_earring_manaonpotion": {
         "name": "Mana Toast",
-        "description": "When you drink a health potion gain  ${Math.round(10 * perkMultiplier)} mana.",
+        "description": "When you drink a health potion gain ${ Math.round(10 * perkMultiplier)} mana.",
         "label": [
             "Consume"
         ],
@@ -2617,11 +2919,13 @@
         "charm": {
             "name": "Sliver of Crystal",
             "icon": "icons/items/Resource/CrystalT1.png"
-        }
+        },
+        "weight": 20,
+        "perkId": "perkid_earring_manaonpotion"
     },
     "perkid_earring_removeonpotion": {
         "name": "Purifying Toast",
-        "description": "When you drink a regeneration potion lose  ${Math.round(1)} debuff.",
+        "description": "When you drink a regeneration potion lose ${ Math.round(1)} debuff.",
         "label": [
             "Consume"
         ],
@@ -2631,11 +2935,13 @@
         "charm": {
             "name": "Chunk of Crystal",
             "icon": "icons/items/Resource/CrystalT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_earring_removeonpotion"
     },
     "perkid_earring_gainonpotion": {
         "name": "Duplicating Toast",
-        "description": "When you drink a potion  ${Math.round(5 * perkMultiplier)}% chance it doesn't consume.",
+        "description": "When you drink a potion ${ Math.round(5 * perkMultiplier)}% chance it doesn't consume.",
         "label": [
             "ConsumeAdd"
         ],
@@ -2645,11 +2951,13 @@
         "charm": {
             "name": "Draught of Azoth Oil",
             "icon": "icons/items/Resource/AzothOilT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_earring_gainonpotion"
     },
     "perkid_earring_potioncdr": {
         "name": "Refreshing Toast",
-        "description": "Potions cooldown  ${Math.round(10 * perkMultiplier)}% faster.",
+        "description": "Potions cooldown ${ Math.round(10 * perkMultiplier)}% faster.",
         "label": [
             "ConsumeCDR"
         ],
@@ -2659,11 +2967,13 @@
         "charm": {
             "name": "High Quality Tallow",
             "icon": "icons/items/Resource/TallowT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_earring_potioncdr"
     },
     "perkid_earring_arcanist": {
         "name": "Arcanist Mastery",
-        "description": "+ ${Math.round(5 * perkMultiplier)} Minimum Arcanist Crafted Item Quality.",
+        "description": "+${ Math.round(5 * perkMultiplier)} Minimum Arcanist Crafted Item Quality.",
         "label": [
             "Trade Skill"
         ],
@@ -2673,11 +2983,13 @@
         "charm": {
             "name": "Orichalcum Arcanist's Charm",
             "icon": "icons/items/Resource/ArcanistCharmT3.png"
-        }
+        },
+        "weight": 1,
+        "perkId": "perkid_earring_arcanist"
     },
     "perkid_earring_armorer": {
         "name": "Armorer Mastery",
-        "description": "+ ${Math.round(5 * perkMultiplier)} Minimum Armorer Crafted Item Quality.",
+        "description": "+${ Math.round(5 * perkMultiplier)} Minimum Armorer Crafted Item Quality.",
         "label": [
             "Trade Skill"
         ],
@@ -2687,11 +2999,13 @@
         "charm": {
             "name": "Orichalcum Armorer's Charm",
             "icon": "icons/items/Resource/ArmorerCharmT3.png"
-        }
+        },
+        "weight": 1,
+        "perkId": "perkid_earring_armorer"
     },
     "perkid_earring_cook": {
         "name": "Cooking Mastery",
-        "description": "+ ${Math.round(4 * perkMultiplier)}% chance to craft additional items when Cooking.",
+        "description": "+${ Math.round(4 * perkMultiplier)}% chance to craft additional items when Cooking.",
         "label": [
             "Trade Skill"
         ],
@@ -2701,11 +3015,13 @@
         "charm": {
             "name": "Orichalcum Chef's Charm",
             "icon": "icons/items/Resource/ChefCharmT3.png"
-        }
+        },
+        "weight": 1,
+        "perkId": "perkid_earring_cook"
     },
     "perkid_earring_engineer": {
         "name": "Engineer Mastery",
-        "description": "+ ${Math.round(5 * perkMultiplier)} Minimum Engineer Crafted Item Quality.",
+        "description": "+${ Math.round(5 * perkMultiplier)} Minimum Engineer Crafted Item Quality.",
         "label": [
             "Trade Skill"
         ],
@@ -2715,11 +3031,13 @@
         "charm": {
             "name": "Orichalcum Engineer's Charm",
             "icon": "icons/items/Resource/EngineerCharmT3.png"
-        }
+        },
+        "weight": 1,
+        "perkId": "perkid_earring_engineer"
     },
     "perkid_earring_jeweler": {
         "name": "Jewelcrafter Mastery",
-        "description": "+ ${Math.round(5 * perkMultiplier)} Minimum Jewelcrafter Crafted Item Quality.",
+        "description": "+${ Math.round(5 * perkMultiplier)} Minimum Jewelcrafter Crafted Item Quality.",
         "label": [
             "Trade Skill"
         ],
@@ -2729,11 +3047,13 @@
         "charm": {
             "name": "Orichalcum Jewelcrafters Charm",
             "icon": "icons/items/Resource/JewelcrafterCharmT3.png"
-        }
+        },
+        "weight": 1,
+        "perkId": "perkid_earring_jeweler"
     },
     "perkid_earring_weaponsmith": {
         "name": "Weaponsmith Mastery",
-        "description": "+ ${Math.round(5 * perkMultiplier)} Minimum Weaponsmith Crafted Item Quality.",
+        "description": "+${ Math.round(5 * perkMultiplier)} Minimum Weaponsmith Crafted Item Quality.",
         "label": [
             "Trade Skill"
         ],
@@ -2743,11 +3063,13 @@
         "charm": {
             "name": "Orichalcum Weaponsmith's Charm",
             "icon": "icons/items/Resource/WeaponsmithCharmT3.png"
-        }
+        },
+        "weight": 1,
+        "perkId": "perkid_earring_weaponsmith"
     },
     "perkid_weapon_threatadd": {
         "name": "Hated",
-        "description": "You generate  ${Math.round(50 * perkMultiplier)}% more threat.",
+        "description": "You generate ${ Math.round(50 * perkMultiplier)}% more threat.",
         "label": [
             "Threat"
         ],
@@ -2757,11 +3079,13 @@
         "charm": {
             "name": "Chunk of Thunderstone",
             "icon": "icons/items/Resource/ThunderstoneT3.png"
-        }
+        },
+        "weight": 20,
+        "perkId": "perkid_weapon_threatadd"
     },
     "perkid_weapon_threatsub": {
         "name": "Kind",
-        "description": "You generate  ${Math.round(-15 * perkMultiplier)}% less threat. (max 99% from all sources.)",
+        "description": "You generate ${ Math.round(-15 * perkMultiplier)}% less threat. (max 99% from all sources.)",
         "label": [
             "Threat"
         ],
@@ -2771,11 +3095,13 @@
         "charm": {
             "name": "Draught of Withered Essence",
             "icon": "icons/items/Resource/WitheredEssenceT3.png"
-        }
+        },
+        "weight": 20,
+        "perkId": "perkid_weapon_threatsub"
     },
     "perkid_weapon_dmgcrit": {
         "name": "Vicious",
-        "description": "+ ${Math.round(3 * perkMultiplier)}% critical damage.",
+        "description": "+${ Math.round(3 * perkMultiplier)}% critical damage.",
         "label": [
             "DmgCon",
             "CritHeadshot"
@@ -2786,11 +3112,13 @@
         "charm": {
             "name": "Pristine Whetstone",
             "icon": "icons/items/Resource/WhetstoneT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_dmgcrit"
     },
     "perkid_weapon_dmgbasic": {
         "name": "Enchanted",
-        "description": "Light and Heavy attacks deal  ${Math.round(5 * perkMultiplier)}% more damage.",
+        "description": "Light and Heavy attacks deal ${ Math.round(5 * perkMultiplier)}% more damage.",
         "label": [
             "DmgCon"
         ],
@@ -2800,11 +3128,13 @@
         "charm": {
             "name": "Worn Whetstone",
             "icon": "icons/items/Resource/WhetstoneT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_dmgbasic"
     },
     "perkid_weaponmelee_dmgback": {
         "name": "Rogue",
-        "description": "+ ${Math.round(5 * perkMultiplier)}% more backstab damage.",
+        "description": "+${ Math.round(5 * perkMultiplier)}% more backstab damage.",
         "label": [
             "DmgCon"
         ],
@@ -2814,11 +3144,13 @@
         "charm": {
             "name": "Whetstone",
             "icon": "icons/items/Resource/WhetstoneT2.png"
-        }
+        },
+        "weight": 80,
+        "perkId": "perkid_weaponmelee_dmgback"
     },
     "perkid_weapon_siege": {
         "name": "Ruinous",
-        "description": "+ ${Math.round(20 * perkMultiplier)}% Siege Damage.",
+        "description": "+${ Math.round(20 * perkMultiplier)}% Siege Damage.",
         "label": [
             "DmgCon"
         ],
@@ -2828,11 +3160,13 @@
         "charm": {
             "name": "Sliver of Thunderstone",
             "icon": "icons/items/Resource/ThunderstoneT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_siege"
     },
     "perkid_weaponlife_healoutgoing": {
         "name": "Blessed",
-        "description": "+ ${Math.round(5 * perkMultiplier)}% Healing Bonus.",
+        "description": "+${ Math.round(5 * perkMultiplier)}% Healing Bonus.",
         "label": [
             "DmgCon"
         ],
@@ -2842,11 +3176,13 @@
         "charm": {
             "name": "Sliver of Crystalized Azoth",
             "icon": "icons/items/Resource/CrystalizedAzothT1.png"
-        }
+        },
+        "weight": 250,
+        "perkId": "perkid_weaponlife_healoutgoing"
     },
     "perkid_weapon_cdrbasic": {
         "name": "Refreshing Move",
-        "description": "Light and Heavy attacks reduce your active weapon cooldowns by  ${Math.round(1 * perkMultiplier)}%.",
+        "description": "Light and Heavy attacks reduce your active weapon cooldowns by ${ Math.round(1 * perkMultiplier)}%.",
         "label": [
             "Proc"
         ],
@@ -2856,11 +3192,13 @@
         "charm": {
             "name": "Starmetal Weaponsmith's Charm",
             "icon": "icons/items/Resource/WeaponsmithCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_cdrbasic"
     },
     "perkid_weapon_healondmg": {
         "name": "Lifestealing",
-        "description": "You gain  ${Math.round(1 * perkMultiplier)}% of your damage as health. Does not trigger off persistent damage or DoT effects.",
+        "description": "You gain ${ Math.round(1 * perkMultiplier)}% of your damage as health. Does not trigger off persistent damage or DoT effects.",
         "label": [
             "Proc"
         ],
@@ -2870,11 +3208,13 @@
         "charm": {
             "name": "Draught of Viscous Azoth",
             "icon": "icons/items/Resource/ViscousAzothT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_healondmg"
     },
     "perkid_weapon_bleedoncrit": {
         "name": "Keenly Jagged",
-        "description": "On Crit: cause bleed that deals 7% weapon damage per second for  ${Math.round(6)}s. ( ${Math.round(7)}s cooldown.)",
+        "description": "On Crit: cause bleed that deals 7% weapon damage per second for ${ Math.round(6)}s. (${ Math.round(7)}s cooldown.)",
         "label": [
             "Proc"
         ],
@@ -2884,11 +3224,13 @@
         "charm": {
             "name": "Pristine Animal Claw",
             "icon": "icons/items/Resource/ClawT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_bleedoncrit"
     },
     "perkid_weapon_fortifyoncrit": {
         "name": "Keenly Fortified",
-        "description": "On Critical: gain  ${Math.round(10 * perkMultiplier)}% Fortify for  ${Math.round(3)}s. (Cooldown  ${Math.round(10)}s.)",
+        "description": "On Critical: gain ${ Math.round(10 * perkMultiplier)}% Fortify for ${ Math.round(3)}s. (Cooldown ${ Math.round(10)}s.)",
         "label": [
             "Proc"
         ],
@@ -2898,11 +3240,13 @@
         "charm": {
             "name": "Callus Mangy Hide",
             "icon": "icons/items/Resource/MangyHideT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_fortifyoncrit"
     },
     "perkid_weapon_empoweroncrit": {
         "name": "Keenly Empowered",
-        "description": "On Critical: gain  ${Math.round(15 * perkMultiplier)}% Empower for  ${Math.round(5)}s. (Cooldown  ${Math.round(10)}s.)",
+        "description": "On Critical: gain ${ Math.round(15 * perkMultiplier)}% Empower for ${ Math.round(5)}s. (Cooldown ${ Math.round(10)}s.)",
         "label": [
             "Proc"
         ],
@@ -2912,11 +3256,13 @@
         "charm": {
             "name": "Ancient Bear Paw",
             "icon": "icons/items/Resource/BearPawT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_empoweroncrit"
     },
     "perkid_weapon_hasteoncrit": {
         "name": "Keen Speed",
-        "description": "On Critical: gain  ${Math.round(20 * perkMultiplier)}% Haste  ${Math.round(10)}s. (Cooldown  ${Math.round(10)}s.)",
+        "description": "On Critical: gain ${ Math.round(20 * perkMultiplier)}% Haste ${ Math.round(10)}s. (Cooldown ${ Math.round(10)}s.)",
         "label": [
             "Proc"
         ],
@@ -2926,11 +3272,13 @@
         "charm": {
             "name": "Huge Elk Hoof",
             "icon": "icons/items/Resource/ElkHoofT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_hasteoncrit"
     },
     "perkid_weapon_manaonhit": {
         "name": "Siphoning Blow",
-        "description": "You gain  ${Math.round(1 * perkMultiplier)}% mana per hit. (cooldown  ${Math.round(2)}s). Does not trigger off persistent damage, DoT effects or blocked attacks.",
+        "description": "You gain ${ Math.round(1 * perkMultiplier)}% mana per hit. (cooldown ${ Math.round(2)}s). Does not trigger off persistent damage, DoT effects or blocked attacks.",
         "label": [
             "Proc"
         ],
@@ -2940,11 +3288,13 @@
         "charm": {
             "name": "Vial of Ectoplasm",
             "icon": "icons/items/Resource/EctoplasmT2.png"
-        }
+        },
+        "weight": 33,
+        "perkId": "perkid_weapon_manaonhit"
     },
     "perkid_weapon_chainlightning_new": {
         "name": "Chain Lightning",
-        "description": "Basic attack hits trigger a Lightning chain that bounces between close targets and deals  ${Math.round(15)}% weapon damage. ( ${Math.round(2)}s Cooldown)",
+        "description": "Basic attack hits trigger a Lightning chain that bounces between close targets and deals ${ Math.round(15)}% weapon damage. (${ Math.round(2)}s Cooldown)",
         "label": [
             "Elemental",
             "Lightning"
@@ -2955,11 +3305,13 @@
         "charm": {
             "name": "Chunk of Sparkmetal",
             "icon": "icons/items/Resource/SparkmetalT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_chainlightning_new"
     },
     "perkid_weapon_chainfire": {
         "name": "Chain Fire",
-        "description": "Basic attack hits trigger a Fire chain that bounces between close targets and deals  ${Math.round(15)}% weapon damage. ( ${Math.round(2)}s Cooldown)",
+        "description": "Basic attack hits trigger a Fire chain that bounces between close targets and deals ${ Math.round(15)}% weapon damage. (${ Math.round(2)}s Cooldown)",
         "label": [
             "Elemental",
             "Fire"
@@ -2970,11 +3322,13 @@
         "charm": {
             "name": "Chunk of Niter",
             "icon": "icons/items/Resource/NiterT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_chainfire"
     },
     "perkid_weapon_chainarcane": {
         "name": "Chain Arcane",
-        "description": "Basic attack hits trigger an Arcane chain that bounces between close targets and deals  ${Math.round(15)}% weapon damage. ( ${Math.round(2)}s Cooldown)",
+        "description": "Basic attack hits trigger an Arcane chain that bounces between close targets and deals ${ Math.round(15)}% weapon damage. (${ Math.round(2)}s Cooldown)",
         "label": [
             "Elemental",
             "Arcane"
@@ -2985,11 +3339,13 @@
         "charm": {
             "name": "Vial of Blessed Water",
             "icon": "icons/items/Resource/HolyWaterT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_chainarcane"
     },
     "perkid_weapon_chainvoid": {
         "name": "Chain Void",
-        "description": "Basic attack hits trigger a Void chain that bounces between close targets and deals  ${Math.round(15)}% weapon damage. ( ${Math.round(2)}s Cooldown)",
+        "description": "Basic attack hits trigger a Void chain that bounces between close targets and deals ${ Math.round(15)}% weapon damage. (${ Math.round(2)}s Cooldown)",
         "label": [
             "Elemental",
             "Void"
@@ -3000,11 +3356,13 @@
         "charm": {
             "name": "Draught of Ectoplasm",
             "icon": "icons/items/Resource/EctoplasmT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_chainvoid"
     },
     "perkid_weapon_chainice": {
         "name": "Chain Ice",
-        "description": "Basic attack hits trigger an Ice chain that bounces between close targets and deals  ${Math.round(15)}% weapon damage. ( ${Math.round(2)}s Cooldown)",
+        "description": "Basic attack hits trigger an Ice chain that bounces between close targets and deals ${ Math.round(15)}% weapon damage. (${ Math.round(2)}s Cooldown)",
         "label": [
             "Elemental",
             "Ice"
@@ -3015,11 +3373,13 @@
         "charm": {
             "name": "Frozen Fang",
             "icon": "icons/items/Resource/FrozenFangT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_chainice"
     },
     "perkid_weapon_chainnature": {
         "name": "Chain Nature",
-        "description": "Basic attack hits trigger a Nature chain that bounces between close targets and deals  ${Math.round(15)}% weapon damage. ( ${Math.round(2)}s Cooldown)",
+        "description": "Basic attack hits trigger a Nature chain that bounces between close targets and deals ${ Math.round(15)}% weapon damage. (${ Math.round(2)}s Cooldown)",
         "label": [
             "Elemental",
             "Nature"
@@ -3030,11 +3390,13 @@
         "charm": {
             "name": "Chunk of Enchanted Earth",
             "icon": "icons/items/Resource/EnchantedEarthT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_chainnature"
     },
     "perkid_weapon_onkillheal": {
         "name": "Mortal Lifesteal",
-        "description": "When you kill something gain  ${Math.round(3 * perkMultiplier)}% health. ( ${Math.round(1)}s cooldown.)",
+        "description": "When you kill something gain ${ Math.round(3 * perkMultiplier)}% health. (${ Math.round(1)}s cooldown.)",
         "label": [
             "OnKill"
         ],
@@ -3044,11 +3406,13 @@
         "charm": {
             "name": "Chunk of Crystalized Azoth",
             "icon": "icons/items/Resource/CrystalizedAzothT3.png"
-        }
+        },
+        "weight": 50,
+        "perkId": "perkid_weapon_onkillheal"
     },
     "perkid_weapon_onkillmana": {
         "name": "Mortal Siphoning",
-        "description": "When you kill something gain  ${Math.round(3 * perkMultiplier)}% Mana. ( ${Math.round(1)}s cooldown.)",
+        "description": "When you kill something gain ${ Math.round(3 * perkMultiplier)}% Mana. (${ Math.round(1)}s cooldown.)",
         "label": [
             "OnKill"
         ],
@@ -3058,11 +3422,13 @@
         "charm": {
             "name": "Vial of Quicksilver",
             "icon": "icons/items/Resource/QuicksilverT2.png"
-        }
+        },
+        "weight": 33,
+        "perkId": "perkid_weapon_onkillmana"
     },
     "perkid_weapon_onkillstamina": {
         "name": "Mortal Energy",
-        "description": "When you kill something gain  ${Math.round(5 * perkMultiplier)} Stamina. ( ${Math.round(1)}s cooldown.)",
+        "description": "When you kill something gain ${ Math.round(5 * perkMultiplier)} Stamina. (${ Math.round(1)}s cooldown.)",
         "label": [
             "OnKill"
         ],
@@ -3072,11 +3438,13 @@
         "charm": {
             "name": "Jagged Horn",
             "icon": "icons/items/Resource/HornT2.png"
-        }
+        },
+        "weight": 50,
+        "perkId": "perkid_weapon_onkillstamina"
     },
     "perkid_weapon_onkillfortify": {
         "name": "Mortal Fortification",
-        "description": "When you kill something gain  ${Math.round(15)}% Fortify for  ${Math.round(10)}s. ( ${Math.round(1)}s cooldown.)",
+        "description": "When you kill something gain ${ Math.round(15)}% Fortify for ${ Math.round(10)}s. (${ Math.round(1)}s cooldown.)",
         "label": [
             "OnKill"
         ],
@@ -3086,11 +3454,13 @@
         "charm": {
             "name": "Worn Mangy Hide",
             "icon": "icons/items/Resource/MangyHideT2.png"
-        }
+        },
+        "weight": 50,
+        "perkId": "perkid_weapon_onkillfortify"
     },
     "perkid_weapon_onkillempower": {
         "name": "Mortal Power",
-        "description": "When you kill something gain  ${Math.round(15)}% Empowered for  ${Math.round(20)}s. ( ${Math.round(1)}s cooldown.)",
+        "description": "When you kill something gain ${ Math.round(15)}% Empowered for ${ Math.round(20)}s. (${ Math.round(1)}s cooldown.)",
         "label": [
             "OnKill"
         ],
@@ -3100,11 +3470,13 @@
         "charm": {
             "name": "Massive Bear Paw",
             "icon": "icons/items/Resource/BearPawT2.png"
-        }
+        },
+        "weight": 50,
+        "perkId": "perkid_weapon_onkillempower"
     },
     "perkid_weapon_onkillcdr": {
         "name": "Mortal Refreshment",
-        "description": "When you kill something reduce all cooldowns by  ${Math.round(-10 * perkMultiplier)}%. ( ${Math.round(1)}s cooldown.)",
+        "description": "When you kill something reduce all cooldowns by ${ Math.round(-10 * perkMultiplier)}%. (${ Math.round(1)}s cooldown.)",
         "label": [
             "OnKill"
         ],
@@ -3114,11 +3486,13 @@
         "charm": {
             "name": "Tallow",
             "icon": "icons/items/Resource/TallowT2.png"
-        }
+        },
+        "weight": 50,
+        "perkId": "perkid_weapon_onkillcdr"
     },
     "perkid_weapon_critchance": {
         "name": "Keen",
-        "description": "+ ${Math.round(3 * perkMultiplier)}% critical chance.",
+        "description": "+${ Math.round(3 * perkMultiplier)}% critical chance.",
         "label": [
             "Critical"
         ],
@@ -3128,11 +3502,13 @@
         "charm": {
             "name": "Jagged Animal Claw",
             "icon": "icons/items/Resource/ClawT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_critchance"
     },
     "perkid_weapon_dmgancient": {
         "name": "Ancient Bane",
-        "description": "+ ${Math.round(5 * perkMultiplier)}% Damage to Ancients.",
+        "description": "+${ Math.round(5 * perkMultiplier)}% Damage to Ancients.",
         "label": [
             "DmgCategory"
         ],
@@ -3142,11 +3518,13 @@
         "charm": {
             "name": "Tangle of Writhing Briar",
             "icon": "icons/items/Resource/WrithingBriarT2.png"
-        }
+        },
+        "weight": 80,
+        "perkId": "perkid_weapon_dmgancient"
     },
     "perkid_weapon_dmgangryearth": {
         "name": "Angry Earth Bane",
-        "description": "+ ${Math.round(5 * perkMultiplier)}% Damage to Angry Earth.",
+        "description": "+${ Math.round(5 * perkMultiplier)}% Damage to Angry Earth.",
         "label": [
             "DmgCategory"
         ],
@@ -3156,11 +3534,13 @@
         "charm": {
             "name": "Chunk of Corrupted Matter",
             "icon": "icons/items/Resource/CorruptedMatterT3.png"
-        }
+        },
+        "weight": 80,
+        "perkId": "perkid_weapon_dmgangryearth"
     },
     "perkid_weapon_dmgbeast": {
         "name": "Beast Bane",
-        "description": "+ ${Math.round(5 * perkMultiplier)}% Damage to Beasts.",
+        "description": "+${ Math.round(5 * perkMultiplier)}% Damage to Beasts.",
         "label": [
             "DmgCategory"
         ],
@@ -3170,11 +3550,13 @@
         "charm": {
             "name": "Draught of Wolf Essence",
             "icon": "icons/items/Resource/WolfEssenceT3.png"
-        }
+        },
+        "weight": 10,
+        "perkId": "perkid_weapon_dmgbeast"
     },
     "perkid_weapon_dmgcorrupted": {
         "name": "Corrupted Bane",
-        "description": "+ ${Math.round(5 * perkMultiplier)}% Damage to Corrupted.",
+        "description": "+${ Math.round(5 * perkMultiplier)}% Damage to Corrupted.",
         "label": [
             "DmgCategory"
         ],
@@ -3184,11 +3566,13 @@
         "charm": {
             "name": "Shard of Baetylus",
             "icon": "icons/items/Resource/BaetylusT2.png"
-        }
+        },
+        "weight": 80,
+        "perkId": "perkid_weapon_dmgcorrupted"
     },
     "perkid_weapon_dmglost": {
         "name": "Lost Bane",
-        "description": "+ ${Math.round(5 * perkMultiplier)}% Damage to Lost.",
+        "description": "+${ Math.round(5 * perkMultiplier)}% Damage to Lost.",
         "label": [
             "DmgCategory"
         ],
@@ -3198,11 +3582,13 @@
         "charm": {
             "name": "Riveted Orichalcum Mail",
             "icon": "icons/items/Resource/RivetedMailT3.png"
-        }
+        },
+        "weight": 80,
+        "perkId": "perkid_weapon_dmglost"
     },
     "perkid_weaponrng_accuracy": {
         "name": "Accuracy",
-        "description": "You have + ${Math.round(25 * perkMultiplier)}% more accuracy.",
+        "description": "You have +${ Math.round(25 * perkMultiplier)}% more accuracy.",
         "label": [
             "Accuracy"
         ],
@@ -3212,11 +3598,13 @@
         "charm": {
             "name": "Low Quality Tallow",
             "icon": "icons/items/Resource/TallowT1.png"
-        }
+        },
+        "weight": 20,
+        "perkId": "perkid_weaponrng_accuracy"
     },
     "perkid_weaponrng_dmgheatshot": {
         "name": "Vorpal",
-        "description": "Increase + ${Math.round(5 * perkMultiplier)}% headshot damage.",
+        "description": "Increase +${ Math.round(5 * perkMultiplier)}% headshot damage.",
         "label": [
             "Accuracy",
             "CritHeadshot"
@@ -3227,11 +3615,13 @@
         "charm": {
             "name": "Chilled Fang",
             "icon": "icons/items/Resource/FrozenFangT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weaponrng_dmgheatshot"
     },
     "perkid_weaponmelee_blockingstam": {
         "name": "Sturdy",
-        "description": "You take  ${Math.round(5 * perkMultiplier)}% less stamina damage while blocking.",
+        "description": "You take ${ Math.round(5 * perkMultiplier)}% less stamina damage while blocking.",
         "label": [
             "Blocking"
         ],
@@ -3241,11 +3631,13 @@
         "charm": {
             "name": "Shard of Cobalt",
             "icon": "icons/items/Resource/CobaltT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weaponmelee_blockingstam"
     },
     "perkid_weaponmelee_blockingmove": {
         "name": "Sure Footing",
-        "description": "You move  ${Math.round(20 * perkMultiplier)}% faster while blocking.",
+        "description": "You move ${ Math.round(20 * perkMultiplier)}% faster while blocking.",
         "label": [
             "Blocking"
         ],
@@ -3255,11 +3647,13 @@
         "charm": {
             "name": "Starmetal Traveler's Charm",
             "icon": "icons/items/Resource/TravelersCharmT2.png"
-        }
+        },
+        "weight": 30,
+        "perkId": "perkid_weaponmelee_blockingmove"
     },
     "perkid_shield_deffire": {
         "name": "Flame Shield Ward",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less Fire damage.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less Fire damage.",
         "label": [
             "Defense"
         ],
@@ -3269,11 +3663,13 @@
         "charm": {
             "name": "Riveted Steel Mail",
             "icon": "icons/items/Resource/RivetedMailT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_shield_deffire"
     },
     "perkid_shield_defice": {
         "name": "Frozen Shield Ward",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less Ice damage.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less Ice damage.",
         "label": [
             "Defense"
         ],
@@ -3283,11 +3679,13 @@
         "charm": {
             "name": "Riveted Starmetal Mail",
             "icon": "icons/items/Resource/RivetedMailT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_shield_defice"
     },
     "perkid_shield_defnature": {
         "name": "Nature Shield Ward",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less Nature damage.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less Nature damage.",
         "label": [
             "Defense"
         ],
@@ -3297,11 +3695,13 @@
         "charm": {
             "name": "Drop of Wyrdwood Sap",
             "icon": "icons/items/Resource/WyrdwoodSapT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_shield_defnature"
     },
     "perkid_shield_defvoid": {
         "name": "Void Shield Ward",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less Void damage.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less Void damage.",
         "label": [
             "Defense"
         ],
@@ -3311,11 +3711,13 @@
         "charm": {
             "name": "Faint Corrupted Insignia",
             "icon": "icons/items/Resource/BountyT8.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_shield_defvoid"
     },
     "perkid_shield_defthurst": {
         "name": "Thrust Shield Ward",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less Thrust damage.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less Thrust damage.",
         "label": [
             "Defense"
         ],
@@ -3325,11 +3727,13 @@
         "charm": {
             "name": "Resin Shavings",
             "icon": "icons/items/Resource/ResinT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_shield_defthurst"
     },
     "perkid_shield_defslash": {
         "name": "Slash Shield Ward",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less Slash damage.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less Slash damage.",
         "label": [
             "Defense"
         ],
@@ -3339,11 +3743,13 @@
         "charm": {
             "name": "Resin Lump",
             "icon": "icons/items/Resource/ResinT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_shield_defslash"
     },
     "perkid_shield_defarcane": {
         "name": "Arcane Shield Ward",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less Arcane damage.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less Arcane damage.",
         "label": [
             "Defense"
         ],
@@ -3353,11 +3759,13 @@
         "charm": {
             "name": "Vial of Ancient Essence",
             "icon": "icons/items/Resource/AncientEssenceT2.png"
-        }
+        },
+        "weight": 50,
+        "perkId": "perkid_shield_defarcane"
     },
     "perkid_shield_deflightning": {
         "name": "Lightning Shield Ward",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less Lightning damage.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less Lightning damage.",
         "label": [
             "Defense"
         ],
@@ -3367,11 +3775,13 @@
         "charm": {
             "name": "Sliver of Sparkmetal",
             "icon": "icons/items/Resource/SparkmetalT1.png"
-        }
+        },
+        "weight": 50,
+        "perkId": "perkid_shield_deflightning"
     },
     "perkid_shield_defstrike": {
         "name": "Strike Shield Ward",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less Strike damage.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less Strike damage.",
         "label": [
             "Defense"
         ],
@@ -3381,11 +3791,13 @@
         "charm": {
             "name": "Resin Chunk",
             "icon": "icons/items/Resource/ResinT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_shield_defstrike"
     },
     "perkid_weapon_disease_onlowhp_crit": {
         "name": "Plagued Crits",
-        "description": "Critical strikes against targets below  ${Math.round(50)}% health inflict disease for  ${Math.round(6)}s, reducing healing effectiveness on the target by  ${Math.round(10 * perkMultiplier)}%.",
+        "description": "Critical strikes against targets below ${ Math.round(50)}% health inflict disease for ${ Math.round(6)}s, reducing healing effectiveness on the target by ${ Math.round(10 * perkMultiplier)}%.",
         "label": [
             "Proc"
         ],
@@ -3395,11 +3807,13 @@
         "charm": {
             "name": "Drop of Blessed Water",
             "icon": "icons/items/Resource/HolyWaterT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_disease_onlowhp_crit"
     },
     "perkid_weapon_disease_onlowhp_heavy": {
         "name": "Plagued Strikes",
-        "description": "Heavy attacks against targets inflict disease for  ${Math.round(8)}s, reducing healing effectiveness on the target by  ${Math.round(10 * perkMultiplier)}%.",
+        "description": "Heavy attacks against targets inflict disease for ${ Math.round(8)}s, reducing healing effectiveness on the target by ${ Math.round(10 * perkMultiplier)}%.",
         "label": [
             "Proc"
         ],
@@ -3409,11 +3823,13 @@
         "charm": {
             "name": "Draught of Blessed Water",
             "icon": "icons/items/Resource/HolyWaterT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_disease_onlowhp_heavy"
     },
     "perkid_weapon_dmgagainstgrit": {
         "name": "Thwarting Counter",
-        "description": "Deal  ${Math.round(5 * perkMultiplier)}% additional damage against targets with active grit.",
+        "description": "Deal ${ Math.round(5 * perkMultiplier)}% additional damage against targets with active grit.",
         "label": [
             "DmgCon"
         ],
@@ -3423,11 +3839,13 @@
         "charm": {
             "name": "Sliver of Ironwood Resin",
             "icon": "icons/items/Resource/IronwoodResinT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_dmgagainstgrit"
     },
     "perkid_weapon_dmgwithgrit": {
         "name": "Thwarting Strikes",
-        "description": "Deal  ${Math.round(3 * perkMultiplier)}% additional damage while you have active grit.",
+        "description": "Deal ${ Math.round(3 * perkMultiplier)}% additional damage while you have active grit.",
         "label": [
             "DmgCon"
         ],
@@ -3437,11 +3855,13 @@
         "charm": {
             "name": "Drop of Ironwood Sap",
             "icon": "icons/items/Resource/IronwoodSapT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_dmgwithgrit"
     },
     "perkid_weapon_melee_chargedheavy_dmg": {
         "name": "Trenchant Strikes",
-        "description": "Fully charged heavy attacks deal  ${Math.round(3 * perkMultiplier)}% additional damage.",
+        "description": "Fully charged heavy attacks deal ${ Math.round(3 * perkMultiplier)}% additional damage.",
         "label": [
             "DmgCon"
         ],
@@ -3451,11 +3871,13 @@
         "charm": {
             "name": "Small Boar Hoof",
             "icon": "icons/items/Resource/BoarHoofT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_melee_chargedheavy_dmg"
     },
     "perkid_weapon_melee_chargedheavy_crit": {
         "name": "Trenchant Crits",
-        "description": "Fully charged heavy attacks deal  ${Math.round(5 * perkMultiplier)}% additional Crit damage.",
+        "description": "Fully charged heavy attacks deal ${ Math.round(5 * perkMultiplier)}% additional Crit damage.",
         "label": [
             "DmgCon"
         ],
@@ -3465,11 +3887,13 @@
         "charm": {
             "name": "Huge Traveler's Stone",
             "icon": "icons/items/Resource/TravelersStoneT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_melee_chargedheavy_crit"
     },
     "perkid_weapon_melee_chargedheavy_rend": {
         "name": "Trenchant Rend",
-        "description": "Fully charged heavy attacks inflict rend for  ${Math.round(7)}s, reducing target's damage absorption by  ${Math.round(4 * perkMultiplier)}%. ( ${Math.round(12)}s cooldown)",
+        "description": "Fully charged heavy attacks inflict rend for ${ Math.round(7)}s, reducing target's damage absorption by ${ Math.round(4 * perkMultiplier)}%. (${ Math.round(12)}s cooldown)",
         "label": [
             "DmgCon"
         ],
@@ -3479,11 +3903,13 @@
         "charm": {
             "name": "Boar Tusk",
             "icon": "icons/items/Resource/BoarTuskT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_melee_chargedheavy_rend"
     },
     "perkid_weapon_melee_chargedheavy_heal": {
         "name": "Trenchant Recovery",
-        "description": "Fully charged heavy attacks heal the player for  ${Math.round(10 * perkMultiplier)}% of the damage dealt.",
+        "description": "Fully charged heavy attacks heal the player for ${ Math.round(10 * perkMultiplier)}% of the damage dealt.",
         "label": [
             "DmgCon"
         ],
@@ -3493,11 +3919,13 @@
         "charm": {
             "name": "Drop of Wolf Essence",
             "icon": "icons/items/Resource/WolfEssenceT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_melee_chargedheavy_heal"
     },
     "perkid_armor_rangedefense_physical": {
         "name": "Physical Aversion",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less damage from ranged physical attacks.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less damage from ranged physical attacks.",
         "label": [
             "DmgAbsorb"
         ],
@@ -3507,11 +3935,13 @@
         "charm": {
             "name": "Armor Scraps",
             "icon": "icons/items/Resource/ArmorScrapsT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_armor_rangedefense_physical"
     },
     "perkid_armor_rangedefense_elemental": {
         "name": "Elemental Aversion",
-        "description": "You take  ${Math.round(2 * perkMultiplier)}% less damage from ranged elemental attacks.",
+        "description": "You take ${ Math.round(2 * perkMultiplier)}% less damage from ranged elemental attacks.",
         "label": [
             "DmgAbsorb"
         ],
@@ -3521,11 +3951,13 @@
         "charm": {
             "name": "Armor Fragments",
             "icon": "icons/items/Resource/ArmorScrapsT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_armor_rangedefense_elemental"
     },
     "perkid_weapon_dodgesuccess_firedmg": {
         "name": "Shirking Flames",
-        "description": "Dodging through an enemy attack causes your next hit within  ${Math.round(6)}s to deal an additional  ${Math.round(5 * perkMultiplier)}% base weapon damage as Fire.",
+        "description": "Dodging through an enemy attack causes your next hit within ${ Math.round(6)}s to deal an additional ${ Math.round(5 * perkMultiplier)}% base weapon damage as Fire.",
         "label": [
             "Elemental",
             "Fire"
@@ -3536,11 +3968,13 @@
         "charm": {
             "name": "Ash Resin",
             "icon": "icons/items/Resource/AshResinT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_dodgesuccess_firedmg"
     },
     "perkid_weapon_dodgesuccess_naturedmg": {
         "name": "Shirking Nature",
-        "description": "Dodging through an enemy attack causes your next hit within  ${Math.round(6)}s to deal an additional  ${Math.round(5 * perkMultiplier)}% base weapon damage as Nature.",
+        "description": "Dodging through an enemy attack causes your next hit within ${ Math.round(6)}s to deal an additional ${ Math.round(5 * perkMultiplier)}% base weapon damage as Nature.",
         "label": [
             "Elemental",
             "Nature"
@@ -3551,11 +3985,13 @@
         "charm": {
             "name": "Evergreen Resin",
             "icon": "icons/items/Resource/EvergreenResinT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_dodgesuccess_naturedmg"
     },
     "perkid_weapon_dodgesuccess_icedmg": {
         "name": "Shirking Frost",
-        "description": "Dodging through an enemy attack causes your next hit within  ${Math.round(6)}s to deal an additional  ${Math.round(5 * perkMultiplier)}% base weapon damage as Ice.",
+        "description": "Dodging through an enemy attack causes your next hit within ${ Math.round(6)}s to deal an additional ${ Math.round(5 * perkMultiplier)}% base weapon damage as Ice.",
         "label": [
             "Elemental",
             "Ice"
@@ -3566,11 +4002,13 @@
         "charm": {
             "name": "Glacier Resin",
             "icon": "icons/items/Resource/GlacierResinT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_dodgesuccess_icedmg"
     },
     "perkid_weapon_dodgesuccess_lightningdmg": {
         "name": "Shirking Lightning",
-        "description": "Dodging through an enemy attack causes your next hit within  ${Math.round(6)}s to deal an additional  ${Math.round(5 * perkMultiplier)}% base weapon damage as Lightning.",
+        "description": "Dodging through an enemy attack causes your next hit within ${ Math.round(6)}s to deal an additional ${ Math.round(5 * perkMultiplier)}% base weapon damage as Lightning.",
         "label": [
             "Elemental",
             "Lightning"
@@ -3581,11 +4019,13 @@
         "charm": {
             "name": "Fulgurite Resin",
             "icon": "icons/items/Resource/FulguriteResinT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_dodgesuccess_lightningdmg"
     },
     "perkid_weapon_dodgesuccess_voiddmg": {
         "name": "Shirking Abyss",
-        "description": "Dodging through an enemy attack causes your next hit within  ${Math.round(6)}s to deal an additional  ${Math.round(5 * perkMultiplier)}% base weapon damage as Void.",
+        "description": "Dodging through an enemy attack causes your next hit within ${ Math.round(6)}s to deal an additional ${ Math.round(5 * perkMultiplier)}% base weapon damage as Void.",
         "label": [
             "Elemental",
             "Void"
@@ -3596,11 +4036,13 @@
         "charm": {
             "name": "Reaper Resin",
             "icon": "icons/items/Resource/ReaperResinT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_dodgesuccess_voiddmg"
     },
     "perkid_weapon_dodgesuccess_arcanedmg": {
         "name": "Shirking Arcane",
-        "description": "Dodging through an enemy attack causes your next hit within  ${Math.round(6)}s to deal an additional  ${Math.round(5 * perkMultiplier)}% base weapon damage as Arcane.",
+        "description": "Dodging through an enemy attack causes your next hit within ${ Math.round(6)}s to deal an additional ${ Math.round(5 * perkMultiplier)}% base weapon damage as Arcane.",
         "label": [
             "Elemental",
             "Arcane"
@@ -3611,11 +4053,13 @@
         "charm": {
             "name": "Crystalline Resin",
             "icon": "icons/items/Resource/CrystallineResinT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_weapon_dodgesuccess_arcanedmg"
     },
     "perkid_amulet_dodgesuccess_cleansedot": {
         "name": "Shirking DoT Cleanse",
-        "description": "Dodging through an enemy attack while in a light equip load causes you to lose 1 DoT (Bleed, Burn, Poison) debuff. (Can only trigger once every  ${Math.round(5)} seconds.)",
+        "description": "Dodging through an enemy attack while in a light equip load causes you to lose 1 DoT (Bleed, Burn, Poison) debuff. (Can only trigger once every ${ Math.round(5)} seconds.)",
         "label": [
             "DebuffDur"
         ],
@@ -3625,11 +4069,13 @@
         "charm": {
             "name": "Thrashing Vines",
             "icon": "icons/items/Resource/WrithingVinesT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_dodgesuccess_cleansedot"
     },
     "perkid_amulet_dodgesuccess_cleansedebilitate": {
         "name": "Shirking Debilitate Cleanse",
-        "description": "Dodging through an enemy attack while in a medium equip load causes you to lose 1 Debilitate (Rend, Weaken, Exhaust, Disease) debuff. (Can only trigger once every  ${Math.round(5)} seconds.)",
+        "description": "Dodging through an enemy attack while in a medium equip load causes you to lose 1 Debilitate (Rend, Weaken, Exhaust, Disease) debuff. (Can only trigger once every ${ Math.round(5)} seconds.)",
         "label": [
             "DebuffDur"
         ],
@@ -3639,11 +4085,13 @@
         "charm": {
             "name": "Writhing Vines",
             "icon": "icons/items/Resource/WrithingVinesT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_amulet_dodgesuccess_cleansedebilitate"
     },
     "perkid_armor_dodgesuccess_fortify": {
         "name": "Shirking Fortification",
-        "description": "Dodging through an enemy attack grants fortify, increasing damage absorption by  ${Math.round(2 * perkMultiplier)}% for  ${Math.round(6)}s. Each armor piece with this perk increases the potency of the effect.",
+        "description": "Dodging through an enemy attack grants fortify, increasing damage absorption by ${ Math.round(2 * perkMultiplier)}% for ${ Math.round(6)}s. Each armor piece with this perk increases the potency of the effect.",
         "label": [
             "DmgAbsorb"
         ],
@@ -3653,11 +4101,13 @@
         "charm": {
             "name": "Squirming Vines",
             "icon": "icons/items/Resource/WrithingVinesT1.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_armor_dodgesuccess_fortify"
     },
     "perkid_head_oncrittaken_critchance": {
         "name": "Critical Retribution",
-        "description": "On Crit taken, gain  ${Math.round(3 * perkMultiplier)}% increased crit chance for  ${Math.round(7)}s ( ${Math.round(20)}s Cooldown)",
+        "description": "On Crit taken, gain ${ Math.round(3 * perkMultiplier)}% increased crit chance for ${ Math.round(7)}s (${ Math.round(20)}s Cooldown)",
         "label": [
             "Proc"
         ],
@@ -3667,11 +4117,13 @@
         "charm": {
             "name": "Draught of Wyrdwood Sap",
             "icon": "icons/items/Resource/WyrdwoodSapT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_head_oncrittaken_critchance"
     },
     "perkid_chest_onblockedhittaken_staminaregen": {
         "name": "Sturdy Energy",
-        "description": "When blocking a hit while below  ${Math.round(30)}% stamina, gain  ${Math.round(20 * perkMultiplier)}% increased stamina regen for  ${Math.round(6)}s. (Effect is removed if player becomes exhausted)",
+        "description": "When blocking a hit while below ${ Math.round(30)}% stamina, gain ${ Math.round(20 * perkMultiplier)}% increased stamina regen for ${ Math.round(6)}s. (Effect is removed if player becomes exhausted)",
         "label": [
             "Proc"
         ],
@@ -3681,11 +4133,13 @@
         "charm": {
             "name": "Starmetal Armorer's Charm",
             "icon": "icons/items/Resource/ArmorerCharmT2.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_chest_onblockedhittaken_staminaregen"
     },
     "perkid_hands_onblockedhit_empowerstack": {
         "name": "Empowering Breaker",
-        "description": "When your attacks are blocked, gain a stack of empower, increasing damage by  ${Math.round(2 * perkMultiplier)}% for  ${Math.round(5)}s ( ${Math.round(5)} stacks Max)",
+        "description": "When your attacks are blocked, gain a stack of empower, increasing damage by ${ Math.round(2 * perkMultiplier)}% for ${ Math.round(5)}s (${ Math.round(5)} stacks Max)",
         "label": [
             "Proc"
         ],
@@ -3695,11 +4149,13 @@
         "charm": {
             "name": "Huge Wolf Paw",
             "icon": "icons/items/Resource/WolfPawT3.png"
-        }
+        },
+        "weight": 100,
+        "perkId": "perkid_hands_onblockedhit_empowerstack"
     },
     "perkid_legs_dodgesuccess_stamina": {
         "name": "Shirking Energy",
-        "description": "If a hit is avoided by dodging while in a light equip load, gain  ${Math.round(10 * perkMultiplier)} stamina ( ${Math.round(6)}s cooldown)",
+        "description": "If a hit is avoided by dodging while in a light equip load, gain ${ Math.round(10 * perkMultiplier)} stamina (${ Math.round(6)}s cooldown)",
         "label": [
             "Proc"
         ],
@@ -3709,11 +4165,13 @@
         "charm": {
             "name": "Large Traveler's Stone",
             "icon": "icons/items/Resource/TravelersStoneT2.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_legs_dodgesuccess_stamina"
     },
     "perkid_tools_gatherproc_regen": {
         "name": "Gathering Recovery",
-        "description": "While not in combat, After gathering from a node, heal for  ${Math.round(50 * perkMultiplier)} HP per second for  ${Math.round(5)}. (Removed if any damage is taken)",
+        "description": "While not in combat, After gathering from a node, heal for ${ Math.round(50 * perkMultiplier)} HP per second for ${ Math.round(5)}. (Removed if any damage is taken)",
         "label": [
             "GatherProc"
         ],
@@ -3723,11 +4181,13 @@
         "charm": {
             "name": "Vial of Wyrdwood Sap",
             "icon": "icons/items/Resource/WyrdwoodSapT2.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_tools_gatherproc_regen"
     },
     "perkid_weapon_attunement_fire": {
         "name": "Flame Attunement",
-        "description": "Attacks deal an additional  ${Math.round(18)}% weapon damage as Fire. Does not trigger off persistent damage or DoT effects. (cooldown  ${Math.round(1)}s)",
+        "description": "Attacks deal an additional ${ Math.round(18)}% weapon damage as Fire. Does not trigger off persistent damage or DoT effects. (cooldown ${ Math.round(1)}s)",
         "label": [
             "Elemental"
         ],
@@ -3737,11 +4197,13 @@
         "charm": {
             "name": "Smoldering Weapon Shard",
             "icon": "icons/items/Resource/SmolderingWeaponShardT5.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_weapon_attunement_fire"
     },
     "perkid_weapon_attunement_ice": {
         "name": "Frost Attunement",
-        "description": "Attacks deal an additional  ${Math.round(18)}% weapon damage as Ice. Does not trigger off persistent damage or DoT effects. (cooldown  ${Math.round(1)}s)",
+        "description": "Attacks deal an additional ${ Math.round(18)}% weapon damage as Ice. Does not trigger off persistent damage or DoT effects. (cooldown ${ Math.round(1)}s)",
         "label": [
             "Elemental"
         ],
@@ -3751,11 +4213,13 @@
         "charm": {
             "name": "Frozen Weapon Shard",
             "icon": "icons/items/Resource/FrozenWeaponShardT5.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_weapon_attunement_ice"
     },
     "perkid_weapon_attunement_nature": {
         "name": "Arboreal Attunement",
-        "description": "Attacks deal an additional  ${Math.round(18)}% weapon damage as Nature. Does not trigger off persistent damage or DoT effects. (cooldown  ${Math.round(1)}s)",
+        "description": "Attacks deal an additional ${ Math.round(18)}% weapon damage as Nature. Does not trigger off persistent damage or DoT effects. (cooldown ${ Math.round(1)}s)",
         "label": [
             "Elemental"
         ],
@@ -3765,11 +4229,13 @@
         "charm": {
             "name": "Evergreen Weapon Shard",
             "icon": "icons/items/Resource/EvergreenWeaponShardT5.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_weapon_attunement_nature"
     },
     "perkid_weapon_attunement_void": {
         "name": "Abyssal Attunement",
-        "description": "Attacks deal an additional  ${Math.round(18)}% weapon damage as Void. Does not trigger off persistent damage or DoT effects. (cooldown  ${Math.round(1)}s)",
+        "description": "Attacks deal an additional ${ Math.round(18)}% weapon damage as Void. Does not trigger off persistent damage or DoT effects. (cooldown ${ Math.round(1)}s)",
         "label": [
             "Elemental"
         ],
@@ -3779,11 +4245,13 @@
         "charm": {
             "name": "Hollow Weapon Shard",
             "icon": "icons/items/Resource/HollowWeaponShardT5.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_weapon_attunement_void"
     },
     "perkid_armor_conditioning_fire": {
         "name": "Flame Conditioning",
-        "description": "After being hit with Fire DMG, gain  ${Math.round(4)}% Fire absorption  ${Math.round(5)}s. Each armor piece with this perk increases the potency of the effect.",
+        "description": "After being hit with Fire DMG, gain ${ Math.round(4)}% Fire absorption ${ Math.round(5)}s. Each armor piece with this perk increases the potency of the effect.",
         "label": [
             "Elemental"
         ],
@@ -3793,11 +4261,13 @@
         "charm": {
             "name": "Smoldering Armor Shard",
             "icon": "icons/items/Resource/SmolderingArmorShardT5.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_armor_conditioning_fire"
     },
     "perkid_armor_conditioning_ice": {
         "name": "Frost Conditioning",
-        "description": "After being hit with Ice DMG, gain  ${Math.round(4)}% Ice absorption for  ${Math.round(5)}s. Each armor piece with this perk increases the potency of the effect.",
+        "description": "After being hit with Ice DMG, gain ${ Math.round(4)}% Ice absorption for ${ Math.round(5)}s. Each armor piece with this perk increases the potency of the effect.",
         "label": [
             "Elemental"
         ],
@@ -3807,11 +4277,13 @@
         "charm": {
             "name": "Frozen Armor Shard",
             "icon": "icons/items/Resource/FrozenArmorShardT5.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_armor_conditioning_ice"
     },
     "perkid_armor_conditioning_nature": {
         "name": "Arboreal Conditioning",
-        "description": "After being hit with Nature DMG, gain  ${Math.round(4)}% Nature absorption for  ${Math.round(5)}s. Each armor piece with this perk increases the potency of the effect.",
+        "description": "After being hit with Nature DMG, gain ${ Math.round(4)}% Nature absorption for ${ Math.round(5)}s. Each armor piece with this perk increases the potency of the effect.",
         "label": [
             "Elemental"
         ],
@@ -3821,11 +4293,13 @@
         "charm": {
             "name": "Evergreen Armor Shard",
             "icon": "icons/items/Resource/EvergreenArmorShardT5.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_armor_conditioning_nature"
     },
     "perkid_armor_conditioning_void": {
         "name": "Abyssal Conditioning",
-        "description": "After being hit with Void DMG, gain  ${Math.round(4)}% Void absorption for  ${Math.round(5)}s. Each armor piece with this perk increases the potency of the effect.",
+        "description": "After being hit with Void DMG, gain ${ Math.round(4)}% Void absorption for ${ Math.round(5)}s. Each armor piece with this perk increases the potency of the effect.",
         "label": [
             "Elemental"
         ],
@@ -3835,11 +4309,13 @@
         "charm": {
             "name": "Hollow Armor Shard",
             "icon": "icons/items/Resource/HollowArmorShardT5.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_armor_conditioning_void"
     },
     "perkid_pvp_weapon_armorpenetration_onbackstab": {
         "name": "Penetrating Backstab",
-        "description": "PvP Only: Backstabs penetrate  ${Math.round(27)}% of a player's armor.",
+        "description": "PvP Only: Backstabs penetrate ${ Math.round(27)}% of a player's armor.",
         "label": [
             "DmgCon"
         ],
@@ -3849,11 +4325,13 @@
         "charm": {
             "name": "Tonic of Judah",
             "icon": "icons/items/Resource/MedicineT2.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_pvp_weapon_armorpenetration_onbackstab"
     },
     "perkid_pvp_weapon_armorpenetration_onheadshot": {
         "name": "Penetrating Headshot",
-        "description": "PvP Only: Headshots penetrate  ${Math.round(22)}% of a player's armor.",
+        "description": "PvP Only: Headshots penetrate ${ Math.round(22)}% of a player's armor.",
         "label": [
             "DmgCon"
         ],
@@ -3863,11 +4341,13 @@
         "charm": {
             "name": "Tonic of Nehemiah",
             "icon": "icons/items/Resource/MedicineT3.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_pvp_weapon_armorpenetration_onheadshot"
     },
     "perkid_pvp_weapon_blockbreak_rend": {
         "name": "Fractured Rend",
-        "description": "PvP Only: When block breaking a player, inflict rend, reducing damage absorption by  ${Math.round(12)}% for  ${Math.round(4)}s.",
+        "description": "PvP Only: When block breaking a player, inflict rend, reducing damage absorption by ${ Math.round(12)}% for ${ Math.round(4)}s.",
         "label": [
             "Blocking"
         ],
@@ -3877,11 +4357,13 @@
         "charm": {
             "name": "Ruby Tonic",
             "icon": "icons/items/Resource/CatalystT1.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_pvp_weapon_blockbreak_rend"
     },
     "perkid_pvp_weapon_cleansebuff_crits": {
         "name": "Purifying Crits",
-        "description": "PvP Only: Critical hits against players remove  ${Math.round(1)} buff from the target. (Cooldown  ${Math.round(10)}s)",
+        "description": "PvP Only: Critical hits against players remove ${ Math.round(1)} buff from the target. (Cooldown ${ Math.round(10)}s)",
         "label": [
             "Proc"
         ],
@@ -3891,11 +4373,13 @@
         "charm": {
             "name": "Tonic of Levi",
             "icon": "icons/items/Resource/Drink2T4.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_pvp_weapon_cleansebuff_crits"
     },
     "perkid_pvp_weapon_exhaustedtarget_slow": {
         "name": "Exhausted Exploitation",
-        "description": "PvP Only: Hits against Exhausted players inflict Slow, reducing movement speed by  ${Math.round(15)}% for  ${Math.round(4)} seconds.",
+        "description": "PvP Only: Hits against Exhausted players inflict Slow, reducing movement speed by ${ Math.round(15)}% for ${ Math.round(4)} seconds.",
         "label": [
             "Proc"
         ],
@@ -3905,11 +4389,13 @@
         "charm": {
             "name": "Astra Tonic",
             "icon": "icons/items/Resource/DrinkCarafeT1.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_pvp_weapon_exhaustedtarget_slow"
     },
     "perkid_pvp_weaponmagic_dmgtohaste": {
         "name": "Alacritous Punishment",
-        "description": "PvP Only: Deal  ${Math.round(8)}% additional damage to players with Haste.",
+        "description": "PvP Only: Deal ${ Math.round(8)}% additional damage to players with Haste.",
         "label": [
             "DmgCon"
         ],
@@ -3919,11 +4405,13 @@
         "charm": {
             "name": "Tonic of Minerva",
             "icon": "icons/items/Resource/GlassVialT2.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_pvp_weaponmagic_dmgtohaste"
     },
     "perkid_pvp_shield_fortifystackonblock": {
         "name": "Sturdy Fortification",
-        "description": "PvP Only: Blocking player attacks adds a stack of  ${Math.round(4)}% fortify for  ${Math.round(5)}s on self for each blocked hit (Max  ${Math.round(5)} stacks)",
+        "description": "PvP Only: Blocking player attacks adds a stack of ${ Math.round(4)}% fortify for ${ Math.round(5)}s on self for each blocked hit (Max ${ Math.round(5)} stacks)",
         "label": [
             "Proc"
         ],
@@ -3933,11 +4421,13 @@
         "charm": {
             "name": "Brown Tonic",
             "icon": "icons/items/Resource/GlassVialT3.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_pvp_shield_fortifystackonblock"
     },
     "perkid_pvp_armor_dodgesuccess_heal": {
         "name": "Shirking Heals",
-        "description": "PvP Only: Successfully dodging an attack heals  ${Math.round(100)} health +  ${Math.round(1)}% of your max HP. (Each armor piece with this perk adds a stack. Can only trigger once every 5s)",
+        "description": "PvP Only: Successfully dodging an attack heals ${ Math.round(100)} health + ${ Math.round(1)}% of your max HP. (Each armor piece with this perk adds a stack. Can only trigger once every 5s)",
         "label": [
             "ArmorHealth"
         ],
@@ -3947,11 +4437,13 @@
         "charm": {
             "name": "Tonic of Tyrannis",
             "icon": "icons/items/Resource/GlassVialT4.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_pvp_armor_dodgesuccess_heal"
     },
     "perkid_pvp_armor_siegedamagereduction": {
         "name": "Siege Ward",
-        "description": "PvP Only: Receive  ${Math.round(6)}% less damage from Siege weapons.",
+        "description": "PvP Only: Receive ${ Math.round(6)}% less damage from Siege weapons.",
         "label": [
             "DmgAbsorb"
         ],
@@ -3961,11 +4453,13 @@
         "charm": {
             "name": "Tonic of Issachar",
             "icon": "icons/items/Resource/GlassVialT5.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_pvp_armor_siegedamagereduction"
     },
     "perkid_pvp_ring_onkill_empowerstack": {
         "name": "Mortal Empowerment",
-        "description": "PvP Only: Player kills grant a persistent  ${Math.round(2)}% damage bonus that lasts until downed, death, or game mode transitions. Duration refreshes on re-application. (Stacks up to  ${Math.round(15)} times. This effect can not be cleansed)",
+        "description": "PvP Only: Player kills grant a persistent ${ Math.round(2)}% damage bonus that lasts until downed, death, or game mode transitions. Duration refreshes on re-application. (Stacks up to ${ Math.round(15)} times. This effect can not be cleansed)",
         "label": [
             "DmgCon"
         ],
@@ -3975,11 +4469,13 @@
         "charm": {
             "name": "Carthago Tonic",
             "icon": "icons/items/Resource/SnailSlimeT1.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_pvp_ring_onkill_empowerstack"
     },
     "perkid_pvp_ring_dmgpertargetbuff": {
         "name": "Invigorated Punishment",
-        "description": "PvP Only: Abilities deal  ${Math.round(2)}% bonus damage per buff on a player. (Max  ${Math.round(8)} buffs)",
+        "description": "PvP Only: Abilities deal ${ Math.round(2)}% bonus damage per buff on a player. (Max ${ Math.round(8)} buffs)",
         "label": [
             "DmgCon"
         ],
@@ -3989,11 +4485,13 @@
         "charm": {
             "name": "Zebulun's Charm",
             "icon": "icons/items/Resource/FurnisherCharmT1.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_pvp_ring_dmgpertargetbuff"
     },
     "perkid_pvp_amulet_dodgesuccess_dmg": {
         "name": "Shirking Empower",
-        "description": "PvP Only: After successfully dodging an attack obtain Empower, increasing damage dealt by  ${Math.round(4)}% for  ${Math.round(10)}s. Duration refreshes when new stack is applied. (stacks  ${Math.round(4)} times)",
+        "description": "PvP Only: After successfully dodging an attack obtain Empower, increasing damage dealt by ${ Math.round(4)}% for ${ Math.round(10)}s. Duration refreshes when new stack is applied. (stacks ${ Math.round(4)} times)",
         "label": [
             "Proc"
         ],
@@ -4003,6 +4501,8 @@
         "charm": {
             "name": "Superos Charm",
             "icon": "icons/items/Resource/FurnisherCharmT3.png"
-        }
+        },
+        "weight": null,
+        "perkId": "perkid_pvp_amulet_dodgesuccess_dmg"
     }
 }

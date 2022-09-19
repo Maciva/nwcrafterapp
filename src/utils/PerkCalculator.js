@@ -12,9 +12,60 @@ export default class PerkCalculator {
         this.labels = this.buildLabelQuantityMap();
     }
 
+    calculateMostEfficientCharm = (selectedPerks) => {
+        const perkCopy = JSON.parse(JSON.stringify(selectedPerks));
+        const flatenedPerks = perkCopy.flat()
+        const result = [];
+        flatenedPerks.forEach(perk => {
+            perk.charm = true;
+            const prob = this.calculate(perkCopy);
+            result.push({probability: prob, perk: perk})
+            perk.charm = false;
+        })
+        return result;
+    }
+
     calculate = (selectedPerks) => {
         const selectedLabels = this.getSelectedLabels(selectedPerks);
-        console.log(selectedLabels);
+        let total = 0;
+        const emptyBuckets = selectedLabels.filter(container => container.empty).length
+        const labelValues = selectedLabels.map(container => Object.values(container.labels));
+        const allPermutations = utils.permutator(labelValues);
+        const withCharm = labelValues.flat().some(label => label.charm)
+        allPermutations.forEach(permutation => {
+            if (withCharm && permutation[0].some(label => !label.charm)) {
+                return;
+            }
+            const allCombinations = utils.cartesian(permutation);
+            allCombinations.forEach(combination => {
+                total += this.calculateSinglePerkSelection(combination);
+            })
+        })
+        if (emptyBuckets > 1 ) {
+            return total / emptyBuckets;
+        }
+        return total;
+    }
+
+    calculateSinglePerkSelection = (selectedLabels) => {
+        const excludedLabels = new Set();
+        let result = 1;
+        selectedLabels.forEach(label => {
+            if (label.excludedLabels.some(excludedLabel => excludedLabels.has(excludedLabel))) {
+                result = 0;
+            }
+            const totalWeight = this.getTotalWeight(Object.keys(this.labels).filter(label => !excludedLabels.has(label)).map(labelName => this.labels[labelName]))
+            label.excludedLabels.forEach(excludedLabel => excludedLabels.add(excludedLabel))
+            if (label.charm) {
+                return;
+            }
+            result = result * (label.weight / totalWeight) * label.factor;
+        });
+        return result;
+    }
+
+    getTotalWeight = (labels) => {
+        return labels.reduce((a, b) => a + b.weight, 0);
     }
 
     getSelectedLabels = (selectedPerks) => {
@@ -25,13 +76,13 @@ export default class PerkCalculator {
             if (!pool.length) {
                 selectedLabels[index].empty = true;
             }
-            pool.forEach(perk => {
+            pool.forEach((perk) => {
                 perk.perk.label.forEach(label => {
-                    const obj = selectedLabels[0];
+                    const obj = selectedLabels[index];
                     if (!obj.labels[label]) {
-                        obj.labels[label] = 0;
+                        obj.labels[label] = { perkWeight: 0, charm: perk.charm };
                     }
-                    obj.labels[label]++;
+                    obj.labels[label].perkWeight += perk.perk.weight;
                 })
             })
         })
@@ -41,9 +92,9 @@ export default class PerkCalculator {
             this.availablePerks.filter(perk => !perk.label.some(label => allLabels.includes(label))).forEach(perk => {
                 perk.label.forEach(label => {
                     if (!otherLabelCounts[label]) {
-                        otherLabelCounts[label] = 0;
+                        otherLabelCounts[label] = { perkWeight: 0, charm: false };
                     }
-                    otherLabelCounts[label]++;
+                    otherLabelCounts[label].perkWeight += perk.weight;
                 })
             })
             selectedLabels.forEach(labelContainer => {
@@ -56,8 +107,10 @@ export default class PerkCalculator {
             Object.keys(labelContainer.labels).forEach(label => {
                 labelContainer.labels[label] = {
                     label: label,
-                    factor: labelContainer.labels[label] / this.labels[label].count,
-                    weight: this.labels[label].weight
+                    factor: labelContainer.labels[label].perkWeight / this.labels[label].perkWeight,
+                    weight: this.labels[label].weight,
+                    excludedLabels: this.labels[label].excludedLabels,
+                    charm: labelContainer.labels[label].charm
                 }
             })
         })
@@ -69,13 +122,21 @@ export default class PerkCalculator {
         this.availablePerks.forEach(perk => {
             perk.label.forEach(label => {
                 if (!labels[label]) {
-                    labels[label] = { count: 0, weight: weights[label] };
+                    labels[label] = { perkWeight: 0, weight: weights[label], excludedLabels: new Set() };
                 }
-                labels[label].count++;
+                labels[label].perkWeight += perk.weight;
+                perk.label.forEach(labelToadd => {
+                    labels[label].excludedLabels.add(labelToadd);
+                })
             })
+        })
+        Object.values(labels).forEach(label => {
+            label.excludedLabels.forEach(labelToInspect => {
+                labels[labelToInspect].excludedLabels.forEach(labelToAdd => label.excludedLabels.add(labelToAdd));
+            })
+            label.excludedLabels = [...label.excludedLabels]
         })
         return labels;
     }
-
 
 }

@@ -23,7 +23,6 @@ function PerkSelector(props) {
         }
         return perksToFilter.map(perkId => {
             const result = perkMap[perkId]
-            result["perkId"] = perkId;
             return result;
         }).sort((a, b) => {
             if (a.label[0] < b.label[0]) {

@@ -18,6 +18,10 @@ const permutator = (inputArr) => {
     return result;
 }
 
-const utils = {permutator: permutator };
+function cartesian(a) {
+    return a.reduce((a, b) => a.flatMap(d => b.map(e => [d, e].flat())));
+}
+
+const utils = { permutator: permutator, cartesian: cartesian };
 
 export default utils;
