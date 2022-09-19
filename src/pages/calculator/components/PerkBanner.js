@@ -38,8 +38,8 @@ function PerkBanner(props) {
     }))
 
     const renderContent = () => {
-        const imgSrc = `../../../res/${perk.icon}`;
-        const charmSrc = `../../../res/${perk.charm.icon}`;
+        const imgSrc = `${process.env.PUBLIC_URL}/res/${perk.icon}`;
+        const charmSrc = `${process.env.PUBLIC_URL}/res/${perk.charm.icon}`;
         return (
             <div
                 ref={draggable ? drag : undefined}

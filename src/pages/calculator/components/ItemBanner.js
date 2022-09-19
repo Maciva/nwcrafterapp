@@ -29,7 +29,7 @@ function ItemBanner(props) {
         const icon = itemClasses[itemClass].icon
 
         const config = configs[props.rarity];
-        const imgSrc = `../../../res/${icon}`;
+        const imgSrc = `${process.env.PUBLIC_URL}/res/${icon}`;
 
 
         return (

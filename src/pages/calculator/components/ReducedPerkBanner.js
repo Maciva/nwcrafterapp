@@ -17,8 +17,8 @@ function ReducedPerkBanner(props) {
     }))
 
     const renderContent = () => {
-        const imgSrc = `../../../res/${perk.perk.icon}`;
-        const charmSrc = `../../../res/${perk.perk.charm.icon}`;
+        const imgSrc = `${process.env.PUBLIC_URL}/res/${perk.perk.icon}`;
+        const charmSrc = `${process.env.PUBLIC_URL}/res/${perk.perk.charm.icon}`;
         return (
             <div ref={perk.charm ? undefined : drag} style={{
                 backgroundColor: '#151714',

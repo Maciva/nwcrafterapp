@@ -87,7 +87,7 @@ export default function PerkContainerSingle(props) {
                 {
                     (index === 0) && (
                         <Stack style={{ height: '5em', display: 'flex', alignItems: 'center', opacity: 0.5 }} direction='row' justifyContent={"center"} >
-                            <Tooltip title="Charms can only be added onto an empty Perk Slot" open={tooltipOpen && (perks.length !== 0)} >
+                            <Tooltip title="Charms can only be added onto empty Perk Slots" open={tooltipOpen && (perks.length !== 0)} >
                                 <div onMouseEnter={() => setTooltipOpen(true) } onMouseLeave={() => setTooltipOpen(false) } >
                                     <Button disabled={perks.length !== 0} onClick={handleAddPerkWithCharm} color="secondary" variant="outlined" >
                                         Add Perk with Charm
