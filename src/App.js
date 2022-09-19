@@ -7,12 +7,12 @@ import {
 } from "react-router-dom";
 import Home from './pages/home/Home';
 import { Box, Container } from '@mui/system';
-import { AppBar, IconButton, Toolbar } from '@mui/material';
+import { AppBar, Toolbar, Typography } from '@mui/material';
 import Calculator from './pages/calculator/Calculator';
 import ScrollToTop from './utils/components/ScrollToTop';
-import HomeIcon from '@mui/icons-material/Home';
 import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
+import logoNoText from './res/logoNoText.png'
 
 function App() {
     return (
@@ -20,16 +20,16 @@ function App() {
             <BrowserRouter>
                 <DndProvider backend={HTML5Backend} >
                     <AppBar position="static">
-                        <Toolbar>
-                            <Container>
-                                <Link to="/" >
-                                    <IconButton>
-                                        <HomeIcon fontSize='large' />
-                                    </IconButton>
+                        <Container>
+                            <Toolbar>
+                                <Link to="/" style={{ color: 'inherit', textDecoration: 'inherit' }} >
+                                    <div style={{ display: "flex" }} >
+                                        <img style={{ height: '2em', marginRight: '1em' }} src={logoNoText} alt='Aeternum Craft' />
+                                        <Typography variant="h4"> Aeternum Craft </Typography>
+                                    </div>
                                 </Link>
-
-                            </Container>
-                        </Toolbar>
+                            </Toolbar>
+                        </Container>
                     </AppBar>
                     <Box sx={{
                         bgcolor: 'background.paper',

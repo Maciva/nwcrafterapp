@@ -1,4 +1,4 @@
-import { Button, Paper, Stack, Typography } from "@mui/material";
+import { Button, Paper, Stack, Tooltip, Typography } from "@mui/material";
 import React, { useLayoutEffect, useState } from "react";
 import ReducedPerkBanner from "../ReducedPerkBanner";
 import { useDrop } from "react-dnd";
@@ -11,6 +11,7 @@ export default function PerkContainerSingle(props) {
 
     const [width, setWidth] = useState(0);
     const [height, setHeight] = useState(0);
+    const [tooltipOpen, setTooltipOpen] = useState(false);
 
     const ref = React.useRef(null);
 
@@ -84,11 +85,15 @@ export default function PerkContainerSingle(props) {
                     )
                 }
                 {
-                    (perks.length === 0 && index === 0) && (
+                    (index === 0) && (
                         <Stack style={{ height: '5em', display: 'flex', alignItems: 'center', opacity: 0.5 }} direction='row' justifyContent={"center"} >
-                            <Button onClick={handleAddPerkWithCharm} color="secondary" variant="outlined" >
-                                Add Perk with Charm
-                            </Button>
+                            <Tooltip title="Charms can only be added onto an empty Perk Slot" open={tooltipOpen && (perks.length !== 0)} >
+                                <div onMouseEnter={() => setTooltipOpen(true) } onMouseLeave={() => setTooltipOpen(false) } >
+                                    <Button disabled={perks.length !== 0} onClick={handleAddPerkWithCharm} color="secondary" variant="outlined" >
+                                        Add Perk with Charm
+                                    </Button>
+                                </div>
+                            </Tooltip>
                         </Stack>
                     )
                 }
