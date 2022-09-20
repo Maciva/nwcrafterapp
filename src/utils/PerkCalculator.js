@@ -8,7 +8,7 @@ export default class PerkCalculator {
 
     constructor(itemClass) {
         this.itemClass = itemClass;
-        this.availablePerks = perkBuckets[this.itemClass].inPool.map(perkId => perkMap[perkId]);
+        this.availablePerks = perkBuckets[this.itemClass].inPool.concat(perkBuckets[this.itemClass].onlyWithCharm).map(perkId => perkMap[perkId]);
         this.labels = this.buildLabelQuantityMap();
     }
 
