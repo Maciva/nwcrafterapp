@@ -100,21 +100,21 @@ function Calculator() {
                     <IconButton onClick={() => navigate(-1) } style={{margin: '0.2em'}} >
                         <ArrowBack fontSize="large" />
                     </IconButton>
-                    <Paper style={{ padding: '2em' }} elevation={4} >
+                    <Paper style={{ padding: '1em' }} elevation={4} >
                         <Grid spacing={6} direction="column" container >
                             <Grid item xs={12} >
                                 <Paper style={{ padding: '1em' }} >
                                     <Grid container spacing={4} justifyContent={"space-between"} >
-                                        <Grid item xs={5} >
+                                        <Grid item md={5} xs={12} >
                                             <ItemBanner itemClass={params.itemClass} rarity={rarity} />
                                         </Grid>
-                                        <Grid item xs={3}>
+                                        <Grid item md={3} xs={12}>
                                             <TextField onChange={(e) => setRarity(e.target.value)} select fullWidth color="secondary" label="Rarity" value={rarity} variant="outlined" >
                                                 <MenuItem value="legendary">Legendary</MenuItem>
                                                 <MenuItem value="epic">Epic</MenuItem>
                                             </TextField>
                                         </Grid>
-                                        <Grid item xs={4} container justifyContent="space-between" direction="column"  >
+                                        <Grid item md={4} xs={12} spacing={2} container justifyContent="space-between" direction="column"  >
                                             <Grid item >
                                                 <Button
                                                     onClick={() => openCalculateResult(perkCalculator.current.calculate(selectedPerks))}

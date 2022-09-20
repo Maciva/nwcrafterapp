@@ -30,9 +30,8 @@ function ReducedPerkBanner(props) {
 
                 <Grid
                     container
-                    spacing={4}
+                    spacing={2}
                     alignItems={"center"}
-                    wrap="nowrap"
                     style={{ height: '5.5em' }}
                 >
                     <Grid xs={2} item>

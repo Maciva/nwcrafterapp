@@ -83,7 +83,7 @@ function PerkSelector(props) {
     // rendering functions
     const renderFilters = () => {
         return <Grid item container spacing={4}>
-            <Grid item xs={4} >
+            <Grid item md={4} xs={12} >
                 <TextField
                     fullWidth
                     InputProps={{
@@ -99,7 +99,7 @@ function PerkSelector(props) {
                     onChange={handleFilterChange}
                 />
             </Grid>
-            <Grid item xs={4} >
+            <Grid item md={4} xs={12} >
                 <Autocomplete
                     multiple
                     id="tags-filled"
@@ -126,7 +126,7 @@ function PerkSelector(props) {
                     )}
                 />
             </Grid>
-            <Grid item xs={4} >
+            <Grid item md={4} xs={12} >
                 <Autocomplete
                     multiple
                     id="tags-filled"
@@ -162,7 +162,7 @@ function PerkSelector(props) {
                 <Grid item container spacing={2} >
                     {filteredPerks.map((perk, index) => {
                         return (
-                            <Grid key={perk.perkId} xs={4} item >
+                            <Grid key={perk.perkId} md={4} xs={12} item >
                                 <PerkBanner disabled={!charmPerks && !perk.weight} onSelect={onSelect} draggable={draggable} perk={perk} gs={625} />
                             </Grid>
                         )

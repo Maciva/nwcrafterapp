@@ -29,7 +29,7 @@ export default function PerkContainerAll(props) {
 
         <Grid container spacing={4} >
             {selectedPerks.map((perkList, index) => {
-                return <Grid item xs={4} key={generateKeyWithSuffix(index)} >
+                return <Grid item md={4} xs={12} key={generateKeyWithSuffix(index)} >
                     <PerkContainerSingle handleAddPerkWithCharm={handleAddPerkWithCharm} onDelete={onDelete} canDrop={(perk) => canDrop(perk, index)} onDrop={onDrop} perks={perkList} index={index} />
                 </Grid>
             })}

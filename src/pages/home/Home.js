@@ -23,7 +23,7 @@ function Home() {
                 <Grid style={{ padding: '2em' }} container spacing={4} >
                     {Object.keys(itemClasses).map((itemClass, index) => {
                         return (
-                            <Grid key={index} item xs={3} >
+                            <Grid key={index} item md={3} xs={6} >
                                 <Link to={`/${itemClass}`} style={{ textDecoration: 'none' }} >
                                     <ItemCard name={itemClass} icon={`../../res/${itemClasses[itemClass].icon}`} />
                                 </Link>
