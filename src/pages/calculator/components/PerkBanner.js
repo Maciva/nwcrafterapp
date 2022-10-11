@@ -8,7 +8,7 @@ function PerkBanner(props) {
 
     const [tooltipOpen, setTooltipOpen] = React.useState(false);
 
-    const { perk, draggable, onSelect, disabled, onClick } = props;
+    const { perk, draggable, onSelect, disabled } = props;
 
     const getItemClassBonusGs = () => {
         for (let element in perk.itemClassBonuses) {

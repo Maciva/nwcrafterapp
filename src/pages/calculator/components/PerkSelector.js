@@ -4,12 +4,11 @@ import PerkBanner from "../components/PerkBanner";
 import perkBuckets from '../../../res/perkBuckets.json'
 import perkMap from '../../../res/perkMapFiltered.json'
 import SearchIcon from '@mui/icons-material/Search';
+import { isMobile } from "react-device-detect";
 
 function PerkSelector(props) {
-
+    
     const { selectedPerks, itemClass, draggable, onSelect, charmPerks } = props;
-
-
     const [filter, setFilter] = React.useState('');
     const [filterLabels, setFilterLabels] = React.useState([]);
     const [excludedFilterLabels, setExcludedFilterLabels] = React.useState([]);

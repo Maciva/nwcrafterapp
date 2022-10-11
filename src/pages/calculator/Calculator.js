@@ -2,6 +2,7 @@ import { ArrowBack } from "@mui/icons-material";
 import { Button, Grid, IconButton, MenuItem, Paper, TextField } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
+import { isMobile } from "react-device-detect";
 import { useNavigate, useParams } from "react-router-dom";
 import PerkCalculator from "../../utils/PerkCalculator";
 import CalculatorResultDialog from "./components/CalculatorResultDialog";
@@ -10,6 +11,7 @@ import CustomDialog from "./components/CustomDialog";
 import ItemBanner from "./components/ItemBanner";
 import PerkContainerAll from "./components/PerkContainer/PerkContainerAll";
 import PerkSelector from "./components/PerkSelector";
+import PerkSlotSelectorDialog from "./components/PerkSlotSelectorDialog";
 
 function Calculator() {
 
@@ -43,6 +45,10 @@ function Calculator() {
             })
         }
     }, [rarity])
+
+    const onSelect = (perk) => {
+        console.log(perk);
+    }
 
     const handleDrop = (index, item) => {
         if (item.fromContainerId === index) {
@@ -95,6 +101,7 @@ function Calculator() {
             <>
                 <CharmDialog handleClose={() => setOpenCharmResult(false)} open={openCharmResult} result={charmResult} />
                 <CalculatorResultDialog handleClose={() => setOpenResult(false)} open={openResult} result={calculatorResult} />
+                <PerkSlotSelectorDialog handleClose={() => setOpenResult(false)} open={false} selectedPerks={selectedPerks} />
                 <CustomDialog handleClose={() => setOpen(false)} open={open} handleSelect={handleSelect} itemClass={params.itemClass} />
                 <Container maxWidth="lg">
                     <IconButton onClick={() => navigate(-1) } style={{margin: '0.2em'}} >
@@ -150,7 +157,7 @@ function Calculator() {
                             </Grid>
                             <Grid item xs={12} >
                                 <Paper style={{ padding: '1em' }} >
-                                    <PerkSelector draggable itemClass={params.itemClass} selectedPerks={selectedPerks} />
+                                    <PerkSelector onSelect={onSelect} draggable itemClass={params.itemClass} selectedPerks={selectedPerks} />
                                 </Paper>
                             </Grid>
                         </Grid>

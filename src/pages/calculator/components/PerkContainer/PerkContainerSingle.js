@@ -7,7 +7,7 @@ import ClearIcon from '@mui/icons-material/Clear';
 
 export default function PerkContainerSingle(props) {
 
-    const { index, perks, onDrop, canDrop, onDelete, handleAddPerkWithCharm } = props;
+    const { index, perks, onDrop, canDrop, onDelete, handleAddPerkWithCharm, selector } = props;
 
     const [width, setWidth] = useState(0);
     const [height, setHeight] = useState(0);

@@ -108,9 +108,13 @@ export default class PerkCalculator {
         }
         selectedLabels.forEach(labelContainer => {
             Object.keys(labelContainer.labels).forEach(label => {
+                let factor = labelContainer.labels[label].perkWeight / this.labels[label].perkWeight;
+                if (isNaN((factor))) {
+                    factor = 1;
+                }
                 labelContainer.labels[label] = {
                     label: label,
-                    factor: labelContainer.labels[label].perkWeight / this.labels[label].perkWeight,
+                    factor: factor,
                     weight: this.labels[label].weight,
                     excludedLabels: this.labels[label].excludedLabels,
                     charm: labelContainer.labels[label].charm
