@@ -21,6 +21,9 @@ function Calculator() {
     const [rarity, setRarity] = React.useState("legendary")
     const [selectedPerks, setSelectedPerks] = React.useState([[], [], []])
     const [open, setOpen] = React.useState(false);
+    
+    const [perkSelectorOpen, setPerkSelectorOpen] = React.useState(false);
+    const [selectorPerk, setSelectorPerk] = React.useState(undefined);
 
     const [openResult, setOpenResult] = React.useState(false);
     const [calculatorResult, setCalculatorResult] = React.useState(0);
@@ -47,7 +50,8 @@ function Calculator() {
     }, [rarity])
 
     const onSelect = (perk) => {
-        console.log(perk);
+        setPerkSelectorOpen(true);
+        setSelectorPerk(perk);
     }
 
     const handleDrop = (index, item) => {
@@ -101,7 +105,7 @@ function Calculator() {
             <>
                 <CharmDialog handleClose={() => setOpenCharmResult(false)} open={openCharmResult} result={charmResult} />
                 <CalculatorResultDialog handleClose={() => setOpenResult(false)} open={openResult} result={calculatorResult} />
-                <PerkSlotSelectorDialog handleClose={() => setOpenResult(false)} open={false} selectedPerks={selectedPerks} />
+                <PerkSlotSelectorDialog handleClose={() => setPerkSelectorOpen(false)} open={perkSelectorOpen} selectedPerks={selectedPerks} perk={selectorPerk} />
                 <CustomDialog handleClose={() => setOpen(false)} open={open} handleSelect={handleSelect} itemClass={params.itemClass} />
                 <Container maxWidth="lg">
                     <IconButton onClick={() => navigate(-1) } style={{margin: '0.2em'}} >
@@ -157,7 +161,7 @@ function Calculator() {
                             </Grid>
                             <Grid item xs={12} >
                                 <Paper style={{ padding: '1em' }} >
-                                    <PerkSelector onSelect={onSelect} draggable itemClass={params.itemClass} selectedPerks={selectedPerks} />
+                                    <PerkSelector onSelect={isMobile ? onSelect : onSelect} draggable itemClass={params.itemClass} selectedPerks={selectedPerks} />
                                 </Paper>
                             </Grid>
                         </Grid>

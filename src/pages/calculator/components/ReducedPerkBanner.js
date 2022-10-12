@@ -6,7 +6,7 @@ import CancelIcon from '@mui/icons-material/Cancel';
 
 function ReducedPerkBanner(props) {
 
-    const { perk, containerId, onDelete } = props;
+    const { perk, containerId, onDelete, selector } = props;
 
     const [{ isDragging }, drag] = useDrag(() => ({
         type: ItemTypes.PERK,
@@ -20,10 +20,10 @@ function ReducedPerkBanner(props) {
         const imgSrc = `${process.env.PUBLIC_URL}/res/${perk.perk.icon}`;
         const charmSrc = `${process.env.PUBLIC_URL}/res/${perk.perk.charm.icon}`;
         return (
-            <div ref={perk.charm ? undefined : drag} style={{
+            <div ref={perk.charm || selector ? undefined : drag} style={{
                 backgroundColor: '#151714',
                 opacity: isDragging ? 0.5 : 1,
-                cursor: perk.charm ? 'auto' : 'grab',
+                cursor: perk.charm || selector ? 'auto' : 'grab',
                 padding: '0.5em',
                 paddingRight: '1.5em',
             }}>
@@ -56,9 +56,14 @@ function ReducedPerkBanner(props) {
                     <Grid
                         item xs={1}
                     >
-                        <IconButton onClick={() => onDelete(perk)} >
-                            <CancelIcon />
-                        </IconButton>
+                        {
+                            !selector && (
+                                <IconButton onClick={() => onDelete(perk)} >
+                                    <CancelIcon />
+                                </IconButton> 
+                            )
+                        }
+                        
                     </Grid>
                 </Grid>
 

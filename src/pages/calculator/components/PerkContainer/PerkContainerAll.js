@@ -4,7 +4,7 @@ import PerkContainerSingle from "./PerkContainerSingle";
 
 export default function PerkContainerAll(props) {
 
-    const { selectedPerks, onDrop, onDelete, handleAddPerkWithCharm, selector } = props;
+    const { selectedPerks, onDrop, onDelete, handleAddPerkWithCharm, selector, selectorPerk } = props;
 
     const canDrop = (perk, index) => {
         const others = !selectedPerks.filter((el, i) => i !== index).some(perkList => {
@@ -25,12 +25,21 @@ export default function PerkContainerAll(props) {
         return selectedPerks.map((list, index) => `${index}:${list.join(",")}`);
     }
 
+    const handleClick = (index) => {
+        const item = {
+            charm: false,
+            fromContainerId: undefined,
+            perk: selectorPerk
+        }
+        onDrop(index, item)
+    }
+
     return (
 
         <Grid container spacing={4} >
             {selectedPerks.map((perkList, index) => {
                 return <Grid item md={4} xs={12} key={generateKeyWithSuffix(index)} >
-                    <PerkContainerSingle selector={selector} handleAddPerkWithCharm={handleAddPerkWithCharm} onDelete={onDelete} canDrop={(perk) => canDrop(perk, index)} onDrop={onDrop} perks={perkList} index={index} />
+                    <PerkContainerSingle onClick={() => handleClick(index)} selector={selector} selectorPerk={selectorPerk} handleAddPerkWithCharm={handleAddPerkWithCharm} onDelete={onDelete} canDrop={(perk) => canDrop(perk, index)} onDrop={onDrop} perks={perkList} index={index} />
                 </Grid>
             })}
         </Grid>

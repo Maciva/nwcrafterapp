@@ -7,11 +7,14 @@ import ClearIcon from '@mui/icons-material/Clear';
 
 export default function PerkContainerSingle(props) {
 
-    const { index, perks, onDrop, canDrop, onDelete, handleAddPerkWithCharm, selector } = props;
+    const { index, perks, onDrop, canDrop, onDelete, handleAddPerkWithCharm, selector, onClick, selectorPerk } = props;
 
     const [width, setWidth] = useState(0);
     const [height, setHeight] = useState(0);
     const [tooltipOpen, setTooltipOpen] = useState(false);
+    const [firstRender, setFirstRender] = useState(true);
+
+    const [hover, setHover] = useState(false);
 
     const ref = React.useRef(null);
 
@@ -25,6 +28,21 @@ export default function PerkContainerSingle(props) {
         })
     }))
 
+    React.useEffect(() => {
+        setFirstRender(false);
+    }, [])
+
+    const shouldRenderDisable = () => {
+        if (firstRender) {
+            return false;
+        }
+        if(selector) {
+            return !canDrop(selectorPerk);
+        } else {
+            return !canDropField && isOver;
+        }
+    }
+
     useLayoutEffect(() => {
         if (!canDropField && isOver) {
             return;
@@ -32,6 +50,7 @@ export default function PerkContainerSingle(props) {
         setWidth(ref.current.offsetWidth);
         setHeight(ref.current.offsetHeight);
     });
+
 
     const getCause = () => {
         if(perks.some(perk => perk.charm)) {
@@ -41,8 +60,14 @@ export default function PerkContainerSingle(props) {
         }
     } 
 
+    const handleClick = () => {
+        if (!shouldRenderDisable()) {
+            onClick();
+        }
+    }
+
     let content;
-    if (!canDropField && isOver) {
+    if (shouldRenderDisable()) {
         content = (
             <div style={{
                 position: "absolute",
@@ -67,15 +92,15 @@ export default function PerkContainerSingle(props) {
         )
     } else {
         content = (
-            <div style={{ paddingTop: '1em' }}>
-                <Typography style={{ margin: '0em 0em 0.5em 0.5em' }} variant="h6" >
+            <div style={{ paddingTop: '1em', minHeight: '8em' }}>
+                <Typography style={{ margin: '0em 0em 0.5em 0.5em', paddingBottom: '0.5em' }} variant="h6" >
                     {`Perk Slot ${index + 1}`}
                 </Typography>
                 {perks.map((perk, ind) => {
-                    return <ReducedPerkBanner onDelete={(perk) => onDelete(index, perk)} key={perk.perk.perkId} containerId={index} perk={perk} />
+                    return <ReducedPerkBanner selector={selector} onDelete={(perk) => onDelete(index, perk)} key={perk.perk.perkId} containerId={index} perk={perk} />
                 })}
                 {
-                    !perks.some(perk => perk.charm) && (
+                    !selector && !perks.some(perk => perk.charm) && (
                         <Stack style={{ height: '5em', display: 'flex', alignItems: 'center', opacity: 0.5 }} direction='row' justifyContent={"center"} >
                             <Typography textAlign={"center"} >
                                 Drag in Perks to add them to this pool
@@ -85,7 +110,7 @@ export default function PerkContainerSingle(props) {
                     )
                 }
                 {
-                    (index === 0) && (
+                    (!selector && index === 0) && (
                         <Stack style={{ height: '5em', display: 'flex', alignItems: 'center', opacity: 0.5 }} direction='row' justifyContent={"center"} >
                             <Tooltip title="Charms can only be added onto empty Perk Slots" open={tooltipOpen && (perks.length !== 0)} >
                                 <div onMouseEnter={() => setTooltipOpen(true) } onMouseLeave={() => setTooltipOpen(false) } >
@@ -105,8 +130,8 @@ export default function PerkContainerSingle(props) {
 
     return (
         <>
-            <Paper ref={ref} >
-                <div style={(!canDropField && isOver) ? { width: width, height: height } : {}} ref={drop} >
+            <Paper onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} ref={ref} onClick={handleClick} elevation={ selector && hover ? 6 : 1} >
+                <div style={ shouldRenderDisable() ? { width: width, height: height } : {}} ref={selector ? undefined : drop} >
                     {content}
                 </div>
             </Paper>

@@ -1,4 +1,4 @@
-import { Dialog, DialogTitle } from "@mui/material";
+import { Dialog, DialogTitle, Paper } from "@mui/material";
 import PerkContainerAll from "./PerkContainer/PerkContainerAll";
 
 function PerkSlotSelectorDialog(props) {
@@ -20,9 +20,9 @@ function PerkSlotSelectorDialog(props) {
             <DialogTitle>
                 Select a Perk Slot
             </DialogTitle>
-            <div style={{ margin: '1em' }} >
-                <PerkContainerAll selector selectedPerks={selectedPerks} />
-            </div>
+            <Paper style={{ margin: '1em', padding: '1em' }} elevation={4} >
+                <PerkContainerAll onSelect={onSelect} selector selectorPerk={perk} selectedPerks={selectedPerks} />
+            </Paper>
         </Dialog>
     )
 
