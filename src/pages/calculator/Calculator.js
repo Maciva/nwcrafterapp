@@ -21,7 +21,7 @@ function Calculator() {
     const [rarity, setRarity] = React.useState("legendary")
     const [selectedPerks, setSelectedPerks] = React.useState([[], [], []])
     const [open, setOpen] = React.useState(false);
-    
+
     const [perkSelectorOpen, setPerkSelectorOpen] = React.useState(false);
     const [selectorPerk, setSelectorPerk] = React.useState(undefined);
 
@@ -105,10 +105,17 @@ function Calculator() {
             <>
                 <CharmDialog handleClose={() => setOpenCharmResult(false)} open={openCharmResult} result={charmResult} />
                 <CalculatorResultDialog handleClose={() => setOpenResult(false)} open={openResult} result={calculatorResult} />
-                <PerkSlotSelectorDialog handleClose={() => setPerkSelectorOpen(false)} open={perkSelectorOpen} selectedPerks={selectedPerks} perk={selectorPerk} />
+                <PerkSlotSelectorDialog
+                    handleClose={() => setPerkSelectorOpen(false)}
+                    onSelect={(index, item) => {
+                        handleDrop(index, item);
+                        setPerkSelectorOpen(false);
+                    }}
+                    open={perkSelectorOpen} selectedPerks={selectedPerks} perk={selectorPerk}
+                />
                 <CustomDialog handleClose={() => setOpen(false)} open={open} handleSelect={handleSelect} itemClass={params.itemClass} />
                 <Container maxWidth="lg">
-                    <IconButton onClick={() => navigate(-1) } style={{margin: '0.2em'}} >
+                    <IconButton onClick={() => navigate(-1)} style={{ margin: '0.2em' }} >
                         <ArrowBack fontSize="large" />
                     </IconButton>
                     <Paper style={{ padding: '1em' }} elevation={4} >
@@ -145,7 +152,7 @@ function Calculator() {
                                                     color="secondary"
                                                     style={{ minHeight: '4em' }} fullWidth variant="outlined"
                                                     onClick={() => openCalculateMostEfficientCharm(perkCalculator.current.calculateMostEfficientCharm(selectedPerks))}
-                                                        
+
                                                 >
                                                     Calculate most efficient charm
                                                 </Button>
@@ -161,7 +168,7 @@ function Calculator() {
                             </Grid>
                             <Grid item xs={12} >
                                 <Paper style={{ padding: '1em' }} >
-                                    <PerkSelector onSelect={isMobile ? onSelect : onSelect} draggable itemClass={params.itemClass} selectedPerks={selectedPerks} />
+                                    <PerkSelector onSelect={isMobile ? onSelect : undefined} draggable itemClass={params.itemClass} selectedPerks={selectedPerks} />
                                 </Paper>
                             </Grid>
                         </Grid>

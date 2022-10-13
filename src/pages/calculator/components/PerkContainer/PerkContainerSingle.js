@@ -4,6 +4,8 @@ import ReducedPerkBanner from "../ReducedPerkBanner";
 import { useDrop } from "react-dnd";
 import { ItemTypes } from "../../../../utils/ItemTypes";
 import ClearIcon from '@mui/icons-material/Clear';
+import { isMobile } from "react-device-detect";
+import AddIcon from '@mui/icons-material/Add';
 
 export default function PerkContainerSingle(props) {
 
@@ -58,10 +60,19 @@ export default function PerkContainerSingle(props) {
         } else {
             return "This perk is exclusive with perks in other Perk Slots";
         }
-    } 
+    }
+
+    const getPerkAdditionText = () => {
+        if (isMobile) {
+            return <div style={{ display: 'flex', alignItems: 'center' }}>
+                <span>Press </span><AddIcon /> <span> on Perks below to add them</span> 
+            </div>
+        }
+        return "Drag in Perks to add them to this pool"
+    }
 
     const handleClick = () => {
-        if (!shouldRenderDisable()) {
+        if (!shouldRenderDisable() && selector) {
             onClick();
         }
     }
@@ -86,7 +97,6 @@ export default function PerkContainerSingle(props) {
                     <Typography textAlign="center" sx={{ color: '#FFAAAA' }} >
                         {getCause()}
                     </Typography>
-
                 </div>
             </div>
         )
@@ -103,7 +113,7 @@ export default function PerkContainerSingle(props) {
                     !selector && !perks.some(perk => perk.charm) && (
                         <Stack style={{ height: '5em', display: 'flex', alignItems: 'center', opacity: 0.5 }} direction='row' justifyContent={"center"} >
                             <Typography textAlign={"center"} >
-                                Drag in Perks to add them to this pool
+                                {getPerkAdditionText()}
                             </Typography>
                         </Stack>
 

@@ -4,7 +4,6 @@ import PerkBanner from "../components/PerkBanner";
 import perkBuckets from '../../../res/perkBuckets.json'
 import perkMap from '../../../res/perkMapFiltered.json'
 import SearchIcon from '@mui/icons-material/Search';
-import { isMobile } from "react-device-detect";
 
 function PerkSelector(props) {
     
@@ -76,7 +75,6 @@ function PerkSelector(props) {
     const handleFilterChange = (e) => {
         setFilter(e.target.value)
     }
-
 
 
     // rendering functions
