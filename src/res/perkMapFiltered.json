@@ -13,7 +13,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Slow1.png",
+        "icon": "icons/perks/Slow1.png",
         "charm": {
             "name": "Steel Hatchet Charm",
             "icon": "icons/items/Resource/HatchetCharmT1.png"
@@ -35,7 +35,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Critical1.png",
+        "icon": "icons/perks/Critical1.png",
         "charm": {
             "name": "Starmetal Hatchet Charm",
             "icon": "icons/items/Resource/HatchetCharmT2.png"
@@ -57,7 +57,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/CDR1.png",
+        "icon": "icons/perks/CDR1.png",
         "charm": {
             "name": "Orichalcum Hatchet Charm",
             "icon": "icons/items/Resource/HatchetCharmT3.png"
@@ -79,7 +79,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/DamageBasic1.png",
+        "icon": "icons/perks/DamageBasic1.png",
         "charm": {
             "name": "Reinforced Steel Hatchet Charm",
             "icon": "icons/items/Resource/HatchetCharmT1.png"
@@ -101,7 +101,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/CDR1.png",
+        "icon": "icons/perks/CDR1.png",
         "charm": {
             "name": "Reinforced Starmetal Hatchet Charm",
             "icon": "icons/items/Resource/HatchetCharmT2.png"
@@ -123,7 +123,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Stamina1.png",
+        "icon": "icons/perks/Stamina1.png",
         "charm": {
             "name": "Reinforced Orichalcum Hatchet Charm",
             "icon": "icons/items/Resource/HatchetCharmT3.png"
@@ -145,7 +145,7 @@
                 "gsBonus": 433
             }
         ],
-        "icon": "icons/Perks/DamageBasic1.png",
+        "icon": "icons/perks/DamageBasic1.png",
         "charm": {
             "name": "Steel War Hammer Charm",
             "icon": "icons/items/Resource/2HHammerCharmT1.png"
@@ -167,7 +167,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/CDR1.png",
+        "icon": "icons/perks/CDR1.png",
         "charm": {
             "name": "Starmetal War Hammer Charm",
             "icon": "icons/items/Resource/2HHammerCharmT2.png"
@@ -189,7 +189,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/StonecutterMastery1.png",
+        "icon": "icons/perks/StonecutterMastery1.png",
         "charm": {
             "name": "Orichalcum War Hammer Charm",
             "icon": "icons/items/Resource/2HHammerCharmT3.png"
@@ -211,7 +211,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Rend1.png",
+        "icon": "icons/perks/Rend1.png",
         "charm": {
             "name": "Reinforced Steel War Hammer Charm",
             "icon": "icons/items/Resource/2HHammerCharmT1.png"
@@ -233,7 +233,7 @@
                 "gsBonus": 340
             }
         ],
-        "icon": "icons/Perks/Knockdown.png",
+        "icon": "icons/perks/Knockdown.png",
         "charm": {
             "name": "Reinforced Starmetal War Hammer Charm",
             "icon": "icons/items/Resource/2HHammerCharmT2.png"
@@ -255,7 +255,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Health1.png",
+        "icon": "icons/perks/Health1.png",
         "charm": {
             "name": "Reinforced Orichalcum War Hammer Charm",
             "icon": "icons/items/Resource/2HHammerCharmT3.png"
@@ -277,7 +277,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Slow1.png",
+        "icon": "icons/perks/Slow1.png",
         "charm": {
             "name": "Steel Musket Charm",
             "icon": "icons/items/Resource/MusketCharmT1.png"
@@ -299,7 +299,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/CDR1.png",
+        "icon": "icons/perks/CDR1.png",
         "charm": {
             "name": "Starmetal Musket Charm",
             "icon": "icons/items/Resource/MusketCharmT2.png"
@@ -321,7 +321,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Empower1.png",
+        "icon": "icons/perks/Empower1.png",
         "charm": {
             "name": "Orichalcum Musket Charm",
             "icon": "icons/items/Resource/MusketCharmT3.png"
@@ -343,7 +343,7 @@
                 "gsBonus": 400
             }
         ],
-        "icon": "icons/Perks/Knockdown.png",
+        "icon": "icons/perks/Knockdown.png",
         "charm": {
             "name": "Reinforced Steel Musket Charm",
             "icon": "icons/items/Resource/MusketCharmT1.png"
@@ -365,7 +365,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/GalvanizedTraps1.png",
+        "icon": "icons/perks/GalvanizedTraps1.png",
         "charm": {
             "name": "Reinforced Starmetal Musket Charm",
             "icon": "icons/items/Resource/MusketCharmT2.png"
@@ -387,7 +387,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Health1.png",
+        "icon": "icons/perks/Health1.png",
         "charm": {
             "name": "Reinforced Orichalcum Musket Charm",
             "icon": "icons/items/Resource/MusketCharmT3.png"
@@ -409,7 +409,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Bleed1.png",
+        "icon": "icons/perks/Bleed1.png",
         "charm": {
             "name": "Steel Spear Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT1.png"
@@ -431,7 +431,7 @@
                 "gsBonus": 200
             }
         ],
-        "icon": "icons/Perks/Rend1.png",
+        "icon": "icons/perks/Rend1.png",
         "charm": {
             "name": "Starmetal Spear Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT2.png"
@@ -453,7 +453,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Health1.png",
+        "icon": "icons/perks/Health1.png",
         "charm": {
             "name": "Orichalcum Spear Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT3.png"
@@ -475,7 +475,7 @@
                 "gsBonus": 484
             }
         ],
-        "icon": "icons/Perks/Fortify1.png",
+        "icon": "icons/perks/Fortify1.png",
         "charm": {
             "name": "Reinforced Steel Spear Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT1.png"
@@ -497,7 +497,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Weaken1.png",
+        "icon": "icons/perks/Weaken1.png",
         "charm": {
             "name": "Reinforced Starmetal Spear Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT2.png"
@@ -519,7 +519,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Critical1.png",
+        "icon": "icons/perks/Critical1.png",
         "charm": {
             "name": "Reinforced Orichalcum Spear Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT3.png"
@@ -541,7 +541,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Weaken1.png",
+        "icon": "icons/perks/Weaken1.png",
         "charm": {
             "name": "Steel Bow Charm",
             "icon": "icons/items/Resource/BowCharmT1.png"
@@ -563,7 +563,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Stamina1.png",
+        "icon": "icons/perks/Stamina1.png",
         "charm": {
             "name": "Starmetal Bow Charm",
             "icon": "icons/items/Resource/BowCharmT2.png"
@@ -585,7 +585,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/EngineerMastery1.png",
+        "icon": "icons/perks/EngineerMastery1.png",
         "charm": {
             "name": "Orichalcum Bow Charm",
             "icon": "icons/items/Resource/BowCharmT3.png"
@@ -607,7 +607,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/EngineerMastery1.png",
+        "icon": "icons/perks/EngineerMastery1.png",
         "charm": {
             "name": "Reinforced Steel Bow Charm",
             "icon": "icons/items/Resource/BowCharmT1.png"
@@ -629,7 +629,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/CDR1.png",
+        "icon": "icons/perks/CDR1.png",
         "charm": {
             "name": "Reinforced Starmetal Bow Charm",
             "icon": "icons/items/Resource/BowCharmT2.png"
@@ -651,7 +651,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Empower1.png",
+        "icon": "icons/perks/Empower1.png",
         "charm": {
             "name": "Reinforced Orichalcum Bow Charm",
             "icon": "icons/items/Resource/BowCharmT3.png"
@@ -673,7 +673,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Critical1.png",
+        "icon": "icons/perks/Critical1.png",
         "charm": {
             "name": "Steel Rapier Charm",
             "icon": "icons/items/Resource/SwordCharmT1.png"
@@ -695,7 +695,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Empower1.png",
+        "icon": "icons/perks/Empower1.png",
         "charm": {
             "name": "Starmetal Rapier Charm",
             "icon": "icons/items/Resource/SwordCharmT2.png"
@@ -717,7 +717,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Health1.png",
+        "icon": "icons/perks/Health1.png",
         "charm": {
             "name": "Orichalcum Rapier Charm",
             "icon": "icons/items/Resource/SwordCharmT3.png"
@@ -739,7 +739,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Rend1.png",
+        "icon": "icons/perks/Rend1.png",
         "charm": {
             "name": "Reinforced Steel Rapier Charm",
             "icon": "icons/items/Resource/SwordCharmT1.png"
@@ -761,7 +761,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Keen1.png",
+        "icon": "icons/perks/Keen1.png",
         "charm": {
             "name": "Reinforced Starmetal Rapier Charm",
             "icon": "icons/items/Resource/SwordCharmT2.png"
@@ -783,7 +783,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/CDR1.png",
+        "icon": "icons/perks/CDR1.png",
         "charm": {
             "name": "Reinforced Orichalcum Rapier Charm",
             "icon": "icons/items/Resource/SwordCharmT3.png"
@@ -805,7 +805,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/CDR1.png",
+        "icon": "icons/perks/CDR1.png",
         "charm": {
             "name": "Steel Life Staff Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT1.png"
@@ -827,7 +827,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Fortify1.png",
+        "icon": "icons/perks/Fortify1.png",
         "charm": {
             "name": "Starmetal Life Staff Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT2.png"
@@ -849,7 +849,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Health1.png",
+        "icon": "icons/perks/Health1.png",
         "charm": {
             "name": "Orichalcum Life Staff Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT3.png"
@@ -871,7 +871,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Health1.png",
+        "icon": "icons/perks/Health1.png",
         "charm": {
             "name": "Reinforced Steel Life Staff Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT1.png"
@@ -893,7 +893,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Unstoppable1.png",
+        "icon": "icons/perks/Unstoppable1.png",
         "charm": {
             "name": "Reinforced Starmetal Life Staff Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT2.png"
@@ -915,7 +915,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Critical1.png",
+        "icon": "icons/perks/Critical1.png",
         "charm": {
             "name": "Reinforced Orichalcum Life Staff Charm",
             "icon": "icons/items/Resource/LifeStaffCharmT3.png"
@@ -937,7 +937,7 @@
                 "gsBonus": 450
             }
         ],
-        "icon": "icons/Perks/CDR1.png",
+        "icon": "icons/perks/CDR1.png",
         "charm": {
             "name": "Steel Fire Staff Charm",
             "icon": "icons/items/Resource/FireStaffCharmT1.png"
@@ -959,7 +959,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Empower1.png",
+        "icon": "icons/perks/Empower1.png",
         "charm": {
             "name": "Starmetal Fire Staff Charm",
             "icon": "icons/items/Resource/FireStaffCharmT2.png"
@@ -981,7 +981,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/DamageBasic1.png",
+        "icon": "icons/perks/DamageBasic1.png",
         "charm": {
             "name": "Orichalcum Fire Staff Charm",
             "icon": "icons/items/Resource/FireStaffCharmT3.png"
@@ -1003,7 +1003,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/FireDMG1.png",
+        "icon": "icons/perks/FireDMG1.png",
         "charm": {
             "name": "Reinforced Steel Fire Staff Charm",
             "icon": "icons/items/Resource/FireStaffCharmT1.png"
@@ -1025,7 +1025,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Unstoppable1.png",
+        "icon": "icons/perks/Unstoppable1.png",
         "charm": {
             "name": "Reinforced Starmetal Fire Staff Charm",
             "icon": "icons/items/Resource/FireStaffCharmT2.png"
@@ -1047,7 +1047,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/RegenMana1.png",
+        "icon": "icons/perks/RegenMana1.png",
         "charm": {
             "name": "Reinforced Orichalcum Fire Staff Charm",
             "icon": "icons/items/Resource/FireStaffCharmT3.png"
@@ -1069,7 +1069,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Brigand1.png",
+        "icon": "icons/perks/Brigand1.png",
         "charm": {
             "name": "Steel Sword Charm",
             "icon": "icons/items/Resource/SwordCharmT1.png"
@@ -1091,7 +1091,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/DamageBasic1.png",
+        "icon": "icons/perks/DamageBasic1.png",
         "charm": {
             "name": "Starmetal Sword Charm",
             "icon": "icons/items/Resource/SwordCharmT2.png"
@@ -1113,7 +1113,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/DamageBasic1.png",
+        "icon": "icons/perks/DamageBasic1.png",
         "charm": {
             "name": "Orichalcum Sword Charm",
             "icon": "icons/items/Resource/SwordCharmT3.png"
@@ -1143,7 +1143,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/DebuffDur1.png",
+        "icon": "icons/perks/DebuffDur1.png",
         "charm": {
             "name": "Steel Shield Charm",
             "icon": "icons/items/Resource/ShieldCharmT1.png"
@@ -1173,7 +1173,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Fortify1.png",
+        "icon": "icons/perks/Fortify1.png",
         "charm": {
             "name": "Starmetal Shield Charm",
             "icon": "icons/items/Resource/ShieldCharmT2.png"
@@ -1203,7 +1203,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Unstoppable1.png",
+        "icon": "icons/perks/Unstoppable1.png",
         "charm": {
             "name": "Orichalcum Shield Charm",
             "icon": "icons/items/Resource/ShieldCharmT3.png"
@@ -1225,7 +1225,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/CDR1.png",
+        "icon": "icons/perks/CDR1.png",
         "charm": {
             "name": "Steel Great Axe Charm",
             "icon": "icons/items/Resource/2HAxeCharmT1.png"
@@ -1247,7 +1247,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Slow1.png",
+        "icon": "icons/perks/Slow1.png",
         "charm": {
             "name": "Starmetal Great Axe Charm",
             "icon": "icons/items/Resource/2HAxeCharmT2.png"
@@ -1269,7 +1269,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Health1.png",
+        "icon": "icons/perks/Health1.png",
         "charm": {
             "name": "Orichalcum Great Axe Charm",
             "icon": "icons/items/Resource/2HAxeCharmT3.png"
@@ -1291,7 +1291,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Fortify1.png",
+        "icon": "icons/perks/Fortify1.png",
         "charm": {
             "name": "Reinforced Steel Great Axe Charm",
             "icon": "icons/items/Resource/2HAxeCharmT1.png"
@@ -1313,7 +1313,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Weaken1.png",
+        "icon": "icons/perks/Weaken1.png",
         "charm": {
             "name": "Reinforced Starmetal Great Axe Charm",
             "icon": "icons/items/Resource/2HAxeCharmT2.png"
@@ -1335,7 +1335,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/DamageBasic1.png",
+        "icon": "icons/perks/DamageBasic1.png",
         "charm": {
             "name": "Reinforced Orichalcum Great Axe Charm",
             "icon": "icons/items/Resource/2HAxeCharmT3.png"
@@ -1357,7 +1357,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/iceMagic_Perk1.png",
+        "icon": "icons/perks/iceMagic_Perk1.png",
         "charm": {
             "name": "Steel Ice Gauntlet Charm",
             "icon": "icons/items/Resource/IceGauntletCharmT1.png"
@@ -1379,7 +1379,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/DamageBasic1.png",
+        "icon": "icons/perks/DamageBasic1.png",
         "charm": {
             "name": "Starmetal Ice Gauntlet Charm",
             "icon": "icons/items/Resource/IceGauntletCharmT2.png"
@@ -1401,7 +1401,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/iceMagic_Perk3.png",
+        "icon": "icons/perks/iceMagic_Perk3.png",
         "charm": {
             "name": "Orichalcum Ice Gauntlet Charm",
             "icon": "icons/items/Resource/IceGauntletCharmT3.png"
@@ -1423,7 +1423,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/iceMagic_Perk4.png",
+        "icon": "icons/perks/iceMagic_Perk4.png",
         "charm": {
             "name": "Reinforced Starmetal Ice Gauntlet Charm",
             "icon": "icons/items/Resource/IceGauntletCharmT3.png"
@@ -1445,7 +1445,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/iceMagic_Perk5.png",
+        "icon": "icons/perks/iceMagic_Perk5.png",
         "charm": {
             "name": "Reinforced Orichalcum Ice Gauntlet Charm",
             "icon": "icons/items/Resource/IceGauntletCharmT4.png"
@@ -1467,7 +1467,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Health1.png",
+        "icon": "icons/perks/Health1.png",
         "charm": {
             "name": "Reinforced Steel Ice Gauntlet Charm",
             "icon": "icons/items/Resource/IceGauntletCharmT4.png"
@@ -1489,7 +1489,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/iceMagic_Perk6.png",
+        "icon": "icons/perks/iceMagic_Perk6.png",
         "charm": {
             "name": "Steel Void Gauntlet Charm",
             "icon": "icons/items/Resource/VoidGauntletCharmT1.png"
@@ -1511,7 +1511,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/iceMagic_Perk6.png",
+        "icon": "icons/perks/iceMagic_Perk6.png",
         "charm": {
             "name": "Starmetal Void Gauntlet Charm",
             "icon": "icons/items/Resource/VoidGauntletCharmT2.png"
@@ -1533,7 +1533,7 @@
                 "gsBonus": 300
             }
         ],
-        "icon": "icons/Perks/Disease1.png",
+        "icon": "icons/perks/Disease1.png",
         "charm": {
             "name": "Orichalcum Void Gauntlet Charm",
             "icon": "icons/items/Resource/VoidGauntletCharmT3.png"
@@ -1555,7 +1555,7 @@
                 "gsBonus": 300
             }
         ],
-        "icon": "icons/Perks/DebuffDur1.png",
+        "icon": "icons/perks/DebuffDur1.png",
         "charm": {
             "name": "Reinforced Steel Void Gauntlet Charm",
             "icon": "icons/items/Resource/VoidGauntletCharmT1.png"
@@ -1577,7 +1577,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/iceMagic_Perk6.png",
+        "icon": "icons/perks/iceMagic_Perk6.png",
         "charm": {
             "name": "Reinforced Starmetal Void Gauntlet Charm",
             "icon": "icons/items/Resource/VoidGauntletCharmT2.png"
@@ -1599,7 +1599,7 @@
                 "gsBonus": 450
             }
         ],
-        "icon": "icons/Perks/CDR1.png",
+        "icon": "icons/perks/CDR1.png",
         "charm": {
             "name": "Reinforced Orichalcum Void Gauntlet Charm",
             "icon": "icons/items/Resource/VoidGauntletCharmT3.png"
@@ -1621,7 +1621,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Stamina1.png",
+        "icon": "icons/perks/Stamina1.png",
         "charm": {
             "name": "Steel Blunderbuss Charm",
             "icon": "icons/items/Resource/BlunderbussCharmT1.png"
@@ -1643,7 +1643,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Health1.png",
+        "icon": "icons/perks/Health1.png",
         "charm": {
             "name": "Starmetal Blunderbuss Charm",
             "icon": "icons/items/Resource/BlunderbussCharmT2.png"
@@ -1665,7 +1665,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Duelist1.png",
+        "icon": "icons/perks/Duelist1.png",
         "charm": {
             "name": "Orichalcum Blunderbuss Charm",
             "icon": "icons/items/Resource/BlunderbussCharmT3.png"
@@ -1687,7 +1687,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Disease1.png",
+        "icon": "icons/perks/Disease1.png",
         "charm": {
             "name": "Reinforced Steel Blunderbuss Charm",
             "icon": "icons/items/Resource/BlunderbussCharmT1.png"
@@ -1709,7 +1709,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/ammo1.png",
+        "icon": "icons/perks/ammo1.png",
         "charm": {
             "name": "Reinforced Starmetal Blunderbuss Charm",
             "icon": "icons/items/Resource/BlunderbussCharmT2.png"
@@ -1731,7 +1731,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Slow1.png",
+        "icon": "icons/perks/Slow1.png",
         "charm": {
             "name": "Reinforced Orichalcum Blunderbuss Charm",
             "icon": "icons/items/Resource/BlunderbussCharmT3.png"
@@ -1753,7 +1753,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Greatsword1.png",
+        "icon": "icons/perks/Greatsword1.png",
         "charm": {
             "name": "Starmetal Greatsword Charm",
             "icon": "icons/items/Resource/2HGreatswordCharmT2.png"
@@ -1775,7 +1775,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Greatsword1.png",
+        "icon": "icons/perks/Greatsword1.png",
         "charm": {
             "name": "Steel Greatsword Charm",
             "icon": "icons/items/Resource/2HGreatswordCharmT1.png"
@@ -1797,7 +1797,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Greatsword1.png",
+        "icon": "icons/perks/Greatsword1.png",
         "charm": {
             "name": "Orichalcum Greatsword Charm",
             "icon": "icons/items/Resource/2HGreatswordCharmT3.png"
@@ -1819,7 +1819,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Greatsword1.png",
+        "icon": "icons/perks/Greatsword1.png",
         "charm": {
             "name": "Reinforced Steel Greatsword Charm",
             "icon": "icons/items/Resource/2HGreatswordCharmT1.png"
@@ -1841,7 +1841,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Greatsword1.png",
+        "icon": "icons/perks/Greatsword1.png",
         "charm": {
             "name": "Reinforced Orichalcum Greatsword Charm",
             "icon": "icons/items/Resource/2HGreatswordCharmT3.png"
@@ -1863,7 +1863,7 @@
                 "gsBonus": 500
             }
         ],
-        "icon": "icons/Perks/Greatsword1.png",
+        "icon": "icons/perks/Greatsword1.png",
         "charm": {
             "name": "Reinforced Starmetal Greatsword Charm",
             "icon": "icons/items/Resource/2HGreatswordCharmT2.png"
@@ -1879,7 +1879,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/CDR1.png",
+        "icon": "icons/perks/CDR1.png",
         "charm": {
             "name": "Brilliant Animus",
             "icon": "icons/items/Resource/AnimusT3.png"
@@ -1895,7 +1895,7 @@
         ],
         "gsScaling": 0.00545,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/CDR1.png",
+        "icon": "icons/perks/CDR1.png",
         "charm": {
             "name": "Shimmering Animus",
             "icon": "icons/items/Resource/AnimusT1.png"
@@ -1911,7 +1911,7 @@
         ],
         "gsScaling": 0.00095,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/CDR1.png",
+        "icon": "icons/perks/CDR1.png",
         "charm": {
             "name": "Shining Animus",
             "icon": "icons/items/Resource/AnimusT2.png"
@@ -1927,7 +1927,7 @@
         ],
         "gsScaling": 0.00909,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Luck1.png",
+        "icon": "icons/perks/Luck1.png",
         "charm": {
             "name": "Chunk of Adderstone",
             "icon": "icons/items/Resource/AdderStoneT3.png"
@@ -1943,7 +1943,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Durable1.png",
+        "icon": "icons/perks/Durable1.png",
         "charm": {
             "name": "Sliver of Adamant",
             "icon": "icons/items/Resource/AdamantT1.png"
@@ -1959,7 +1959,7 @@
         ],
         "gsScaling": 0.00121,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/AzothGain1.png",
+        "icon": "icons/perks/AzothGain1.png",
         "charm": {
             "name": "Drop of Azoth Oil",
             "icon": "icons/items/Resource/AzothOilT1.png"
@@ -1975,7 +1975,7 @@
         ],
         "gsScaling": 0.00727,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Luck1.png",
+        "icon": "icons/perks/Luck1.png",
         "charm": {
             "name": "Starmetal Lumberjack's Charm",
             "icon": "icons/items/Resource/LumberjackCharmT2.png"
@@ -1991,7 +1991,7 @@
         ],
         "gsScaling": 0.00727,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Luck1.png",
+        "icon": "icons/perks/Luck1.png",
         "charm": {
             "name": "Starmetal Botanist's Charm",
             "icon": "icons/items/Resource/BotanistCharmT2.png"
@@ -2007,7 +2007,7 @@
         ],
         "gsScaling": 0.00727,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Luck1.png",
+        "icon": "icons/perks/Luck1.png",
         "charm": {
             "name": "Starmetal Miner's Charm",
             "icon": "icons/items/Resource/MinerCharmT2.png"
@@ -2023,7 +2023,7 @@
         ],
         "gsScaling": 0.00727,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Luck1.png",
+        "icon": "icons/perks/Luck1.png",
         "charm": {
             "name": "Starmetal Skinners Charm",
             "icon": "icons/items/Resource/SkinnerCharmT2.png"
@@ -2039,7 +2039,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Yield1.png",
+        "icon": "icons/perks/Yield1.png",
         "charm": {
             "name": "Orichalcum Lumberjacks Charm",
             "icon": "icons/items/Resource/LumberjackCharmT3.png"
@@ -2055,7 +2055,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Yield1.png",
+        "icon": "icons/perks/Yield1.png",
         "charm": {
             "name": "Orichalcum Botanists Charm",
             "icon": "icons/items/Resource/BotanistCharmT3.png"
@@ -2071,7 +2071,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Yield1.png",
+        "icon": "icons/perks/Yield1.png",
         "charm": {
             "name": "Orichalcum Miners Charm",
             "icon": "icons/items/Resource/MinerCharmT3.png"
@@ -2087,7 +2087,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Yield1.png",
+        "icon": "icons/perks/Yield1.png",
         "charm": {
             "name": "Orichalcum Skinners Charm",
             "icon": "icons/items/Resource/SkinnerCharmT3.png"
@@ -2103,7 +2103,7 @@
         ],
         "gsScaling": 0.00424,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/BonusXP1.png",
+        "icon": "icons/perks/BonusXP1.png",
         "charm": {
             "name": "Steel Lumberjack's Charm",
             "icon": "icons/items/Resource/LumberjackCharmT1.png"
@@ -2119,7 +2119,7 @@
         ],
         "gsScaling": 0.00424,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/BonusXP1.png",
+        "icon": "icons/perks/BonusXP1.png",
         "charm": {
             "name": "Steel Botanist's Charm",
             "icon": "icons/items/Resource/BotanistCharmT1.png"
@@ -2135,7 +2135,7 @@
         ],
         "gsScaling": 0.00424,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/BonusXP1.png",
+        "icon": "icons/perks/BonusXP1.png",
         "charm": {
             "name": "Steel Miner's Charm",
             "icon": "icons/items/Resource/MinerCharmT1.png"
@@ -2151,7 +2151,7 @@
         ],
         "gsScaling": 0.00424,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/BonusXP1.png",
+        "icon": "icons/perks/BonusXP1.png",
         "charm": {
             "name": "Steel Skinners Charm",
             "icon": "icons/items/Resource/SkinnerCharmT1.png"
@@ -2167,7 +2167,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Unstoppable1.png",
+        "icon": "icons/perks/Unstoppable1.png",
         "charm": {
             "name": "Small Elk Hoof",
             "icon": "icons/items/Resource/ElkHoofT1.png"
@@ -2183,7 +2183,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Encumbrance1",
+        "icon": "icons/perks/Encumbrance1",
         "charm": {
             "name": "Sliver of Adderstone",
             "icon": "icons/items/Resource/AdderStoneT1.png"
@@ -2199,7 +2199,7 @@
         ],
         "gsScaling": 0.00218,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ExtraPockets1.png",
+        "icon": "icons/perks/ExtraPockets1.png",
         "charm": {
             "name": "Steel Chef's Charm",
             "icon": "icons/items/Resource/ChefCharmT1.png"
@@ -2215,7 +2215,7 @@
         ],
         "gsScaling": 0.00218,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ExtraPockets1.png",
+        "icon": "icons/perks/ExtraPockets1.png",
         "charm": {
             "name": "Sliver of Cobalt",
             "icon": "icons/items/Resource/CobaltT1.png"
@@ -2231,7 +2231,7 @@
         ],
         "gsScaling": 0.00218,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ExtraPockets1.png",
+        "icon": "icons/perks/ExtraPockets1.png",
         "charm": {
             "name": "Steel Jewelcrafter's Charm",
             "icon": "icons/items/Resource/JewelcrafterCharmT1.png"
@@ -2247,7 +2247,7 @@
         ],
         "gsScaling": 0.00218,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ExtraPockets1.png",
+        "icon": "icons/perks/ExtraPockets1.png",
         "charm": {
             "name": "Verbena Stem",
             "icon": "icons/items/Resource/VerbenaT1.png"
@@ -2263,7 +2263,7 @@
         ],
         "gsScaling": 0.00218,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ExtraPockets1.png",
+        "icon": "icons/perks/ExtraPockets1.png",
         "charm": {
             "name": "Animal Fang",
             "icon": "icons/items/Resource/FangT1.png"
@@ -2279,7 +2279,7 @@
         ],
         "gsScaling": 0.00218,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ExtraPockets1.png",
+        "icon": "icons/perks/ExtraPockets1.png",
         "charm": {
             "name": "Steel Weaponsmith's Charm",
             "icon": "icons/items/Resource/WeaponsmithCharmT1.png"
@@ -2295,7 +2295,7 @@
         ],
         "gsScaling": 0.00218,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ExtraPockets1.png",
+        "icon": "icons/perks/ExtraPockets1.png",
         "charm": {
             "name": "Steel Armorer's Charm",
             "icon": "icons/items/Resource/ArmorerCharmT1.png"
@@ -2311,7 +2311,7 @@
         ],
         "gsScaling": 0.00218,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ExtraPockets1.png",
+        "icon": "icons/perks/ExtraPockets1.png",
         "charm": {
             "name": "Steel Arcanist's Charm",
             "icon": "icons/items/Resource/ArcanistCharmT1.png"
@@ -2327,7 +2327,7 @@
         ],
         "gsScaling": 0.00218,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ExtraPockets1.png",
+        "icon": "icons/perks/ExtraPockets1.png",
         "charm": {
             "name": "Drop of Sap",
             "icon": "icons/items/Resource/SapT1.png"
@@ -2343,7 +2343,7 @@
         ],
         "gsScaling": 0.00121,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/FactionGain1.png",
+        "icon": "icons/perks/FactionGain1.png",
         "charm": {
             "name": "Armor Shards",
             "icon": "icons/items/Resource/ArmorScrapsT1.png"
@@ -2359,7 +2359,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/AncientWard1.png",
+        "icon": "icons/perks/AncientWard1.png",
         "charm": {
             "name": "Clump of Writhing Briar",
             "icon": "icons/items/Resource/WrithingBriarT3.png"
@@ -2375,7 +2375,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/AngryEarthWard1.png",
+        "icon": "icons/perks/AngryEarthWard1.png",
         "charm": {
             "name": "Brilliant Corrupted Insignia",
             "icon": "icons/items/Resource/BountyT10.png"
@@ -2391,7 +2391,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/BestialWard1.png",
+        "icon": "icons/perks/BestialWard1.png",
         "charm": {
             "name": "Vial of Wolf Essence",
             "icon": "icons/items/Resource/WolfEssenceT2.png"
@@ -2407,7 +2407,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/CorruptedWard1.png",
+        "icon": "icons/perks/CorruptedWard1.png",
         "charm": {
             "name": "Chunk of Baetylus",
             "icon": "icons/items/Resource/BaetylusT3.png"
@@ -2423,7 +2423,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/LostWard1.png",
+        "icon": "icons/perks/LostWard1.png",
         "charm": {
             "name": "Draught of Ancient Essence",
             "icon": "icons/items/Resource/AncientEssenceT3.png"
@@ -2439,7 +2439,7 @@
         ],
         "gsScaling": 0.003,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Luck1.png",
+        "icon": "icons/perks/Luck1.png",
         "charm": {
             "name": "Vial of Sap",
             "icon": "icons/items/Resource/SapT2.png"
@@ -2455,7 +2455,7 @@
         ],
         "gsScaling": 0.003,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Luck1.png",
+        "icon": "icons/perks/Luck1.png",
         "charm": {
             "name": "Verbena Leaf",
             "icon": "icons/items/Resource/VerbenaT2.png"
@@ -2471,7 +2471,7 @@
         ],
         "gsScaling": 0.003,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Luck1.png",
+        "icon": "icons/perks/Luck1.png",
         "charm": {
             "name": "Shard of Adderstone",
             "icon": "icons/items/Resource/AdderStoneT2.png"
@@ -2487,7 +2487,7 @@
         ],
         "gsScaling": 0.003,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Luck1.png",
+        "icon": "icons/perks/Luck1.png",
         "charm": {
             "name": "Jagged Animal Fang",
             "icon": "icons/items/Resource/FangT2.png"
@@ -2503,7 +2503,7 @@
         ],
         "gsScaling": 0.00382,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/CorruptionResistance1.png",
+        "icon": "icons/perks/CorruptionResistance1.png",
         "charm": {
             "name": "Sliver of Baetylus",
             "icon": "icons/items/Resource/BaetylusT1.png"
@@ -2519,7 +2519,7 @@
         ],
         "gsScaling": 0.00382,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/BlightResistance1.png",
+        "icon": "icons/perks/BlightResistance1.png",
         "charm": {
             "name": "Shard of Corrupted Matter",
             "icon": "icons/items/Resource/CorruptedMatterT2.png"
@@ -2535,7 +2535,7 @@
         ],
         "gsScaling": 0.00121,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/CritWard1.png",
+        "icon": "icons/perks/CritWard1.png",
         "charm": {
             "name": "Chunk of Consecrated Iron",
             "icon": "icons/items/Resource/ConsecratedIronT3.png"
@@ -2551,7 +2551,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Durable1.png",
+        "icon": "icons/perks/Durable1.png",
         "charm": {
             "name": "Shard of Adamant",
             "icon": "icons/items/Resource/AdamantT2.png"
@@ -2567,7 +2567,7 @@
         ],
         "gsScaling": 0.00485,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/DebuffDur1.png",
+        "icon": "icons/perks/DebuffDur1.png",
         "charm": {
             "name": "Shard of Consecrated Iron",
             "icon": "icons/items/Resource/ConsecratedIronT2.png"
@@ -2583,7 +2583,7 @@
         ],
         "gsScaling": 0.00485,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/DebuffDur1.png",
+        "icon": "icons/perks/DebuffDur1.png",
         "charm": {
             "name": "Shard of Batrachite",
             "icon": "icons/items/Resource/BatrachiteT2.png"
@@ -2599,7 +2599,7 @@
         ],
         "gsScaling": 0.00485,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/DebuffDur1.png",
+        "icon": "icons/perks/DebuffDur1.png",
         "charm": {
             "name": "Sliver of Batrachite",
             "icon": "icons/items/Resource/BatrachiteT1.png"
@@ -2615,7 +2615,7 @@
         ],
         "gsScaling": 0.00773,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/FireWard1.png",
+        "icon": "icons/perks/FireWard1.png",
         "charm": {
             "name": "Shard of Niter",
             "icon": "icons/items/Resource/NiterT2.png"
@@ -2631,7 +2631,7 @@
         ],
         "gsScaling": 0.00773,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/IceWard1.png",
+        "icon": "icons/perks/IceWard1.png",
         "charm": {
             "name": "Frigid Fang",
             "icon": "icons/items/Resource/FrozenFangT2.png"
@@ -2647,7 +2647,7 @@
         ],
         "gsScaling": 0.00773,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/NatureWard1.png",
+        "icon": "icons/perks/NatureWard1.png",
         "charm": {
             "name": "Shard of Enchanted Earth",
             "icon": "icons/items/Resource/EnchantedEarthT2.png"
@@ -2663,7 +2663,7 @@
         ],
         "gsScaling": 0.00773,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/VoidWard1.png",
+        "icon": "icons/perks/VoidWard1.png",
         "charm": {
             "name": "Vacant Corrupted Insignia",
             "icon": "icons/items/Resource/BountyT6.png"
@@ -2679,7 +2679,7 @@
         ],
         "gsScaling": 0.00773,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ThrustWard1.png",
+        "icon": "icons/perks/ThrustWard1.png",
         "charm": {
             "name": "Perfect Corrupted Sigil",
             "icon": "icons/items/Resource/BountyT9.png"
@@ -2695,7 +2695,7 @@
         ],
         "gsScaling": 0.00773,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Slashward1.png",
+        "icon": "icons/perks/Slashward1.png",
         "charm": {
             "name": "Corrupted Sigil",
             "icon": "icons/items/Resource/BountyT5.png"
@@ -2711,7 +2711,7 @@
         ],
         "gsScaling": 0.00773,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ArcaneWard1.png",
+        "icon": "icons/perks/ArcaneWard1.png",
         "charm": {
             "name": "Drop of Ancient Essence",
             "icon": "icons/items/Resource/AncientEssenceT1.png"
@@ -2727,7 +2727,7 @@
         ],
         "gsScaling": 0.00773,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/LightningWard1.png",
+        "icon": "icons/perks/LightningWard1.png",
         "charm": {
             "name": "Shard of Sparkmetal",
             "icon": "icons/items/Resource/SparkmetalT2.png"
@@ -2743,7 +2743,7 @@
         ],
         "gsScaling": 0.00773,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/StrikeWard1.png",
+        "icon": "icons/perks/StrikeWard1.png",
         "charm": {
             "name": "Fine Corrupted Sigil",
             "icon": "icons/items/Resource/BountyT7.png"
@@ -2759,7 +2759,7 @@
         ],
         "gsScaling": 0.00424,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Health1.png",
+        "icon": "icons/perks/Health1.png",
         "charm": {
             "name": "Draught of Ironwood Sap",
             "icon": "icons/items/Resource/IronwoodSapT3.png"
@@ -2775,7 +2775,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Stamina1.png",
+        "icon": "icons/perks/Stamina1.png",
         "charm": {
             "name": "Pristine Horn",
             "icon": "icons/items/Resource/HornT3.png"
@@ -2791,7 +2791,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Mana1.png",
+        "icon": "icons/perks/Mana1.png",
         "charm": {
             "name": "Draught of Quicksilver",
             "icon": "icons/items/Resource/QuicksilverT3.png"
@@ -2807,7 +2807,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/DebuffDur1.png",
+        "icon": "icons/perks/DebuffDur1.png",
         "charm": {
             "name": "Chunk of Batrachite",
             "icon": "icons/items/Resource/BatrachiteT3.png"
@@ -2823,7 +2823,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Fortify1.png",
+        "icon": "icons/perks/Fortify1.png",
         "charm": {
             "name": "Chunk of Adamant",
             "icon": "icons/items/Resource/AdamantT3.png"
@@ -2839,7 +2839,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Luck1.png",
+        "icon": "icons/perks/Luck1.png",
         "charm": {
             "name": "Draught of Sap",
             "icon": "icons/items/Resource/SapT3.png"
@@ -2855,7 +2855,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Luck1.png",
+        "icon": "icons/perks/Luck1.png",
         "charm": {
             "name": "Verbena Flower",
             "icon": "icons/items/Resource/VerbenaT3.png"
@@ -2871,7 +2871,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Luck1.png",
+        "icon": "icons/perks/Luck1.png",
         "charm": {
             "name": "Chunk of Cobalt",
             "icon": "icons/items/Resource/CobaltT3.png"
@@ -2887,7 +2887,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Luck1.png",
+        "icon": "icons/perks/Luck1.png",
         "charm": {
             "name": "Pristine Animal Fang",
             "icon": "icons/items/Resource/FangT3.png"
@@ -2903,7 +2903,7 @@
         ],
         "gsScaling": 0.00964,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Empower1.png",
+        "icon": "icons/perks/Empower1.png",
         "charm": {
             "name": "Large Bear Paw",
             "icon": "icons/items/Resource/BearPawT1.png"
@@ -2919,7 +2919,7 @@
         ],
         "gsScaling": 0.00964,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Unstoppable1.png",
+        "icon": "icons/perks/Unstoppable1.png",
         "charm": {
             "name": "Large Elk Hoof",
             "icon": "icons/items/Resource/ElkHoofT2.png"
@@ -2935,7 +2935,7 @@
         ],
         "gsScaling": 0.00964,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Fortify1.png",
+        "icon": "icons/perks/Fortify1.png",
         "charm": {
             "name": "Tattered Mangy Hide",
             "icon": "icons/items/Resource/MangyHideT1.png"
@@ -2951,7 +2951,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Cleric1.png",
+        "icon": "icons/perks/Cleric1.png",
         "charm": {
             "name": "Shard of Crystalized Azoth",
             "icon": "icons/items/Resource/CrystalizedAzothT2.png"
@@ -2967,7 +2967,7 @@
         ],
         "gsScaling": 0.008,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Health1.png",
+        "icon": "icons/perks/Health1.png",
         "charm": {
             "name": "Vial of Viscous Azoth",
             "icon": "icons/items/Resource/ViscousAzothT2.png"
@@ -2983,7 +2983,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Mana1.png",
+        "icon": "icons/perks/Mana1.png",
         "charm": {
             "name": "Drop of Ectoplasm",
             "icon": "icons/items/Resource/EctoplasmT1.png"
@@ -2999,7 +2999,7 @@
         ],
         "gsScaling": 0.00121,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/FireDMG1.png",
+        "icon": "icons/perks/FireDMG1.png",
         "charm": {
             "name": "Thread of Corrupted Cloth",
             "icon": "icons/items/Resource/CorruptedClothT1.png"
@@ -3015,7 +3015,7 @@
         ],
         "gsScaling": 0.00121,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/IceDMG1.png",
+        "icon": "icons/perks/IceDMG1.png",
         "charm": {
             "name": "Patch of Corrupted Cloth",
             "icon": "icons/items/Resource/CorruptedClothT2.png"
@@ -3031,7 +3031,7 @@
         ],
         "gsScaling": 0.00121,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/NatureDMG1.png",
+        "icon": "icons/perks/NatureDMG1.png",
         "charm": {
             "name": "Sliver of Wyrdwood Resin",
             "icon": "icons/items/Resource/WyrdwoodResinT1.png"
@@ -3047,7 +3047,7 @@
         ],
         "gsScaling": 0.00121,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/LightningDmg1.png",
+        "icon": "icons/perks/LightningDmg1.png",
         "charm": {
             "name": "Bolt of Corrupted Cloth",
             "icon": "icons/items/Resource/CorruptedClothT3.png"
@@ -3063,7 +3063,7 @@
         ],
         "gsScaling": 0.00121,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/VoidDMG1.png",
+        "icon": "icons/perks/VoidDMG1.png",
         "charm": {
             "name": "Drop of Corrupted Essence",
             "icon": "icons/items/Resource/CorruptedEssenceT1.png"
@@ -3079,7 +3079,7 @@
         ],
         "gsScaling": 0.00121,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ArcaneDMG1.png",
+        "icon": "icons/perks/ArcaneDMG1.png",
         "charm": {
             "name": "Vial of Corrupted Essence",
             "icon": "icons/items/Resource/CorruptedEssenceT2.png"
@@ -3095,7 +3095,7 @@
         ],
         "gsScaling": 0.00121,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Thrust1.png",
+        "icon": "icons/perks/Thrust1.png",
         "charm": {
             "name": "Draught of Corrupted Essence",
             "icon": "icons/items/Resource/CorruptedEssenceT3.png"
@@ -3111,7 +3111,7 @@
         ],
         "gsScaling": 0.00121,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/SlashDMG1.png",
+        "icon": "icons/perks/SlashDMG1.png",
         "charm": {
             "name": "Drop of Corrupted Ichor",
             "icon": "icons/items/Resource/CorruptedIchorT1.png"
@@ -3127,7 +3127,7 @@
         ],
         "gsScaling": 0.00121,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/StrikeDMG1.png",
+        "icon": "icons/perks/StrikeDMG1.png",
         "charm": {
             "name": "Vial of Corrupted Ichor",
             "icon": "icons/items/Resource/CorruptedIchorT2.png"
@@ -3143,7 +3143,7 @@
         ],
         "gsScaling": 0.00545,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Critical1.png",
+        "icon": "icons/perks/Critical1.png",
         "charm": {
             "name": "Draught of Corrupted Ichor",
             "icon": "icons/items/Resource/CorruptedIchorT3.png"
@@ -3159,7 +3159,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Opportunist1.png",
+        "icon": "icons/perks/Opportunist1.png",
         "charm": {
             "name": "Shard of Ironwood Resin",
             "icon": "icons/items/Resource/IronwoodResinT2.png"
@@ -3175,7 +3175,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Bleed1.png",
+        "icon": "icons/perks/Bleed1.png",
         "charm": {
             "name": "Animal Claw",
             "icon": "icons/items/Resource/ClawT1.png"
@@ -3191,7 +3191,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/FireDMG1.png",
+        "icon": "icons/perks/FireDMG1.png",
         "charm": {
             "name": "Sliver of Niter",
             "icon": "icons/items/Resource/NiterT1.png"
@@ -3207,7 +3207,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Slow1.png",
+        "icon": "icons/perks/Slow1.png",
         "charm": {
             "name": "Chunk of Crystalized Ectoplasm",
             "icon": "icons/items/Resource/CrystalizedEctoplasmT3.png"
@@ -3223,7 +3223,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Weaken1.png",
+        "icon": "icons/perks/Weaken1.png",
         "charm": {
             "name": "Shard of Crystalized Ectoplasm",
             "icon": "icons/items/Resource/CrystalizedEctoplasmT2.png"
@@ -3239,7 +3239,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Disease1.png",
+        "icon": "icons/perks/Disease1.png",
         "charm": {
             "name": "Sliver of Crystalized Ectoplasm",
             "icon": "icons/items/Resource/CrystalizedEctoplasmT1.png"
@@ -3255,7 +3255,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Stamina1.png",
+        "icon": "icons/perks/Stamina1.png",
         "charm": {
             "name": "Horn",
             "icon": "icons/items/Resource/HornT1.png"
@@ -3271,7 +3271,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Mana1.png",
+        "icon": "icons/perks/Mana1.png",
         "charm": {
             "name": "Drop of Quicksilver",
             "icon": "icons/items/Resource/QuicksilverT1.png"
@@ -3287,7 +3287,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Cleric1.png",
+        "icon": "icons/perks/Cleric1.png",
         "charm": {
             "name": "Sliver of Consecrated Iron",
             "icon": "icons/items/Resource/ConsecratedIronT1.png"
@@ -3303,7 +3303,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/RegenHealth1.png",
+        "icon": "icons/perks/RegenHealth1.png",
         "charm": {
             "name": "Draught of Azalea Nectar",
             "icon": "icons/items/Resource/AzaleaNectarT3.png"
@@ -3319,7 +3319,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/RegenMana1.png",
+        "icon": "icons/perks/RegenMana1.png",
         "charm": {
             "name": "Vial of Azalea Nectar",
             "icon": "icons/items/Resource/AzaleaNectarT2.png"
@@ -3335,7 +3335,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Stamina1.png",
+        "icon": "icons/perks/Stamina1.png",
         "charm": {
             "name": "Drop of Azalea Nectar",
             "icon": "icons/items/Resource/AzaleaNectarT1.png"
@@ -3351,7 +3351,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ThreatAdd1.png",
+        "icon": "icons/perks/ThreatAdd1.png",
         "charm": {
             "name": "Shard of Thunderstone",
             "icon": "icons/items/Resource/ThunderstoneT2.png"
@@ -3367,7 +3367,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ThreatSub1.png",
+        "icon": "icons/perks/ThreatSub1.png",
         "charm": {
             "name": "Vial of Withered Essence",
             "icon": "icons/items/Resource/WitheredEssenceT2.png"
@@ -3383,7 +3383,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ThreatSub1.png",
+        "icon": "icons/perks/ThreatSub1.png",
         "charm": {
             "name": "Drop of Withered Essence",
             "icon": "icons/items/Resource/WitheredEssenceT1.png"
@@ -3399,7 +3399,7 @@
         ],
         "gsScaling": 0.00424,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Health1.png",
+        "icon": "icons/perks/Health1.png",
         "charm": {
             "name": "Shard of Crystal",
             "icon": "icons/items/Resource/CrystalT2.png"
@@ -3415,7 +3415,7 @@
         ],
         "gsScaling": 0.00424,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Mana1.png",
+        "icon": "icons/perks/Mana1.png",
         "charm": {
             "name": "Sliver of Crystal",
             "icon": "icons/items/Resource/CrystalT1.png"
@@ -3431,7 +3431,7 @@
         ],
         "gsScaling": 0.01636,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Debuff1.png",
+        "icon": "icons/perks/Debuff1.png",
         "charm": {
             "name": "Chunk of Crystal",
             "icon": "icons/items/Resource/CrystalT3.png"
@@ -3447,7 +3447,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ConsumeGain1.png",
+        "icon": "icons/perks/ConsumeGain1.png",
         "charm": {
             "name": "Draught of Azoth Oil",
             "icon": "icons/items/Resource/AzothOilT3.png"
@@ -3463,7 +3463,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/CDR1.png",
+        "icon": "icons/perks/CDR1.png",
         "charm": {
             "name": "High Quality Tallow",
             "icon": "icons/items/Resource/TallowT3.png"
@@ -3479,7 +3479,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ArcanistMastery1.png",
+        "icon": "icons/perks/ArcanistMastery1.png",
         "charm": {
             "name": "Orichalcum Arcanist's Charm",
             "icon": "icons/items/Resource/ArcanistCharmT3.png"
@@ -3495,7 +3495,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ArmorerMastery1.png",
+        "icon": "icons/perks/ArmorerMastery1.png",
         "charm": {
             "name": "Orichalcum Armorer's Charm",
             "icon": "icons/items/Resource/ArmorerCharmT3.png"
@@ -3511,7 +3511,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ChefMastery1.png",
+        "icon": "icons/perks/ChefMastery1.png",
         "charm": {
             "name": "Orichalcum Chef's Charm",
             "icon": "icons/items/Resource/ChefCharmT3.png"
@@ -3527,7 +3527,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/EngineerMastery1.png",
+        "icon": "icons/perks/EngineerMastery1.png",
         "charm": {
             "name": "Orichalcum Engineer's Charm",
             "icon": "icons/items/Resource/EngineerCharmT3.png"
@@ -3543,7 +3543,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/JewelcrafterMastery1.png",
+        "icon": "icons/perks/JewelcrafterMastery1.png",
         "charm": {
             "name": "Orichalcum Jewelcrafters Charm",
             "icon": "icons/items/Resource/JewelcrafterCharmT3.png"
@@ -3559,7 +3559,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Weaponsmithmastery1.png",
+        "icon": "icons/perks/Weaponsmithmastery1.png",
         "charm": {
             "name": "Orichalcum Weaponsmith's Charm",
             "icon": "icons/items/Resource/WeaponsmithCharmT3.png"
@@ -3575,7 +3575,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ThreatAdd1.png",
+        "icon": "icons/perks/ThreatAdd1.png",
         "charm": {
             "name": "Chunk of Thunderstone",
             "icon": "icons/items/Resource/ThunderstoneT3.png"
@@ -3591,7 +3591,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ThreatSub1.png",
+        "icon": "icons/perks/ThreatSub1.png",
         "charm": {
             "name": "Draught of Withered Essence",
             "icon": "icons/items/Resource/WitheredEssenceT3.png"
@@ -3608,7 +3608,7 @@
         ],
         "gsScaling": 0.00545,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Critical1.png",
+        "icon": "icons/perks/Critical1.png",
         "charm": {
             "name": "Pristine Whetstone",
             "icon": "icons/items/Resource/WhetstoneT3.png"
@@ -3624,7 +3624,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/DamageBasic1.png",
+        "icon": "icons/perks/DamageBasic1.png",
         "charm": {
             "name": "Worn Whetstone",
             "icon": "icons/items/Resource/WhetstoneT1.png"
@@ -3640,7 +3640,7 @@
         ],
         "gsScaling": 0.00545,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/DamageBack1.png",
+        "icon": "icons/perks/DamageBack1.png",
         "charm": {
             "name": "Whetstone",
             "icon": "icons/items/Resource/WhetstoneT2.png"
@@ -3656,7 +3656,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/SiegeDMG1.png",
+        "icon": "icons/perks/SiegeDMG1.png",
         "charm": {
             "name": "Sliver of Thunderstone",
             "icon": "icons/items/Resource/ThunderstoneT1.png"
@@ -3672,7 +3672,7 @@
         ],
         "gsScaling": 0.006,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Cleric1.png",
+        "icon": "icons/perks/Cleric1.png",
         "charm": {
             "name": "Sliver of Crystalized Azoth",
             "icon": "icons/items/Resource/CrystalizedAzothT1.png"
@@ -3688,7 +3688,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/CDR1.png",
+        "icon": "icons/perks/CDR1.png",
         "charm": {
             "name": "Starmetal Weaponsmith's Charm",
             "icon": "icons/items/Resource/WeaponsmithCharmT2.png"
@@ -3704,7 +3704,7 @@
         ],
         "gsScaling": 0.008,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Health1.png",
+        "icon": "icons/perks/Health1.png",
         "charm": {
             "name": "Draught of Viscous Azoth",
             "icon": "icons/items/Resource/ViscousAzothT3.png"
@@ -3720,7 +3720,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Bleed1.png",
+        "icon": "icons/perks/Bleed1.png",
         "charm": {
             "name": "Pristine Animal Claw",
             "icon": "icons/items/Resource/ClawT3.png"
@@ -3736,7 +3736,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Fortify1.png",
+        "icon": "icons/perks/Fortify1.png",
         "charm": {
             "name": "Callus Mangy Hide",
             "icon": "icons/items/Resource/MangyHideT3.png"
@@ -3752,7 +3752,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Empower1.png",
+        "icon": "icons/perks/Empower1.png",
         "charm": {
             "name": "Ancient Bear Paw",
             "icon": "icons/items/Resource/BearPawT3.png"
@@ -3768,7 +3768,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Unstoppable1.png",
+        "icon": "icons/perks/Unstoppable1.png",
         "charm": {
             "name": "Huge Elk Hoof",
             "icon": "icons/items/Resource/ElkHoofT3.png"
@@ -3784,7 +3784,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Mana1.png",
+        "icon": "icons/perks/Mana1.png",
         "charm": {
             "name": "Vial of Ectoplasm",
             "icon": "icons/items/Resource/EctoplasmT2.png"
@@ -3801,7 +3801,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/LightningDMG1.png",
+        "icon": "icons/perks/LightningDMG1.png",
         "charm": {
             "name": "Chunk of Sparkmetal",
             "icon": "icons/items/Resource/SparkmetalT3.png"
@@ -3818,7 +3818,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/FireDMG1.png",
+        "icon": "icons/perks/FireDMG1.png",
         "charm": {
             "name": "Chunk of Niter",
             "icon": "icons/items/Resource/NiterT3.png"
@@ -3835,7 +3835,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ArcaneDMG1.png",
+        "icon": "icons/perks/ArcaneDMG1.png",
         "charm": {
             "name": "Vial of Blessed Water",
             "icon": "icons/items/Resource/HolyWaterT2.png"
@@ -3852,7 +3852,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/VoidDMG1.png",
+        "icon": "icons/perks/VoidDMG1.png",
         "charm": {
             "name": "Draught of Ectoplasm",
             "icon": "icons/items/Resource/EctoplasmT3.png"
@@ -3869,7 +3869,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/IceDMG1.png",
+        "icon": "icons/perks/IceDMG1.png",
         "charm": {
             "name": "Frozen Fang",
             "icon": "icons/items/Resource/FrozenFangT3.png"
@@ -3886,7 +3886,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/NatureDMG1.png",
+        "icon": "icons/perks/NatureDMG1.png",
         "charm": {
             "name": "Chunk of Enchanted Earth",
             "icon": "icons/items/Resource/EnchantedEarthT3.png"
@@ -3902,7 +3902,7 @@
         ],
         "gsScaling": 0.00255,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Health1.png",
+        "icon": "icons/perks/Health1.png",
         "charm": {
             "name": "Chunk of Crystalized Azoth",
             "icon": "icons/items/Resource/CrystalizedAzothT3.png"
@@ -3918,7 +3918,7 @@
         ],
         "gsScaling": 0.00483,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Mana1.png",
+        "icon": "icons/perks/Mana1.png",
         "charm": {
             "name": "Vial of Quicksilver",
             "icon": "icons/items/Resource/QuicksilverT2.png"
@@ -3934,7 +3934,7 @@
         ],
         "gsScaling": 0.01145,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Stamina1.png",
+        "icon": "icons/perks/Stamina1.png",
         "charm": {
             "name": "Jagged Horn",
             "icon": "icons/items/Resource/HornT2.png"
@@ -3950,7 +3950,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Fortify1.png",
+        "icon": "icons/perks/Fortify1.png",
         "charm": {
             "name": "Worn Mangy Hide",
             "icon": "icons/items/Resource/MangyHideT2.png"
@@ -3966,7 +3966,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Empower1.png",
+        "icon": "icons/perks/Empower1.png",
         "charm": {
             "name": "Massive Bear Paw",
             "icon": "icons/items/Resource/BearPawT2.png"
@@ -3982,7 +3982,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/CDR1.png",
+        "icon": "icons/perks/CDR1.png",
         "charm": {
             "name": "Tallow",
             "icon": "icons/items/Resource/TallowT2.png"
@@ -3998,7 +3998,7 @@
         ],
         "gsScaling": 0.00545,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Critical1.png",
+        "icon": "icons/perks/Critical1.png",
         "charm": {
             "name": "Jagged Animal Claw",
             "icon": "icons/items/Resource/ClawT2.png"
@@ -4014,7 +4014,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/AncientBane1.png",
+        "icon": "icons/perks/AncientBane1.png",
         "charm": {
             "name": "Tangle of Writhing Briar",
             "icon": "icons/items/Resource/WrithingBriarT2.png"
@@ -4030,7 +4030,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/AngryEarthBane1.png",
+        "icon": "icons/perks/AngryEarthBane1.png",
         "charm": {
             "name": "Chunk of Corrupted Matter",
             "icon": "icons/items/Resource/CorruptedMatterT3.png"
@@ -4046,7 +4046,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/BestialBane1.png",
+        "icon": "icons/perks/BestialBane1.png",
         "charm": {
             "name": "Draught of Wolf Essence",
             "icon": "icons/items/Resource/WolfEssenceT3.png"
@@ -4062,7 +4062,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/CorruptedBane1.png",
+        "icon": "icons/perks/CorruptedBane1.png",
         "charm": {
             "name": "Shard of Baetylus",
             "icon": "icons/items/Resource/BaetylusT2.png"
@@ -4078,7 +4078,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/LostBane1.png",
+        "icon": "icons/perks/LostBane1.png",
         "charm": {
             "name": "Riveted Orichalcum Mail",
             "icon": "icons/items/Resource/RivetedMailT3.png"
@@ -4094,7 +4094,7 @@
         ],
         "gsScaling": 0.00545,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Accuracy1.png",
+        "icon": "icons/perks/Accuracy1.png",
         "charm": {
             "name": "Low Quality Tallow",
             "icon": "icons/items/Resource/TallowT1.png"
@@ -4111,7 +4111,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Precise1.png",
+        "icon": "icons/perks/Precise1.png",
         "charm": {
             "name": "Chilled Fang",
             "icon": "icons/items/Resource/FrozenFangT1.png"
@@ -4127,7 +4127,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Stamina1.png",
+        "icon": "icons/perks/Stamina1.png",
         "charm": {
             "name": "Shard of Cobalt",
             "icon": "icons/items/Resource/CobaltT2.png"
@@ -4143,7 +4143,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Unstoppable1.png",
+        "icon": "icons/perks/Unstoppable1.png",
         "charm": {
             "name": "Starmetal Traveler's Charm",
             "icon": "icons/items/Resource/TravelersCharmT2.png"
@@ -4159,7 +4159,7 @@
         ],
         "gsScaling": 0.00762,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/FireWard1.png",
+        "icon": "icons/perks/FireWard1.png",
         "charm": {
             "name": "Riveted Steel Mail",
             "icon": "icons/items/Resource/RivetedMailT1.png"
@@ -4175,7 +4175,7 @@
         ],
         "gsScaling": 0.00762,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/IceWard1.png",
+        "icon": "icons/perks/IceWard1.png",
         "charm": {
             "name": "Riveted Starmetal Mail",
             "icon": "icons/items/Resource/RivetedMailT2.png"
@@ -4191,7 +4191,7 @@
         ],
         "gsScaling": 0.00762,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/NatureWard1.png",
+        "icon": "icons/perks/NatureWard1.png",
         "charm": {
             "name": "Drop of Wyrdwood Sap",
             "icon": "icons/items/Resource/WyrdwoodSapT1.png"
@@ -4207,7 +4207,7 @@
         ],
         "gsScaling": 0.00762,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/VoidWard1.png",
+        "icon": "icons/perks/VoidWard1.png",
         "charm": {
             "name": "Faint Corrupted Insignia",
             "icon": "icons/items/Resource/BountyT8.png"
@@ -4223,7 +4223,7 @@
         ],
         "gsScaling": 0.00762,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ThrustWard1.png",
+        "icon": "icons/perks/ThrustWard1.png",
         "charm": {
             "name": "Resin Shavings",
             "icon": "icons/items/Resource/ResinT1.png"
@@ -4239,7 +4239,7 @@
         ],
         "gsScaling": 0.00762,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Slashward1.png",
+        "icon": "icons/perks/Slashward1.png",
         "charm": {
             "name": "Resin Lump",
             "icon": "icons/items/Resource/ResinT2.png"
@@ -4255,7 +4255,7 @@
         ],
         "gsScaling": 0.00762,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ArcaneWard1.png",
+        "icon": "icons/perks/ArcaneWard1.png",
         "charm": {
             "name": "Vial of Ancient Essence",
             "icon": "icons/items/Resource/AncientEssenceT2.png"
@@ -4271,7 +4271,7 @@
         ],
         "gsScaling": 0.00762,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/LightningWard1.png",
+        "icon": "icons/perks/LightningWard1.png",
         "charm": {
             "name": "Sliver of Sparkmetal",
             "icon": "icons/items/Resource/SparkmetalT1.png"
@@ -4287,7 +4287,7 @@
         ],
         "gsScaling": 0.00762,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/StrikeWard1.png",
+        "icon": "icons/perks/StrikeWard1.png",
         "charm": {
             "name": "Resin Chunk",
             "icon": "icons/items/Resource/ResinT3.png"
@@ -4303,7 +4303,7 @@
         ],
         "gsScaling": 0.00727,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/BonusSP1.png",
+        "icon": "icons/perks/BonusSP1.png",
         "charm": {
             "name": "Strand of Writhing Briar",
             "icon": "icons/items/Resource/WrithingBriarT1.png"
@@ -4319,7 +4319,7 @@
         ],
         "gsScaling": 0.00727,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/BonusSP1.png",
+        "icon": "icons/perks/BonusSP1.png",
         "charm": {
             "name": "Small Traveler's Stone",
             "icon": "icons/items/Resource/TravelersStoneT1.png"
@@ -4335,7 +4335,7 @@
         ],
         "gsScaling": 0.00727,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/BonusSP1.png",
+        "icon": "icons/perks/BonusSP1.png",
         "charm": {
             "name": "Small Wolf Paw",
             "icon": "icons/items/Resource/WolfPawT1.png"
@@ -4351,7 +4351,7 @@
         ],
         "gsScaling": 0.00727,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/BonusSP1.png",
+        "icon": "icons/perks/BonusSP1.png",
         "charm": {
             "name": "Sliver of Enchanted Earth",
             "icon": "icons/items/Resource/EnchantedEarthT1.png"
@@ -4367,7 +4367,7 @@
         ],
         "gsScaling": 0.00273,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Disease1.png",
+        "icon": "icons/perks/Disease1.png",
         "charm": {
             "name": "Drop of Blessed Water",
             "icon": "icons/items/Resource/HolyWaterT1.png"
@@ -4383,7 +4383,7 @@
         ],
         "gsScaling": 0.00273,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Disease1.png",
+        "icon": "icons/perks/Disease1.png",
         "charm": {
             "name": "Draught of Blessed Water",
             "icon": "icons/items/Resource/HolyWaterT3.png"
@@ -4399,7 +4399,7 @@
         ],
         "gsScaling": 0.00582,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/DamageBasic1.png",
+        "icon": "icons/perks/DamageBasic1.png",
         "charm": {
             "name": "Sliver of Ironwood Resin",
             "icon": "icons/items/Resource/IronwoodResinT1.png"
@@ -4415,7 +4415,7 @@
         ],
         "gsScaling": 0.00545,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/DamageBasic1.png",
+        "icon": "icons/perks/DamageBasic1.png",
         "charm": {
             "name": "Drop of Ironwood Sap",
             "icon": "icons/items/Resource/IronwoodSapT1.png"
@@ -4431,7 +4431,7 @@
         ],
         "gsScaling": 0.01091,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/DamageBasic1.png",
+        "icon": "icons/perks/DamageBasic1.png",
         "charm": {
             "name": "Small Boar Hoof",
             "icon": "icons/items/Resource/BoarHoofT1.png"
@@ -4447,7 +4447,7 @@
         ],
         "gsScaling": 0.00964,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Critical1.png",
+        "icon": "icons/perks/Critical1.png",
         "charm": {
             "name": "Huge Traveler's Stone",
             "icon": "icons/items/Resource/TravelersStoneT3.png"
@@ -4463,7 +4463,7 @@
         ],
         "gsScaling": 0.005,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Rend1.png",
+        "icon": "icons/perks/Rend1.png",
         "charm": {
             "name": "Boar Tusk",
             "icon": "icons/items/Resource/BoarTuskT1.png"
@@ -4479,7 +4479,7 @@
         ],
         "gsScaling": 0.00582,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Health1.png",
+        "icon": "icons/perks/Health1.png",
         "charm": {
             "name": "Drop of Wolf Essence",
             "icon": "icons/items/Resource/WolfEssenceT1.png"
@@ -4495,7 +4495,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/RangeWardP1.png",
+        "icon": "icons/perks/RangeWardP1.png",
         "charm": {
             "name": "Armor Scraps",
             "icon": "icons/items/Resource/ArmorScrapsT2.png"
@@ -4511,7 +4511,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/RangeWardE1.png",
+        "icon": "icons/perks/RangeWardE1.png",
         "charm": {
             "name": "Armor Fragments",
             "icon": "icons/items/Resource/ArmorScrapsT3.png"
@@ -4528,7 +4528,7 @@
         ],
         "gsScaling": 0.01349,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/FireDMG1.png",
+        "icon": "icons/perks/FireDMG1.png",
         "charm": {
             "name": "Ash Resin",
             "icon": "icons/items/Resource/AshResinT1.png"
@@ -4545,7 +4545,7 @@
         ],
         "gsScaling": 0.01349,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/NatureDMG1.png",
+        "icon": "icons/perks/NatureDMG1.png",
         "charm": {
             "name": "Evergreen Resin",
             "icon": "icons/items/Resource/EvergreenResinT1.png"
@@ -4562,7 +4562,7 @@
         ],
         "gsScaling": 0.01349,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/IceDMG1.png",
+        "icon": "icons/perks/IceDMG1.png",
         "charm": {
             "name": "Glacier Resin",
             "icon": "icons/items/Resource/GlacierResinT1.png"
@@ -4579,7 +4579,7 @@
         ],
         "gsScaling": 0.01349,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/LightningDMG1.png",
+        "icon": "icons/perks/LightningDMG1.png",
         "charm": {
             "name": "Fulgurite Resin",
             "icon": "icons/items/Resource/FulguriteResinT1.png"
@@ -4596,7 +4596,7 @@
         ],
         "gsScaling": 0.01349,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/VoidDMG1.png",
+        "icon": "icons/perks/VoidDMG1.png",
         "charm": {
             "name": "Reaper Resin",
             "icon": "icons/items/Resource/ReaperResinT1.png"
@@ -4613,7 +4613,7 @@
         ],
         "gsScaling": 0.01349,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/ArcaneDMG1.png",
+        "icon": "icons/perks/ArcaneDMG1.png",
         "charm": {
             "name": "Crystalline Resin",
             "icon": "icons/items/Resource/CrystallineResinT1.png"
@@ -4629,7 +4629,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/DebuffDur1.png",
+        "icon": "icons/perks/DebuffDur1.png",
         "charm": {
             "name": "Thrashing Vines",
             "icon": "icons/items/Resource/WrithingVinesT3.png"
@@ -4645,7 +4645,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/DebuffDur1.png",
+        "icon": "icons/perks/DebuffDur1.png",
         "charm": {
             "name": "Writhing Vines",
             "icon": "icons/items/Resource/WrithingVinesT2.png"
@@ -4661,7 +4661,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Fortify1.png",
+        "icon": "icons/perks/Fortify1.png",
         "charm": {
             "name": "Squirming Vines",
             "icon": "icons/items/Resource/WrithingVinesT1.png"
@@ -4677,7 +4677,7 @@
         ],
         "gsScaling": 0.00424,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Critical1.png",
+        "icon": "icons/perks/Critical1.png",
         "charm": {
             "name": "Draught of Wyrdwood Sap",
             "icon": "icons/items/Resource/WyrdwoodSapT3.png"
@@ -4693,7 +4693,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Stamina1.png",
+        "icon": "icons/perks/Stamina1.png",
         "charm": {
             "name": "Starmetal Armorer's Charm",
             "icon": "icons/items/Resource/ArmorerCharmT2.png"
@@ -4709,7 +4709,7 @@
         ],
         "gsScaling": 0.00182,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Empower1.png",
+        "icon": "icons/perks/Empower1.png",
         "charm": {
             "name": "Huge Wolf Paw",
             "icon": "icons/items/Resource/WolfPawT3.png"
@@ -4725,7 +4725,7 @@
         ],
         "gsScaling": 0.00364,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Stamina1.png",
+        "icon": "icons/perks/Stamina1.png",
         "charm": {
             "name": "Large Traveler's Stone",
             "icon": "icons/items/Resource/TravelersStoneT2.png"
@@ -4741,7 +4741,7 @@
         ],
         "gsScaling": 0.00545,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Health1.png",
+        "icon": "icons/perks/Health1.png",
         "charm": {
             "name": "Vial of Wyrdwood Sap",
             "icon": "icons/items/Resource/WyrdwoodSapT2.png"
@@ -4757,7 +4757,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/FireDMG1.png",
+        "icon": "icons/perks/FireDMG1.png",
         "charm": {
             "name": "Smoldering Weapon Shard",
             "icon": "icons/items/Resource/SmolderingWeaponShardT5.png"
@@ -4773,7 +4773,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/IceDMG1.png",
+        "icon": "icons/perks/IceDMG1.png",
         "charm": {
             "name": "Frozen Weapon Shard",
             "icon": "icons/items/Resource/FrozenWeaponShardT5.png"
@@ -4789,7 +4789,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/NatureDMG1.png",
+        "icon": "icons/perks/NatureDMG1.png",
         "charm": {
             "name": "Evergreen Weapon Shard",
             "icon": "icons/items/Resource/EvergreenWeaponShardT5.png"
@@ -4805,7 +4805,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/VoidDMG1.png",
+        "icon": "icons/perks/VoidDMG1.png",
         "charm": {
             "name": "Hollow Weapon Shard",
             "icon": "icons/items/Resource/HollowWeaponShardT5.png"
@@ -4821,7 +4821,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/FireWard1.png",
+        "icon": "icons/perks/FireWard1.png",
         "charm": {
             "name": "Smoldering Armor Shard",
             "icon": "icons/items/Resource/SmolderingArmorShardT5.png"
@@ -4837,7 +4837,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/IceWard1.png",
+        "icon": "icons/perks/IceWard1.png",
         "charm": {
             "name": "Frozen Armor Shard",
             "icon": "icons/items/Resource/FrozenArmorShardT5.png"
@@ -4853,7 +4853,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/NatureWard1.png",
+        "icon": "icons/perks/NatureWard1.png",
         "charm": {
             "name": "Evergreen Armor Shard",
             "icon": "icons/items/Resource/EvergreenArmorShardT5.png"
@@ -4869,7 +4869,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/VoidWard1.png",
+        "icon": "icons/perks/VoidWard1.png",
         "charm": {
             "name": "Hollow Armor Shard",
             "icon": "icons/items/Resource/HollowArmorShardT5.png"
@@ -4885,7 +4885,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/DamageBack1.png",
+        "icon": "icons/perks/DamageBack1.png",
         "charm": {
             "name": "Tonic of Judah",
             "icon": "icons/items/Resource/MedicineT2.png"
@@ -4901,7 +4901,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Precise1.png",
+        "icon": "icons/perks/Precise1.png",
         "charm": {
             "name": "Tonic of Nehemiah",
             "icon": "icons/items/Resource/MedicineT3.png"
@@ -4917,7 +4917,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Rend1.png",
+        "icon": "icons/perks/Rend1.png",
         "charm": {
             "name": "Ruby Tonic",
             "icon": "icons/items/Resource/CatalystT1.png"
@@ -4933,7 +4933,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Buff1.png",
+        "icon": "icons/perks/Buff1.png",
         "charm": {
             "name": "Tonic of Levi",
             "icon": "icons/items/Resource/Drink2T4.png"
@@ -4949,7 +4949,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Slow1.png",
+        "icon": "icons/perks/Slow1.png",
         "charm": {
             "name": "Astra Tonic",
             "icon": "icons/items/Resource/DrinkCarafeT1.png"
@@ -4965,7 +4965,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Unstoppable1.png",
+        "icon": "icons/perks/Unstoppable1.png",
         "charm": {
             "name": "Tonic of Minerva",
             "icon": "icons/items/Resource/GlassVialT2.png"
@@ -4981,7 +4981,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Fortify1.png",
+        "icon": "icons/perks/Fortify1.png",
         "charm": {
             "name": "Brown Tonic",
             "icon": "icons/items/Resource/GlassVialT3.png"
@@ -4997,7 +4997,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Health1.png",
+        "icon": "icons/perks/Health1.png",
         "charm": {
             "name": "Tonic of Tyrannis",
             "icon": "icons/items/Resource/GlassVialT4.png"
@@ -5013,7 +5013,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/SiegeWard1.png",
+        "icon": "icons/perks/SiegeWard1.png",
         "charm": {
             "name": "Tonic of Issachar",
             "icon": "icons/items/Resource/GlassVialT5.png"
@@ -5029,7 +5029,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/DamageBasic1.png",
+        "icon": "icons/perks/DamageBasic1.png",
         "charm": {
             "name": "Carthago Tonic",
             "icon": "icons/items/Resource/SnailSlimeT1.png"
@@ -5045,7 +5045,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/DamageBuff1.png",
+        "icon": "icons/perks/DamageBuff1.png",
         "charm": {
             "name": "Zebulun's Charm",
             "icon": "icons/items/Resource/FurnisherCharmT1.png"
@@ -5061,7 +5061,7 @@
         ],
         "gsScaling": 0,
         "itemClassBonuses": [],
-        "icon": "icons/Perks/Empower1.png",
+        "icon": "icons/perks/Empower1.png",
         "charm": {
             "name": "Superos Charm",
             "icon": "icons/items/Resource/FurnisherCharmT3.png"
