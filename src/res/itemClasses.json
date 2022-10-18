@@ -44,6 +44,9 @@
     "Great Axe": {
         "icon": "icons/items/greataxe.png"
     },
+	"Greatsword": {
+        "icon": "icons/items/greatsword.png"
+    },
     "Ice Gauntlet": {
         "icon": "icons/items/icegauntlet.png"
     },
