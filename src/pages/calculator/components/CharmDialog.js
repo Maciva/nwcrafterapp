@@ -1,54 +1,38 @@
-import { Dialog, DialogTitle, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from "@mui/material";
+import { Dialog, DialogTitle, Grid, IconButton, Paper } from "@mui/material";
 import React from "react";
+import PerkSelector from "./PerkSelector";
+import CloseIcon from '@mui/icons-material/Close';
 
 export default function CharmDialog(props) {
 
-    let { open, handleClose, result } = props;
-
-    const generateRows = () => {
-        return result.sort((a,b) => {
-            if(a.probability < b.probability) {
-                return 1;
-            } else if (a.probability > b.probability) {
-                return -1;
-            }
-            return 0;
-        }).map((element, key) => {
-            return (
-                <TableRow key={key} >
-                    <TableCell>{element.perk.perk.name}</TableCell>
-                    <TableCell>{element.perk.perk.charm.name}</TableCell>
-                    <TableCell>{`${element.probability*100}%`}</TableCell>
-                    <TableCell>{`${Math.round(1/element.probability)} tries`}</TableCell>
-                </TableRow>
-            )
-        })
-    } 
+    const { open, handleSelect, itemClass, handleClose, selectedPerks, forContainerIndex } = props;
 
     return (
-        <Dialog
-
-            maxWidth={'md'}
-            onClose={handleClose}
-            open={open}
-            fullWidth
-        >
-            <DialogTitle>Calculation Result</DialogTitle>
-            <TableContainer sx={{ fontSize: '2' }} component={Paper}>
-                <Table sx={{ fontSize: '200pt' }} >
-                    <TableHead>
-                        <TableRow>
-                            <TableCell>Perk</TableCell>
-                            <TableCell>Charm</TableCell>
-                            <TableCell>Probabilty</TableCell>
-                            <TableCell>Avg. Tries</TableCell>
-                        </TableRow>
-                    </TableHead>
-                    <TableBody>
-                        {generateRows()}
-                    </TableBody>
-                </Table>
-            </TableContainer>
+        <Dialog sx={{
+            "& .MuiDialog-container": {
+                alignItems: "flex-start"
+            }
+        }} PaperProps={{
+            sx: {
+                m: 0,
+                top: '5em',
+            }
+        }} fullWidth maxWidth={'lg'} onClose={handleClose} open={open}  >
+            <Paper elevation={4} style={{ padding: '1em' }} >
+                <Grid style={{ paddingRight: '1em' }} container alignItems={"center"} justifyContent={"space-between"} >
+                    <Grid item>
+                        <DialogTitle>
+                            Select a Perk
+                        </DialogTitle>
+                    </Grid>
+                    <Grid >
+                        <IconButton onClick={handleClose} >
+                            <CloseIcon fontSize="large" />
+                        </IconButton>
+                    </Grid>
+                </Grid>
+                <PerkSelector forContainerIndex={forContainerIndex} filterSelectedLabels charmPerks onSelect={handleSelect} itemClass={itemClass} selectedPerks={selectedPerks} />
+            </Paper>
         </Dialog>
     )
 

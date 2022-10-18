@@ -2,6 +2,7 @@ import utils from "./utils"
 import perkBuckets from '../res/perkBuckets.json'
 import perkMap from '../res/perkMapFiltered.json'
 import weights from '../res/perkWeights.json'
+import modes from "../pages/calculator/modes";
 
 export default class PerkCalculator {
 
@@ -12,19 +13,76 @@ export default class PerkCalculator {
         this.labels = this.buildLabelQuantityMap();
     }
 
-    calculateMostEfficientCharm = (selectedPerks) => {
-        const result = [];
+    calculateMostEfficientCharm = (selectedPerks, mode) => {
+        const modeConfig = modes[mode];
+        let indexesWithCharm = [];
         selectedPerks.forEach((perkBucket, i) => {
-            perkBucket.forEach((perk, j) => {
+            if(perkBucket.some(perk => perk.charm)) {
+                indexesWithCharm.push(i);
+            }
+        })
+        let indexesWithoutCharm = [...Array(selectedPerks.length).keys()].filter(index => !indexesWithCharm.includes(index));
+        const emptyCharmSlots = modeConfig.charmPerks - indexesWithCharm.length;
+        const combinations = utils.k_combinations(indexesWithoutCharm, emptyCharmSlots);
+        const resComb = combinations.map(indexArray => indexArray.map(index => {
+            const res = [];
+            [...Array(selectedPerks[index].length).keys()].forEach(j => res.push({indexes:[index, j]}));
+            return res;
+        }));
+
+        const result = [];
+        resComb.forEach(perkSlotCombination => {
+            utils.cartesian(perkSlotCombination).forEach(perkCombination => {
+                if(!Array.isArray(perkCombination)) {
+                    perkCombination = [perkCombination]
+                }
+                const indexes = perkCombination.map(indexPair => indexPair.indexes)
+                const perks = indexes.map(indexPair => selectedPerks[indexPair[0]][indexPair[1]])
                 const perksCopy = JSON.parse(JSON.stringify(selectedPerks));
-                const perkCopy = perksCopy[i][j]
-                perkCopy.charm = true;
-                perksCopy[i] = [perkCopy];
-                const prob = this.calculate(perksCopy);
-                result.push({probability: prob, perk: perk})
-            } )
+                indexes.forEach(indexPair => {
+                    const perkCopy = perksCopy[indexPair[0]][indexPair[1]]
+                    perkCopy.charm = true;
+                    perksCopy[indexPair[0]] = [perkCopy];
+
+                })
+                const prob = this.calculateTotal(perksCopy, mode);
+                result.push({probability: prob, perks: perks})
+            })
         })
         return result;
+    }
+
+    isCharmOrderValid = (labels) => {
+        const containsCharm = labels.map(labelContainer => labelContainer.some(label => label.charm));
+        return containsCharm.every((bool, index) => {
+            if(index !== 0 && bool) {
+                if (!containsCharm[index - 1]) {
+                    return false;
+                }
+            }
+            return true;
+        })
+    }
+
+    calculateTotal = (selectedPerks, mode) => {
+        const modeConfig = modes[mode];
+        const legendaryChance = this.calculate(selectedPerks);
+        const epicChance = selectedPerks.every(bucket => bucket.length !== 0) ? 0 : this.calculate(selectedPerks.slice(0,2));
+        const chanceToHitLegendary = 1 / (600 - modeConfig.minGs + 1);
+        const chanceToHitEpic = (600 - modeConfig.minGs) / (600 - modeConfig.minGs + 1);
+        const legendaryTotal = legendaryChance * chanceToHitLegendary;
+        const epicTotal = epicChance * chanceToHitEpic;
+        const total = epicTotal + legendaryTotal;
+        
+        return {
+            legendaryChance: legendaryChance,
+            chanceToHitLegendary: chanceToHitLegendary,
+            legendaryTotal: legendaryTotal,
+            epicChance: epicChance,
+            chanceToHitEpic: chanceToHitEpic,
+            epicTotal: epicTotal,
+            total: total
+        }
     }
 
     calculate = (selectedPerks) => {
@@ -32,11 +90,10 @@ export default class PerkCalculator {
         let total = 0;
         const emptyBuckets = selectedLabels.filter(container => container.empty).length
         const labelValues = selectedLabels.map(container => Object.values(container.labels));
+        const numberOfCharmBuckets = labelValues.filter(labelContainer => labelContainer.some(label => label.charm)).length
         const allPermutations = utils.permutator(labelValues);
-        const withCharm = labelValues.flat().some(label => label.charm)
         allPermutations.forEach(permutation => {
-            // only allow permutations, where the charm is in first perk slot
-            if (withCharm && permutation[0].some(label => !label.charm)) {
+            if (!this.isCharmOrderValid(permutation)) {
                 return;
             }
             const allCombinations = utils.cartesian(permutation);
@@ -44,10 +101,7 @@ export default class PerkCalculator {
                 total += this.calculateSinglePerkSelection(combination);
             })
         })
-        if (emptyBuckets > 1 ) {
-            return total / emptyBuckets;
-        }
-        return total;
+        return total / utils.factorial(emptyBuckets) / utils.factorial(numberOfCharmBuckets);
     }
 
     calculateSinglePerkSelection = (selectedLabels) => {

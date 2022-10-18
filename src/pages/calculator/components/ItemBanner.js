@@ -10,17 +10,10 @@ function ItemBanner(props) {
 
     const theme = useTheme();
 
-    const configs = {
-        epic: {
-            banner: bgEpic,
-            color: theme.palette.rarity.epic,
-            name: "Epic"
-        },
-        legendary: {
-            banner: bgLegendary,
-            color: theme.palette.rarity.legendary,
-            name: "Legendary"
-        }
+    const config = {
+        banner: bgLegendary,
+        color: theme.palette.rarity.legendary,
+        name: "Legendary"
     }
 
 
@@ -28,7 +21,6 @@ function ItemBanner(props) {
         const {itemClass} = props;
         const icon = itemClasses[itemClass].icon
 
-        const config = configs[props.rarity];
         const imgSrc = `${process.env.PUBLIC_URL}/res/${icon}`;
 
 

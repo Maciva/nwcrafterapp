@@ -6,21 +6,23 @@ import { isMobile } from "react-device-detect";
 import { useNavigate, useParams } from "react-router-dom";
 import PerkCalculator from "../../utils/PerkCalculator";
 import CalculatorResultDialog from "./components/CalculatorResultDialog";
+import MostEfficientCharmDialog from "./components/MostEfficientCharmDialog";
 import CharmDialog from "./components/CharmDialog";
-import CustomDialog from "./components/CustomDialog";
 import ItemBanner from "./components/ItemBanner";
 import PerkContainerAll from "./components/PerkContainer/PerkContainerAll";
 import PerkSelector from "./components/PerkSelector";
 import PerkSlotSelectorDialog from "./components/PerkSlotSelectorDialog";
+import modes from "./modes";
 
 function Calculator() {
 
     let params = useParams();
     let perkCalculator = React.useRef(new PerkCalculator(params.itemClass), []);
 
-    const [rarity, setRarity] = React.useState("legendary")
+    const [mode, setMode] = React.useState("normal")
     const [selectedPerks, setSelectedPerks] = React.useState([[], [], []])
     const [open, setOpen] = React.useState(false);
+    const [charmIndex, setCharmIndex] = React.useState(undefined);
 
     const [perkSelectorOpen, setPerkSelectorOpen] = React.useState(false);
     const [selectorPerk, setSelectorPerk] = React.useState(undefined);
@@ -34,20 +36,12 @@ function Calculator() {
     const navigate = useNavigate();
 
     React.useEffect(() => {
-        if (rarity === "legendary" && selectedPerks.length !== 3) {
-            setSelectedPerks(prev => {
-                const newPerks = [...prev];
-                newPerks.push([]);
-                return newPerks;
-            })
-        }
-        if (rarity === "epic" && selectedPerks.length !== 2) {
-            setSelectedPerks(prev => {
-                let newPerks = [...prev];
-                return newPerks.slice(0, 2);
-            })
-        }
-    }, [rarity])
+        const modeConfig = modes[mode];
+        const newSelectedPerks = [...selectedPerks];
+        newSelectedPerks.filter((bucket, index) => index >= modeConfig.charmPerks).forEach(bucket => {
+            bucket.forEach(perk => perk.charm = false)
+        })
+    }, [mode])
 
     const onSelect = (perk) => {
         setPerkSelectorOpen(true);
@@ -80,13 +74,14 @@ function Calculator() {
     const handleSelect = (item) => {
         setSelectedPerks(prev => {
             const newSelectedPerks = [...prev];
-            newSelectedPerks[0].push({ perk: item, charm: true });
+            newSelectedPerks[charmIndex].push({ perk: item, charm: true });
             return newSelectedPerks;
         });
         setOpen(false);
     }
 
-    const handleAddPerkWithCharm = () => {
+    const handleAddPerkWithCharm = (index) => {
+        setCharmIndex(index)
         setOpen(true);
     }
 
@@ -103,7 +98,7 @@ function Calculator() {
     const renderContent = () => {
         return (
             <>
-                <CharmDialog handleClose={() => setOpenCharmResult(false)} open={openCharmResult} result={charmResult} />
+                <MostEfficientCharmDialog handleClose={() => setOpenCharmResult(false)} open={openCharmResult} result={charmResult} />
                 <CalculatorResultDialog handleClose={() => setOpenResult(false)} open={openResult} result={calculatorResult} />
                 <PerkSlotSelectorDialog
                     handleClose={() => setPerkSelectorOpen(false)}
@@ -113,7 +108,7 @@ function Calculator() {
                     }}
                     open={perkSelectorOpen} selectedPerks={selectedPerks} perk={selectorPerk}
                 />
-                <CustomDialog handleClose={() => setOpen(false)} open={open} handleSelect={handleSelect} itemClass={params.itemClass} />
+                <CharmDialog forContainerIndex={charmIndex} selectedPerks={selectedPerks} handleClose={() => setOpen(false)} open={open} handleSelect={handleSelect} itemClass={params.itemClass} />
                 <Container maxWidth="lg">
                     <IconButton onClick={() => navigate(-1)} style={{ margin: '0.2em' }} >
                         <ArrowBack fontSize="large" />
@@ -124,18 +119,19 @@ function Calculator() {
                                 <Paper style={{ padding: '1em' }} >
                                     <Grid container spacing={4} justifyContent={"space-between"} >
                                         <Grid item md={5} xs={12} >
-                                            <ItemBanner itemClass={params.itemClass} rarity={rarity} />
+                                            <ItemBanner itemClass={params.itemClass} />
                                         </Grid>
                                         <Grid item md={3} xs={12}>
-                                            <TextField onChange={(e) => setRarity(e.target.value)} select fullWidth color="secondary" label="Rarity" value={rarity} variant="outlined" >
-                                                <MenuItem value="legendary">Legendary</MenuItem>
-                                                <MenuItem value="epic">Epic</MenuItem>
+                                            <TextField onChange={(e) => setMode(e.target.value)} select fullWidth color="secondary" label="Mode" value={mode} variant="outlined" >
+                                                <MenuItem value="normal">Normal</MenuItem>
+                                                <MenuItem value="runestone">Runestone Stopwatch</MenuItem>
+                                                <MenuItem value="scarab">Golden Scarab</MenuItem>
                                             </TextField>
                                         </Grid>
                                         <Grid item md={4} xs={12} spacing={2} container justifyContent="space-between" direction="column"  >
                                             <Grid item >
                                                 <Button
-                                                    onClick={() => openCalculateResult(perkCalculator.current.calculate(selectedPerks))}
+                                                    onClick={() => openCalculateResult(perkCalculator.current.calculateTotal(selectedPerks, mode))}
                                                     disabled={!selectedPerks.flat().length}
                                                     color="secondary"
                                                     style={{ minHeight: '4em' }}
@@ -148,10 +144,10 @@ function Calculator() {
                                             <Grid item>
                                                 <Button
                                                     disabled={!selectedPerks.flat().length ||
-                                                        selectedPerks.flat().some(perk => perk.charm)}
+                                                        selectedPerks.flat().filter(perk => perk.charm).length >= modes[mode].charmPerks}
                                                     color="secondary"
                                                     style={{ minHeight: '4em' }} fullWidth variant="outlined"
-                                                    onClick={() => openCalculateMostEfficientCharm(perkCalculator.current.calculateMostEfficientCharm(selectedPerks))}
+                                                    onClick={() => openCalculateMostEfficientCharm(perkCalculator.current.calculateMostEfficientCharm(selectedPerks, mode))}
 
                                                 >
                                                     Calculate most efficient charm
@@ -164,11 +160,11 @@ function Calculator() {
                                 </Paper>
                             </Grid>
                             <Grid item xs={12} >
-                                <PerkContainerAll handleAddPerkWithCharm={handleAddPerkWithCharm} onDelete={handleDelete} onDrop={handleDrop} selectedPerks={selectedPerks} />
+                                <PerkContainerAll handleAddPerkWithCharm={handleAddPerkWithCharm} onDelete={handleDelete} onDrop={handleDrop} selectedPerks={selectedPerks} test={1} charmPerkNumber={ modes[mode].charmPerks }  />
                             </Grid>
                             <Grid item xs={12} >
                                 <Paper style={{ padding: '1em' }} >
-                                    <PerkSelector onSelect={isMobile ? onSelect : undefined} draggable itemClass={params.itemClass} selectedPerks={selectedPerks} />
+                                    <PerkSelector onSelect={isMobile ? onSelect : undefined} draggable itemClass={params.itemClass} selectedPerks={selectedPerks} filterSelectedLabels />
                                 </Paper>
                             </Grid>
                         </Grid>

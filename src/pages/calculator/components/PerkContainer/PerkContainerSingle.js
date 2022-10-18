@@ -9,7 +9,7 @@ import AddIcon from '@mui/icons-material/Add';
 
 export default function PerkContainerSingle(props) {
 
-    const { index, perks, onDrop, canDrop, onDelete, handleAddPerkWithCharm, selector, onClick, selectorPerk } = props;
+    const { index, perks, onDrop, canDrop, onDelete, handleAddPerkWithCharm, selector, onClick, selectorPerk, charm } = props;
 
     const [width, setWidth] = useState(0);
     const [height, setHeight] = useState(0);
@@ -120,11 +120,11 @@ export default function PerkContainerSingle(props) {
                     )
                 }
                 {
-                    (!selector && index === 0) && (
+                    (!selector && charm) && (
                         <Stack style={{ height: '5em', display: 'flex', alignItems: 'center', opacity: 0.5 }} direction='row' justifyContent={"center"} >
                             <Tooltip title="Charms can only be added onto empty Perk Slots" open={tooltipOpen && (perks.length !== 0)} >
                                 <div onMouseEnter={() => setTooltipOpen(true) } onMouseLeave={() => setTooltipOpen(false) } >
-                                    <Button disabled={perks.length !== 0} onClick={handleAddPerkWithCharm} color="secondary" variant="outlined" >
+                                    <Button disabled={perks.length !== 0} onClick={() => handleAddPerkWithCharm(index)} color="secondary" variant="outlined" >
                                         Add Perk with Charm
                                     </Button>
                                 </div>

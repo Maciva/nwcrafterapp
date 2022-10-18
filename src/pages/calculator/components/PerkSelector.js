@@ -4,10 +4,11 @@ import PerkBanner from "../components/PerkBanner";
 import perkBuckets from '../../../res/perkBuckets.json'
 import perkMap from '../../../res/perkMapFiltered.json'
 import SearchIcon from '@mui/icons-material/Search';
+import utils from "../../../utils/utils";
 
 function PerkSelector(props) {
     
-    const { selectedPerks, itemClass, draggable, onSelect, charmPerks } = props;
+    const { selectedPerks, forContainerIndex, itemClass, draggable, onSelect, charmPerks, filterSelectedLabels } = props;
     const [filter, setFilter] = React.useState('');
     const [filterLabels, setFilterLabels] = React.useState([]);
     const [excludedFilterLabels, setExcludedFilterLabels] = React.useState([]);
@@ -61,13 +62,14 @@ function PerkSelector(props) {
 
     React.useEffect(() => {
         const newFilteredPerks = perks.current.filter(perk => {
+            const bySelectedLabels = filterSelectedLabels && Number.isInteger(forContainerIndex) ? utils.canPutPerk(perk, forContainerIndex, selectedPerks) : true;
             const bySelectedPerks = !selectedPerks.flat().some(innerPerk => innerPerk.perk.perkId === perk.perkId)
             const byName = filter === ""
                 || perk.name.toLowerCase().includes(filter.toLowerCase())
                 || perk.description.toLowerCase().includes(filter.toLowerCase());
             const byLabel = filterLabels.length === 0 || perk.label.filter(label => filterLabels.includes(label)).length !== 0;
             const byExcludedLabel = perk.label.filter(label => excludedFilterLabels.includes(label)).length === 0;
-            return byName && byLabel && byExcludedLabel && bySelectedPerks;
+            return byName && byLabel && byExcludedLabel && bySelectedPerks && bySelectedLabels;
         });
         setFilteredPerks(newFilteredPerks);
     }, [filter, excludedFilterLabels, filterLabels, selectedPerks]);
