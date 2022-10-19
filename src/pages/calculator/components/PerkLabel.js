@@ -2,7 +2,7 @@ import { Chip, Grid } from "@mui/material";
 
 const PerkLabel = ({ perk }) => {
   return (
-    <Grid container item>
+    <Grid container >
       {perk.label.map((label, index) => {
         return (
           <Grid item key={index} style={{ marginLeft: "1em", marginBottom: "0.6em" }}>

@@ -23,12 +23,11 @@ const PerkNameDesc = (props) => {
 
   return (
     <Grid
-      item
       container
       direction="column"
       style={{
         marginLeft: "1em",
-        height: "8.5em",
+        height: "8.2em",
         textOverflow: "ellipsis",
         overflow: "hidden",
       }}
