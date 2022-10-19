@@ -1,8 +1,7 @@
-import { Chip, Grid, Tooltip, Typography } from "@mui/material";
+import { Grid, Tooltip } from "@mui/material";
 import React from "react";
 import { useDrag } from "react-dnd";
 import { ItemTypes } from "../../../utils/ItemTypes";
-import AddIcon from "@mui/icons-material/Add";
 import PerkIcon from "./PerkIcon";
 import PerkNameDesc from "./PerkNameDesc";
 import PerkLabel from "./PerkLabel";
@@ -34,7 +33,7 @@ function PerkBanner(props) {
         <Grid
           container
           style={{
-            padding: "1em 1em 1em 0.5em",
+            padding: "1em 2em 1em 0.5em",
             height: "12em",
           }}
           direction="column"
