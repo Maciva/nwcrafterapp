@@ -46,7 +46,7 @@ export default function MostEfficientCharmDialog(props) {
                     {names.map((name, index) => (
                         <TableCell key={index} align="center" colSpan={2}>{name}</TableCell>
                     ))}
-                    <TableCell>Probability</TableCell>
+                    <TableCell>Probabilty</TableCell>
                     <TableCell>Avg. Tries</TableCell>
                 </TableRow>
                 <TableRow>

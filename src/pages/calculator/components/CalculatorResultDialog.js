@@ -175,12 +175,12 @@ export default function CalculatorResultDialog(props) {
                         <TableCell></TableCell>
                         <TableCell sx={style} >
                             <>
-                                {"Probability of hitting after: "}
+                                {"Probabilty of hitting after: "}
                                 <TextField
                                     value={calcTries.toString()}
                                     onChange={handleChange}
                                     color="secondary"
-                                    style={{ width: '6em', marginLeft: '0.5em' }}
+                                    style={{ width: '5em', marginLeft: '0.5em' }}
                                     type="number"
                                     size="small"
                                     variant="standard"
