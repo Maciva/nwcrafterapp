@@ -6,8 +6,6 @@ const CharmIcon = ({ charmSrc, perk, isDragging }) => {
 
   return (
     <Tooltip
-      tooltipOpen={tooltipOpen}
-      isDragging={isDragging}
       open={tooltipOpen && !isDragging}
       arrow
       placement="top"
