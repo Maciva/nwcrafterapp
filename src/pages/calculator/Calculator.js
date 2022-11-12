@@ -1,5 +1,5 @@
 import { ArrowBack } from "@mui/icons-material";
-import { Button, Grid, IconButton, MenuItem, Paper, TextField } from "@mui/material";
+import { Box, Button, Grid, IconButton, MenuItem, Paper, Slider, TextField, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
 import { isMobile } from "react-device-detect";
@@ -16,6 +16,16 @@ import modes from "./modes";
 
 function Calculator() {
 
+    const generateMarks = () => {
+        return [...Array(6).keys()]
+        .map(value => value * 20 + 500)
+        .map(value => {
+            return {value: value, label: `${value}`}
+        });
+    }
+
+    const marks = generateMarks();
+
     let params = useParams();
     let perkCalculator = React.useRef(new PerkCalculator(params.itemClass), []);
 
@@ -23,6 +33,9 @@ function Calculator() {
     const [selectedPerks, setSelectedPerks] = React.useState([[], [], []])
     const [open, setOpen] = React.useState(false);
     const [charmIndex, setCharmIndex] = React.useState(undefined);
+
+    const [minGs, setMinGs] = React.useState(595);
+    const [maxGs, setMaxGs] = React.useState(600);
 
     const [perkSelectorOpen, setPerkSelectorOpen] = React.useState(false);
     const [selectorPerk, setSelectorPerk] = React.useState(undefined);
@@ -121,12 +134,30 @@ function Calculator() {
                                         <Grid item md={5} xs={12} >
                                             <ItemBanner itemClass={params.itemClass} />
                                         </Grid>
-                                        <Grid item md={3} xs={12}>
-                                            <TextField onChange={(e) => setMode(e.target.value)} select fullWidth color="secondary" label="Mode" value={mode} variant="outlined" >
-                                                <MenuItem value="normal">Normal</MenuItem>
-                                                <MenuItem value="runestone">Runestone Stopwatch</MenuItem>
-                                                <MenuItem value="scarab">Golden Scarab</MenuItem>
-                                            </TextField>
+                                        <Grid item md={3} xs={12} spacing={2} container justifyContent="space-between" direction="column">
+                                            <Grid item>
+                                                <TextField onChange={(e) => setMode(e.target.value)} select fullWidth color="secondary" label="Mode" value={mode} variant="outlined" >
+                                                    <MenuItem value="normal">Normal</MenuItem>
+                                                    <MenuItem value="runestone">Runestone Stopwatch</MenuItem>
+                                                    <MenuItem value="scarab">Golden Scarab</MenuItem>
+                                                </TextField>
+                                            </Grid>
+                                            <Grid item>
+                                                <Typography>
+                                                    Gearscore
+                                                </Typography>
+                                                <Slider
+                                                    min={500}
+                                                    max={600}
+                                                    color="secondary"
+                                                    getAriaLabel={() => "Minimum GS"}
+                                                    disableSwap
+                                                    onChange={ console.log }
+                                                    marks={marks}
+                                                    defaultValue={595}
+                                                    value={[525, 550]}
+                                                />
+                                            </Grid>
                                         </Grid>
                                         <Grid item md={4} xs={12} spacing={2} container justifyContent="space-between" direction="column"  >
                                             <Grid item >
