@@ -7,14 +7,16 @@ import {
 } from "react-router-dom";
 import Home from './pages/home/Home';
 import { Box, Container } from '@mui/system';
-import { AppBar, Toolbar, Typography } from '@mui/material';
+import { AppBar, Grid, Toolbar, Typography } from '@mui/material';
 import Calculator from './pages/calculator/Calculator';
 import ScrollToTop from './utils/components/ScrollToTop';
 import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import logoToolbar from './res/logoToolbar.png'
+import React from 'react';
 
 function App() {
+
     return (
         <>
             <BrowserRouter>
@@ -35,7 +37,7 @@ function App() {
                         pt: 2,
                         pb: 6,
                     }}>
-                        <Container maxWidth="lg">
+                        <Container>
                             <ScrollToTop />
                             <Routes>
                                 <Route key={0} path="/" element={<Home />} />

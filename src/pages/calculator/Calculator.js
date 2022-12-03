@@ -7,7 +7,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import PerkCalculator from "../../utils/PerkCalculator";
 import CalculatorResultDialog from "./components/CalculatorResultDialog";
 import MostEfficientCharmDialog from "./components/MostEfficientCharmDialog";
-import CharmDialog from "./components/CharmDialog";
+import PerkSelectorDialog from "./components/PerkSelectorDialog";
 import ItemBanner from "./components/ItemBanner";
 import PerkContainerAll from "./components/PerkContainer/PerkContainerAll";
 import PerkSelector from "./components/PerkSelector";
@@ -18,10 +18,10 @@ function Calculator() {
 
     const generateMarks = () => {
         return [...Array(6).keys()]
-        .map(value => value * 20 + 500)
-        .map(value => {
-            return {value: value, label: `${value}`}
-        });
+            .map(value => value * 20 + 500)
+            .map(value => {
+                return { value: value, label: `${value}` }
+            });
     }
 
     const marks = generateMarks();
@@ -32,13 +32,7 @@ function Calculator() {
     const [mode, setMode] = React.useState("normal")
     const [selectedPerks, setSelectedPerks] = React.useState([[], [], []])
     const [open, setOpen] = React.useState(false);
-    const [charmIndex, setCharmIndex] = React.useState(undefined);
-
-    const [minGs, setMinGs] = React.useState(595);
-    const [maxGs, setMaxGs] = React.useState(600);
-
-    const [perkSelectorOpen, setPerkSelectorOpen] = React.useState(false);
-    const [selectorPerk, setSelectorPerk] = React.useState(undefined);
+    const [perkSlotIndex, setPerkSlotIndex] = React.useState(undefined);
 
     const [openResult, setOpenResult] = React.useState(false);
     const [calculatorResult, setCalculatorResult] = React.useState(0);
@@ -56,9 +50,16 @@ function Calculator() {
         })
     }, [mode])
 
-    const onSelect = (perk) => {
-        setPerkSelectorOpen(true);
-        setSelectorPerk(perk);
+    const mingsRef = React.useRef();
+    const maxgsRef = React.useRef();
+
+    const onSelect = (index, perk) => {
+        console.log(index, perk);
+    }
+
+    const onAdd = (index) => {
+        setPerkSlotIndex(index);
+        setOpen(true);
     }
 
     const handleDrop = (index, item) => {
@@ -87,15 +88,10 @@ function Calculator() {
     const handleSelect = (item) => {
         setSelectedPerks(prev => {
             const newSelectedPerks = [...prev];
-            newSelectedPerks[charmIndex].push({ perk: item, charm: true });
+            newSelectedPerks[perkSlotIndex].push({ perk: item, charm: true });
             return newSelectedPerks;
         });
         setOpen(false);
-    }
-
-    const handleAddPerkWithCharm = (index) => {
-        setCharmIndex(index)
-        setOpen(true);
     }
 
     const openCalculateResult = (result) => {
@@ -113,15 +109,8 @@ function Calculator() {
             <>
                 <MostEfficientCharmDialog handleClose={() => setOpenCharmResult(false)} open={openCharmResult} result={charmResult} />
                 <CalculatorResultDialog handleClose={() => setOpenResult(false)} open={openResult} result={calculatorResult} />
-                <PerkSlotSelectorDialog
-                    handleClose={() => setPerkSelectorOpen(false)}
-                    onSelect={(index, item) => {
-                        handleDrop(index, item);
-                        setPerkSelectorOpen(false);
-                    }}
-                    open={perkSelectorOpen} selectedPerks={selectedPerks} perk={selectorPerk}
-                />
-                <CharmDialog forContainerIndex={charmIndex} selectedPerks={selectedPerks} handleClose={() => setOpen(false)} open={open} handleSelect={handleSelect} itemClass={params.itemClass} />
+
+                <PerkSelectorDialog forContainerIndex={perkSlotIndex} selectedPerks={selectedPerks} handleClose={() => setOpen(false)} open={open} handleSelect={handleSelect} itemClass={params.itemClass} />
                 <Container maxWidth="lg">
                     <IconButton onClick={() => navigate(-1)} style={{ margin: '0.2em' }} >
                         <ArrowBack fontSize="large" />
@@ -143,26 +132,28 @@ function Calculator() {
                                                 </TextField>
                                             </Grid>
                                             <Grid item>
-                                                <Typography>
+                                                <Typography style={{paddingBottom: '0.5em'}}>
                                                     Gearscore
                                                 </Typography>
-                                                <Slider
-                                                    min={500}
-                                                    max={600}
-                                                    color="secondary"
-                                                    getAriaLabel={() => "Minimum GS"}
-                                                    disableSwap
-                                                    onChange={ console.log }
-                                                    marks={marks}
-                                                    defaultValue={595}
-                                                    value={[525, 550]}
-                                                />
+                                                <Grid container columns={13} justifyContent="space-between" alignItems="center" >
+                                                    <Grid item xs={6} >
+                                                        <TextField type="number" label="Min" color="secondary" inputRef={mingsRef} defaultValue={595} />
+                                                    </Grid>
+                                                    <Grid item xs={1}>
+                                                        <Typography align="center" variant={"h5"}>
+                                                            -
+                                                        </Typography>
+                                                    </Grid>
+                                                    <Grid item xs={6} >
+                                                        <TextField type="number" label="Max" color="secondary" inputRef={maxgsRef} defaultValue={600} />
+                                                    </Grid>
+                                                </Grid>
                                             </Grid>
                                         </Grid>
                                         <Grid item md={4} xs={12} spacing={2} container justifyContent="space-between" direction="column"  >
                                             <Grid item >
                                                 <Button
-                                                    onClick={() => openCalculateResult(perkCalculator.current.calculateTotal(selectedPerks, mode))}
+                                                    onClick={() => openCalculateResult(perkCalculator.current.calculateTotal(selectedPerks, mode, {minGs: parseInt(mingsRef.current.value), maxGs: parseInt(maxgsRef.current.value) }))}
                                                     disabled={!selectedPerks.flat().length}
                                                     color="secondary"
                                                     style={{ minHeight: '4em' }}
@@ -178,7 +169,7 @@ function Calculator() {
                                                         selectedPerks.flat().filter(perk => perk.charm).length >= modes[mode].charmPerks}
                                                     color="secondary"
                                                     style={{ minHeight: '4em' }} fullWidth variant="outlined"
-                                                    onClick={() => openCalculateMostEfficientCharm(perkCalculator.current.calculateMostEfficientCharm(selectedPerks, mode))}
+                                                    onClick={() => openCalculateMostEfficientCharm(perkCalculator.current.calculateMostEfficientCharm(selectedPerks, mode, {minGs: parseInt(mingsRef.current.value), maxGs: parseInt(maxgsRef.current.value) }))}
 
                                                 >
                                                     Calculate most efficient charm
@@ -191,12 +182,7 @@ function Calculator() {
                                 </Paper>
                             </Grid>
                             <Grid item xs={12} >
-                                <PerkContainerAll handleAddPerkWithCharm={handleAddPerkWithCharm} onDelete={handleDelete} onDrop={handleDrop} selectedPerks={selectedPerks} test={1} charmPerkNumber={ modes[mode].charmPerks }  />
-                            </Grid>
-                            <Grid item xs={12} >
-                                <Paper style={{ padding: '1em' }} >
-                                    <PerkSelector onSelect={isMobile ? onSelect : undefined} draggable itemClass={params.itemClass} selectedPerks={selectedPerks} filterSelectedLabels />
-                                </Paper>
+                                <PerkContainerAll onAdd={onAdd} onDelete={handleDelete} onDrop={handleDrop} selectedPerks={selectedPerks} charmPerkNumber={modes[mode].charmPerks} />
                             </Grid>
                         </Grid>
                     </Paper>

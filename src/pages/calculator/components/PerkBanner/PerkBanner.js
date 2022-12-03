@@ -1,35 +1,29 @@
-import { Grid, IconButton, Tooltip } from "@mui/material";
+import { Grid, Tooltip } from "@mui/material";
 import React from "react";
-import { useDrag } from "react-dnd";
-import { ItemTypes } from "../../../utils/ItemTypes";
 import PerkIcon from "./PerkIcon";
 import PerkNameDesc from "./PerkNameDesc";
 import PerkLabel from "./PerkLabel";
-import CharmIcon from "./CharmIcon";
-import AddIcon from '@mui/icons-material/Add';
+import TouchRipple from "@mui/material/ButtonBase/TouchRipple";
 
 function PerkBanner(props) {
-  const { perk, draggable, disabled, itemClass, gs, onSelect } = props;
+  const { perk, disabled, itemClass, gs, onSelect } = props;
 
-  const [{ isDragging }, drag] = useDrag(() => ({
-    type: ItemTypes.PERK,
-    item: { perk: perk },
-    collect: (monitor) => ({
-      isDragging: monitor.isDragging(),
-    }),
-  }));
+  const rippleRef = React.useRef(null);
 
   const renderContent = () => {
     const imgSrc = `${process.env.PUBLIC_URL}/res/${perk.icon}`;
     const charmSrc = `${process.env.PUBLIC_URL}/res/${perk.charm.icon}`;
     return (
       <div
-        ref={draggable && !disabled ? drag : undefined}
+        type="button"
         style={{
+          position: "relative",
           backgroundColor: "#151714",
-          opacity: isDragging || disabled ? 0.5 : 1,
-          cursor: draggable && !disabled ? "grab" : "auto",
+          cursor: "pointer",
         }}
+        onClick={() => onSelect(perk)}
+        onMouseDown={(e) => rippleRef.current.start(e)}
+        onMouseUp={(e) => rippleRef.current.stop(e)}
       >
         <Grid
           container
@@ -44,7 +38,10 @@ function PerkBanner(props) {
               <PerkIcon imgSrc={imgSrc} />
             </Grid>
             <Grid item>
-              <CharmIcon charmSrc={charmSrc} perk={perk} isDragging={isDragging} />
+              <Tooltip title={perk.charm.name} >
+                <img style={{ width: "2.5em" }} alt="charm icon" src={charmSrc} />
+              </Tooltip>
+
             </Grid>
           </Grid>
           <Grid
@@ -62,19 +59,10 @@ function PerkBanner(props) {
               <Grid item>
                 <PerkLabel perk={perk} />
               </Grid>
-              <Grid item>
-                {
-                  (onSelect &&
-                    <IconButton onClick={() => onSelect(perk)} style={{ padding: 0 }} >
-                      <AddIcon fontSize="large" />
-                    </IconButton>
-                  )
-                }
-
-              </Grid>
             </Grid>
           </Grid>
         </Grid>
+        <TouchRipple ref={rippleRef} center={false} />
       </div>
     );
   };

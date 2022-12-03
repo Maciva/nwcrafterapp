@@ -13,7 +13,7 @@ export default class PerkCalculator {
         this.labels = this.buildLabelQuantityMap();
     }
 
-    calculateMostEfficientCharm = (selectedPerks, mode) => {
+    calculateMostEfficientCharm = (selectedPerks, mode, options) => {
         const modeConfig = modes[mode];
         let indexesWithCharm = [];
         selectedPerks.forEach((perkBucket, i) => {
@@ -45,7 +45,7 @@ export default class PerkCalculator {
                     perksCopy[indexPair[0]] = [perkCopy];
 
                 })
-                const prob = this.calculateTotal(perksCopy, mode);
+                const prob = this.calculateTotal(perksCopy, mode, options);
                 result.push({ probability: prob, perks: perks })
             })
         })
@@ -64,12 +64,15 @@ export default class PerkCalculator {
         })
     }
 
-    calculateTotal = (selectedPerks, mode) => {
-        const modeConfig = modes[mode];
+    calculateTotal = (selectedPerks, mode, options) => {
         const legendaryChance = this.calculate(selectedPerks);
         const epicChance = selectedPerks.every(bucket => bucket.length !== 0) ? 0 : this.calculate(selectedPerks.slice(0, 2));
-        const chanceToHitLegendary = 1 / (600 - modeConfig.minGs + 1);
-        const chanceToHitEpic = (600 - modeConfig.minGs) / (600 - modeConfig.minGs + 1);
+
+        const legendaryHitCounts = options.maxGs === 600 ?  1 : 0;
+        const epicHitCounts = options.maxGs - options.minGs + 1 - legendaryHitCounts;
+        const totalHitCounts = legendaryHitCounts + epicHitCounts;
+        const chanceToHitLegendary = legendaryHitCounts / totalHitCounts;
+        const chanceToHitEpic = epicHitCounts / totalHitCounts;
         const legendaryTotal = legendaryChance * chanceToHitLegendary;
         const epicTotal = epicChance * chanceToHitEpic;
         const total = epicTotal + legendaryTotal;

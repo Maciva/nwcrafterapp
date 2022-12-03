@@ -1,22 +1,18 @@
-import { Button, Paper, Stack, Tooltip, Typography } from "@mui/material";
+import { IconButton, Paper, Stack, Typography } from "@mui/material";
 import React, { useLayoutEffect, useState } from "react";
-import ReducedPerkBanner from "../ReducedPerkBanner";
+import ReducedPerkBanner from "../PerkBanner/ReducedPerkBanner";
 import { useDrop } from "react-dnd";
 import { ItemTypes } from "../../../../utils/ItemTypes";
 import ClearIcon from '@mui/icons-material/Clear';
-import { isMobile } from "react-device-detect";
 import AddIcon from '@mui/icons-material/Add';
 
 export default function PerkContainerSingle(props) {
 
-    const { index, perks, onDrop, canDrop, onDelete, handleAddPerkWithCharm, selector, onClick, selectorPerk, charm } = props;
+    const { index, perks, onDrop, canDrop, onDelete, onAdd } = props;
 
     const [width, setWidth] = useState(0);
     const [height, setHeight] = useState(0);
-    const [tooltipOpen, setTooltipOpen] = useState(false);
     const [firstRender, setFirstRender] = useState(true);
-
-    const [hover, setHover] = useState(false);
 
     const ref = React.useRef(null);
 
@@ -38,9 +34,7 @@ export default function PerkContainerSingle(props) {
         if (firstRender) {
             return false;
         }
-        if(selector) {
-            return !canDrop(selectorPerk);
-        } else {
+        else {
             return !canDropField && isOver;
         }
     }
@@ -55,25 +49,10 @@ export default function PerkContainerSingle(props) {
 
 
     const getCause = () => {
-        if(perks.some(perk => perk.charm)) {
+        if (perks.some(perk => perk.charm)) {
             return "Can't add Perks to a Perk Slot with a charm"
         } else {
             return "This perk is exclusive with perks in other Perk Slots";
-        }
-    }
-
-    const getPerkAdditionText = () => {
-        if (isMobile) {
-            return <div style={{ display: 'flex', alignItems: 'center' }}>
-                <span>Press </span><AddIcon /> <span> on Perks below to add them</span> 
-            </div>
-        }
-        return "Drag in Perks to add them to this pool"
-    }
-
-    const handleClick = () => {
-        if (!shouldRenderDisable() && selector) {
-            onClick();
         }
     }
 
@@ -107,41 +86,21 @@ export default function PerkContainerSingle(props) {
                     {`Perk Slot ${index + 1}`}
                 </Typography>
                 {perks.map((perk, ind) => {
-                    return <ReducedPerkBanner selector={selector} onDelete={(perk) => onDelete(index, perk)} key={perk.perk.perkId} containerId={index} perk={perk} />
+                    return <ReducedPerkBanner onDelete={(perk) => onDelete(index, perk)} key={perk.perk.perkId} containerId={index} perk={perk} />
                 })}
-                {
-                    !selector && !perks.some(perk => perk.charm) && (
-                        <Stack style={{ height: '5em', display: 'flex', alignItems: 'center', opacity: 0.5 }} direction='row' justifyContent={"center"} >
-                            <Typography textAlign={"center"} >
-                                {getPerkAdditionText()}
-                            </Typography>
-                        </Stack>
-
-                    )
-                }
-                {
-                    (!selector && charm) && (
-                        <Stack style={{ height: '5em', display: 'flex', alignItems: 'center', opacity: 0.5 }} direction='row' justifyContent={"center"} >
-                            <Tooltip title="Charms can only be added onto empty Perk Slots" open={tooltipOpen && (perks.length !== 0)} >
-                                <div onMouseEnter={() => setTooltipOpen(true) } onMouseLeave={() => setTooltipOpen(false) } >
-                                    <Button disabled={perks.length !== 0} onClick={() => handleAddPerkWithCharm(index)} color="secondary" variant="outlined" >
-                                        Add Perk with Charm
-                                    </Button>
-                                </div>
-                            </Tooltip>
-                        </Stack>
-                    )
-                }
-
-
+                <Stack style={{ height: '3.5em', display: 'flex', alignItems: 'center' }} direction='row' justifyContent={"center"} >
+                    <IconButton onClick={() => onAdd(index)} >
+                        <AddIcon fontSize="large" />
+                    </IconButton>
+                </Stack>
             </div>
         )
     }
 
     return (
         <>
-            <Paper onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} ref={ref} onClick={handleClick} elevation={ selector && hover ? 6 : 1} >
-                <div style={ shouldRenderDisable() ? { width: width, height: height } : {}} ref={selector ? undefined : drop} >
+            <Paper ref={ref} >
+                <div style={shouldRenderDisable() ? { width: width, height: height } : {}} ref={drop} >
                     {content}
                 </div>
             </Paper>

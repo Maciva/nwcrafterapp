@@ -1,19 +1,23 @@
 import { Autocomplete, Chip, Grid, InputAdornment, TextField } from "@mui/material";
 import React from "react";
-import PerkBanner from "../components/PerkBanner";
+import PerkBanner from "../components/PerkBanner/PerkBanner";
 import perkBuckets from '../../../res/perkBuckets.json'
 import perkMap from '../../../res/perkMapFiltered.json'
 import SearchIcon from '@mui/icons-material/Search';
 import utils from "../../../utils/utils";
+import { Box } from "@mui/system";
 
 function PerkSelector(props) {
-    
-    const { selectedPerks, forContainerIndex, itemClass, draggable, onSelect, charmPerks, filterSelectedLabels } = props;
+
+    const { selectedPerks, forContainerIndex, itemClass, onSelect, charmPerks, filterSelectedLabels } = props;
     const [filter, setFilter] = React.useState('');
     const [filterLabels, setFilterLabels] = React.useState([]);
     const [excludedFilterLabels, setExcludedFilterLabels] = React.useState([]);
     const [filteredPerks, setFilteredPerks] = React.useState([]);
 
+    const handleSelect = (perk) => {
+        onSelect({perk: perk, charm: false});
+    }
 
     const generatePerks = () => {
         let perksToFilter = perkBuckets[itemClass].inPool;
@@ -22,28 +26,28 @@ function PerkSelector(props) {
             const result = perkMap[perkId]
             return result;
         })
-        .sort((a, b) => {
-            if(!charmPerks) {
-                if(a.weight && !b.weight) {
-                    return -1;
-                } else if (!a.weight && b.weight) {
-                    return 1;
+            .sort((a, b) => {
+                if (!charmPerks) {
+                    if (a.weight && !b.weight) {
+                        return -1;
+                    } else if (!a.weight && b.weight) {
+                        return 1;
+                    }
                 }
-            }
-            if (a.label[0] < b.label[0]) {
-                return -1
-            } else if (a.label[0] > b.label[0]) {
-                return 1;
-            } else {
-                if (a.name < b.name) {
+                if (a.label[0] < b.label[0]) {
                     return -1
-                } else if (a.name > b.name) {
+                } else if (a.label[0] > b.label[0]) {
                     return 1;
                 } else {
-                    return 0
+                    if (a.name < b.name) {
+                        return -1
+                    } else if (a.name > b.name) {
+                        return 1;
+                    } else {
+                        return 0
+                    }
                 }
-            }
-        })
+            })
     }
 
     const perks = React.useRef(generatePerks());
@@ -156,13 +160,13 @@ function PerkSelector(props) {
 
     const renderContent = () => {
         return (
-            <Grid spacing={4} direction="column" container >
+            <Grid direction="column" spacing={3} container >
                 {renderFilters()}
                 <Grid item container spacing={2} >
                     {filteredPerks.map((perk, index) => {
                         return (
                             <Grid key={perk.perkId} md={4} xs={12} item >
-                                <PerkBanner disabled={!charmPerks && !perk.weight} onSelect={onSelect} draggable={draggable} perk={perk} gs={625} />
+                                <PerkBanner disabled={!charmPerks && !perk.weight} onSelect={handleSelect} perk={perk} gs={625} />
                             </Grid>
                         )
                     }
