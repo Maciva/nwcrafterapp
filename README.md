@@ -1,3 +1,5 @@
+No longer maintained. Still accessible as inspiration. Mods, probabilities and icons have to be replaced and mined from the gamefiles to still be useable
+
 # Getting Started
 
 In the project directory, you can run:
